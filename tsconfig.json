@@ -1,0 +1,25 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["vitest/globals", "node"]
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "astro.config.mjs",
+    "vitest.config.ts",
+    "playwright.config.ts"
+  ],
+  "exclude": ["dist", ".astro", "node_modules"]
+}

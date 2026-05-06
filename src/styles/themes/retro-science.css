@@ -1,0 +1,27 @@
+/*
+ * Retro Science — default theme.
+ *
+ * The :root values in tokens.css are already the retro-science palette;
+ * this file exists so future themes can override the same scope:
+ *
+ *   [data-theme="retro-science"] { --color-paper: ...; }
+ *   [data-theme="dark-museum"]   { --color-paper: ...; }
+ *
+ * Reasserting tokens here lets `<html data-theme="retro-science">` win
+ * over any future theme attribute swap with predictable specificity.
+ */
+
+[data-theme='retro-science'] {
+  --color-paper: #f5f0e6;
+  --color-paper-shade: #ede6d6;
+  --color-paper-deep: #e0d4ba;
+  --color-aged: #c4b89a;
+  --color-ink: #1f1d18;
+  --color-ink-muted: #5e5a4f;
+  --color-rule: #8a7e63;
+  --color-rule-light: #c4b89a;
+  --color-accent-vermillion: #c8492f;
+  --color-accent-prussian: #2d4a6b;
+  --color-accent-ochre: #c89b3a;
+  --color-accent-teal: #4a8c87;
+}

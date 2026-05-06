@@ -1,0 +1,33 @@
+---
+interface Props {
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { size = 'md' } = Astro.props;
+---
+
+<span class:list={['wordmark', `wordmark--${size}`]}>Elements</span>
+
+<style>
+  .wordmark {
+    display: inline-block;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    color: var(--color-ink);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    line-height: 1;
+  }
+
+  .wordmark--sm {
+    font-size: var(--text-body);
+  }
+
+  .wordmark--md {
+    font-size: var(--text-h4);
+  }
+
+  .wordmark--lg {
+    font-size: var(--text-h2);
+  }
+</style>

@@ -1,0 +1,50 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Wordmark from '@/components/Wordmark.astro';
+---
+
+<BaseLayout title="Elements — Interactive Periodic Table">
+  <main class="placeholder">
+    <div class="frame">
+      <Wordmark size="lg" />
+      <p class="eyebrow">Periodic Table — Interactive Exploration</p>
+      <p class="status">Coming soon.</p>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .placeholder {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: var(--space-2xl);
+    background: var(--color-paper);
+  }
+
+  .frame {
+    border: var(--border-double);
+    background: var(--color-paper-shade);
+    padding: var(--space-3xl) var(--space-4xl);
+    text-align: center;
+    box-shadow: var(--shadow-paper);
+    max-width: 640px;
+  }
+
+  .eyebrow {
+    margin-top: var(--space-md);
+    font-family: var(--font-sans);
+    font-size: var(--text-eyebrow);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-ink-muted);
+  }
+
+  .status {
+    margin-top: var(--space-xl);
+    font-family: var(--font-mono);
+    font-size: var(--text-body);
+    color: var(--color-ink-muted);
+  }
+</style>

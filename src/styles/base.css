@@ -1,0 +1,131 @@
+/*
+ * Base styles — minimal reset + typographic defaults using tokens.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100vh;
+  font-size: var(--text-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  margin: 0 0 var(--space-md) 0;
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: var(--text-h1);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  font-size: var(--text-h2);
+  line-height: 1.15;
+}
+
+h3 {
+  font-size: var(--text-h3);
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: var(--text-h4);
+  line-height: 1.25;
+}
+
+p {
+  margin: 0 0 var(--space-md) 0;
+}
+
+a {
+  color: var(--color-accent-prussian);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color var(--duration-base) var(--easing-out);
+}
+
+a:hover {
+  color: var(--color-accent-vermillion);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--color-accent-ochre);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-accent-ochre);
+  outline-offset: 2px;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: var(--font-mono);
+  font-size: 0.95em;
+}
+
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: var(--color-accent-ochre);
+  color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
