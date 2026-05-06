@@ -1,0 +1,104 @@
+/*
+ * Design Tokens — single source of truth for all visual properties.
+ * Values defined here are referenced (never duplicated) by components.
+ *
+ * Theme overrides live in src/styles/themes/*.css.
+ */
+
+:root {
+  /* ─── Paper & Surface ─────────────────────────────────────────────── */
+  --color-paper: #f5f0e6;
+  --color-paper-shade: #ede6d6;
+  --color-paper-deep: #e0d4ba;
+  --color-aged: #c4b89a;
+
+  /* ─── Ink & Rule ──────────────────────────────────────────────────── */
+  --color-ink: #1f1d18;
+  --color-ink-muted: #5e5a4f;
+  --color-rule: #8a7e63;
+  --color-rule-light: #c4b89a;
+
+  /* ─── Element Categories (vintage harmonized) ────────────────────── */
+  --color-cat-alkali-metal: #c9605a;
+  --color-cat-alkaline-earth: #b76e4a;
+  --color-cat-transition-metal: #a08654;
+  --color-cat-post-transition: #b08a8d;
+  --color-cat-metalloid: #97955c;
+  --color-cat-nonmetal: #7a9266;
+  --color-cat-halogen: #5d7a52;
+  --color-cat-noble-gas: #8a82a8;
+  --color-cat-lanthanide: #c4a36a;
+  --color-cat-actinide: #a36b48;
+  --color-cat-unknown: #a09b8c;
+
+  /* category tints (cell fills — ~20% opacity layered on paper) */
+  --color-cat-alkali-metal-tint: rgb(201 96 90 / 18%);
+  --color-cat-alkaline-earth-tint: rgb(183 110 74 / 18%);
+  --color-cat-transition-metal-tint: rgb(160 134 84 / 18%);
+  --color-cat-post-transition-tint: rgb(176 138 141 / 18%);
+  --color-cat-metalloid-tint: rgb(151 149 92 / 18%);
+  --color-cat-nonmetal-tint: rgb(122 146 102 / 18%);
+  --color-cat-halogen-tint: rgb(93 122 82 / 18%);
+  --color-cat-noble-gas-tint: rgb(138 130 168 / 18%);
+  --color-cat-lanthanide-tint: rgb(196 163 106 / 18%);
+  --color-cat-actinide-tint: rgb(163 107 72 / 18%);
+  --color-cat-unknown-tint: rgb(160 155 140 / 18%);
+
+  /* ─── Atomic-Age Accents (interactive surfaces) ──────────────────── */
+  --color-accent-vermillion: #c8492f;
+  --color-accent-prussian: #2d4a6b;
+  --color-accent-ochre: #c89b3a;
+  --color-accent-teal: #4a8c87;
+
+  /* ─── Semantic ────────────────────────────────────────────────────── */
+  --color-success: #5d7a52;
+  --color-warning: #c89b3a;
+  --color-error: #c8492f;
+  --color-info: #2d4a6b;
+
+  /* ─── Typography ──────────────────────────────────────────────────── */
+  --font-serif: 'IBM Plex Serif', 'Iowan Old Style', 'Cambria', Georgia, serif;
+  --font-sans: 'IBM Plex Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, 'Cascadia Code', Menlo, monospace;
+  --text-display: 4rem;
+  --text-h1: 3rem;
+  --text-h2: 2.25rem;
+  --text-h3: 1.75rem;
+  --text-h4: 1.375rem;
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-body-sm: 0.875rem;
+  --text-caption: 0.75rem;
+  --text-eyebrow: 0.75rem;
+
+  /* ─── Spacing (8px base) ──────────────────────────────────────────── */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+  --space-5xl: 128px;
+
+  /* ─── Borders & Radii ─────────────────────────────────────────────── */
+  --border-rule: 1px solid var(--color-rule);
+  --border-rule-thick: 2px solid var(--color-ink);
+  --border-double: 3px double var(--color-rule);
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+
+  /* ─── Shadows ─────────────────────────────────────────────────────── */
+  --shadow-paper: 0 1px 0 rgb(31 29 24 / 6%), 0 4px 12px rgb(31 29 24 / 5%);
+  --shadow-paper-lifted: 0 2px 0 rgb(31 29 24 / 8%), 0 12px 24px rgb(31 29 24 / 10%);
+  --shadow-stamp: 0 0 0 2px var(--color-accent-vermillion) inset;
+
+  /* ─── Motion ──────────────────────────────────────────────────────── */
+  --easing-out: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration-fast: 120ms;
+  --duration-base: 150ms;
+  --duration-slow: 250ms;
+}

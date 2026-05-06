@@ -1,0 +1,49 @@
+---
+import '@fontsource/ibm-plex-serif/400.css';
+import '@fontsource/ibm-plex-serif/500.css';
+import '@fontsource/ibm-plex-serif/600.css';
+import '@fontsource/ibm-plex-sans/400.css';
+import '@fontsource/ibm-plex-sans/500.css';
+import '@fontsource/ibm-plex-sans/600.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '@/styles/tokens.css';
+import '@/styles/themes/retro-science.css';
+import '@/styles/base.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'An interactive periodic table — explore all 118 elements.' } =
+  Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-theme="retro-science">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <script is:inline>
+      // Pre-paint theme application — avoids FOUC on theme swap
+      (function () {
+        try {
+          const stored = localStorage.getItem('elements:theme');
+          if (stored && stored !== 'retro-science') {
+            document.documentElement.setAttribute('data-theme', stored);
+          }
+        } catch {
+          /* localStorage unavailable — keep default */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
