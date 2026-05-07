@@ -237,7 +237,7 @@ describe('persistence (localStorage)', () => {
         clear: () => store.clear(),
       },
     };
-     
+
     (globalThis as any).window = win;
     const before: PersistedScore = {
       bestStreak: 7,
@@ -250,14 +250,14 @@ describe('persistence (localStorage)', () => {
     saveScores('element', before);
     const after = loadScores('element');
     expect(after).toEqual(before);
-     
+
     delete (globalThis as any).window;
   });
 
   it('loadScores ignores corrupt JSON', () => {
     const store = new Map<string, string>();
     store.set('elements:trivia:element', '{not json');
-     
+
     (globalThis as any).window = {
       localStorage: {
         getItem: (k: string) => store.get(k) ?? null,
@@ -268,7 +268,7 @@ describe('persistence (localStorage)', () => {
     };
     const result = loadScores('element');
     expect(result.bestStreak).toBe(0);
-     
+
     delete (globalThis as any).window;
   });
 
@@ -278,7 +278,7 @@ describe('persistence (localStorage)', () => {
       'elements:trivia:element',
       JSON.stringify({ schema_version: '0.5.0', bestStreak: 99 }),
     );
-     
+
     (globalThis as any).window = {
       localStorage: {
         getItem: (k: string) => store.get(k) ?? null,
@@ -289,7 +289,7 @@ describe('persistence (localStorage)', () => {
     };
     const result = loadScores('element');
     expect(result.bestStreak).toBe(0); // discarded
-     
+
     delete (globalThis as any).window;
   });
 });

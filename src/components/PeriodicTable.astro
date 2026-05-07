@@ -19,12 +19,7 @@ const slotByNum = new Map(grid.map((g) => [g.atomic_number, g]));
 ---
 
 <div class="table-wrap">
-  <div
-    class="grid"
-    aria-label="Periodic table of elements"
-    data-grid
-    data-filter-active="false"
-  >
+  <div class="grid" aria-label="Periodic table of elements" data-grid data-filter-active="false">
     {
       elements.map((el) => {
         const slot = slotByNum.get(el.atomic_number);

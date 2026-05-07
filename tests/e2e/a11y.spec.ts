@@ -8,9 +8,7 @@ for (const route of ROUTES) {
     await page.goto(route);
     // Wait for client islands to hydrate
     await page.waitForLoadState('networkidle');
-    const results = await new AxeBuilder({ page })
-      .withTags(['wcag2a', 'wcag2aa'])
-      .analyze();
+    const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
 
     const critical = results.violations.filter(
       (v) => v.impact === 'critical' || v.impact === 'serious',
