@@ -1,0 +1,167 @@
+---
+import type { Element } from '@/types/element';
+import { CATEGORY_LABELS } from '@/lib/category-labels';
+
+interface Props {
+  element: Element;
+}
+
+const { element } = Astro.props;
+const stripeVar = `var(--color-cat-${element.category})`;
+const lower = element.symbol.toLowerCase();
+const subline = [
+  CATEGORY_LABELS[element.category],
+  `Period ${element.period}`,
+  element.group !== null ? `Group ${element.group}` : null,
+  `Block ${element.block}`,
+]
+  .filter(Boolean)
+  .join(' · ');
+
+const massString = element.atomic_mass_uncertain
+  ? `[${element.atomic_mass}]`
+  : element.atomic_mass.toFixed(element.atomic_mass < 10 ? 4 : 3);
+---
+
+<header class="hero" style={`--stripe: ${stripeVar};`}>
+  <span class="stripe" aria-hidden="true"></span>
+
+  <div class="text">
+    <p class="number">{element.atomic_number}</p>
+    <h1 class="symbol">{element.symbol}</h1>
+    <p class="name">{element.name}</p>
+    <p class="subline">{subline}</p>
+    <p class="mass"><span class="mass-label">Atomic mass</span> {massString} u</p>
+  </div>
+
+  {
+    element.image_primary ? (
+      <figure class="image">
+        <img
+          src={`/data/elements/${lower}/${element.image_primary}`}
+          alt={element.image_alt ?? `${element.name} (${element.symbol})`}
+          loading="eager"
+        />
+      </figure>
+    ) : (
+      <div class="image image--placeholder" aria-hidden="true">
+        <span class="placeholder-text">no image available</span>
+      </div>
+    )
+  }
+</header>
+
+<style>
+  .hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+    background: var(--color-paper-deep);
+    padding: var(--space-3xl) var(--space-2xl) var(--space-2xl);
+    margin-bottom: var(--space-2xl);
+  }
+
+  @media (min-width: 1024px) {
+    .hero {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+  }
+
+  .stripe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background: var(--stripe);
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .number {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: var(--text-h2);
+    color: var(--color-ink-muted);
+    line-height: 1;
+  }
+
+  .symbol {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: var(--text-display);
+    line-height: 1;
+    color: var(--color-ink);
+    letter-spacing: -0.02em;
+  }
+
+  .name {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: var(--text-h2);
+    color: var(--color-ink);
+  }
+
+  .subline {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-eyebrow);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-ink-muted);
+  }
+
+  .mass {
+    margin: var(--space-md) 0 0;
+    font-family: var(--font-mono);
+    font-size: var(--text-body);
+    color: var(--color-ink);
+  }
+
+  .mass-label {
+    font-family: var(--font-sans);
+    font-size: var(--text-caption);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    margin-right: var(--space-xs);
+  }
+
+  .image {
+    margin: 0;
+    border: var(--border-rule);
+    background: var(--color-paper);
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    box-shadow: var(--shadow-paper);
+  }
+
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .image--placeholder {
+    display: grid;
+    place-items: center;
+    border-style: dashed;
+  }
+
+  .placeholder-text {
+    font-family: var(--font-sans);
+    font-size: var(--text-eyebrow);
+    color: var(--color-ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+</style>

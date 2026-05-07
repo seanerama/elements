@@ -1,0 +1,333 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Wordmark from '@/components/Wordmark.astro';
+import ElementHero from '@/components/ElementHero.astro';
+import DetailCard from '@/components/DetailCard.astro';
+import BohrDiagram from '@/components/BohrDiagram.astro';
+import AttributionCaption from '@/components/AttributionCaption.astro';
+import PrevNextNav from '@/components/PrevNextNav.astro';
+import Formula from '@/components/Formula.astro';
+import { loadAllElements } from '@/lib/elements';
+import type { Element } from '@/types/element';
+
+export async function getStaticPaths() {
+  const elements = loadAllElements();
+  return elements.map((el) => ({
+    params: { symbol: el.symbol.toLowerCase() },
+    props: { element: el, all: elements },
+  }));
+}
+
+interface Props {
+  element: Element;
+  all: Element[];
+}
+
+const { element, all } = Astro.props;
+
+const idx = all.findIndex((e) => e.atomic_number === element.atomic_number);
+const prev = idx > 0 ? all[idx - 1] : null;
+const next = idx < all.length - 1 ? all[idx + 1] : null;
+
+// Estimate neutron count for the most common isotope (atomic_mass rounded - protons).
+// For uncertain masses (synthetic), use the bracket value directly.
+const neutronEstimate = element.atomic_mass_uncertain
+  ? Math.round(element.atomic_mass) - element.atomic_number
+  : Math.round(element.atomic_mass) - element.atomic_number;
+
+const hasOxidationStates = element.oxidation_states.length > 0;
+const oxidationLabels = element.oxidation_states
+  .map((s) => (s > 0 ? `+${s}` : String(s)))
+  .join(', ');
+
+const phaseLabel =
+  element.phase_at_stp === 'unknown' ? 'unknown (synthetic)' : `${element.phase_at_stp} at STP`;
+
+const densityFmt =
+  element.density_g_per_cm3 === null
+    ? '—'
+    : element.density_g_per_cm3 < 0.01
+      ? element.density_g_per_cm3.toExponential(3)
+      : element.density_g_per_cm3.toFixed(3);
+
+const meltingFmt = element.melting_point_k === null ? '—' : `${element.melting_point_k} K`;
+const boilingFmt = element.boiling_point_k === null ? '—' : `${element.boiling_point_k} K`;
+const electronegFmt =
+  element.electronegativity_pauling === null ? '—' : element.electronegativity_pauling.toFixed(2);
+---
+
+<BaseLayout
+  title={`${element.name} (${element.symbol}) — Atomic ${element.atomic_number}`}
+  description={`${element.name} (${element.symbol}, atomic number ${element.atomic_number}). ${element.reactivity_summary}`}
+>
+  <header class="topbar">
+    <a href="/" class="brand" aria-label="Elements home">
+      <Wordmark size="md" />
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/" class="nav-link" aria-current="page">Periodic Table</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/games" class="nav-link">Games</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/about" class="nav-link">About</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page">
+    <ElementHero element={element} />
+    {element.image_primary && <AttributionCaption symbol={element.symbol} />}
+
+    <div class="layout">
+      <div class="left">
+        <DetailCard eyebrow="Properties" title="Physical & atomic">
+          <dl class="kv">
+            <dt>Atomic number</dt>
+            <dd class="mono">{element.atomic_number}</dd>
+            <dt>Atomic mass</dt>
+            <dd class="mono">
+              {element.atomic_mass_uncertain ? `[${element.atomic_mass}]` : element.atomic_mass} u
+            </dd>
+            <dt>Phase</dt>
+            <dd>{phaseLabel}</dd>
+            <dt>Density</dt>
+            <dd class="mono">{densityFmt}{element.density_g_per_cm3 !== null && ' g/cm³'}</dd>
+            <dt>Melting point</dt>
+            <dd class="mono">{meltingFmt}</dd>
+            <dt>Boiling point</dt>
+            <dd class="mono">{boilingFmt}</dd>
+            <dt>Electronegativity</dt>
+            <dd class="mono">{electronegFmt}</dd>
+            {
+              hasOxidationStates && (
+                <>
+                  <dt>Common oxidation states</dt>
+                  <dd class="mono">{oxidationLabels}</dd>
+                </>
+              )
+            }
+          </dl>
+        </DetailCard>
+
+        <DetailCard eyebrow="Occurrence" title="Where you find it">
+          <p>{element.occurrence.abundance_summary}</p>
+          {
+            element.occurrence.states.length > 0 && (
+              <p class="states">
+                <span class="states-label">Forms:</span> {element.occurrence.states.join(' · ')}
+              </p>
+            )
+          }
+          {element.isotopes_summary && <p>{element.isotopes_summary}</p>}
+        </DetailCard>
+
+        <DetailCard eyebrow="Reactivity" title="How it behaves">
+          <p>{element.reactivity_summary}</p>
+        </DetailCard>
+
+        <DetailCard eyebrow="Electron Structure" title="Configuration & shells">
+          <dl class="kv">
+            <dt>Configuration</dt>
+            <dd class="mono">{element.electron_configuration}</dd>
+            <dt>Short form</dt>
+            <dd class="mono">{element.electron_configuration_short}</dd>
+            <dt>Shells</dt>
+            <dd class="mono">[{element.electrons_per_shell.join(', ')}]</dd>
+          </dl>
+
+          <div class="bohr-wrap">
+            <BohrDiagram
+              protons={element.atomic_number}
+              neutrons={neutronEstimate}
+              electronsPerShell={element.electrons_per_shell}
+            />
+          </div>
+        </DetailCard>
+      </div>
+
+      <div class="right">
+        {
+          element.compounds.length > 0 && (
+            <DetailCard eyebrow="Compounds" title="Notable compounds" variant="tight">
+              <ul class="compound-list">
+                {element.compounds.map((c) => (
+                  <li>
+                    <Formula formula={c.formula} /> <span class="compound-name">{c.name}</span>
+                    <p class="compound-summary">{c.summary}</p>
+                  </li>
+                ))}
+              </ul>
+            </DetailCard>
+          )
+        }
+
+        <DetailCard eyebrow="Uses" title="What it's used for" variant="tight">
+          <ul class="uses-list">
+            {element.uses.map((u) => <li>{u}</li>)}
+          </ul>
+        </DetailCard>
+
+        <DetailCard eyebrow="Discovery" title="When + by whom" variant="tight">
+          <dl class="kv">
+            <dt>Year</dt>
+            <dd class="mono">{element.discovery.year ?? '—'}</dd>
+            <dt>Discoverer</dt>
+            <dd>{element.discovery.discoverer ?? '—'}</dd>
+            <dt>Country</dt>
+            <dd>{element.discovery.country ?? '—'}</dd>
+          </dl>
+          {element.name_origin && <p class="origin">{element.name_origin}</p>}
+        </DetailCard>
+      </div>
+    </div>
+
+    <PrevNextNav
+      prev={prev ? { symbol: prev.symbol, name: prev.name } : null}
+      next={next ? { symbol: next.symbol, name: next.name } : null}
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-md) var(--space-2xl);
+    border-bottom: var(--border-rule);
+  }
+
+  .brand {
+    text-decoration: none;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+  }
+
+  .nav-link {
+    color: var(--color-ink);
+    text-decoration: none;
+    padding: var(--space-2xs) var(--space-xs);
+  }
+
+  .sep {
+    color: var(--color-rule-light);
+  }
+
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: var(--space-2xl);
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+    margin-top: var(--space-xl);
+  }
+
+  @media (min-width: 1024px) {
+    .layout {
+      grid-template-columns: 3fr 2fr;
+    }
+  }
+
+  .kv {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: var(--space-2xs) var(--space-md);
+    margin: 0;
+  }
+
+  .kv dt {
+    font-family: var(--font-sans);
+    font-size: var(--text-caption);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-ink-muted);
+    align-self: center;
+  }
+
+  .kv dd {
+    margin: 0;
+    color: var(--color-ink);
+    font-size: var(--text-body);
+  }
+
+  .mono {
+    font-family: var(--font-mono);
+  }
+
+  .states {
+    margin-top: var(--space-md);
+  }
+
+  .states-label {
+    font-family: var(--font-sans);
+    font-size: var(--text-caption);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-ink-muted);
+  }
+
+  .bohr-wrap {
+    margin-top: var(--space-lg);
+    padding-top: var(--space-md);
+    border-top: var(--border-rule);
+    border-color: var(--color-rule-light);
+  }
+
+  .compound-list,
+  .uses-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .compound-list > li,
+  .uses-list > li {
+    padding: var(--space-sm) 0;
+    border-bottom: var(--border-rule);
+    border-color: var(--color-rule-light);
+  }
+
+  .compound-list > li:last-child,
+  .uses-list > li:last-child {
+    border-bottom: 0;
+  }
+
+  .compound-name {
+    font-family: var(--font-serif);
+    font-size: var(--text-body);
+    margin-left: var(--space-sm);
+  }
+
+  .compound-summary {
+    margin: var(--space-2xs) 0 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+    color: var(--color-ink-muted);
+    line-height: 1.5;
+  }
+
+  .uses-list > li {
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+  }
+
+  .origin {
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: var(--border-rule);
+    border-color: var(--color-rule-light);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+    color: var(--color-ink-muted);
+    font-style: italic;
+  }
+</style>

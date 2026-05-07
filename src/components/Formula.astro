@@ -1,0 +1,27 @@
+---
+import { splitFormula } from '@/lib/formula';
+
+interface Props {
+  formula: string;
+}
+
+const { formula } = Astro.props;
+const parts = splitFormula(formula);
+---
+
+<span class="formula"
+  >{parts.map((p) => (p.sub ? <sub>{p.text}</sub> : <span>{p.text}</span>))}</span
+>
+
+<style>
+  .formula {
+    font-family: var(--font-mono);
+    font-weight: 500;
+  }
+
+  .formula :global(sub) {
+    font-size: 0.7em;
+    line-height: 0;
+    vertical-align: -0.2em;
+  }
+</style>

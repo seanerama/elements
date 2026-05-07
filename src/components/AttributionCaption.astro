@@ -1,0 +1,67 @@
+---
+import { readFileSync, existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { ImageLicenseSchema } from '@/types/image-license';
+
+interface Props {
+  symbol: string;
+}
+
+const { symbol } = Astro.props;
+const licensePath = resolve(
+  process.cwd(),
+  'data',
+  'elements',
+  symbol.toLowerCase(),
+  'images',
+  'sample.license.json',
+);
+
+let attribution: string | null = null;
+let sourceUrl: string | null = null;
+if (existsSync(licensePath)) {
+  try {
+    const parsed = ImageLicenseSchema.parse(JSON.parse(readFileSync(licensePath, 'utf-8')));
+    attribution = parsed.attribution;
+    sourceUrl = parsed.source_url ?? null;
+  } catch {
+    // missing/invalid sidecar — render nothing
+  }
+}
+---
+
+{
+  attribution && (
+    <p class="attribution">
+      Image:{' '}
+      {sourceUrl ? (
+        <a href={sourceUrl} target="_blank" rel="noopener noreferrer">
+          {attribution}
+        </a>
+      ) : (
+        attribution
+      )}
+    </p>
+  )
+}
+
+<style>
+  .attribution {
+    margin: var(--space-2xs) 0 0;
+    font-family: var(--font-mono);
+    font-size: var(--text-caption);
+    color: var(--color-ink-muted);
+    line-height: 1.4;
+  }
+
+  .attribution a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  .attribution a:hover {
+    color: var(--color-accent-prussian);
+  }
+</style>
