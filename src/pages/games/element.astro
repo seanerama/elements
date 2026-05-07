@@ -1,0 +1,56 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Wordmark from '@/components/Wordmark.astro';
+import GameRunner from '@/components/games/GameRunner.tsx';
+---
+
+<BaseLayout title="Guess the Element — Elements">
+  <header class="topbar">
+    <a href="/" class="brand" aria-label="Elements home">
+      <Wordmark size="md" />
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/" class="nav-link">Periodic Table</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/games" class="nav-link" aria-current="page">Games</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/about" class="nav-link">About</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page">
+    <GameRunner client:load mode="element" />
+  </main>
+</BaseLayout>
+
+<style>
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-md) var(--space-2xl);
+    border-bottom: var(--border-rule);
+  }
+  .brand { text-decoration: none; }
+  .nav {
+    display: flex;
+    gap: var(--space-sm);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+  }
+  .nav-link {
+    color: var(--color-ink);
+    text-decoration: none;
+    padding: var(--space-2xs) var(--space-xs);
+  }
+  .nav-link[aria-current='page'] {
+    border-bottom: 2px solid var(--color-accent-vermillion);
+    padding-bottom: var(--space-2xs);
+  }
+  .sep { color: var(--color-rule-light); }
+  .page {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: var(--space-2xl);
+  }
+</style>
