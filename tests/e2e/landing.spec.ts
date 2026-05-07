@@ -7,6 +7,36 @@ test.describe('Stage 3 — Periodic Table Landing', () => {
     await expect(cells).toHaveCount(118);
   });
 
+  test('lanthanide row (Ce..Lu) is visible with non-zero height', async ({ page }) => {
+    await page.goto('/');
+    const ce = page.locator('a.cell[data-symbol="Ce"]');
+    await expect(ce).toBeVisible();
+    const lu = page.locator('a.cell[data-symbol="Lu"]');
+    await expect(lu).toBeVisible();
+    const ceBox = await ce.boundingBox();
+    const luBox = await lu.boundingBox();
+    expect(ceBox?.height ?? 0).toBeGreaterThan(40);
+    expect(luBox?.height ?? 0).toBeGreaterThan(40);
+  });
+
+  test('actinide row (Th..Lr) is visible with non-zero height', async ({ page }) => {
+    await page.goto('/');
+    const th = page.locator('a.cell[data-symbol="Th"]');
+    await expect(th).toBeVisible();
+    const lr = page.locator('a.cell[data-symbol="Lr"]');
+    await expect(lr).toBeVisible();
+    const thBox = await th.boundingBox();
+    const lrBox = await lr.boundingBox();
+    expect(thBox?.height ?? 0).toBeGreaterThan(40);
+    expect(lrBox?.height ?? 0).toBeGreaterThan(40);
+  });
+
+  test('Lanthanides + Actinides row labels render', async ({ page }) => {
+    await page.goto('/');
+    await expect(page.locator('.row-label--inner1')).toContainText(/Lanthanides/i);
+    await expect(page.locator('.row-label--inner2')).toContainText(/Actinides/i);
+  });
+
   test('hovering Carbon reveals tooltip with "Carbon" + "12" mass', async ({ page }) => {
     await page.goto('/');
     const carbon = page.locator('a.cell[data-symbol="C"]');

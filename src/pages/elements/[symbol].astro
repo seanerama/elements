@@ -4,7 +4,6 @@ import Wordmark from '@/components/Wordmark.astro';
 import ElementHero from '@/components/ElementHero.astro';
 import DetailCard from '@/components/DetailCard.astro';
 import BohrDiagram from '@/components/BohrDiagram.astro';
-import OrbitalToggle from '@/components/OrbitalToggle.tsx';
 import TriviaWidget from '@/components/TriviaWidget.tsx';
 import AttributionCaption from '@/components/AttributionCaption.astro';
 import PrevNextNav from '@/components/PrevNextNav.astro';
@@ -70,6 +69,8 @@ const electronegFmt =
       <a href="/" class="nav-link" aria-current="page">Periodic Table</a>
       <span class="sep" aria-hidden>·</span>
       <a href="/games" class="nav-link">Games</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/lab" class="nav-link">The Lab</a>
       <span class="sep" aria-hidden>·</span>
       <a href="/about" class="nav-link">About</a>
     </nav>
@@ -143,13 +144,6 @@ const electronegFmt =
               electronsPerShell={element.electrons_per_shell}
             />
           </div>
-
-          <OrbitalToggle
-            client:visible
-            electronsPerShell={[...element.electrons_per_shell]}
-            protons={element.atomic_number}
-            neutrons={neutronEstimate}
-          />
         </DetailCard>
       </div>
 
@@ -189,7 +183,7 @@ const electronegFmt =
       </div>
     </div>
 
-    <TriviaWidget client:visible subjectSymbol={element.symbol} />
+    <TriviaWidget client:load subjectSymbol={element.symbol} />
 
     <PrevNextNav
       prev={prev ? { symbol: prev.symbol, name: prev.name } : null}

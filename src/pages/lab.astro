@@ -1,0 +1,219 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Wordmark from '@/components/Wordmark.astro';
+---
+
+<BaseLayout
+  title="The Lab — Elements"
+  description="A chemistry simulation game where you mix, heat, chill, and react compounds to discover new ones. Coming soon."
+>
+  <header class="topbar">
+    <a href="/" class="brand" aria-label="Elements home">
+      <Wordmark size="md" />
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/" class="nav-link">Periodic Table</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/games" class="nav-link">Games</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/lab" class="nav-link" aria-current="page">The Lab</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/about" class="nav-link">About</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page">
+    <div class="frame">
+      <p class="eyebrow">Coming Soon</p>
+      <h1>The Lab.</h1>
+      <p class="kicker">A separate playground. A different kind of chemistry.</p>
+
+      <p>
+        Periodic Table is reference. Games are recall. <em>The Lab</em> is something else
+        — a simulation where you set up reactions on a workbench, choose a process
+        (heat, chill, dilute, mix), and watch what happens.
+      </p>
+
+      <ul class="examples" aria-label="Sample reactions">
+        <li>
+          <span class="badge">Combustion</span>
+          <span class="formula">Mg + O₂ → MgO</span>
+          <span class="caption">Magnesium ribbon ignites with a brilliant white flame.</span>
+        </li>
+        <li>
+          <span class="badge">Acid–base</span>
+          <span class="formula">HCl + NaOH → NaCl + H₂O</span>
+          <span class="caption">Hydrochloric acid neutralizes sodium hydroxide; salt + water.</span>
+        </li>
+        <li>
+          <span class="badge">Precipitation</span>
+          <span class="formula">AgNO₃ + NaCl → AgCl↓ + NaNO₃</span>
+          <span class="caption">Cloudy white solid drops out of solution on contact.</span>
+        </li>
+      </ul>
+
+      <p class="status">Currently in design. Different repo, different stack — pixel-sprite animation, Phaser game engine.</p>
+
+      <p class="back">
+        <a href="/">← Back to the Periodic Table</a>
+      </p>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-md) var(--space-2xl);
+    border-bottom: var(--border-rule);
+  }
+
+  .brand {
+    text-decoration: none;
+  }
+
+  .nav {
+    display: flex;
+    gap: var(--space-sm);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+  }
+
+  .nav-link {
+    color: var(--color-ink);
+    text-decoration: none;
+    padding: var(--space-2xs) var(--space-xs);
+  }
+
+  .nav-link[aria-current='page'] {
+    border-bottom: 2px solid var(--color-accent-vermillion-text);
+    padding-bottom: var(--space-2xs);
+  }
+
+  .nav-link:hover {
+    color: var(--color-accent-vermillion-text);
+  }
+
+  .sep {
+    color: var(--color-rule-light);
+  }
+
+  .page {
+    min-height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+    padding: var(--space-2xl);
+  }
+
+  .frame {
+    max-width: 720px;
+    background: var(--color-paper-shade);
+    border: var(--border-double);
+    padding: var(--space-3xl);
+    box-shadow: var(--shadow-paper);
+  }
+
+  .eyebrow {
+    margin: 0 0 var(--space-sm);
+    font-family: var(--font-sans);
+    font-size: var(--text-eyebrow);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-accent-vermillion-text);
+  }
+
+  h1 {
+    margin: 0 0 var(--space-md);
+    font-size: var(--text-h1);
+  }
+
+  .kicker {
+    margin: 0 0 var(--space-xl);
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: var(--text-h4);
+    color: var(--color-ink-muted);
+  }
+
+  p {
+    font-family: var(--font-sans);
+    font-size: var(--text-body-lg);
+    color: var(--color-ink);
+    line-height: 1.6;
+  }
+
+  .examples {
+    list-style: none;
+    margin: var(--space-xl) 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-md);
+  }
+
+  .examples li {
+    display: grid;
+    grid-template-columns: max-content max-content 1fr;
+    gap: var(--space-md);
+    align-items: baseline;
+    padding: var(--space-sm) var(--space-md);
+    border-left: 3px solid var(--color-accent-vermillion-text);
+    background: var(--color-paper);
+  }
+
+  .badge {
+    font-family: var(--font-sans);
+    font-size: var(--text-eyebrow);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-ink-muted);
+  }
+
+  .formula {
+    font-family: var(--font-mono);
+    font-size: var(--text-body);
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+
+  .caption {
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+    color: var(--color-ink-muted);
+    line-height: 1.5;
+  }
+
+  .status {
+    margin-top: var(--space-xl);
+    padding-top: var(--space-md);
+    border-top: var(--border-rule);
+    border-color: var(--color-rule-light);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+    color: var(--color-ink-muted);
+    font-style: italic;
+  }
+
+  .back {
+    margin: var(--space-xl) 0 0;
+    font-size: var(--text-body);
+  }
+
+  .back a {
+    color: var(--color-ink-muted);
+  }
+
+  .back a:hover {
+    color: var(--color-accent-vermillion-text);
+  }
+
+  @media (max-width: 640px) {
+    .examples li {
+      grid-template-columns: 1fr;
+      gap: var(--space-2xs);
+    }
+  }
+</style>

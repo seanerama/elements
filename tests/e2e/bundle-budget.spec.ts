@@ -29,12 +29,25 @@ test.describe('Bundle budgets (Stage 8)', () => {
     expect(totalJsBytes, `landing JS bytes ≈ ${totalJsBytes}`).toBeLessThanOrEqual(80 * KB);
   });
 
-  test('element-detail page does NOT load Three.js bundle on initial render', async ({ page }) => {
-    const requestUrls: string[] = [];
-    page.on('request', (req) => requestUrls.push(req.url()));
+  test('element-detail page initial JS payload ≤ 100 KB gzipped', async ({ page }) => {
+    let totalJsBytes = 0;
+    page.on('response', async (resp) => {
+      const url = resp.url();
+      if (!/\.js(\?|$)/.test(url)) return;
+      if (resp.request().resourceType() !== 'script') return;
+      const enc = resp.headers()['content-encoding'] ?? '';
+      const lenHeader = resp.headers()['content-length'];
+      const len = lenHeader ? Number.parseInt(lenHeader, 10) : 0;
+      if (enc.includes('gzip') || enc.includes('br') || enc.includes('zstd')) {
+        totalJsBytes += len;
+      } else {
+        const buf = await resp.body().catch(() => null);
+        if (buf) totalJsBytes += Math.round(buf.length * 0.32);
+      }
+    });
+
     await page.goto('/elements/h');
     await page.waitForLoadState('networkidle');
-    const threeChunkLoaded = requestUrls.some((u) => /Atom\.[^/]+\.js$/.test(u));
-    expect(threeChunkLoaded, 'Three.js chunk should NOT load on initial render').toBe(false);
+    expect(totalJsBytes, `detail JS bytes ≈ ${totalJsBytes}`).toBeLessThanOrEqual(100 * KB);
   });
 });
