@@ -50,6 +50,14 @@
   --color-accent-ochre: #c89b3a;
   --color-accent-teal: #4a8c87;
 
+  /* Text-on-paper variants — darker variants of accent colors that clear
+   * WCAG AA 4.5:1 against --color-paper. Use these when the accent is
+   * applied as text color (eyebrows, ghost-button labels, etc.); use the
+   * primary accent when filling backgrounds. */
+  --color-accent-vermillion-text: #a73922;
+  --color-accent-ochre-text: #7a5e10;
+  --color-accent-teal-text: #2f6863;
+
   /* ─── Semantic ────────────────────────────────────────────────────── */
   --color-success: #5d7a52;
   --color-warning: #c89b3a;

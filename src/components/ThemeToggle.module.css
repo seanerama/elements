@@ -18,8 +18,8 @@
 
 .toggle:hover,
 .toggle[aria-expanded='true'] {
-  color: var(--color-accent-vermillion);
-  border-color: var(--color-accent-vermillion);
+  color: var(--color-accent-vermillion-text);
+  border-color: var(--color-accent-vermillion-text);
 }
 
 .menu {

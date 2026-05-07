@@ -22,13 +22,7 @@ const { prev, next } = Astro.props;
         </span>
       </a>
     ) : (
-      <span class="link link--disabled" aria-hidden="true">
-        <span class="dir">←</span>
-        <span class="meta">
-          <span class="kind">Prev</span>
-          <span class="name">—</span>
-        </span>
-      </span>
+      <span class="placeholder" aria-hidden="true" />
     )
   }
 
@@ -48,13 +42,7 @@ const { prev, next } = Astro.props;
         </span>
       </a>
     ) : (
-      <span class="link link--right link--disabled" aria-hidden="true">
-        <span class="meta meta--right">
-          <span class="kind">Next</span>
-          <span class="name">—</span>
-        </span>
-        <span class="dir">→</span>
-      </span>
+      <span class="placeholder" aria-hidden="true" />
     )
   }
 </nav>
@@ -86,13 +74,8 @@ const { prev, next } = Astro.props;
     border: var(--border-rule-thick);
   }
 
-  .link--disabled {
-    opacity: 0.4;
-    cursor: default;
-  }
-
-  .link--disabled:hover {
-    border: var(--border-rule);
+  .placeholder {
+    /* Empty grid cell preserves layout balance for first/last elements. */
   }
 
   .link--right {
@@ -102,7 +85,7 @@ const { prev, next } = Astro.props;
   .dir {
     font-family: var(--font-mono);
     font-size: var(--text-h3);
-    color: var(--color-accent-vermillion);
+    color: var(--color-accent-vermillion-text);
     line-height: 1;
   }
 
@@ -141,7 +124,7 @@ const { prev, next } = Astro.props;
   }
 
   .home:hover {
-    color: var(--color-accent-vermillion);
-    border-bottom-color: var(--color-accent-vermillion);
+    color: var(--color-accent-vermillion-text);
+    border-bottom-color: var(--color-accent-vermillion-text);
   }
 </style>

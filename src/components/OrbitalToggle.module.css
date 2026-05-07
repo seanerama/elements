@@ -9,11 +9,11 @@
   padding: var(--space-xs) var(--space-md);
   background: transparent;
   border: var(--border-rule);
-  border-color: var(--color-accent-teal);
+  border-color: var(--color-accent-teal-text);
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--text-body-sm);
-  color: var(--color-accent-teal);
+  color: var(--color-accent-teal-text);
   cursor: pointer;
   transition:
     background var(--duration-base) var(--easing-out),
@@ -54,5 +54,5 @@
   font-size: var(--text-eyebrow);
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--color-accent-teal);
+  color: var(--color-accent-teal-text);
 }
