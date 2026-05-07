@@ -1,0 +1,63 @@
+---
+interface Props {
+  eyebrow?: string;
+  title: string;
+  variant?: 'default' | 'tight';
+}
+
+const { eyebrow, title, variant = 'default' } = Astro.props;
+---
+
+<section class:list={['card', `card--${variant}`]}>
+  {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+  <h2 class="title">{title}</h2>
+  <div class="body">
+    <slot />
+  </div>
+</section>
+
+<style>
+  .card {
+    background: var(--color-paper-shade);
+    border: var(--border-double);
+    padding: var(--space-xl);
+    margin-bottom: var(--space-lg);
+  }
+
+  .card--tight {
+    padding: var(--space-lg);
+  }
+
+  .eyebrow {
+    margin: 0 0 var(--space-2xs);
+    font-family: var(--font-sans);
+    font-size: var(--text-eyebrow);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-ink-muted);
+  }
+
+  .title {
+    margin: 0 0 var(--space-md);
+    font-family: var(--font-serif);
+    font-size: var(--text-h3);
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+
+  .body {
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: 1.55;
+    color: var(--color-ink);
+  }
+
+  .body :global(p) {
+    margin: 0 0 var(--space-md);
+  }
+
+  .body :global(p:last-child) {
+    margin-bottom: 0;
+  }
+</style>
