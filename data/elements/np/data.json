@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 93,
+  "symbol": "Np",
+  "name": "Neptunium",
+  "name_origin": "Named after the planet Neptune, the next planet beyond Uranus, since neptunium follows uranium in the periodic table.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 237,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f4 6s2 6p6 6d1 7s2",
+  "electron_configuration_short": "[Rn] 5f4 6d1 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 22, 9, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 20.45,
+  "melting_point_k": 917,
+  "boiling_point_k": 4273,
+  "electronegativity_pauling": 1.36,
+  "oxidation_states": [7, 6, 5, 4, 3, 2],
+  "discovery": { "year": 1940, "discoverer": "Edwin McMillan, Philip H. Abelson", "country": "United States" },
+  "occurrence": { "natural": true, "abundance_summary": "Found only in trace amounts in uranium ores, formed by neutron capture in U-238. Most neptunium is produced as a by-product of nuclear reactor operation.", "states": ["trace in uranium ores", "by-product of nuclear reactors"] },
+  "compounds": [
+    { "formula": "NpO2", "name": "Neptunium dioxide", "summary": "Olive-green to brown ceramic solid; the most stable oxide of neptunium and used as a target material to produce plutonium-238." },
+    { "formula": "NpF6", "name": "Neptunium hexafluoride", "summary": "Volatile orange solid analogous to UF6; one of only three actinide hexafluorides known to be stable enough to study at moderate conditions." },
+    { "formula": "NpF4", "name": "Neptunium tetrafluoride", "summary": "Green crystalline solid; intermediate in the production of metallic neptunium and in fluoride-volatility separation processes." }
+  ],
+  "uses": [
+    "Production of plutonium-238 by neutron irradiation, which powers radioisotope thermoelectric generators (RTGs)",
+    "Neutron detection instruments using Np-237 fission chambers",
+    "Scientific research into actinide chemistry and the nuclear fuel cycle"
+  ],
+  "reactivity_summary": "A silvery, ductile metal that tarnishes slowly in air. It reacts with hydrochloric acid but is largely unaffected by alkalis. Neptunium has the largest known number of stable oxidation states for any actinide, ranging from +3 to +7, with +5 (NpO2+) most common in solution.",
+  "isotopes_summary": "All isotopes are radioactive. Neptunium-237 (half-life 2.144 million years) is the longest-lived and most chemically significant; it is the parent of the neptunium decay series. Np-239 is short-lived and decays to plutonium-239.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Neptunium", "url": "https://www.rsc.org/periodic-table/element/93/neptunium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Neptunium", "url": "https://www.britannica.com/science/neptunium" },
+    { "field": "physical_properties", "source": "CRC Handbook of Chemistry and Physics, 102nd ed." }
+  ]
+}

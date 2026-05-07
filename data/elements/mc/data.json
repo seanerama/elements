@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 115,
+  "symbol": "Mc",
+  "name": "Moscovium",
+  "name_origin": "Named after Moscow Oblast, the Russian region where the Joint Institute for Nuclear Research (JINR) Dubna laboratory is located.",
+  "category": "unknown",
+  "period": 7,
+  "group": 15,
+  "block": "p",
+  "atomic_mass": 290,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p3",
+  "electron_configuration_short": "[Rn] 5f14 6d10 7s2 7p3",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 18, 5],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [],
+  "discovery": {
+    "year": 2003,
+    "discoverer": "Joint Institute for Nuclear Research (JINR) Dubna team led by Yuri Oganessian, in collaboration with Lawrence Livermore National Laboratory",
+    "country": "Russia / United States"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Moscovium does not occur naturally. It is a synthetic element produced in particle accelerators via the hot-fusion reaction 48Ca + 243Am.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "No chemistry of moscovium has been experimentally characterized. By analogy with its lighter group 15 homologs (antimony, bismuth) it is predicted to be a post-transition metal favoring the +1 oxidation state due to the relativistically stabilized 7s2 pair, with the +3 state likely accessible but less stable than for bismuth.",
+  "isotopes_summary": "All moscovium isotopes are radioactive. The longest-lived confirmed isotope is 290Mc with a half-life on the order of a fraction of a second to a second; alpha-decay chains from moscovium have been used to confirm nihonium and lower-Z superheavy isotopes.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Moscovium", "url": "https://www.rsc.org/periodic-table/element/115/moscovium" },
+    { "field": "electron_configuration, reactivity_summary", "source": "Wikipedia: Moscovium", "url": "https://en.wikipedia.org/wiki/Moscovium" }
+  ]
+}

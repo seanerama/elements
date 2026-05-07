@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 42,
+  "symbol": "Mo",
+  "name": "Molybdenum",
+  "name_origin": "From Greek 'molybdos' meaning 'lead', because the chief ore molybdenite was confused with lead and graphite ores until the 18th century.",
+  "category": "transition-metal",
+  "period": 5,
+  "group": 6,
+  "block": "d",
+  "atomic_mass": 95.95,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d5 5s1",
+  "electron_configuration_short": "[Kr] 4d5 5s1",
+  "electrons_per_shell": [2, 8, 18, 13, 1],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 10.28,
+  "melting_point_k": 2896,
+  "boiling_point_k": 4912,
+  "electronegativity_pauling": 2.16,
+  "oxidation_states": [-4, -2, -1, 1, 2, 3, 4, 5, 6],
+  "discovery": {
+    "year": 1778,
+    "discoverer": "Carl Wilhelm Scheele (identified); isolated by Peter Jacob Hjelm in 1781",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Molybdenum is the 54th most abundant element in Earth's crust at about 1.2 ppm. It occurs principally in the mineral molybdenite (MoS2), often as a byproduct of porphyry copper mining; powellite and wulfenite are minor sources.",
+    "states": ["bound in molybdenite (MoS2)", "bound in wulfenite", "bound in powellite", "trace in seawater and biological systems"]
+  },
+  "compounds": [
+    { "formula": "MoS2", "name": "Molybdenum disulfide", "summary": "The principal ore mineral; widely used as a high-performance dry lubricant and increasingly as a 2D semiconductor material." },
+    { "formula": "MoO3", "name": "Molybdenum trioxide", "summary": "A pale yellow oxide used as a precursor for molybdenum metal and as a catalyst in petroleum refining." },
+    { "formula": "(NH4)6Mo7O24", "name": "Ammonium heptamolybdate", "summary": "A water-soluble compound used as an analytical reagent and starting material for molybdenum chemistry." },
+    { "formula": "MoCl5", "name": "Molybdenum pentachloride", "summary": "A dark green volatile solid used as a precursor in organometallic and catalytic chemistry." },
+    { "formula": "PbMoO4", "name": "Lead molybdate", "summary": "Used as a yellow-orange pigment and in scintillation detectors." }
+  ],
+  "uses": [
+    "Alloying agent in steels and superalloys to increase strength, hardenability, and corrosion resistance",
+    "Catalyst in petroleum refining for hydrodesulfurization (Mo on alumina supports)",
+    "Lubricant additive (MoS2) for high-temperature and high-pressure applications",
+    "Filaments and electrodes in vacuum tubes and X-ray tubes",
+    "Essential trace nutrient in nitrogen-fixing enzymes (nitrogenase) of legume bacteria"
+  ],
+  "reactivity_summary": "Molybdenum is a hard, silvery transition metal with one of the highest melting points of all elements. It is resistant to attack by acids in the absence of oxidizers but dissolves in hot concentrated nitric or sulfuric acid, and in alkaline oxidizing melts. It does not react with oxygen at room temperature, but oxidizes above 600 C to MoO3, and reacts with halogens at elevated temperatures.",
+  "isotopes_summary": "Molybdenum has seven naturally occurring isotopes: 92Mo (~14.65%), 94Mo (~9.19%), 95Mo (~15.87%), 96Mo (~16.67%), 97Mo (~9.58%), 98Mo (~24.29%), and 100Mo (~9.74%, observationally stable double beta-decay candidate). The synthetic isotope 99Mo (half-life 66 hours) is the parent of 99mTc, the most widely used medical imaging radioisotope.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Molybdenum", "url": "https://www.rsc.org/periodic-table/element/42/molybdenum" },
+    { "field": "uses", "source": "USGS Mineral Commodity Summaries: Molybdenum", "url": "https://www.usgs.gov/centers/national-minerals-information-center/molybdenum-statistics-and-information" }
+  ]
+}

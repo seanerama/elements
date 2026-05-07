@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 9,
+  "symbol": "F",
+  "name": "Fluorine",
+  "name_origin": "From the mineral fluorspar (Latin 'fluere', to flow), so named because it was used as a flux in metal smelting; the element name was coined by Andre-Marie Ampere in 1812.",
+  "category": "halogen",
+  "period": 2,
+  "group": 17,
+  "block": "p",
+  "atomic_mass": 18.998403163,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p5",
+  "electron_configuration_short": "[He] 2s2 2p5",
+  "electrons_per_shell": [
+    2,
+    7
+  ],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.001696,
+  "melting_point_k": 53.48,
+  "boiling_point_k": 85.03,
+  "electronegativity_pauling": 3.98,
+  "oxidation_states": [
+    -1,
+    0
+  ],
+  "discovery": {
+    "year": 1886,
+    "discoverer": "Henri Moissan (first isolation by electrolysis); existence inferred earlier by Andre-Marie Ampere and others",
+    "country": "France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Fluorine is the 13th most abundant element in Earth's crust (~585 ppm) but never occurs as the free element due to its extreme reactivity. The principal commercial source is the mineral fluorspar (CaF2); it also occurs in fluorapatite and cryolite.",
+    "states": [
+      "in fluorspar (CaF2)",
+      "in fluorapatite (Ca5(PO4)3F)",
+      "in cryolite (Na3AlF6)",
+      "trace fluoride in seawater and groundwater"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "HF",
+      "name": "Hydrogen fluoride",
+      "summary": "A weak but highly toxic acid used to etch glass and as a precursor to most fluorochemicals; causes severe deep-tissue burns."
+    },
+    {
+      "formula": "CaF2",
+      "name": "Calcium fluoride (fluorspar)",
+      "summary": "The principal commercial fluorine mineral and a common UV/IR optical material."
+    },
+    {
+      "formula": "UF6",
+      "name": "Uranium hexafluoride",
+      "summary": "A volatile solid sublimating near room temperature, used to enrich uranium isotopes by gaseous diffusion or centrifugation."
+    },
+    {
+      "formula": "SF6",
+      "name": "Sulfur hexafluoride",
+      "summary": "An exceptionally inert dense gas used as an electrical insulator in high-voltage switchgear; a very potent greenhouse gas."
+    },
+    {
+      "formula": "(C2F4)n",
+      "name": "Polytetrafluoroethylene (PTFE/Teflon)",
+      "summary": "A chemically inert, low-friction polymer used in non-stick cookware, gaskets, and insulation."
+    },
+    {
+      "formula": "NaF",
+      "name": "Sodium fluoride",
+      "summary": "Added to drinking water and toothpaste to prevent tooth decay by strengthening enamel."
+    }
+  ],
+  "uses": [
+    "Uranium enrichment via UF6 gas centrifuges",
+    "Fluoridation of drinking water and toothpaste for dental health",
+    "Manufacture of fluoropolymers (Teflon, PVDF) and fluoroelastomers",
+    "Refrigerants and propellants (HFCs and HFOs that replaced CFCs)",
+    "Pharmaceuticals: ~25% of modern small-molecule drugs contain fluorine",
+    "Etching of silicon and glass in semiconductor and optics manufacturing"
+  ],
+  "reactivity_summary": "Fluorine is the most electronegative and one of the most reactive elements known, igniting or violently reacting with nearly every other element including most noble gases and even glass and water. It exists as a pale yellow diatomic gas (F2) and is exclusively found at oxidation state -1 (or 0 in F2) because no element can pull its electrons away.",
+  "isotopes_summary": "Fluorine has only one stable isotope, 19F (100% natural abundance), making it monoisotopic. The radioisotope 18F (half-life 110 minutes) is the most widely used positron emitter in PET imaging, especially as the glucose analog FDG.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Fluorine (F) — image from Wikimedia Commons (CC-BY-SA-3.0).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k",
+      "source": "NIST WebBook - Fluorine",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782414"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Royal Society of Chemistry - Periodic Table: Fluorine",
+      "url": "https://www.rsc.org/periodic-table/element/9/fluorine"
+    },
+    {
+      "field": "occurrence",
+      "source": "USGS Mineral Commodity Summaries: Fluorspar 2024",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-fluorspar.pdf"
+    }
+  ]
+}

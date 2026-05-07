@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 85,
+  "symbol": "At",
+  "name": "Astatine",
+  "name_origin": "From Greek 'astatos' meaning 'unstable', referring to the element's intense radioactivity. The name was proposed by its discoverers Dale Corson, Kenneth MacKenzie, and Emilio Segre in 1940.",
+  "category": "halogen",
+  "period": 6,
+  "group": 17,
+  "block": "p",
+  "atomic_mass": 210,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p5",
+  "electron_configuration_short": "[Xe] 4f14 5d10 6s2 6p5",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    7
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": null,
+  "melting_point_k": 575,
+  "boiling_point_k": 610,
+  "electronegativity_pauling": 2.2,
+  "oxidation_states": [
+    -1,
+    1,
+    3,
+    5,
+    7
+  ],
+  "discovery": {
+    "year": 1940,
+    "discoverer": "Dale R. Corson, Kenneth R. MacKenzie, and Emilio Segre",
+    "country": "United States"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Astatine is the rarest naturally occurring element on Earth; it is estimated that less than 25 grams exist in Earth's crust at any time. It occurs only as fleeting decay-chain intermediates in uranium and thorium ores (215At, 218At, 219At). All practical quantities are produced artificially, typically by alpha-particle bombardment of bismuth-209 in a cyclotron.",
+    "states": [
+      "fleeting trace in U-238 and Th-232 decay chains (215At, 218At, 219At)",
+      "produced artificially by 209Bi(alpha,2n) in cyclotrons",
+      "no stable mineral forms"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "HAt",
+      "name": "Hydrogen astatide",
+      "summary": "The hypothetical heaviest hydrogen halide, predicted to be a weak acid in solution; only studied at tracer concentrations."
+    },
+    {
+      "formula": "AtO3-",
+      "name": "Astatate",
+      "summary": "An oxoanion analogous to iodate, observed at tracer level in oxidized aqueous solutions."
+    },
+    {
+      "formula": "At-",
+      "name": "Astatide ion",
+      "summary": "The mononegative ion observed in reducing aqueous solutions, behaving similarly to iodide but with covalent character increased by relativistic effects."
+    },
+    {
+      "formula": "AtCl",
+      "name": "Astatine monochloride",
+      "summary": "An interhalogen species observed by ion chromatography of cyclotron-produced astatine; only a few atoms are studied at a time."
+    },
+    {
+      "formula": "C6H5At",
+      "name": "Astatobenzene (phenyl astatide)",
+      "summary": "An organoastatine model compound investigated as a precursor to 211At-labeled radiopharmaceuticals."
+    }
+  ],
+  "uses": [
+    "Targeted alpha therapy (TAT) for cancer using 211At-labeled antibodies and small molecules",
+    "Research into the chemistry of the heaviest natural halogen and relativistic-effect tests",
+    "Tracer studies of halogen behavior in environmental and biological systems",
+    "Model element for predicting properties of synthetic group-17 element tennessine",
+    "Investigations of astatine's possible metallic versus halogen character"
+  ],
+  "reactivity_summary": "Astatine has never been observed in macroscopic quantities because any visible amount would vaporize itself with its own decay heat. Most of what is known comes from tracer chemistry. Its behavior is intermediate between that of the heavier halogens and a metalloid: it forms At- and AtO3- in solution like iodine, but it also shows cationic chemistry (At+) and metallic character predicted by relativistic calculations. It is more easily oxidized than iodine and forms interhalogen compounds with Cl, Br, and I.",
+  "isotopes_summary": "Astatine has no stable isotopes; 39 isotopes are known, all radioactive. The longest-lived is 210At (t1/2 ~8.1 h). The most important for medical application is 211At (t1/2 ~7.2 h), which decays predominantly by alpha emission and is being developed for targeted alpha-particle radiotherapy of cancers. Several short-lived isotopes (215At, 218At, 219At) appear in the natural decay chains of uranium and actinium.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Astatine (At) — image from Wikimedia Commons (CC-BY-4.0).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Periodic Table - radioactive elements use most stable isotope mass",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Astatine",
+      "url": "https://www.rsc.org/periodic-table/element/85/astatine"
+    },
+    {
+      "field": "isotopes, uses",
+      "source": "Brookhaven National Nuclear Data Center NuDat",
+      "url": "https://www.nndc.bnl.gov/nudat3/"
+    }
+  ]
+}

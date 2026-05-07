@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 56,
+  "symbol": "Ba",
+  "name": "Barium",
+  "name_origin": "From Greek 'barys' meaning heavy, referring to the high density of its mineral baryte.",
+  "category": "alkaline-earth",
+  "period": 6,
+  "group": 2,
+  "block": "s",
+  "atomic_mass": 137.327,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s2",
+  "electron_configuration_short": "[Xe] 6s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    8,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 3.51,
+  "melting_point_k": 1000,
+  "boiling_point_k": 2118,
+  "electronegativity_pauling": 0.89,
+  "oxidation_states": [
+    1,
+    2
+  ],
+  "discovery": {
+    "year": 1808,
+    "discoverer": "Humphry Davy",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Moderately abundant in Earth's crust (~425 ppm); found chiefly in the minerals baryte (BaSO4) and witherite (BaCO3).",
+    "states": [
+      "baryte (barite) ore",
+      "witherite ore",
+      "trace in seawater"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "BaSO4",
+      "name": "Barium sulfate",
+      "summary": "Insoluble white solid used as a radiocontrast agent in medical imaging of the gastrointestinal tract and as a pigment (lithopone)."
+    },
+    {
+      "formula": "BaCO3",
+      "name": "Barium carbonate",
+      "summary": "Used in ceramic glazes, brick-making, and as a rodenticide; also a precursor for other barium chemicals."
+    },
+    {
+      "formula": "BaO",
+      "name": "Barium oxide",
+      "summary": "Used as a desiccant, in cathode-ray tubes, and as a coating on hot cathodes for electron emission."
+    },
+    {
+      "formula": "BaTiO3",
+      "name": "Barium titanate",
+      "summary": "Ferroelectric ceramic widely used in capacitors, transducers, and nonlinear optical devices."
+    }
+  ],
+  "uses": [
+    "Radiocontrast medium for X-ray imaging (BaSO4)",
+    "Drilling muds in oil and gas exploration",
+    "Green-coloured fireworks and signal flares",
+    "Vacuum tube getter to absorb residual gases",
+    "Production of high-temperature superconductors (YBCO)",
+    "Spark-plug alloys and bearing metals"
+  ],
+  "reactivity_summary": "Highly reactive alkaline-earth metal that tarnishes rapidly in air and reacts vigorously with water and acids. Soluble barium compounds are toxic; insoluble BaSO4 is biologically inert and safe for medical use.",
+  "isotopes_summary": "Barium has seven stable isotopes, with Ba-138 the most abundant (~71.7%). Ba-137m is a metastable nuclear isomer used as a calibration source; Ba-133 (half-life 10.5 years) is also widely used as a gamma-ray standard.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Barium (Ba) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Barium",
+      "url": "https://www.rsc.org/periodic-table/element/56/barium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Barium",
+      "url": "https://www.britannica.com/science/barium"
+    }
+  ]
+}

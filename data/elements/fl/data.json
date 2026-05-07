@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 114,
+  "symbol": "Fl",
+  "name": "Flerovium",
+  "name_origin": "Named in honor of the Flerov Laboratory of Nuclear Reactions at JINR Dubna, itself named after Soviet physicist Georgy Flyorov.",
+  "category": "unknown",
+  "period": 7,
+  "group": 14,
+  "block": "p",
+  "atomic_mass": 289,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p2",
+  "electron_configuration_short": "[Rn] 5f14 6d10 7s2 7p2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 18, 4],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [],
+  "discovery": {
+    "year": 1998,
+    "discoverer": "Joint Institute for Nuclear Research (JINR) Dubna team led by Yuri Oganessian, in collaboration with Lawrence Livermore National Laboratory",
+    "country": "Russia / United States"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Flerovium does not occur naturally. It is a synthetic element produced in particle accelerators via hot-fusion reactions such as 48Ca + 244Pu.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "Limited gas-phase chemistry experiments suggest flerovium is a volatile metal with notably low reactivity, possibly intermediate between a heavy post-transition metal and a noble gas due to strong relativistic stabilization of the 7s2 7p1/2 closed subshell. Detailed bulk chemistry remains uncharacterized and the predicted vs. measured volatility is still actively debated.",
+  "isotopes_summary": "All flerovium isotopes are radioactive. The longest-lived confirmed isotope is 289Fl with a half-life of a few seconds (around 2-3 s); 287Fl and 288Fl have shorter half-lives and are also used in chemistry experiments.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Flerovium", "url": "https://www.rsc.org/periodic-table/element/114/flerovium" },
+    { "field": "electron_configuration, reactivity_summary", "source": "Wikipedia: Flerovium", "url": "https://en.wikipedia.org/wiki/Flerovium" },
+    { "field": "reactivity_summary", "source": "Yakushev, A. et al. 'Superheavy element flerovium (element 114) is a volatile metal', Inorganic Chemistry, 2014", "url": "https://pubs.acs.org/doi/10.1021/ic4026766" }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 10,
+  "symbol": "Ne",
+  "name": "Neon",
+  "name_origin": "From Greek 'neos' (new), reflecting its discovery as a new element separated from liquid air shortly after argon and krypton.",
+  "category": "noble-gas",
+  "period": 2,
+  "group": 18,
+  "block": "p",
+  "atomic_mass": 20.1797,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6",
+  "electron_configuration_short": "[He] 2s2 2p6",
+  "electrons_per_shell": [2, 8],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.0008999,
+  "melting_point_k": 24.56,
+  "boiling_point_k": 27.104,
+  "electronegativity_pauling": null,
+  "oxidation_states": [0],
+  "discovery": {
+    "year": 1898,
+    "discoverer": "William Ramsay and Morris Travers",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Neon is the fifth most abundant element in the universe but rare on Earth, comprising only ~18 ppm by volume of the atmosphere. Commercial neon is obtained as a byproduct of the cryogenic fractional distillation of liquid air.",
+    "states": ["trace gas in atmosphere (~18 ppm)", "abundant in stars and gas giants", "trace in volcanic gases"]
+  },
+  "compounds": [],
+  "uses": [
+    "Neon signs and indicator lamps (characteristic red-orange glow)",
+    "High-voltage indicators and lightning arrestors",
+    "Helium-neon (HeNe) gas lasers used in barcode scanners and alignment instruments",
+    "Cryogenic refrigerant (40x the refrigerating capacity per volume of liquid helium, 3x of liquid hydrogen)",
+    "Buffer gas in deep ultraviolet (excimer) lithography lasers for semiconductor manufacturing",
+    "Plasma displays and specialty fluorescent lamps"
+  ],
+  "reactivity_summary": "Neon is the second-least reactive element and forms no known stable neutral compounds; only a few transient ions and clathrate-like species have been observed in mass-spectrometry or matrix-isolation experiments. Its complete octet (2s2 2p6) gives it a very high ionization energy and zero electron affinity.",
+  "isotopes_summary": "Neon has three stable isotopes: 20Ne (~90.5%), 22Ne (~9.3%), and 21Ne (~0.27%). Isotopic ratios in meteorites and lunar samples have been used to study cosmic-ray exposure and the composition of the early solar system.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "NIST WebBook - Neon", "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440019" },
+    { "field": "discovery, uses", "source": "Royal Society of Chemistry - Periodic Table: Neon", "url": "https://www.rsc.org/periodic-table/element/10/neon" },
+    { "field": "occurrence", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" }
+  ]
+}

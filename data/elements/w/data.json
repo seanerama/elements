@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 74,
+  "symbol": "W",
+  "name": "Tungsten",
+  "name_origin": "Name from Swedish 'tung sten' meaning 'heavy stone'. The chemical symbol W comes from 'wolfram', the German name for the mineral wolframite from which the element was first isolated in 1783 by the Elhuyar brothers.",
+  "category": "transition-metal",
+  "period": 6,
+  "group": 6,
+  "block": "d",
+  "atomic_mass": 183.84,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d4 6s2",
+  "electron_configuration_short": "[Xe] 4f14 5d4 6s2",
+  "electrons_per_shell": [2, 8, 18, 32, 12, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 19.25,
+  "melting_point_k": 3695,
+  "boiling_point_k": 6203,
+  "electronegativity_pauling": 2.36,
+  "oxidation_states": [-4, -2, -1, 0, 1, 2, 3, 4, 5, 6],
+  "discovery": {
+    "year": 1783,
+    "discoverer": "Juan Jose and Fausto Elhuyar",
+    "country": "Spain"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Tungsten is moderately rare in Earth's crust at about 1.3 ppm. It is found principally in the minerals scheelite and wolframite. China dominates global production, supplying roughly 80% of world tungsten, with additional output from Vietnam, Russia, and Bolivia.",
+    "states": ["bound in scheelite (CaWO4)", "bound in wolframite ((Fe,Mn)WO4)", "bound in ferberite (FeWO4)", "bound in hubnerite (MnWO4)", "trace in granitic and skarn deposits"]
+  },
+  "compounds": [
+    { "formula": "WC", "name": "Tungsten carbide", "summary": "An extremely hard ceramic used in cutting tools, mining bits, armor-piercing ammunition, and jewelry." },
+    { "formula": "WO3", "name": "Tungsten trioxide", "summary": "A yellow oxide used as a precursor to tungsten metal, in electrochromic smart windows, and as a yellow pigment." },
+    { "formula": "WF6", "name": "Tungsten hexafluoride", "summary": "A dense colorless gas used in semiconductor manufacturing for chemical vapor deposition of tungsten contact plugs." },
+    { "formula": "Na2WO4", "name": "Sodium tungstate", "summary": "A water-soluble salt used as a fireproofing agent for textiles and as a precursor in tungsten chemistry." },
+    { "formula": "WS2", "name": "Tungsten disulfide", "summary": "A layered semiconductor used as a dry lubricant and as a 2D material for next-generation electronics." }
+  ],
+  "uses": [
+    "Filaments in incandescent lamps and electron-emission cathodes",
+    "Hardmetal cutting tools and drill bits as tungsten carbide",
+    "Heavy-metal alloys for kinetic-energy penetrators and radiation shielding",
+    "Counterweights and ballast in aerospace, motorsport, and watches due to extreme density",
+    "X-ray tube targets and rotating anodes",
+    "High-temperature furnace heating elements and rocket nozzle inserts"
+  ],
+  "reactivity_summary": "Tungsten has the highest melting point of any element (3695 K) and one of the highest tensile strengths. It is corrosion resistant and only mildly attacked by most mineral acids; aqua regia and a mix of HF and HNO3 dissolve it. It oxidizes slowly in air above ~400 C to form WO3 and reacts with halogens, carbon, and boron at elevated temperature. Pure tungsten is brittle when impure but ductile when very pure.",
+  "isotopes_summary": "Tungsten has five naturally occurring isotopes: 180W, 182W, 183W, 184W, and 186W. All are believed to be alpha-radioactive but with extraordinarily long half-lives (>10^18 years), so tungsten is effectively stable. 184W (~30.6%) and 186W (~28.4%) are the most abundant. Many synthetic isotopes are used in nuclear medicine and as tracers.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Tungsten", "url": "https://www.rsc.org/periodic-table/element/74/tungsten" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Tungsten", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-tungsten.pdf" }
+  ]
+}

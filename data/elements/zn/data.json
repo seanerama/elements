@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 30,
+  "symbol": "Zn",
+  "name": "Zinc",
+  "name_origin": "From the German word 'Zink', possibly derived from 'Zinke' meaning 'tooth-like prong' or 'pointed', referring to the appearance of zinc crystals on the walls of smelting furnaces.",
+  "category": "transition-metal",
+  "period": 4,
+  "group": 12,
+  "block": "d",
+  "atomic_mass": 65.38,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2",
+  "electron_configuration_short": "[Ar] 3d10 4s2",
+  "electrons_per_shell": [2, 8, 18, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.14,
+  "melting_point_k": 692.68,
+  "boiling_point_k": 1180,
+  "electronegativity_pauling": 1.65,
+  "oxidation_states": [-2, 0, 1, 2],
+  "discovery": {
+    "year": 1746,
+    "discoverer": "Andreas Sigismund Marggraf (isolated in pure form)",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Zinc is the 24th most abundant element in Earth's crust at roughly 70 ppm. It is mined primarily as the sulfide ore sphalerite (ZnS), with major producers in China, Peru, Australia, and the United States.",
+    "states": ["sphalerite (ZnS)", "smithsonite (ZnCO3)", "hemimorphite (Zn4Si2O7(OH)2.H2O)", "franklinite ((Zn,Mn,Fe)(Fe,Mn)2O4)"]
+  },
+  "compounds": [
+    { "formula": "ZnO", "name": "Zinc oxide", "summary": "White pigment and UV blocker used in sunscreens, ceramics, rubber vulcanization, and as a wide-bandgap semiconductor." },
+    { "formula": "ZnS", "name": "Zinc sulfide", "summary": "The principal zinc ore mineral; doped forms phosphoresce and have been used in cathode-ray tube screens and glow-in-the-dark paints." },
+    { "formula": "ZnCl2", "name": "Zinc chloride", "summary": "Highly hygroscopic white salt used as a flux in soldering, a wood preservative, and a Lewis-acid catalyst." },
+    { "formula": "ZnSO4", "name": "Zinc sulfate", "summary": "Soluble salt used as a dietary supplement, a mordant in dyeing, and an electrolyte in zinc electroplating." },
+    { "formula": "Zn(OH)2", "name": "Zinc hydroxide", "summary": "Amphoteric white solid that dissolves in both acids and strong bases (forming zincate ions); intermediate in many zinc-recovery processes." }
+  ],
+  "uses": [
+    "Galvanizing steel to prevent corrosion",
+    "Alloying with copper to make brass",
+    "Casting alloys (zamak) for hardware and automotive parts",
+    "Anode material in alkaline and zinc-air batteries",
+    "Sunscreens and topical ointments (as ZnO)",
+    "Dietary supplements supporting immune function"
+  ],
+  "reactivity_summary": "Zinc is a moderately reactive metal that tarnishes in moist air to form a protective layer of basic carbonate. It dissolves readily in dilute mineral acids to liberate hydrogen and reacts with strong alkalis to form zincates. Zinc burns in air with a bluish-green flame to give zinc oxide and is a common reducing agent in inorganic and organic chemistry.",
+  "isotopes_summary": "Zinc has five stable isotopes: 64Zn (~49.2%), 66Zn (~27.7%), 67Zn (~4.0%), 68Zn (~18.5%), and 70Zn (~0.6%). About 25 radioisotopes are known; the longest-lived is 65Zn (half-life ~244 days), used as a tracer in biological and metallurgical studies.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, occurrence", "source": "Royal Society of Chemistry - Periodic Table: Zinc", "url": "https://www.rsc.org/periodic-table/element/30/zinc" },
+    { "field": "isotopes_summary", "source": "IAEA Nuclear Data Services - Zinc", "url": "https://www-nds.iaea.org/" }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 94,
+  "symbol": "Pu",
+  "name": "Plutonium",
+  "name_origin": "Named after the dwarf planet Pluto, continuing the sequence of element names following uranium and neptunium.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 244,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f6 6s2 6p6 7s2",
+  "electron_configuration_short": "[Rn] 5f6 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 24, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 19.84,
+  "melting_point_k": 912.5,
+  "boiling_point_k": 3505,
+  "electronegativity_pauling": 1.28,
+  "oxidation_states": [7, 6, 5, 4, 3, 2],
+  "discovery": { "year": 1940, "discoverer": "Glenn T. Seaborg, Edwin McMillan, Joseph W. Kennedy, Arthur Wahl", "country": "United States" },
+  "occurrence": { "natural": true, "abundance_summary": "Found in trace amounts in natural uranium ores from neutron capture on U-238. The vast majority of plutonium is produced artificially in nuclear reactors.", "states": ["trace in uranium ores", "produced in nuclear reactors"] },
+  "compounds": [
+    { "formula": "PuO2", "name": "Plutonium dioxide", "summary": "Yellow-brown ceramic solid; the form used in mixed-oxide (MOX) nuclear fuel and as the heat source in radioisotope thermoelectric generators using Pu-238." },
+    { "formula": "PuF4", "name": "Plutonium tetrafluoride", "summary": "Pale brown crystalline solid; intermediate in the production of metallic plutonium by reduction with calcium." },
+    { "formula": "PuCl3", "name": "Plutonium trichloride", "summary": "Green crystalline solid used in molten-salt electrorefining of plutonium metal." },
+    { "formula": "Pu(NO3)4", "name": "Plutonium(IV) nitrate", "summary": "Soluble compound used in the PUREX process to separate plutonium from spent nuclear fuel." }
+  ],
+  "uses": [
+    "Fissile material in nuclear weapons (using Pu-239)",
+    "Mixed-oxide (MOX) nuclear reactor fuel",
+    "Radioisotope thermoelectric generators (RTGs) for spacecraft using Pu-238 (Voyager, Cassini, Curiosity, Perseverance, New Horizons)",
+    "Heat source in radioisotope heater units for spacecraft",
+    "Historically used in cardiac pacemakers (Pu-238)"
+  ],
+  "reactivity_summary": "A silvery metal that quickly tarnishes to a dull olive color in air, forming an oxide layer. Plutonium has six allotropes at ambient pressure and unusual physical properties including density that varies with temperature. It reacts with most acids and shows complex chemistry with multiple oxidation states (commonly +3 and +4) coexisting in solution.",
+  "isotopes_summary": "All isotopes are radioactive. Plutonium-244 has the longest half-life (80 million years). Pu-239 (half-life 24,110 years) is the principal fissile isotope used in weapons and reactor fuel. Pu-238 (half-life 87.7 years) is the heat source in RTGs. Pu-240, Pu-241, and Pu-242 are all of nuclear-engineering interest.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Plutonium", "url": "https://www.rsc.org/periodic-table/element/94/plutonium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Plutonium", "url": "https://www.britannica.com/science/plutonium" },
+    { "field": "applications", "source": "World Nuclear Association - Plutonium", "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/fuel-recycling/plutonium.aspx" },
+    { "field": "physical_properties", "source": "CRC Handbook of Chemistry and Physics, 102nd ed." }
+  ]
+}

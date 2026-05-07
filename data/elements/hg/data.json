@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 80,
+  "symbol": "Hg",
+  "name": "Mercury",
+  "name_origin": "Named after the Roman god Mercury, messenger of the gods, alluding to the metal's swift, fluid behavior. The chemical symbol Hg comes from the Latinized Greek 'hydrargyrum', meaning 'water-silver' or 'liquid silver'.",
+  "category": "transition-metal",
+  "period": 6,
+  "group": 12,
+  "block": "d",
+  "atomic_mass": 200.592,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2",
+  "electron_configuration_short": "[Xe] 4f14 5d10 6s2",
+  "electrons_per_shell": [2, 8, 18, 32, 18, 2],
+  "phase_at_stp": "liquid",
+  "density_g_per_cm3": 13.534,
+  "melting_point_k": 234.321,
+  "boiling_point_k": 629.88,
+  "electronegativity_pauling": 2.0,
+  "oxidation_states": [-2, 1, 2, 4],
+  "discovery": {
+    "year": null,
+    "discoverer": "Known since antiquity",
+    "country": null
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Mercury is rare in Earth's crust at about 0.085 ppm. The principal ore is cinnabar (HgS); historic production was concentrated at Almaden (Spain), Idrija (Slovenia), and Huancavelica (Peru). Today most primary production is from China, with additional output from Mexico and Kyrgyzstan, although mercury mining is being phased out under the Minamata Convention.",
+    "states": ["bound in cinnabar (HgS, red)", "bound in metacinnabar (HgS, black) and corderoite (Hg3S2Cl2)", "rare native droplets in cinnabar deposits", "byproduct of gold, zinc, and natural-gas processing"]
+  },
+  "compounds": [
+    { "formula": "HgS", "name": "Mercury(II) sulfide (cinnabar/vermilion)", "summary": "A red mineral and pigment that is the principal ore of mercury and was historically prized as the pigment vermilion." },
+    { "formula": "HgCl2", "name": "Mercury(II) chloride (corrosive sublimate)", "summary": "A highly toxic white crystalline solid used historically as a disinfectant and in early photographic processes." },
+    { "formula": "Hg2Cl2", "name": "Mercury(I) chloride (calomel)", "summary": "A white insoluble solid used historically as a laxative and as a reference electrode in electrochemistry." },
+    { "formula": "HgO", "name": "Mercury(II) oxide", "summary": "A red or yellow oxide used in mercury-zinc batteries and historically in pigments and antiseptics." },
+    { "formula": "(CH3)Hg+", "name": "Methylmercury", "summary": "A highly toxic, bioaccumulating organomercury cation responsible for the Minamata disaster and a global concern in fish consumption." }
+  ],
+  "uses": [
+    "Compact fluorescent and other gas-discharge lamps (mercury vapor produces UV that excites phosphors)",
+    "Liquid-mercury thermometers, barometers, and manometers (largely phased out in many countries)",
+    "Mercury-cell chlor-alkali process (being replaced by membrane cells)",
+    "Dental amalgam fillings (~50% Hg by mass)",
+    "Mercury-arc valves and switches in legacy electrical equipment",
+    "Catalysis: historically the Kucherov reaction (acetylene to acetaldehyde) and PVC production via HgCl2 catalyst (being phased out)"
+  ],
+  "reactivity_summary": "Mercury is the only metallic element that is liquid at standard temperature and pressure, a result of relativistic effects that weaken the Hg-Hg metallic bond. It is dense, silvery, and has a high surface tension that causes it to bead up. It does not react with most acids except oxidizing ones (HNO3, hot H2SO4) and aqua regia, but it reacts readily with halogens and sulfur and forms amalgams with most metals (notably gold, silver, zinc, sodium). Mercury and most of its compounds are highly toxic.",
+  "isotopes_summary": "Mercury has seven naturally occurring stable isotopes: 196Hg, 198Hg, 199Hg, 200Hg, 201Hg, 202Hg, and 204Hg, with 202Hg the most abundant (~29.9%). 199Hg and 201Hg both have non-zero nuclear spin and are used in NMR. 203Hg (t1/2 ~46.6 d) is a radiotracer used in environmental and biological studies of mercury toxicity.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Mercury", "url": "https://www.rsc.org/periodic-table/element/80/mercury" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Mercury", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-mercury.pdf" }
+  ]
+}

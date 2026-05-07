@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 55,
+  "symbol": "Cs",
+  "name": "Caesium",
+  "name_origin": "From Latin 'caesius' meaning sky-blue, after the bright blue lines in its emission spectrum.",
+  "category": "alkali-metal",
+  "period": 6,
+  "group": 1,
+  "block": "s",
+  "atomic_mass": 132.90545196,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s1",
+  "electron_configuration_short": "[Xe] 6s1",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    8,
+    1
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 1.93,
+  "melting_point_k": 301.7,
+  "boiling_point_k": 944,
+  "electronegativity_pauling": 0.79,
+  "oxidation_states": [
+    -1,
+    1
+  ],
+  "discovery": {
+    "year": 1860,
+    "discoverer": "Robert Bunsen and Gustav Kirchhoff",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Relatively rare in Earth's crust (~3 ppm); primarily obtained from the mineral pollucite found in pegmatites, with major deposits at Bernic Lake, Manitoba, Canada.",
+    "states": [
+      "pollucite ore",
+      "trace in seawater",
+      "minor in lepidolite"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "CsCl",
+      "name": "Caesium chloride",
+      "summary": "An ionic salt used in molecular biology for density gradient centrifugation of nucleic acids."
+    },
+    {
+      "formula": "CsOH",
+      "name": "Caesium hydroxide",
+      "summary": "One of the strongest known bases, highly corrosive and hygroscopic, used as an electrolyte in some batteries."
+    },
+    {
+      "formula": "Cs2CO3",
+      "name": "Caesium carbonate",
+      "summary": "A mild base widely used in organic synthesis for selective deprotonation reactions."
+    },
+    {
+      "formula": "CsF",
+      "name": "Caesium fluoride",
+      "summary": "Source of fluoride ion used as a desilylation agent and reagent in organofluorine chemistry."
+    }
+  ],
+  "uses": [
+    "Atomic clocks (Cs-133 hyperfine transition defines the SI second)",
+    "Photoelectric cells and photomultiplier tubes",
+    "Drilling fluids in petroleum exploration (caesium formate brines)",
+    "Catalyst in organic synthesis",
+    "Vacuum tube getter to remove residual gases",
+    "Specialty optical glass and infrared lamps"
+  ],
+  "reactivity_summary": "Extremely reactive alkali metal that ignites spontaneously in air and reacts explosively with water to produce caesium hydroxide and hydrogen gas. Must be stored under inert atmosphere or in dry mineral oil.",
+  "isotopes_summary": "Caesium has one stable isotope, Cs-133, which is the basis of the SI definition of the second. Numerous radioactive isotopes are known, including Cs-137 (half-life 30.17 years), a notable nuclear fission product and radiological contaminant.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Caesium (Cs) — image from Wikimedia Commons (CC-BY-SA-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Caesium",
+      "url": "https://www.rsc.org/periodic-table/element/55/caesium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Cesium",
+      "url": "https://www.britannica.com/science/cesium"
+    }
+  ]
+}

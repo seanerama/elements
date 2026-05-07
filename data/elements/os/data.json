@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 76,
+  "symbol": "Os",
+  "name": "Osmium",
+  "name_origin": "From Greek 'osme' meaning 'smell' or 'odor', referring to the strong, pungent odor of volatile osmium tetroxide (OsO4) formed when the metal is exposed to air.",
+  "category": "transition-metal",
+  "period": 6,
+  "group": 8,
+  "block": "d",
+  "atomic_mass": 190.23,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d6 6s2",
+  "electron_configuration_short": "[Xe] 4f14 5d6 6s2",
+  "electrons_per_shell": [2, 8, 18, 32, 14, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 22.587,
+  "melting_point_k": 3306,
+  "boiling_point_k": 5285,
+  "electronegativity_pauling": 2.2,
+  "oxidation_states": [-4, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8],
+  "discovery": {
+    "year": 1803,
+    "discoverer": "Smithson Tennant",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Osmium is among the rarest stable elements in Earth's crust at about 0.001 ppm. It is found in trace amounts in platinum-group metal (PGM) ores and as native alloys with iridium (osmiridium, iridosmine). It is recovered as a byproduct of nickel and PGM refining, primarily from South Africa and Russia.",
+    "states": ["bound in osmiridium and iridosmine native alloys", "trace in platinum-group ores", "trace in nickel and copper sulfide deposits", "found in iron meteorites at higher relative levels"]
+  },
+  "compounds": [
+    { "formula": "OsO4", "name": "Osmium tetroxide", "summary": "A pale-yellow volatile crystalline solid used as a fixative and stain in electron microscopy and as a syn-dihydroxylation catalyst in organic chemistry." },
+    { "formula": "OsCl3", "name": "Osmium trichloride", "summary": "A dark brown solid used as a precursor in osmium organometallic and catalytic chemistry." },
+    { "formula": "K2OsO4", "name": "Potassium osmate", "summary": "A purple water-soluble salt used as a milder, more soluble alternative to OsO4 in dihydroxylation reactions." },
+    { "formula": "OsF6", "name": "Osmium hexafluoride", "summary": "A volatile yellow solid noted for its high oxidation state (+6) and aggressive fluorinating behavior." },
+    { "formula": "Os3(CO)12", "name": "Triosmium dodecacarbonyl", "summary": "A yellow cluster carbonyl that is a benchmark compound in cluster organometallic chemistry." }
+  ],
+  "uses": [
+    "Hardening agent in platinum and iridium alloys for fountain pen tips and instrument pivots",
+    "Electrical contacts and long-wearing instrument bearings",
+    "Catalysis in organic synthesis, especially the Sharpless asymmetric dihydroxylation",
+    "Tissue fixative and electron-dense stain (OsO4) in electron microscopy and histology",
+    "Filaments and tips in some specialized vacuum tubes and field-emission sources",
+    "Component in osmium-based dye-sensitized solar cell sensitizers (research)"
+  ],
+  "reactivity_summary": "Osmium is the densest naturally occurring element (~22.59 g/cm3) and one of the hardest. The bulk metal is extremely resistant to corrosion at room temperature, but finely divided osmium powder slowly oxidizes in air to volatile, highly toxic, and pungent OsO4. Osmium tetroxide is volatile enough that even bulk metal exposed to oxygen produces detectable amounts. The metal is unattacked by most acids in cold conditions but is dissolved by hot oxidizing acids and aqua regia.",
+  "isotopes_summary": "Osmium has seven naturally occurring isotopes: 184Os, 186Os, 187Os, 188Os, 189Os, 190Os, and 192Os, with 192Os the most abundant (~40.8%). 184Os and 186Os are alpha-radioactive with half-lives much greater than the age of the universe. The slow 187Re->187Os beta decay underlies the Re-Os geochronometer, used to date sulfide ores, oils, and meteorites.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Osmium", "url": "https://www.rsc.org/periodic-table/element/76/osmium" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Platinum-Group Metals", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-platinum.pdf" }
+  ]
+}

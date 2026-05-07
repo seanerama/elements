@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 11,
+  "symbol": "Na",
+  "name": "Sodium",
+  "name_origin": "English 'soda'; symbol Na from Latin 'natrium' (from Arabic 'natrun', a natural mineral salt).",
+  "category": "alkali-metal",
+  "period": 3,
+  "group": 1,
+  "block": "s",
+  "atomic_mass": 22.98976928,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s1",
+  "electron_configuration_short": "[Ne] 3s1",
+  "electrons_per_shell": [
+    2,
+    8,
+    1
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 0.968,
+  "melting_point_k": 370.944,
+  "boiling_point_k": 1156.09,
+  "electronegativity_pauling": 0.93,
+  "oxidation_states": [
+    -1,
+    1
+  ],
+  "discovery": {
+    "year": 1807,
+    "discoverer": "Humphry Davy",
+    "country": "England"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Sodium is the sixth most abundant element in Earth's crust (~2.27%) and the most abundant alkali metal. It is found dissolved in seawater and in many minerals such as halite, feldspar, and cryolite.",
+    "states": [
+      "seawater (as Na+)",
+      "rock salt (halite, NaCl)",
+      "feldspar minerals",
+      "cryolite (Na3AlF6)"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "NaCl",
+      "name": "Sodium chloride",
+      "summary": "Common table salt; essential for human nutrition and a major industrial feedstock for chlorine and sodium hydroxide."
+    },
+    {
+      "formula": "NaOH",
+      "name": "Sodium hydroxide",
+      "summary": "A strong base (caustic soda) used in soap making, paper production, and many chemical syntheses."
+    },
+    {
+      "formula": "Na2CO3",
+      "name": "Sodium carbonate",
+      "summary": "Soda ash, widely used in glassmaking, detergents, and water softening."
+    },
+    {
+      "formula": "NaHCO3",
+      "name": "Sodium bicarbonate",
+      "summary": "Baking soda; used as a leavening agent, antacid, and mild abrasive cleaner."
+    },
+    {
+      "formula": "Na2SO4",
+      "name": "Sodium sulfate",
+      "summary": "Used in detergents and the kraft paper-making process."
+    },
+    {
+      "formula": "NaNO3",
+      "name": "Sodium nitrate",
+      "summary": "Chile saltpeter; historically used in fertilizers and as an oxidizer in explosives and food preservation."
+    }
+  ],
+  "uses": [
+    "Production of sodium vapor lamps for street lighting",
+    "Coolant in some fast-breeder nuclear reactors due to high thermal conductivity",
+    "Reducing agent in the manufacture of metals like titanium and zirconium",
+    "Manufacture of sodium compounds (NaOH, Na2CO3) used in soaps, detergents, and glass",
+    "Heat-transfer fluid in certain industrial applications",
+    "Essential dietary electrolyte (as Na+) for nerve transmission and fluid balance"
+  ],
+  "reactivity_summary": "Sodium is a soft, highly reactive alkali metal that tarnishes rapidly in air and reacts vigorously with water to produce sodium hydroxide and hydrogen gas, often igniting the hydrogen. It must be stored under mineral oil or inert gas to prevent oxidation.",
+  "isotopes_summary": "Sodium has only one stable isotope, Na-23. Na-22 (half-life ~2.6 years) and Na-24 (half-life ~15 hours) are the most notable radioisotopes, used in scientific research and medical tracing.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Sodium (Na) — image from Wikimedia Commons (CC-BY-SA-3.0).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021 (CIAAW)",
+      "url": "https://ciaaw.org/atomic-weights.htm"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "NIST Chemistry WebBook - Sodium",
+      "url": "https://webbook.nist.gov/chemistry/"
+    },
+    {
+      "field": "electronegativity_pauling, electron_configuration",
+      "source": "Royal Society of Chemistry - Periodic Table: Sodium",
+      "url": "https://www.rsc.org/periodic-table/element/11/sodium"
+    },
+    {
+      "field": "discovery",
+      "source": "Encyclopaedia Britannica - Sodium",
+      "url": "https://www.britannica.com/science/sodium"
+    }
+  ]
+}

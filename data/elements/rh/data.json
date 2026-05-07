@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 45,
+  "symbol": "Rh",
+  "name": "Rhodium",
+  "name_origin": "From the Greek 'rhodon' meaning 'rose', after the rose-red color of dilute solutions of its chloride salts.",
+  "category": "transition-metal",
+  "period": 5,
+  "group": 9,
+  "block": "d",
+  "atomic_mass": 102.90549,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d8 5s1",
+  "electron_configuration_short": "[Kr] 4d8 5s1",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    16,
+    1
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 12.41,
+  "melting_point_k": 2237,
+  "boiling_point_k": 3968,
+  "electronegativity_pauling": 2.28,
+  "oxidation_states": [
+    -3,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "discovery": {
+    "year": 1803,
+    "discoverer": "William Hyde Wollaston",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Rhodium is one of the rarest and most valuable elements in Earth's crust at about 0.0002 ppm. It occurs in trace amounts in platinum and nickel ores; about 80% of world supply comes from South Africa, with the remainder from Russia and Canada.",
+    "states": [
+      "native alloyed with other PGMs",
+      "trace in platinum ores",
+      "trace in nickel sulfide deposits",
+      "recycled from spent catalytic converters"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "RhCl3",
+      "name": "Rhodium(III) chloride",
+      "summary": "A red-brown solid that is the most common starting material for rhodium catalysts and complexes."
+    },
+    {
+      "formula": "Rh2O3",
+      "name": "Rhodium(III) oxide",
+      "summary": "A gray solid used as a precursor for rhodium metal and in some catalytic applications."
+    },
+    {
+      "formula": "[RhCl(PPh3)3]",
+      "name": "Wilkinson's catalyst",
+      "summary": "A homogeneous catalyst used for hydrogenation of alkenes under mild conditions."
+    },
+    {
+      "formula": "Rh6(CO)16",
+      "name": "Rhodium hexadecacarbonyl",
+      "summary": "A black cluster compound used as a precursor for heterogeneous and homogeneous catalysis."
+    },
+    {
+      "formula": "Rh(NO3)3",
+      "name": "Rhodium(III) nitrate",
+      "summary": "A water-soluble salt used to deposit rhodium coatings and as a catalyst precursor."
+    }
+  ],
+  "uses": [
+    "Three-way catalytic converters for automobile exhaust (reducing NOx emissions)",
+    "Hydrogenation and hydroformylation catalysts in industrial chemistry",
+    "Hard, bright, corrosion-resistant electroplating finish for jewelry and mirrors",
+    "Thermocouples (platinum-rhodium) for high-temperature measurement",
+    "Electrical contacts and crucibles in laboratory equipment"
+  ],
+  "reactivity_summary": "Rhodium is an extremely corrosion-resistant, lustrous silvery-white platinum-group metal. It is unattacked by air or water at room temperature and is insoluble in most acids, including aqua regia in massive form (powdered rhodium dissolves in hot aqua regia and concentrated sulfuric acid). It reacts only slowly with halogens at high temperatures, but molten alkali fusion will dissolve it.",
+  "isotopes_summary": "Rhodium has only one stable, naturally occurring isotope, 103Rh (100% natural abundance), making it monoisotopic. Roughly 30 radioisotopes have been characterized, the longest-lived being 101Rh (half-life 3.3 years) and 102mRh (half-life 3.7 years). Most rhodium radioisotopes have very short half-lives.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Rhodium (Rh) — image from Wikimedia Commons (CC-BY-SA-3.0).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery",
+      "source": "Royal Society of Chemistry - Periodic Table: Rhodium",
+      "url": "https://www.rsc.org/periodic-table/element/45/rhodium"
+    },
+    {
+      "field": "uses",
+      "source": "USGS Mineral Commodity Summaries: Platinum-Group Metals",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/platinum-group-metals-statistics-and-information"
+    }
+  ]
+}

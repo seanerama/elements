@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 95,
+  "symbol": "Am",
+  "name": "Americium",
+  "name_origin": "Named after the Americas, where it was discovered, by analogy with the naming of europium after Europe.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 243,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f7 6s2 6p6 7s2",
+  "electron_configuration_short": "[Rn] 5f7 7s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    25,
+    8,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 12,
+  "melting_point_k": 1449,
+  "boiling_point_k": 2880,
+  "electronegativity_pauling": 1.3,
+  "oxidation_states": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2
+  ],
+  "discovery": {
+    "year": 1944,
+    "discoverer": "Glenn T. Seaborg, Ralph A. James, Leon O. Morgan, Albert Ghiorso",
+    "country": "United States"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Trace amounts have been detected in nature, formed by neutron capture in uranium ores, but americium is essentially a synthetic element produced in nuclear reactors and recovered from spent fuel.",
+    "states": [
+      "trace in uranium ores (synthetic in practice)"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "AmO2",
+      "name": "Americium dioxide",
+      "summary": "Black ceramic solid used as the active material in ionization-type smoke detectors and as a target for synthesizing heavier actinides."
+    },
+    {
+      "formula": "AmCl3",
+      "name": "Americium(III) chloride",
+      "summary": "Pink crystalline solid; used in fundamental coordination chemistry and in solution chemistry studies of the +3 actinides."
+    },
+    {
+      "formula": "AmF3",
+      "name": "Americium(III) fluoride",
+      "summary": "Pink solid used as a precursor for producing metallic americium by reduction with barium or lithium vapor."
+    }
+  ],
+  "uses": [
+    "Active material in household ionization smoke detectors (Am-241)",
+    "Industrial gauges for measuring thickness of glass, paper, and rolled metal sheets",
+    "Neutron sources when combined with beryllium (Am-Be) for oil-well logging and material analysis",
+    "Gamma-ray sources for radiography and medical diagnostics",
+    "Proposed fuel for space exploration RTGs as a long-term alternative to plutonium-238"
+  ],
+  "reactivity_summary": "A silvery-white metal that tarnishes slowly in dry air. It is more malleable than uranium or neptunium and reacts with oxygen, steam, and acids. The +3 state is most stable in aqueous solution, although +4, +5, and +6 states are accessible.",
+  "isotopes_summary": "All isotopes are radioactive. Americium-243 has the longest half-life (7370 years), but Am-241 (half-life 432.2 years) is by far the most widely used isotope, produced in kilogram quantities from spent reactor fuel.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Americium (Am) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "IUPAC Periodic Table of the Elements",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Americium",
+      "url": "https://www.rsc.org/periodic-table/element/95/americium"
+    },
+    {
+      "field": "discovery",
+      "source": "Encyclopaedia Britannica - Americium",
+      "url": "https://www.britannica.com/science/americium"
+    },
+    {
+      "field": "applications",
+      "source": "U.S. Nuclear Regulatory Commission - Americium-241",
+      "url": "https://www.nrc.gov/"
+    }
+  ]
+}

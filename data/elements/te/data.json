@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 52,
+  "symbol": "Te",
+  "name": "Tellurium",
+  "name_origin": "From the Latin 'tellus' meaning 'earth', named by Martin Heinrich Klaproth in 1798 to complement selenium (named for the moon).",
+  "category": "metalloid",
+  "period": 5,
+  "group": 16,
+  "block": "p",
+  "atomic_mass": 127.6,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4",
+  "electron_configuration_short": "[Kr] 4d10 5s2 5p4",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    6
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 6.232,
+  "melting_point_k": 722.66,
+  "boiling_point_k": 1261,
+  "electronegativity_pauling": 2.1,
+  "oxidation_states": [
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "discovery": {
+    "year": 1782,
+    "discoverer": "Franz-Joseph Muller von Reichenstein (isolated); named by Martin Heinrich Klaproth in 1798",
+    "country": "Austria/Hungary (now Romania)"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Tellurium is one of the rarest stable elements in Earth's crust (about 0.001 ppm), comparable to platinum. It occurs as native tellurium and in tellurides such as calaverite (AuTe2) and sylvanite. It is recovered chiefly as a byproduct of copper electrolytic refining.",
+    "states": [
+      "mineral - calaverite, sylvanite",
+      "trace native",
+      "byproduct of copper refining"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "TeO2",
+      "name": "Tellurium dioxide",
+      "summary": "A white solid used in optical glass for acousto-optic devices and as a key component in tellurite glasses."
+    },
+    {
+      "formula": "H2Te",
+      "name": "Hydrogen telluride",
+      "summary": "A toxic, foul-smelling colorless gas, the heaviest stable hydride of group 16."
+    },
+    {
+      "formula": "CdTe",
+      "name": "Cadmium telluride",
+      "summary": "A II-VI semiconductor widely used in thin-film photovoltaic solar panels and infrared optics."
+    },
+    {
+      "formula": "Bi2Te3",
+      "name": "Bismuth telluride",
+      "summary": "A premier thermoelectric material used in Peltier coolers and waste-heat power generation."
+    },
+    {
+      "formula": "TeF6",
+      "name": "Tellurium hexafluoride",
+      "summary": "A colorless, highly toxic gas analogous to SF6, used in research as a chemical etchant."
+    }
+  ],
+  "uses": [
+    "Cadmium telluride (CdTe) thin-film solar photovoltaic panels",
+    "Thermoelectric devices based on bismuth telluride for cooling and power generation",
+    "Alloying additive to steel and copper to improve machinability",
+    "Phase-change materials (Ge-Sb-Te chalcogenides) for rewritable optical discs and memory",
+    "Vulcanizing agent and catalyst in the rubber industry"
+  ],
+  "reactivity_summary": "Tellurium is a brittle, silvery-white metalloid with a metallic luster. In its crystalline form it is stable in air; finely divided tellurium burns in air to form TeO2. It is insoluble in water but dissolves in nitric acid, aqua regia, and concentrated sulfuric acid. Tellurium reacts with halogens to form tetrahalides and with most metals to form tellurides. Even small exposures can cause humans to exude a strong, garlic-like odor on the breath.",
+  "isotopes_summary": "Tellurium has eight naturally occurring isotopes, of which six are stable or considered stable, and two (tellurium-128 and tellurium-130) are radioactive but with extraordinarily long half-lives. Tellurium-128 has the longest measured half-life of any nuclide (about 2.2 x 10^24 years) via double beta decay. Tellurium-130 is the most abundant isotope (34.08%).",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Tellurium (Te) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Tellurium",
+      "url": "https://www.rsc.org/periodic-table/element/52/tellurium"
+    },
+    {
+      "field": "general",
+      "source": "Encyclopedia Britannica - Tellurium",
+      "url": "https://www.britannica.com/science/tellurium"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)"
+    },
+    {
+      "field": "isotopes",
+      "source": "IUPAC Atomic Weights of the Elements 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 48,
+  "symbol": "Cd",
+  "name": "Cadmium",
+  "name_origin": "From the Latin 'cadmia' and Greek 'kadmeia', the ancient name for calamine (zinc carbonate ore), reflecting the element's close association with zinc; ultimately derived from the legendary Phoenician prince Cadmus.",
+  "category": "transition-metal",
+  "period": 5,
+  "group": 12,
+  "block": "d",
+  "atomic_mass": 112.414,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2",
+  "electron_configuration_short": "[Kr] 4d10 5s2",
+  "electrons_per_shell": [2, 8, 18, 18, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 8.65,
+  "melting_point_k": 594.22,
+  "boiling_point_k": 1040,
+  "electronegativity_pauling": 1.69,
+  "oxidation_states": [-2, 1, 2],
+  "discovery": {
+    "year": 1817,
+    "discoverer": "Friedrich Stromeyer; independently by Karl Samuel Leberecht Hermann",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Cadmium is rare in Earth's crust at about 0.15 ppm. It is almost never found in pure form; instead it occurs as a minor component (typically 0.01-0.05%) in zinc ores such as sphalerite (ZnS), and is recovered as a byproduct of zinc, lead, and copper smelting.",
+    "states": ["bound in sphalerite (ZnS) as a minor substituent", "byproduct of zinc and lead refining", "trace in greenockite (CdS)", "trace in seawater"]
+  },
+  "compounds": [
+    { "formula": "CdS", "name": "Cadmium sulfide", "summary": "A yellow-orange solid (the mineral greenockite) used historically as the pigment 'cadmium yellow' and in photoresistors and thin-film solar cells." },
+    { "formula": "CdSe", "name": "Cadmium selenide", "summary": "A semiconductor used to make quantum dots for displays, biomedical imaging, and photovoltaics." },
+    { "formula": "CdTe", "name": "Cadmium telluride", "summary": "A direct-bandgap semiconductor used in commercial thin-film photovoltaic modules." },
+    { "formula": "CdO", "name": "Cadmium oxide", "summary": "A brown solid used as a transparent conducting oxide and in some specialty electronics." },
+    { "formula": "Cd(OH)2", "name": "Cadmium hydroxide", "summary": "A white solid that serves as the negative electrode material in nickel-cadmium rechargeable batteries." }
+  ],
+  "uses": [
+    "Nickel-cadmium (NiCd) rechargeable batteries (a use being phased out due to toxicity)",
+    "Cadmium telluride thin-film solar panels for utility-scale photovoltaics",
+    "Quantum dots (CdSe) for displays and biological labeling",
+    "Anti-corrosion electroplating on steel fasteners and aerospace components",
+    "Pigments (cadmium yellow, orange, and red) in artist paints, plastics, and ceramics",
+    "Control rods and shielding in nuclear reactors due to high neutron-capture cross section"
+  ],
+  "reactivity_summary": "Cadmium is a soft, bluish-white, malleable transition metal that tarnishes slowly in moist air to form a protective oxide. It dissolves readily in dilute mineral acids, especially nitric acid, but is resistant to alkalis. Cadmium burns in air at high temperature with a brown flame to give cadmium oxide. It and its compounds are highly toxic; cadmium is a recognized human carcinogen and a major environmental pollutant.",
+  "isotopes_summary": "Cadmium has eight naturally occurring isotopes: 106Cd (~1.25%), 108Cd (~0.89%), 110Cd (~12.49%), 111Cd (~12.80%), 112Cd (~24.13%), 113Cd (~12.22%, very long-lived), 114Cd (~28.73%), and 116Cd (~7.49%, double beta decay). 113Cd has a half-life of about 8x10^15 years. The synthetic isotope 109Cd (462 days) is used in X-ray fluorescence calibration.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Cadmium", "url": "https://www.rsc.org/periodic-table/element/48/cadmium" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries: Cadmium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/cadmium-statistics-and-information" },
+    { "field": "toxicity", "source": "ATSDR Toxicological Profile for Cadmium", "url": "https://www.atsdr.cdc.gov/toxprofiles/tp5.pdf" }
+  ]
+}

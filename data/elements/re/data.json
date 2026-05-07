@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 75,
+  "symbol": "Re",
+  "name": "Rhenium",
+  "name_origin": "Named after the Rhine River (Latin 'Rhenus') in honor of Walter Noddack's homeland, Germany, by its discoverers in 1925.",
+  "category": "transition-metal",
+  "period": 6,
+  "group": 7,
+  "block": "d",
+  "atomic_mass": 186.207,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d5 6s2",
+  "electron_configuration_short": "[Xe] 4f14 5d5 6s2",
+  "electrons_per_shell": [2, 8, 18, 32, 13, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 21.02,
+  "melting_point_k": 3459,
+  "boiling_point_k": 5869,
+  "electronegativity_pauling": 1.9,
+  "oxidation_states": [-3, -1, 0, 1, 2, 3, 4, 5, 6, 7],
+  "discovery": {
+    "year": 1925,
+    "discoverer": "Walter Noddack, Ida Tacke, and Otto Berg",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Rhenium is one of the rarest elements in Earth's crust, at about 0.7 ppb. It has no minerals where it is the major constituent and is recovered almost entirely as a byproduct of molybdenum refining, which itself is a byproduct of porphyry copper mining. Chile, the United States, and Poland are the leading producers.",
+    "states": ["trace in molybdenite (MoS2) at up to 0.2%", "byproduct of copper-porphyry mining", "trace in flue dusts of Mo roasters", "rare native mineral rheniite (ReS2) in volcanic fumaroles"]
+  },
+  "compounds": [
+    { "formula": "Re2O7", "name": "Rhenium heptoxide", "summary": "A pale yellow volatile oxide that is the most stable oxide of rhenium and a precursor to perrhenate catalysts." },
+    { "formula": "HReO4", "name": "Perrhenic acid", "summary": "A strong acid whose perrhenate salts are used as superalloy precursors and in olefin metathesis catalysis." },
+    { "formula": "ReS2", "name": "Rhenium disulfide", "summary": "A layered semiconductor with strongly anisotropic optical and electronic properties, of interest for 2D electronics." },
+    { "formula": "ReF6", "name": "Rhenium hexafluoride", "summary": "A yellow crystalline solid that melts near room temperature, used in chemical vapor deposition." },
+    { "formula": "Re2(CO)10", "name": "Dirhenium decacarbonyl", "summary": "A colorless metal-carbonyl compound used as a starting point for rhenium organometallic chemistry." }
+  ],
+  "uses": [
+    "Single-crystal nickel-based superalloys for high-pressure turbine blades in jet engines",
+    "Platinum-rhenium reforming catalysts for production of high-octane gasoline",
+    "Thermocouples (W-Re alloys) capable of operating above 2000 C",
+    "X-ray tube targets and electrical contacts where wear and high temperatures are issues",
+    "Filaments in mass spectrometers and ion gauges",
+    "Olefin metathesis catalysts using methylrhenium trioxide (MTO)"
+  ],
+  "reactivity_summary": "Rhenium is a dense silvery-white metal with one of the highest melting points (3459 K) and one of the broadest ranges of oxidation states (-3 to +7). Bulk rhenium does not react with water or air at room temperature but slowly tarnishes in moist air; the metal oxidizes rapidly above 400 C to volatile Re2O7. It dissolves in oxidizing acids (HNO3, concentrated H2SO4) but is essentially inert to non-oxidizing acids and resists liquid metal attack remarkably well.",
+  "isotopes_summary": "Rhenium has two naturally occurring isotopes: 185Re (~37.4%, stable) and 187Re (~62.6%, beta-radioactive with t1/2 ~4.1x10^10 yr). The slow 187Re->187Os decay forms the basis of the Re-Os geochronometer used to date sulfide ores and meteorites. The medical isotope 188Re, produced from a 188W generator, is used in targeted radiotherapy for bone metastases.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Rhenium", "url": "https://www.rsc.org/periodic-table/element/75/rhenium" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Rhenium", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-rhenium.pdf" }
+  ]
+}

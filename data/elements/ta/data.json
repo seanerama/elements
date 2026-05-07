@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 73,
+  "symbol": "Ta",
+  "name": "Tantalum",
+  "name_origin": "Named after Tantalus, a figure from Greek mythology, by Anders Ekeberg in 1802 to reflect the element's inability to absorb acid (alluding to Tantalus' inability to drink the water he stood in).",
+  "category": "transition-metal",
+  "period": 6,
+  "group": 5,
+  "block": "d",
+  "atomic_mass": 180.94788,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d3 6s2",
+  "electron_configuration_short": "[Xe] 4f14 5d3 6s2",
+  "electrons_per_shell": [2, 8, 18, 32, 11, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 16.69,
+  "melting_point_k": 3290,
+  "boiling_point_k": 5731,
+  "electronegativity_pauling": 1.5,
+  "oxidation_states": [-3, -1, 1, 2, 3, 4, 5],
+  "discovery": {
+    "year": 1802,
+    "discoverer": "Anders Gustaf Ekeberg",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Tantalum is rare, occurring at about 1-2 ppm in Earth's crust. It is found primarily in the mineral tantalite and almost always coexists with niobium in columbite-tantalite (coltan) ores, with major production in Australia, the Democratic Republic of the Congo, Brazil, and Rwanda.",
+    "states": ["bound in tantalite ((Fe,Mn)Ta2O6)", "bound in columbite-tantalite (coltan)", "bound in microlite", "bound in pyrochlore", "trace in granitic pegmatites"]
+  },
+  "compounds": [
+    { "formula": "Ta2O5", "name": "Tantalum pentoxide", "summary": "A high-permittivity dielectric used in capacitors, anti-reflection coatings, and as a precursor to tantalum metal." },
+    { "formula": "TaC", "name": "Tantalum carbide", "summary": "An extremely hard refractory ceramic (m.p. ~3880 C) used in cutting-tool inserts and rocket nozzle linings." },
+    { "formula": "TaCl5", "name": "Tantalum pentachloride", "summary": "A volatile yellow solid used as a precursor in chemical vapor deposition of Ta and Ta-based films." },
+    { "formula": "LiTaO3", "name": "Lithium tantalate", "summary": "A piezoelectric and pyroelectric crystal used in surface-acoustic-wave (SAW) filters and electro-optic modulators." },
+    { "formula": "TaN", "name": "Tantalum nitride", "summary": "A hard, chemically stable ceramic used as a thin-film resistor material and as a copper diffusion barrier in chip interconnects." }
+  ],
+  "uses": [
+    "Tantalum electrolytic capacitors in mobile phones, laptops, and other compact electronics",
+    "Surgical implants (bone plates, cranial mesh) due to its biocompatibility and inertness",
+    "Corrosion-resistant chemical process equipment (heat exchangers, reactor liners)",
+    "Superalloys for jet engine and gas turbine components",
+    "Carbide cutting tools and refractory ceramics",
+    "Sputtering targets for thin-film barrier layers in semiconductors"
+  ],
+  "reactivity_summary": "Tantalum is a dense, ductile, blue-gray metal that is exceptionally corrosion resistant below 150 C, attacked only by hydrofluoric acid, fuming sulfuric acid, fluorine gas, and molten alkalis. It forms a tenacious Ta2O5 passivation layer that protects bulk metal from virtually all aqueous chemistry. At higher temperatures it reacts readily with oxygen, the halogens, carbon, and nitrogen.",
+  "isotopes_summary": "Tantalum has two naturally occurring isotopes: 181Ta (~99.988%, stable) and 180mTa, a nuclear isomer that is the rarest primordial nuclide and the only naturally occurring nuclear isomer (apparent half-life > 4.5x10^16 yr). The ground-state 180Ta is unstable. Synthetic isotopes from 155Ta to 190Ta have been produced for research.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Tantalum", "url": "https://www.rsc.org/periodic-table/element/73/tantalum" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Tantalum", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-tantalum.pdf" }
+  ]
+}

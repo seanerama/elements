@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 21,
+  "symbol": "Sc",
+  "name": "Scandium",
+  "name_origin": "Named after Scandinavia, from the Latin 'Scandia', because the element was discovered in minerals (euxenite and gadolinite) found in Scandinavian ores.",
+  "category": "transition-metal",
+  "period": 4,
+  "group": 3,
+  "block": "d",
+  "atomic_mass": 44.955907,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d1 4s2",
+  "electron_configuration_short": "[Ar] 3d1 4s2",
+  "electrons_per_shell": [2, 8, 9, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 2.985,
+  "melting_point_k": 1814,
+  "boiling_point_k": 3109,
+  "electronegativity_pauling": 1.36,
+  "oxidation_states": [3],
+  "discovery": {
+    "year": 1879,
+    "discoverer": "Lars Fredrik Nilson",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Scandium is the 50th most abundant element in Earth's crust (~22 ppm) but is widely dispersed and rarely concentrated in ores. The principal source mineral is thortveitite, found mainly in Norway and Madagascar; it is also recovered as a byproduct of uranium and tungsten processing.",
+    "states": ["thortveitite ((Sc,Y)2Si2O7)", "euxenite", "gadolinite", "byproduct of uranium and rare-earth processing"]
+  },
+  "compounds": [
+    { "formula": "Sc2O3", "name": "Scandium oxide", "summary": "A white solid used as a starting material for other scandium compounds and in high-intensity discharge lamps." },
+    { "formula": "ScCl3", "name": "Scandium chloride", "summary": "A common scandium salt used as a precursor in catalysis and materials synthesis." },
+    { "formula": "ScF3", "name": "Scandium fluoride", "summary": "Notable for its negative thermal expansion and used in optical and ceramic applications." },
+    { "formula": "Sc(NO3)3", "name": "Scandium nitrate", "summary": "Used as a precursor in the production of high-purity Sc2O3 and as a catalyst in some organic reactions." },
+    { "formula": "ScI3", "name": "Scandium iodide", "summary": "Added to mercury-vapor lamps to produce a high-efficiency white light closely resembling sunlight." }
+  ],
+  "uses": [
+    "Aluminum-scandium alloys for aerospace components, sporting goods, and 3D-printed structural parts",
+    "Scandium iodide additive in metal-halide lamps for daylight-quality lighting",
+    "Stabilizing zirconia in solid oxide fuel cell electrolytes",
+    "High-performance bicycle frames, baseball bats, and lacrosse sticks (Al-Sc alloys)",
+    "Tracer in oil refining and pipeline studies (radioactive 46Sc)",
+    "Research catalysts for organic synthesis (e.g., Sc(OTf)3 Lewis acid)"
+  ],
+  "reactivity_summary": "Scandium is a soft, silvery-white transition metal that tarnishes in air to form a yellowish or pinkish oxide coating. It dissolves slowly in most dilute acids but is unreactive with a 1:1 mixture of nitric acid and 48% hydrofluoric acid due to passivation. Scandium reacts with water on heating to release hydrogen.",
+  "isotopes_summary": "Scandium has only one stable isotope, 45Sc, making it a monoisotopic element. Numerous radioisotopes are known; 46Sc (half-life 83.79 days) is used as a tracer in oil refining and sediment studies.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Scandium", "url": "https://www.rsc.org/periodic-table/element/21/scandium" },
+    { "field": "occurrence, uses", "source": "USGS Mineral Commodity Summaries - Scandium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/scandium-statistics-and-information" }
+  ]
+}

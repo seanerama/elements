@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 71,
+  "symbol": "Lu",
+  "name": "Lutetium",
+  "name_origin": "From Lutetia, the Latin name for Paris, the home city of its discoverer Georges Urbain.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 174.9668,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d1 6s2",
+  "electron_configuration_short": "[Xe] 4f14 5d1 6s2",
+  "electrons_per_shell": [2, 8, 18, 32, 9, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 9.841,
+  "melting_point_k": 1925.0,
+  "boiling_point_k": 3675.0,
+  "electronegativity_pauling": 1.27,
+  "oxidation_states": [2, 3],
+  "discovery": {
+    "year": 1907,
+    "discoverer": "Georges Urbain; independently by Carl Auer von Welsbach and Charles James",
+    "country": "France / Austria-Hungary / United States"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "The least abundant of the lanthanides aside from promethium (~0.8 ppm in crust); recovered chiefly as a minor component of xenotime, monazite, and ion-adsorption clays.",
+    "states": ["xenotime", "monazite ore", "ion-adsorption clays", "euxenite"]
+  },
+  "compounds": [
+    {
+      "formula": "Lu2O3",
+      "name": "Lutetium(III) oxide",
+      "summary": "White solid used as a precursor for lutetium-doped scintillators and high-refractive-index optical glass."
+    },
+    {
+      "formula": "LuCl3",
+      "name": "Lutetium(III) chloride",
+      "summary": "White hygroscopic salt; precursor for lutetium metal and for medical radiopharmaceuticals based on Lu-177."
+    },
+    {
+      "formula": "LuF3",
+      "name": "Lutetium(III) fluoride",
+      "summary": "Used as feedstock for high-purity lutetium metal and in fluoride scintillator research."
+    },
+    {
+      "formula": "Lu2SiO5",
+      "name": "Lutetium oxyorthosilicate (LSO)",
+      "summary": "Cerium-doped LSO is a high-density, fast scintillator widely used in medical PET detectors."
+    }
+  ],
+  "uses": [
+    "Cerium-doped LSO and LYSO scintillators in positron emission tomography (PET) scanners",
+    "Lu-177 chelate radiopharmaceuticals for targeted therapy of neuroendocrine and prostate cancers",
+    "Catalysts in petroleum cracking, alkylation, and polymerisation",
+    "High-refractive-index lutetium oxide additive in specialty optical glass",
+    "Bone-age determination via Lu-176/Hf-176 dating in geochronology",
+    "Dopant in solid-state lasers and X-ray phosphors"
+  ],
+  "reactivity_summary": "Silvery-white, dense, relatively hard rare-earth metal; the most stable lanthanide in air. Reacts slowly with water and dissolves in dilute acids; powdered metal can ignite at elevated temperature.",
+  "isotopes_summary": "Lutetium has two naturally occurring isotopes: stable Lu-175 (~97.4%) and primordial radioactive Lu-176 (half-life 3.78x10^10 years), used in Lu-Hf geochronology. Synthetic Lu-177 (6.65 days) is widely used in targeted radiotherapy.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Lutetium",
+      "url": "https://www.rsc.org/periodic-table/element/71/lutetium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Lutetium",
+      "url": "https://www.britannica.com/science/lutetium"
+    }
+  ]
+}

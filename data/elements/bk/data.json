@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 97,
+  "symbol": "Bk",
+  "name": "Berkelium",
+  "name_origin": "Named after Berkeley, California, where the University of California, Berkeley laboratory first synthesized it.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 247,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f9 6s2 6p6 7s2",
+  "electron_configuration_short": "[Rn] 5f9 7s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    27,
+    8,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 14.78,
+  "melting_point_k": 1259,
+  "boiling_point_k": 2900,
+  "electronegativity_pauling": 1.3,
+  "oxidation_states": [
+    5,
+    4,
+    3,
+    2
+  ],
+  "discovery": {
+    "year": 1949,
+    "discoverer": "Stanley G. Thompson, Albert Ghiorso, Glenn T. Seaborg",
+    "country": "United States"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Synthetic element not found in nature in measurable quantities; produced by prolonged neutron irradiation of plutonium and curium targets at high-flux reactors.",
+    "states": [
+      "synthetic"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "BkO2",
+      "name": "Berkelium(IV) oxide",
+      "summary": "Yellow-brown solid demonstrating the unusually accessible +4 state in berkelium, useful for studying actinide oxidation behavior."
+    },
+    {
+      "formula": "Bk2O3",
+      "name": "Berkelium(III) oxide",
+      "summary": "Yellow-green solid; the most thermodynamically stable berkelium oxide and a typical actinide(III) sesquioxide."
+    },
+    {
+      "formula": "BkCl3",
+      "name": "Berkelium(III) chloride",
+      "summary": "Green crystalline solid used in spectroscopic studies and as a precursor for berkelium metal."
+    }
+  ],
+  "uses": [
+    "Target material for synthesizing heavier elements, notably tennessine (element 117) which was made by bombarding Bk-249 with calcium-48",
+    "Scientific research into actinide chemistry and the limits of the periodic table"
+  ],
+  "reactivity_summary": "A silvery, soft, malleable metal that tarnishes in air. It is chemically reactive, dissolving in mineral acids. Berkelium is notable among actinides for the stability of its +4 oxidation state, comparable to terbium's +4 state in the lanthanide series.",
+  "isotopes_summary": "All isotopes are radioactive. Berkelium-247 has the longest half-life (1380 years), but Bk-249 (half-life 330 days) is the most commonly produced and used in research; it can be made in milligram quantities at high-flux reactors.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Berkelium (Bk) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "IUPAC Periodic Table of the Elements",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Berkelium",
+      "url": "https://www.rsc.org/periodic-table/element/97/berkelium"
+    },
+    {
+      "field": "discovery",
+      "source": "Encyclopaedia Britannica - Berkelium",
+      "url": "https://www.britannica.com/science/berkelium"
+    },
+    {
+      "field": "applications",
+      "source": "Oak Ridge National Laboratory - Berkelium-249 production",
+      "url": "https://www.ornl.gov/"
+    }
+  ]
+}

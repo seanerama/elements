@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 51,
+  "symbol": "Sb",
+  "name": "Antimony",
+  "name_origin": "The name 'antimony' likely derives from the Greek 'anti + monos' (not alone), as it is rarely found pure. The symbol Sb comes from the Latin 'stibium', the ancient name for the mineral stibnite (Sb2S3).",
+  "category": "metalloid",
+  "period": 5,
+  "group": 15,
+  "block": "p",
+  "atomic_mass": 121.76,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p3",
+  "electron_configuration_short": "[Kr] 4d10 5s2 5p3",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    5
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 6.685,
+  "melting_point_k": 903.78,
+  "boiling_point_k": 1860,
+  "electronegativity_pauling": 2.05,
+  "oxidation_states": [
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "discovery": {
+    "year": null,
+    "discoverer": "Known since antiquity; first scientifically described by Vannoccio Biringuccio (1540) and Basil Valentine",
+    "country": null
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Antimony is rare in Earth's crust (about 0.2 ppm). The principal ore is stibnite (Sb2S3); China dominates global production, with significant reserves also in Russia, Bolivia, and Tajikistan. Native antimony is occasionally found.",
+    "states": [
+      "mineral - stibnite (Sb2S3)",
+      "valentinite",
+      "rare native"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "Sb2S3",
+      "name": "Antimony(III) sulfide (stibnite)",
+      "summary": "A grey-black mineral that is the primary ore of antimony and used in pyrotechnics, matches, and ancient cosmetics (kohl)."
+    },
+    {
+      "formula": "Sb2O3",
+      "name": "Antimony(III) oxide",
+      "summary": "A white solid widely used as a flame retardant synergist in plastics and textiles, and as a catalyst in PET plastic production."
+    },
+    {
+      "formula": "SbCl3",
+      "name": "Antimony(III) chloride",
+      "summary": "A colorless deliquescent solid (formerly called 'butter of antimony') used as a mordant and Lewis acid catalyst."
+    },
+    {
+      "formula": "SbH3",
+      "name": "Stibine",
+      "summary": "A toxic, colorless gas analogous to ammonia; used in the semiconductor industry for chemical vapor deposition."
+    },
+    {
+      "formula": "InSb",
+      "name": "Indium antimonide",
+      "summary": "A III-V semiconductor used in infrared detectors, thermal imaging, and high-speed transistors."
+    }
+  ],
+  "uses": [
+    "Lead-acid battery alloys, where antimony hardens the lead grids",
+    "Flame retardants (as Sb2O3) for plastics, textiles, and electronics housings",
+    "Type metal and pewter alloys for casting because antimony expands slightly on solidification",
+    "Compound semiconductors (InSb, GaSb) for infrared detectors and Hall-effect devices",
+    "Catalysts in polyethylene terephthalate (PET) plastic manufacturing"
+  ],
+  "reactivity_summary": "Antimony is a brittle, silvery-grey metalloid that exhibits both metallic and nonmetallic chemistry. It is stable in dry air at room temperature but burns when heated to form Sb2O3. It is unaffected by dilute acids and alkalis but reacts with hot concentrated sulfuric and nitric acids. Its principal oxidation states are +3 and +5; the +3 state is more stable than the +5 state, reflecting the inert pair effect.",
+  "isotopes_summary": "Antimony has two stable isotopes: antimony-121 (57.21% abundance) and antimony-123 (42.79%). At least 35 radioisotopes have been characterized, with antimony-125 (half-life 2.76 years) used as a tracer in industry and antimony-124 employed in neutron sources for petroleum well logging.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Antimony (Sb) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Antimony",
+      "url": "https://www.rsc.org/periodic-table/element/51/antimony"
+    },
+    {
+      "field": "general",
+      "source": "Encyclopedia Britannica - Antimony",
+      "url": "https://www.britannica.com/science/antimony"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)"
+    },
+    {
+      "field": "isotopes",
+      "source": "IUPAC Atomic Weights of the Elements 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    }
+  ]
+}

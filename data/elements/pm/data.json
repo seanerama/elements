@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 61,
+  "symbol": "Pm",
+  "name": "Promethium",
+  "name_origin": "Named after Prometheus, the Greek titan who stole fire for humanity, reflecting both the daring of its synthesis and its radioactive nature.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 145,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f5 5s2 5p6 6s2",
+  "electron_configuration_short": "[Xe] 4f5 6s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    23,
+    8,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.26,
+  "melting_point_k": 1315,
+  "boiling_point_k": 3273,
+  "electronegativity_pauling": 1.13,
+  "oxidation_states": [
+    2,
+    3
+  ],
+  "discovery": {
+    "year": 1945,
+    "discoverer": "Jacob A. Marinsky, Lawrence E. Glendenin, and Charles D. Coryell",
+    "country": "United States"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Essentially absent from Earth's crust; only trace amounts (~10^-15 g per kg) occur naturally as products of spontaneous fission of U-238 in pitchblende. Produced artificially as a fission product in nuclear reactors.",
+    "states": [
+      "trace in uranium ores",
+      "fission product in nuclear reactors",
+      "produced synthetically"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "Pm2O3",
+      "name": "Promethium(III) oxide",
+      "summary": "Pale pink-to-lavender solid; the most studied promethium compound, used as a starting material for other promethium chemistry."
+    },
+    {
+      "formula": "PmCl3",
+      "name": "Promethium(III) chloride",
+      "summary": "Lavender-coloured salt with a hexagonal UCl3-type structure; used in nuclear research."
+    },
+    {
+      "formula": "PmF3",
+      "name": "Promethium(III) fluoride",
+      "summary": "Pink solid used historically in research-scale luminous paint formulations."
+    },
+    {
+      "formula": "Pm(NO3)3",
+      "name": "Promethium(III) nitrate",
+      "summary": "Water-soluble pink salt used as a soluble source of promethium ions in radiochemical separations."
+    }
+  ],
+  "uses": [
+    "Beta-emitting power source in long-life nuclear batteries (Pm-147)",
+    "Luminous paint for watch dials (largely phased out due to radioactivity)",
+    "Thickness-gauge measurement of paper, plastic, and metal sheet",
+    "Portable X-ray source when combined with a target",
+    "Research into rare-earth chemistry and lanthanide spectroscopy"
+  ],
+  "reactivity_summary": "A silvery, highly radioactive metal whose chemistry resembles other trivalent lanthanides; reacts with air, water (slowly cold, faster hot), and acids. All bulk samples are warm to the touch from radioactive self-heating and emit a faint blue-green glow due to beta-induced fluorescence.",
+  "isotopes_summary": "Promethium has no stable isotopes. The most stable are Pm-145 (half-life 17.7 years), Pm-146 (5.53 years), and Pm-147 (2.62 years), the last being the most commercially important and produced as a uranium fission product.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Promethium (Pm) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Promethium",
+      "url": "https://www.rsc.org/periodic-table/element/61/promethium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "isotopes, discovery",
+      "source": "National Nuclear Data Center - NuDat 3 (Brookhaven National Laboratory)",
+      "url": "https://www.nndc.bnl.gov/nudat3/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Promethium",
+      "url": "https://www.britannica.com/science/promethium"
+    }
+  ]
+}

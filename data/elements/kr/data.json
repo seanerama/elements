@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 36,
+  "symbol": "Kr",
+  "name": "Krypton",
+  "name_origin": "From the Greek 'kryptos' meaning 'hidden', reflecting the difficulty of finding this rare gas; named by its co-discoverers William Ramsay and Morris Travers in 1898.",
+  "category": "noble-gas",
+  "period": 4,
+  "group": 18,
+  "block": "p",
+  "atomic_mass": 83.798,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6",
+  "electron_configuration_short": "[Ar] 3d10 4s2 4p6",
+  "electrons_per_shell": [2, 8, 18, 8],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.003425,
+  "melting_point_k": 115.78,
+  "boiling_point_k": 119.93,
+  "electronegativity_pauling": 3.00,
+  "oxidation_states": [0, 1, 2],
+  "discovery": {
+    "year": 1898,
+    "discoverer": "William Ramsay and Morris Travers",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Krypton is extremely rare in Earth's crust but is present in the atmosphere at about 1.14 ppm by volume. It is recovered as a by-product of the cryogenic fractional distillation of liquefied air. Trace amounts are also found in some mineral springs and in the products of nuclear fission.",
+    "states": ["trace gas in Earth's atmosphere (~1.14 ppm)", "fission product in spent nuclear fuel", "trace dissolved in groundwater"]
+  },
+  "compounds": [
+    { "formula": "KrF2", "name": "Krypton difluoride", "summary": "Volatile colorless solid, the only well-characterized binary krypton compound; an extraordinarily strong oxidizing and fluorinating agent capable of oxidizing gold to AuF5." },
+    { "formula": "[HKrCN]", "name": "Hydridokrypton cyanide", "summary": "Matrix-isolated molecule prepared by photolysis of HCN in solid krypton; one of a small family of HKrY species observable only at cryogenic temperatures." },
+    { "formula": "[KrF][AsF6]", "name": "Krypton fluoride hexafluoroarsenate", "summary": "Salt containing the [KrF]+ cation; one of the strongest known oxidizers, used in research on high-oxidation-state fluorides." }
+  ],
+  "uses": [
+    "Fill gas for energy-efficient double- and triple-pane insulating windows",
+    "High-performance incandescent and halogen lamp fill (longer life than argon)",
+    "Excimer lasers (KrF lasers at 248 nm) for photolithography and eye surgery",
+    "Flash lamps for high-speed photography and airport runway approach lights",
+    "Tracer for groundwater dating (using the radioisotope 81Kr)"
+  ],
+  "reactivity_summary": "Krypton is a colorless, odorless, tasteless noble gas that is chemically very inert. Like the other heavier noble gases, it can be coerced into forming compounds only with the most electronegative partners; its sole stable binary compound is KrF2, which itself is metastable and a powerful oxidizer. Krypton emits a bright white-to-pale-violet glow when excited in a gas-discharge tube.",
+  "isotopes_summary": "Krypton has six naturally occurring isotopes: 78Kr (~0.36%), 80Kr (~2.29%), 82Kr (~11.59%), 83Kr (~11.50%), 84Kr (~56.99%), and 86Kr (~17.28%); 78Kr is observationally stable but undergoes very slow double electron capture. The longest-lived radioisotope is 81Kr (half-life ~2.3 x 10^5 years), used to date ancient groundwater and ice. 85Kr (half-life ~10.76 years) is a fission product monitored as a tracer of nuclear-reprocessing activity.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Krypton", "url": "https://www.rsc.org/periodic-table/element/36/krypton" },
+    { "field": "compounds (KrF2)", "source": "Greenwood, N. N.; Earnshaw, A. - Chemistry of the Elements, 2nd ed., Butterworth-Heinemann, 1997", "url": "https://www.sciencedirect.com/book/9780750633659/chemistry-of-the-elements" }
+  ]
+}

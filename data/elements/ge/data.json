@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 32,
+  "symbol": "Ge",
+  "name": "Germanium",
+  "name_origin": "Named after 'Germania', the Latin name for Germany, by its discoverer Clemens Winkler in 1886; the element matched Mendeleev's predicted 'eka-silicon'.",
+  "category": "metalloid",
+  "period": 4,
+  "group": 14,
+  "block": "p",
+  "atomic_mass": 72.63,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p2",
+  "electron_configuration_short": "[Ar] 3d10 4s2 4p2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    4
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 5.323,
+  "melting_point_k": 1211.4,
+  "boiling_point_k": 3106,
+  "electronegativity_pauling": 2.01,
+  "oxidation_states": [
+    -4,
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4
+  ],
+  "discovery": {
+    "year": 1886,
+    "discoverer": "Clemens Winkler",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Germanium is rare in Earth's crust at roughly 1.5 ppm. It has no large concentrated ores; commercial supply comes mainly from by-products of zinc refining and from coal fly ash. Major producers include China, Russia, and the United States.",
+    "states": [
+      "trace in zinc sulfide ores (sphalerite)",
+      "germanite ((Cu,Fe,Ge)S)",
+      "argyrodite (Ag8GeS6)",
+      "trace in coal and coal fly ash"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "GeO2",
+      "name": "Germanium dioxide",
+      "summary": "White solid with high optical refractive index, used in fiber-optic preforms, infrared optics, and as a polymerization catalyst for PET plastics."
+    },
+    {
+      "formula": "GeCl4",
+      "name": "Germanium tetrachloride",
+      "summary": "Volatile colorless liquid used as the principal precursor for ultra-pure germanium and for chemical-vapor deposition of GeO2 in optical fibers."
+    },
+    {
+      "formula": "GeH4",
+      "name": "Germane",
+      "summary": "Colorless pyrophoric gas analogous to silane, used in CVD of germanium thin films for electronics and photovoltaics."
+    },
+    {
+      "formula": "SiGe",
+      "name": "Silicon-germanium alloy",
+      "summary": "Semiconductor alloy used in heterojunction bipolar transistors and strained-silicon CMOS to boost speed and efficiency."
+    },
+    {
+      "formula": "GeS2",
+      "name": "Germanium disulfide",
+      "summary": "Glass-forming chalcogenide used in infrared-transmitting glasses and in research on solid-state electrolytes."
+    }
+  ],
+  "uses": [
+    "Optical fibers (GeO2 doping of silica cores)",
+    "Infrared optics for night-vision and thermal imaging",
+    "Semiconductor devices including SiGe transistors and high-efficiency solar cells",
+    "Polymerization catalyst for polyethylene terephthalate (PET)",
+    "Gamma-ray detectors (high-purity germanium crystals)",
+    "Fluorescent lighting phosphors and specialty alloys"
+  ],
+  "reactivity_summary": "Germanium is a hard, brittle, grayish-white metalloid that is stable in air and water at room temperature. It is unaffected by dilute non-oxidizing acids and alkalis but is attacked by hot concentrated sulfuric acid, nitric acid, and molten alkalis. Like silicon, it forms tetravalent covalent compounds; the +2 state is also accessible but less stable.",
+  "isotopes_summary": "Germanium has five naturally occurring isotopes: 70Ge (~20.5%), 72Ge (~27.4%), 73Ge (~7.8%), 74Ge (~36.5%), and 76Ge (~7.8%). 76Ge is observationally stable but theoretically undergoes double beta decay, and is the basis of major neutrinoless-double-beta-decay experiments such as GERDA and LEGEND.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Germanium (Ge) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Germanium",
+      "url": "https://www.rsc.org/periodic-table/element/32/germanium"
+    },
+    {
+      "field": "uses, occurrence",
+      "source": "USGS Mineral Commodity Summaries: Germanium",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/germanium-statistics-and-information"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 14,
+  "symbol": "Si",
+  "name": "Silicon",
+  "name_origin": "From the Latin 'silex' or 'silicis', meaning flint. Coined by Thomas Thomson in 1817 with the '-on' suffix to mirror carbon and boron.",
+  "category": "metalloid",
+  "period": 3,
+  "group": 14,
+  "block": "p",
+  "atomic_mass": 28.085,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p2",
+  "electron_configuration_short": "[Ne] 3s2 3p2",
+  "electrons_per_shell": [
+    2,
+    8,
+    4
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 2.329,
+  "melting_point_k": 1687,
+  "boiling_point_k": 3538,
+  "electronegativity_pauling": 1.9,
+  "oxidation_states": [
+    -4,
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4
+  ],
+  "discovery": {
+    "year": 1824,
+    "discoverer": "Jons Jacob Berzelius",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Silicon is the second most abundant element in Earth's crust (~28.2% by mass) after oxygen. It is found almost exclusively combined with oxygen in silicate minerals and silica (quartz, sand).",
+    "states": [
+      "silica (SiO2) as quartz and sand",
+      "feldspars",
+      "micas",
+      "clays (aluminosilicates)",
+      "olivine and pyroxenes"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "SiO2",
+      "name": "Silicon dioxide (silica)",
+      "summary": "Found as quartz, sand, and many crystalline forms; raw material for glass, ceramics, and an additive in foods and pharmaceuticals."
+    },
+    {
+      "formula": "SiC",
+      "name": "Silicon carbide",
+      "summary": "Carborundum; an extremely hard abrasive and a wide-bandgap semiconductor used in high-power, high-temperature electronics."
+    },
+    {
+      "formula": "Si3N4",
+      "name": "Silicon nitride",
+      "summary": "A high-strength engineering ceramic used in bearings, cutting tools, and turbine components."
+    },
+    {
+      "formula": "SiH4",
+      "name": "Silane",
+      "summary": "A pyrophoric gas used in the deposition of pure silicon thin films and as a doping precursor in semiconductor manufacturing."
+    },
+    {
+      "formula": "Na2SiO3",
+      "name": "Sodium silicate",
+      "summary": "Water glass; used in detergents, adhesives, and as a sealant."
+    },
+    {
+      "formula": "(R2SiO)n",
+      "name": "Silicones (polysiloxanes)",
+      "summary": "Polymers based on Si-O backbones used in sealants, lubricants, medical implants, and cosmetics."
+    }
+  ],
+  "uses": [
+    "Semiconductor wafers for integrated circuits, microprocessors, and memory chips",
+    "Photovoltaic cells in solar panels",
+    "Glass manufacturing (as silica/quartz)",
+    "Steel and aluminum alloys (ferrosilicon, silumin)",
+    "Silicone polymers for sealants, lubricants, and medical-grade implants",
+    "Abrasives and refractory ceramics (silicon carbide, silica brick)"
+  ],
+  "reactivity_summary": "Silicon is a relatively unreactive metalloid at room temperature, protected by a thin native oxide layer. At higher temperatures it reacts with halogens and with most metals to form silicides, and it dissolves in hot concentrated alkali solutions.",
+  "isotopes_summary": "Silicon has three stable isotopes: Si-28 (~92.2%), Si-29 (~4.7%), and Si-30 (~3.1%). Si-32, with a half-life of about 153 years, is used to date young marine sediments.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Silicon (Si) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
+  "citations": [
+    {
+      "field": "atomic_mass, atomic_mass_uncertain",
+      "source": "IUPAC Standard Atomic Weights 2021 (CIAAW) - interval [28.084, 28.086]",
+      "url": "https://ciaaw.org/silicon.htm"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "NIST Chemistry WebBook - Silicon",
+      "url": "https://webbook.nist.gov/chemistry/"
+    },
+    {
+      "field": "electronegativity_pauling, electron_configuration",
+      "source": "Royal Society of Chemistry - Periodic Table: Silicon",
+      "url": "https://www.rsc.org/periodic-table/element/14/silicon"
+    },
+    {
+      "field": "discovery",
+      "source": "Encyclopaedia Britannica - Silicon",
+      "url": "https://www.britannica.com/science/silicon"
+    }
+  ]
+}

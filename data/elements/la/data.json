@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 57,
+  "symbol": "La",
+  "name": "Lanthanum",
+  "name_origin": "From Greek 'lanthanein' meaning 'to lie hidden', as it was concealed in cerium ore.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": 3,
+  "block": "d",
+  "atomic_mass": 138.90547,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 5d1 6s2",
+  "electron_configuration_short": "[Xe] 5d1 6s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    9,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 6.162,
+  "melting_point_k": 1193,
+  "boiling_point_k": 3737,
+  "electronegativity_pauling": 1.1,
+  "oxidation_states": [
+    2,
+    3
+  ],
+  "discovery": {
+    "year": 1839,
+    "discoverer": "Carl Gustaf Mosander",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Relatively abundant rare-earth element (~39 ppm in crust); found in monazite and bastnaesite ores together with other light lanthanides.",
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "trace in soils"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "La2O3",
+      "name": "Lanthanum(III) oxide",
+      "summary": "White solid used in optical glasses, ceramics, and catalysts; raises the refractive index of camera lenses."
+    },
+    {
+      "formula": "LaCl3",
+      "name": "Lanthanum(III) chloride",
+      "summary": "Lewis acid catalyst used in organic synthesis and as a precursor for other lanthanum compounds."
+    },
+    {
+      "formula": "LaF3",
+      "name": "Lanthanum(III) fluoride",
+      "summary": "Ionic conductor used in fluoride-selective ion electrodes and phosphors."
+    },
+    {
+      "formula": "LaB6",
+      "name": "Lanthanum hexaboride",
+      "summary": "High-performance thermionic emitter used in electron microscopes and electron-beam lithography cathodes."
+    }
+  ],
+  "uses": [
+    "Carbon-arc lamp electrodes for studio lighting and projector lamps",
+    "High-refractive-index glass for camera and telescope lenses",
+    "Misch metal alloys for cigarette lighter flints",
+    "Nickel-metal hydride (NiMH) battery hydrogen storage alloys",
+    "Petroleum cracking catalysts (FCC catalysts)",
+    "Phosphate binder (lanthanum carbonate) for treating hyperphosphatemia in dialysis patients"
+  ],
+  "reactivity_summary": "Reactive silvery-white metal that tarnishes rapidly in moist air to form an oxide coating; reacts slowly with cold water and rapidly with hot water and acids to release hydrogen.",
+  "isotopes_summary": "Lanthanum has two naturally occurring isotopes: stable La-139 (~99.91%) and primordial radioactive La-138 (half-life 1.05x10^11 years). Numerous synthetic isotopes are known, with La-137 (~6x10^4 years) the longest-lived synthetic.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Lanthanum (La) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Lanthanum",
+      "url": "https://www.rsc.org/periodic-table/element/57/lanthanum"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Lanthanum",
+      "url": "https://www.britannica.com/science/lanthanum"
+    }
+  ]
+}

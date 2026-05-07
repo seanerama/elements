@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 20,
+  "symbol": "Ca",
+  "name": "Calcium",
+  "name_origin": "From the Latin 'calx' meaning 'lime' (as in limestone or quicklime), the substance from which calcium oxide and ultimately calcium metal were extracted.",
+  "category": "alkaline-earth",
+  "period": 4,
+  "group": 2,
+  "block": "s",
+  "atomic_mass": 40.078,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2",
+  "electron_configuration_short": "[Ar] 4s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    8,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 1.55,
+  "melting_point_k": 1115,
+  "boiling_point_k": 1757,
+  "electronegativity_pauling": 1,
+  "oxidation_states": [
+    2
+  ],
+  "discovery": {
+    "year": 1808,
+    "discoverer": "Humphry Davy",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Calcium is the fifth most abundant element in Earth's crust (~4.2% by mass) and the third most abundant metal. It is found primarily as carbonates, sulfates, and silicates, and is essential to all living organisms as a structural component of bones, teeth, and shells.",
+    "states": [
+      "limestone (CaCO3)",
+      "gypsum (CaSO4.2H2O)",
+      "fluorite (CaF2)",
+      "apatite (in bones and teeth)",
+      "dissolved Ca2+ ions in seawater"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "CaCO3",
+      "name": "Calcium carbonate",
+      "summary": "The main constituent of limestone, marble, chalk, and seashells; used in cement, antacids, and as a dietary supplement."
+    },
+    {
+      "formula": "CaO",
+      "name": "Calcium oxide (quicklime)",
+      "summary": "Produced by heating limestone; used in steelmaking, mortar, and to neutralize acidic soils."
+    },
+    {
+      "formula": "Ca(OH)2",
+      "name": "Calcium hydroxide (slaked lime)",
+      "summary": "A common base used in mortar, water treatment, and to adjust soil pH."
+    },
+    {
+      "formula": "CaSO4",
+      "name": "Calcium sulfate",
+      "summary": "Found as gypsum and anhydrite; used to make plaster of Paris, drywall, and cement."
+    },
+    {
+      "formula": "CaCl2",
+      "name": "Calcium chloride",
+      "summary": "A hygroscopic salt used as a de-icer, dust suppressant, and desiccant."
+    },
+    {
+      "formula": "CaF2",
+      "name": "Calcium fluoride (fluorite)",
+      "summary": "A natural mineral used as a flux in steelmaking and as an optical material for UV and IR transmission."
+    }
+  ],
+  "uses": [
+    "Cement and concrete production (via calcium carbonate and calcium silicates)",
+    "Steelmaking as a deoxidizer and desulfurizing agent",
+    "Calcium supplements and antacids in pharmaceuticals",
+    "Plaster, drywall, and construction materials from gypsum",
+    "Reducing agent in extracting metals such as uranium and thorium",
+    "De-icing and dust control on roads (calcium chloride)"
+  ],
+  "reactivity_summary": "Calcium is a reactive alkaline-earth metal that tarnishes quickly in air, forming a coating of calcium oxide and nitride. It reacts with water at room temperature to produce calcium hydroxide and hydrogen gas, though less violently than the alkali metals. It burns in air with a brick-red flame.",
+  "isotopes_summary": "Calcium has six stable isotopes (40Ca, 42Ca, 43Ca, 44Ca, 46Ca, 48Ca) with 40Ca dominant at ~96.94%. 48Ca is observationally stable but theoretically undergoes double-beta decay with an extraordinarily long half-life. The radioisotope 41Ca (half-life 99,400 years) is used in cosmogenic dating studies.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Calcium (Ca) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Calcium",
+      "url": "https://www.rsc.org/periodic-table/element/20/calcium"
+    },
+    {
+      "field": "occurrence, uses",
+      "source": "Los Alamos National Laboratory - Periodic Table: Calcium",
+      "url": "https://periodic.lanl.gov/20.shtml"
+    }
+  ]
+}

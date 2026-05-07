@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 82,
+  "symbol": "Pb",
+  "name": "Lead",
+  "name_origin": "The English name 'lead' comes from Old English 'lead' of Germanic origin. The chemical symbol Pb is from the Latin 'plumbum', the original Roman name for the metal, which is also the root of the words plumber and plumbing.",
+  "category": "post-transition",
+  "period": 6,
+  "group": 14,
+  "block": "p",
+  "atomic_mass": 207.2,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p2",
+  "electron_configuration_short": "[Xe] 4f14 5d10 6s2 6p2",
+  "electrons_per_shell": [2, 8, 18, 32, 18, 4],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 11.342,
+  "melting_point_k": 600.61,
+  "boiling_point_k": 2022,
+  "electronegativity_pauling": 2.33,
+  "oxidation_states": [-4, -2, -1, 1, 2, 3, 4],
+  "discovery": {
+    "year": null,
+    "discoverer": "Known since antiquity (used by at least 6500 BCE)",
+    "country": null
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Lead is moderately abundant in Earth's crust at about 14 ppm. The principal ore is galena (PbS), often associated with sphalerite (ZnS) and silver minerals. Major producers include China, Australia, Peru, Mexico, and the United States. A large fraction of lead in current use is supplied by recycling, especially of lead-acid batteries.",
+    "states": ["bound in galena (PbS)", "bound in cerussite (PbCO3) and anglesite (PbSO4)", "trace in zinc and silver ores", "secondary supply from recycled lead-acid batteries"]
+  },
+  "compounds": [
+    { "formula": "PbS", "name": "Lead(II) sulfide (galena)", "summary": "A gray cubic mineral that is the principal ore of lead and an early semiconductor used in crystal radios." },
+    { "formula": "PbO2", "name": "Lead(IV) oxide", "summary": "A dark brown solid used as the positive plate active material in lead-acid storage batteries." },
+    { "formula": "Pb(NO3)2", "name": "Lead(II) nitrate", "summary": "A water-soluble white crystalline salt used in pyrotechnics and historically in match heads." },
+    { "formula": "Pb(C2H5)4", "name": "Tetraethyllead", "summary": "A volatile organolead compound used as an octane-boosting gasoline additive from the 1920s through the late 20th century, now banned in most countries." },
+    { "formula": "PbCrO4", "name": "Lead(II) chromate (chrome yellow)", "summary": "An intense yellow pigment used historically in paints and road markings, now restricted due to lead and chromium toxicity." }
+  ],
+  "uses": [
+    "Lead-acid storage batteries for vehicles and stationary power backup",
+    "Radiation shielding (medical, nuclear, X-ray) and counterweights",
+    "Roofing flashing, organ pipes, and marine ballast",
+    "Solders (historically Sn-Pb; now largely replaced by lead-free solders in electronics)",
+    "Glass for cathode-ray tubes and crystal glassware (declining)",
+    "Bullets, shot, and fishing weights (declining due to environmental regulation)"
+  ],
+  "reactivity_summary": "Lead is a soft, dense, low-melting bluish-gray metal that is malleable and easily worked. It tarnishes in air to a dull gray oxide-carbonate film that protects the bulk metal from further attack, giving it excellent corrosion resistance to water and dilute mineral acids. It is attacked by HNO3 and slowly by hot H2SO4 and HCl. The +2 state is the dominant and stable form due to the inert pair effect, while +4 compounds are strong oxidizers. Lead and its compounds are cumulative neurotoxins.",
+  "isotopes_summary": "Lead has four naturally occurring stable isotopes: 204Pb (~1.4%), 206Pb (~24.1%), 207Pb (~22.1%), and 208Pb (~52.4%); 208Pb is the heaviest stable nuclide and is doubly magic. Three isotopes (206Pb, 207Pb, 208Pb) are end-products of the uranium-238, uranium-235, and thorium-232 decay chains, respectively, making Pb isotope ratios essential to U-Pb and Pb-Pb geochronology.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Lead", "url": "https://www.rsc.org/periodic-table/element/82/lead" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Lead", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-lead.pdf" }
+  ]
+}

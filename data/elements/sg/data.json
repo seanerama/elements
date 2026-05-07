@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 106,
+  "symbol": "Sg",
+  "name": "Seaborgium",
+  "name_origin": "Named in honor of American nuclear chemist Glenn T. Seaborg, who led the discovery of plutonium and many other transuranium elements.",
+  "category": "transition-metal",
+  "period": 7,
+  "group": 6,
+  "block": "d",
+  "atomic_mass": 269,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d4 7s2",
+  "electron_configuration_short": "[Rn] 5f14 6d4 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 12, 2],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [6],
+  "discovery": {
+    "year": 1974,
+    "discoverer": "Lawrence Berkeley National Laboratory team (Albert Ghiorso et al.)",
+    "country": "United States"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Seaborgium does not occur naturally. It is a synthetic element produced in particle accelerators by fusing lighter and heavier nuclei (e.g., 18O on 249Cf).",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [
+    { "formula": "SgO2Cl2", "name": "Seaborgium dioxydichloride", "summary": "A volatile oxychloride identified in gas-phase chemistry experiments, analogous to MoO2Cl2 and WO2Cl2 and supporting the placement of Sg in group 6." },
+    { "formula": "Sg(CO)6", "name": "Seaborgium hexacarbonyl", "summary": "A metal hexacarbonyl synthesized in trace quantities, demonstrating that Sg can form an 18-electron carbonyl complex like its lighter homologs Mo and W." }
+  ],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "Seaborgium is predicted and observed to behave as a group 6 transition metal, with chemistry comparable to molybdenum and tungsten, including a dominant +6 oxidation state and the ability to form volatile oxychlorides and carbonyl complexes.",
+  "isotopes_summary": "All seaborgium isotopes are radioactive. The longest-lived confirmed isotope is 269Sg with a half-life of about 14 minutes; shorter-lived isotopes such as 265Sg (half-life seconds to tens of seconds) are used in atom-at-a-time chemistry studies.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Seaborgium", "url": "https://www.rsc.org/periodic-table/element/106/seaborgium" },
+    { "field": "electron_configuration, oxidation_states, compounds", "source": "Wikipedia: Seaborgium", "url": "https://en.wikipedia.org/wiki/Seaborgium" },
+    { "field": "compounds (Sg(CO)6)", "source": "Even, J. et al. 'Synthesis and detection of a seaborgium carbonyl complex', Science, 2014", "url": "https://www.science.org/doi/10.1126/science.1255720" }
+  ]
+}

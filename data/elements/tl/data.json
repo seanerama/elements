@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 81,
+  "symbol": "Tl",
+  "name": "Thallium",
+  "name_origin": "From Greek 'thallos' meaning 'green shoot' or 'green twig', after the brilliant green emission line discovered by William Crookes in 1861 when he examined a residue from sulfuric acid manufacture spectroscopically.",
+  "category": "post-transition",
+  "period": 6,
+  "group": 13,
+  "block": "p",
+  "atomic_mass": 204.38,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p1",
+  "electron_configuration_short": "[Xe] 4f14 5d10 6s2 6p1",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    3
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 11.85,
+  "melting_point_k": 577,
+  "boiling_point_k": 1746,
+  "electronegativity_pauling": 1.62,
+  "oxidation_states": [
+    -5,
+    -2,
+    -1,
+    1,
+    2,
+    3
+  ],
+  "discovery": {
+    "year": 1861,
+    "discoverer": "William Crookes",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Thallium is rare in Earth's crust at about 0.85 ppm. It does not form major ores; it is dispersed in potassium-bearing minerals such as feldspars and micas, and concentrated in trace amounts in sulfide ores of copper, lead, and zinc. Most production is as a byproduct of zinc and lead smelting and the roasting of pyrite for sulfuric acid.",
+    "states": [
+      "bound in crookesite, lorandite (TlAsS2) and hutchinsonite",
+      "trace in potassium minerals (feldspars, micas)",
+      "trace in sulfide ores of Cu, Pb, Zn",
+      "byproduct of zinc roasting and pyrite processing"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "Tl2SO4",
+      "name": "Thallium(I) sulfate",
+      "summary": "A colorless, water-soluble salt used historically as an odorless and tasteless rodenticide and ant poison until banned in many countries."
+    },
+    {
+      "formula": "TlBr",
+      "name": "Thallium(I) bromide",
+      "summary": "A pale yellow solid used in infrared optics (with TlI as KRS-5/KRS-6 salts) for windows and prisms transparent in the mid- and far-IR."
+    },
+    {
+      "formula": "Tl2O3",
+      "name": "Thallium(III) oxide",
+      "summary": "A black oxide used in some high-temperature superconductor formulations such as the Tl-Ba-Ca-Cu-O family."
+    },
+    {
+      "formula": "TlOH",
+      "name": "Thallium(I) hydroxide",
+      "summary": "A strong base, more soluble than most heavy-metal hydroxides, with chemistry resembling that of an alkali metal hydroxide."
+    },
+    {
+      "formula": "Tl(NO3)3",
+      "name": "Thallium(III) nitrate",
+      "summary": "A reagent used in organic synthesis for oxidative ring contractions and aromatic thallation."
+    }
+  ],
+  "uses": [
+    "Highly sensitive infrared detectors and IR-transparent optics (TlBr, TlI mixtures known as KRS-5/KRS-6)",
+    "Myocardial perfusion imaging using 201Tl-thallous chloride in nuclear cardiology",
+    "Doping component in some high-Tc copper-oxide superconductors",
+    "Photoelectric cells and gamma-ray scintillation detectors (NaI(Tl), CsI(Tl))",
+    "Low-temperature thermometers (Hg-Tl alloys remain liquid below the freezing point of pure Hg)",
+    "Specialty optical glasses with high refractive index"
+  ],
+  "reactivity_summary": "Thallium is a soft, malleable, gray post-transition metal that tarnishes rapidly in moist air to form a bluish-gray oxide layer and reacts with steam to liberate hydrogen. It dissolves slowly in dilute mineral acids, more rapidly in HNO3. The +1 oxidation state is dominant and resembles alkali-metal chemistry, while +3 compounds are strongly oxidizing. All thallium compounds are highly toxic by ingestion, inhalation, or skin contact and act as cumulative poisons that mimic potassium uptake.",
+  "isotopes_summary": "Thallium has two naturally occurring stable isotopes: 203Tl (~29.5%) and 205Tl (~70.5%). Several radioisotopes are members of the natural decay chains (208Tl, 210Tl). The synthetic isotope 201Tl (t1/2 ~73 h) is widely used in nuclear-cardiology stress-perfusion imaging because Tl+ behaves analogously to K+ and is taken up by viable myocardial cells.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Thallium (Tl) — image from Wikimedia Commons (CC-BY-SA-3.0).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Thallium",
+      "url": "https://www.rsc.org/periodic-table/element/81/thallium"
+    },
+    {
+      "field": "uses, occurrence",
+      "source": "USGS Mineral Commodity Summaries - Thallium",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-thallium.pdf"
+    }
+  ]
+}

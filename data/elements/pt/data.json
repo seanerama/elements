@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 78,
+  "symbol": "Pt",
+  "name": "Platinum",
+  "name_origin": "From Spanish 'platina', a diminutive of 'plata' (silver), meaning 'little silver'. The name was applied by Spanish colonizers in the 16th century to a silvery metal found in alluvial deposits in present-day Colombia.",
+  "category": "transition-metal",
+  "period": 6,
+  "group": 10,
+  "block": "d",
+  "atomic_mass": 195.084,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d9 6s1",
+  "electron_configuration_short": "[Xe] 4f14 5d9 6s1",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    17,
+    1
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 21.45,
+  "melting_point_k": 2041.4,
+  "boiling_point_k": 4098,
+  "electronegativity_pauling": 2.28,
+  "oxidation_states": [
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "discovery": {
+    "year": 1735,
+    "discoverer": "Antonio de Ulloa",
+    "country": "Spain (in present-day Colombia)"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Platinum is rare in Earth's crust at about 0.005 ppm. The Bushveld Igneous Complex in South Africa supplies most of the world's platinum, with significant production also from Russia (Norilsk), Zimbabwe, Canada, and the United States. It is found mainly in nickel-copper sulfide deposits and as native metal in alluvial placer deposits.",
+    "states": [
+      "native platinum nuggets and grains in placer deposits",
+      "bound in sperrylite (PtAs2) and cooperite (PtS)",
+      "in nickel-copper sulfide ores (Bushveld, Norilsk)",
+      "trace in iron meteorites"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "PtCl2",
+      "name": "Platinum(II) chloride",
+      "summary": "An olive-green solid used as a precursor in platinum coordination and homogeneous catalysis."
+    },
+    {
+      "formula": "H2PtCl6",
+      "name": "Chloroplatinic acid (hexachloroplatinic acid)",
+      "summary": "An orange-red water-soluble solid that is the most common starting material for platinum chemistry and electroplating."
+    },
+    {
+      "formula": "cis-Pt(NH3)2Cl2",
+      "name": "Cisplatin",
+      "summary": "A square-planar Pt(II) complex used as a frontline chemotherapy agent against testicular, ovarian, bladder, and other cancers."
+    },
+    {
+      "formula": "PtO2",
+      "name": "Adams' catalyst (platinum dioxide)",
+      "summary": "A brown powder reduced in situ to platinum black for catalytic hydrogenation of alkenes, ketones, and nitro groups."
+    },
+    {
+      "formula": "Pt(PPh3)4",
+      "name": "Tetrakis(triphenylphosphine)platinum(0)",
+      "summary": "A yellow Pt(0) complex used as a starting material for cross-coupling and hydrosilylation catalysis."
+    }
+  ],
+  "uses": [
+    "Catalytic converters in automobiles for oxidation of CO and unburned hydrocarbons",
+    "Industrial catalysis: petroleum reforming, nitric acid production (Ostwald process), and silicone hydrosilylation",
+    "Jewelry and luxury wedding bands due to its luster, density, and tarnish resistance",
+    "Cisplatin and related anticancer drugs (carboplatin, oxaliplatin)",
+    "Electrodes in oxygen sensors, fuel cells, and pH probes",
+    "Standard resistance thermometers (PRTs) for high-precision temperature measurement"
+  ],
+  "reactivity_summary": "Platinum is a dense, ductile, silvery-white noble metal that is highly resistant to corrosion. It does not oxidize in air at any temperature, is unaffected by most acids, and is dissolved only by hot aqua regia, hot concentrated H2SO4, and molten alkali hydroxides or cyanides. It readily absorbs hydrogen and oxygen on its surface, which is the basis of its outstanding catalytic activity. The metal exhibits an anomalous electron configuration ([Xe] 4f14 5d9 6s1) due to relativistic effects.",
+  "isotopes_summary": "Platinum has six naturally occurring isotopes: 190Pt (alpha-radioactive, t1/2 ~6.5x10^11 yr), 192Pt, 194Pt, 195Pt, 196Pt, and 198Pt, with 195Pt the most abundant (~33.8%). 195Pt is one of relatively few stable I=1/2 nuclei used in NMR spectroscopy, providing direct probes of platinum coordination chemistry. The synthetic isotope 193mPt is used in nuclear medicine research.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Platinum (Pt) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Platinum",
+      "url": "https://www.rsc.org/periodic-table/element/78/platinum"
+    },
+    {
+      "field": "uses, occurrence",
+      "source": "USGS Mineral Commodity Summaries - Platinum-Group Metals",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-platinum.pdf"
+    }
+  ]
+}

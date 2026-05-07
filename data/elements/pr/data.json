@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 59,
+  "symbol": "Pr",
+  "name": "Praseodymium",
+  "name_origin": "From Greek 'prasios' (leek-green) and 'didymos' (twin), referring to the green colour of its salts and its origin from didymium.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 140.90766,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f3 5s2 5p6 6s2",
+  "electron_configuration_short": "[Xe] 4f3 6s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    21,
+    8,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 6.77,
+  "melting_point_k": 1208,
+  "boiling_point_k": 3793,
+  "electronegativity_pauling": 1.13,
+  "oxidation_states": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "discovery": {
+    "year": 1885,
+    "discoverer": "Carl Auer von Welsbach",
+    "country": "Austria"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Moderately abundant rare-earth (~9.2 ppm in crust); always found together with other lanthanides, chiefly in monazite and bastnaesite ores.",
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "trace in soils"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "Pr2O3",
+      "name": "Praseodymium(III) oxide",
+      "summary": "Pale green ceramic colourant used in glasses and enamels; forms part of the cubic 'Pr6O11' mixed-valence oxide."
+    },
+    {
+      "formula": "Pr6O11",
+      "name": "Praseodymium oxide (mixed valence)",
+      "summary": "Black powder used as a yellow pigment in ceramics ('praseodymium yellow') and as an oxidation catalyst."
+    },
+    {
+      "formula": "PrCl3",
+      "name": "Praseodymium(III) chloride",
+      "summary": "Green crystalline salt used as a precursor to other praseodymium compounds and in research catalysis."
+    },
+    {
+      "formula": "PrF3",
+      "name": "Praseodymium(III) fluoride",
+      "summary": "Used in carbon-arc lamps and as a starting material for praseodymium-based phosphors and lasers."
+    }
+  ],
+  "uses": [
+    "Didymium glass for welder's and glassblower's safety goggles (filters yellow light)",
+    "Yellow ceramic and glass pigment ('praseodymium yellow')",
+    "Component in high-strength NdFeB permanent magnets",
+    "Praseodymium-doped fluoride glass (PDFA) optical signal amplifiers",
+    "Misch metal alloys in lighter flints",
+    "Studio carbon-arc lamps and aircraft engine alloys"
+  ],
+  "reactivity_summary": "Soft, silvery-yellow metal; develops a green oxide coating in air that spalls off, exposing more metal. Reacts slowly with cold water and rapidly with acids. Burns readily in oxygen.",
+  "isotopes_summary": "Praseodymium has only one stable, naturally occurring isotope (Pr-141). Many synthetic radioisotopes are known; Pr-143 (half-life 13.6 days) is a notable fission product.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Praseodymium (Pr) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Praseodymium",
+      "url": "https://www.rsc.org/periodic-table/element/59/praseodymium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Praseodymium",
+      "url": "https://www.britannica.com/science/praseodymium"
+    }
+  ]
+}

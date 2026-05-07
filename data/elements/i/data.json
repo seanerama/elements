@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 53,
+  "symbol": "I",
+  "name": "Iodine",
+  "name_origin": "From the Greek 'iodes' meaning 'violet' or 'purple', referring to the color of iodine vapor; named by Joseph Louis Gay-Lussac in 1813.",
+  "category": "halogen",
+  "period": 5,
+  "group": 17,
+  "block": "p",
+  "atomic_mass": 126.90447,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p5",
+  "electron_configuration_short": "[Kr] 4d10 5s2 5p5",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    7
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 4.933,
+  "melting_point_k": 386.85,
+  "boiling_point_k": 457.4,
+  "electronegativity_pauling": 2.66,
+  "oxidation_states": [
+    -1,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "discovery": {
+    "year": 1811,
+    "discoverer": "Bernard Courtois",
+    "country": "France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Iodine is rare in Earth's crust (about 0.45 ppm) but is concentrated in seawater, brines, and certain seaweeds. Major commercial sources are caliche brines in Chile and underground brines in Japan and the United States.",
+    "states": [
+      "seawater iodide",
+      "seaweed accumulation",
+      "Chilean caliche (iodate)",
+      "underground brines"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "HI",
+      "name": "Hydrogen iodide / hydroiodic acid",
+      "summary": "A colorless gas that dissolves in water to form a strong acid; used as a reducing agent and in pharmaceutical synthesis."
+    },
+    {
+      "formula": "KI",
+      "name": "Potassium iodide",
+      "summary": "A white salt used in iodized table salt, photographic chemistry, and as a thyroid blocker after radiation exposure."
+    },
+    {
+      "formula": "I2",
+      "name": "Diatomic iodine",
+      "summary": "The elemental form: lustrous purple-black solid that sublimes to a violet vapor; used as an antiseptic and analytical reagent."
+    },
+    {
+      "formula": "AgI",
+      "name": "Silver iodide",
+      "summary": "A pale yellow solid used historically in photography and currently for cloud seeding to induce rain."
+    },
+    {
+      "formula": "HIO3",
+      "name": "Iodic acid",
+      "summary": "A white crystalline solid used as a strong oxidizing agent and in analytical chemistry."
+    }
+  ],
+  "uses": [
+    "Disinfectants and antiseptics, including tincture of iodine and povidone-iodine",
+    "Iodized salt to prevent iodine deficiency disorders such as goiter",
+    "Radiocontrast agents (iodinated organic compounds) for medical X-ray and CT imaging",
+    "Catalysts in industrial chemistry (e.g., the Cativa process for acetic acid)",
+    "LCD polarizing films, where polyiodide-PVA complexes provide the polarization",
+    "Photographic chemistry (silver iodide emulsions) and cloud seeding"
+  ],
+  "reactivity_summary": "Iodine is a lustrous purple-black solid at standard conditions that readily sublimes to give a violet vapor. As the heaviest stable halogen it is the least reactive of the common halogens but still a strong oxidizer, displacing tellurium and sulfur from their compounds. It is only slightly soluble in water but dissolves readily in organic solvents and in iodide solutions to form triiodide (I3-). The most stable oxidation state is -1, but +1, +3, +5, and +7 states are well known.",
+  "isotopes_summary": "Iodine has only one stable isotope, iodine-127. Of its 37 known radioisotopes, iodine-129 (half-life 15.7 million years) occurs naturally in trace amounts and is produced as a fission byproduct, while iodine-131 (half-life 8.02 days) is an important fission product used in medical imaging and treatment of thyroid conditions and cancers. Iodine-123 and iodine-125 are also widely used in nuclear medicine.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Iodine (I) — image from Wikimedia Commons (CC-BY-SA-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Iodine",
+      "url": "https://www.rsc.org/periodic-table/element/53/iodine"
+    },
+    {
+      "field": "general",
+      "source": "Encyclopedia Britannica - Iodine",
+      "url": "https://www.britannica.com/science/iodine"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)"
+    },
+    {
+      "field": "isotopes",
+      "source": "IUPAC Atomic Weights of the Elements 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    }
+  ]
+}

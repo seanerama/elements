@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 2,
+  "symbol": "He",
+  "name": "Helium",
+  "name_origin": "From Greek 'helios' (sun), reflecting its discovery as a spectral line in sunlight before it was found on Earth.",
+  "category": "noble-gas",
+  "period": 1,
+  "group": 18,
+  "block": "s",
+  "atomic_mass": 4.002602,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2",
+  "electron_configuration_short": "1s2",
+  "electrons_per_shell": [2],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.0001785,
+  "melting_point_k": 0.95,
+  "boiling_point_k": 4.222,
+  "electronegativity_pauling": null,
+  "oxidation_states": [0],
+  "discovery": {
+    "year": 1868,
+    "discoverer": "Pierre Janssen and Norman Lockyer (spectroscopic); William Ramsay isolated it on Earth in 1895",
+    "country": "France / United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Helium is the second most abundant element in the universe (~24% by mass) but rare on Earth (~5.2 ppm in atmosphere) because it escapes gravity. Commercial helium is extracted from natural gas wells where it accumulates from radioactive decay of heavy elements.",
+    "states": ["trace gas in atmosphere", "in natural gas reservoirs (up to ~7%)", "abundant in stars and gas giants"]
+  },
+  "compounds": [
+    { "formula": "HeH+", "name": "Helium hydride cation", "summary": "An exotic cation believed to be the first molecule to form in the early universe, detected in nebulae but unstable in normal conditions." }
+  ],
+  "uses": [
+    "Cryogenic coolant for superconducting magnets in MRI scanners and particle accelerators",
+    "Lifting gas for blimps, weather balloons, and party balloons",
+    "Inert shielding gas for arc welding of reactive metals",
+    "Pressurant for liquid-fueled rocket propellant tanks",
+    "Breathing gas mixtures (heliox/trimix) for deep-sea diving",
+    "Leak detection in vacuum systems and pressurized equipment"
+  ],
+  "reactivity_summary": "Helium is the least chemically reactive element and forms no stable neutral compounds under normal conditions. Its closed 1s2 shell gives it the highest first ionization energy of any element. A few exotic species (e.g., HeH+, Na2He at extreme pressures) have been reported but are not stable in everyday environments.",
+  "isotopes_summary": "Helium has two stable isotopes: 4He (~99.9999%) and 3He (~1.4 ppm of natural helium). 3He is highly valued for cryogenics (sub-Kelvin dilution refrigerators) and as a potential fusion fuel; it is also used in neutron detectors.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "boiling_point_k", "source": "NIST WebBook - Helium", "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440597" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Helium", "url": "https://www.rsc.org/periodic-table/element/2/helium" },
+    { "field": "occurrence", "source": "USGS Mineral Commodity Summaries: Helium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/helium-statistics-and-information" }
+  ]
+}

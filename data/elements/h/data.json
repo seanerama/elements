@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 1,
+  "symbol": "H",
+  "name": "Hydrogen",
+  "name_origin": "From Greek 'hydro' (water) and 'genes' (forming), meaning 'water-former', coined by Antoine Lavoisier in 1783.",
+  "category": "nonmetal",
+  "period": 1,
+  "group": 1,
+  "block": "s",
+  "atomic_mass": 1.008,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s1",
+  "electron_configuration_short": "1s1",
+  "electrons_per_shell": [1],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.00008988,
+  "melting_point_k": 13.99,
+  "boiling_point_k": 20.271,
+  "electronegativity_pauling": 2.20,
+  "oxidation_states": [-1, 1],
+  "discovery": {
+    "year": 1766,
+    "discoverer": "Henry Cavendish",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Hydrogen is the most abundant chemical substance in the universe, comprising about 75% of all baryonic mass. On Earth it is found primarily bound in water and hydrocarbons; free H2 gas is rare in the atmosphere (~0.5 ppm).",
+    "states": ["bound in water (H2O)", "bound in hydrocarbons", "trace H2 gas in atmosphere", "interstellar plasma"]
+  },
+  "compounds": [
+    { "formula": "H2O", "name": "Water", "summary": "The universal solvent, essential for all known life and ubiquitous on Earth's surface." },
+    { "formula": "NH3", "name": "Ammonia", "summary": "A pungent gas synthesized industrially via the Haber-Bosch process and used as a fertilizer feedstock." },
+    { "formula": "CH4", "name": "Methane", "summary": "The simplest hydrocarbon and the principal component of natural gas." },
+    { "formula": "HCl", "name": "Hydrogen chloride", "summary": "A strong mineral acid (when dissolved in water) used widely in industrial chemistry and metal processing." },
+    { "formula": "H2O2", "name": "Hydrogen peroxide", "summary": "A powerful oxidizer used as a disinfectant, bleaching agent, and rocket propellant." }
+  ],
+  "uses": [
+    "Feedstock for ammonia production via the Haber-Bosch process",
+    "Petroleum refining (hydrocracking and desulfurization)",
+    "Hydrogenation of vegetable oils to produce margarine and shortenings",
+    "Rocket fuel (liquid hydrogen) for cryogenic upper stages",
+    "Fuel cells for electric vehicles and stationary power",
+    "Coolant in large electrical generators due to its high thermal conductivity"
+  ],
+  "reactivity_summary": "Hydrogen is highly flammable in air, burning with a nearly invisible flame to produce water. It reacts vigorously with halogens and oxygen, and at elevated temperatures with many metals to form hydrides. Pure H2 gas is otherwise relatively unreactive at room temperature due to its strong H-H bond.",
+  "isotopes_summary": "Hydrogen has three naturally occurring isotopes: protium (1H, ~99.98%), deuterium (2H or D, ~0.02%), and trace radioactive tritium (3H, half-life 12.32 years). Deuterium is used in heavy water moderators and NMR spectroscopy; tritium is used in self-luminous markers and fusion research.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "NIST WebBook - Hydrogen", "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C1333740" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Hydrogen", "url": "https://www.rsc.org/periodic-table/element/1/hydrogen" },
+    { "field": "occurrence", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" }
+  ]
+}

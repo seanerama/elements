@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 96,
+  "symbol": "Cm",
+  "name": "Curium",
+  "name_origin": "Named in honor of Marie and Pierre Curie, pioneers of radioactivity research.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 247,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f7 6s2 6p6 6d1 7s2",
+  "electron_configuration_short": "[Rn] 5f7 6d1 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 25, 9, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 13.51,
+  "melting_point_k": 1613,
+  "boiling_point_k": 3383,
+  "electronegativity_pauling": 1.3,
+  "oxidation_states": [6, 5, 4, 3],
+  "discovery": { "year": 1944, "discoverer": "Glenn T. Seaborg, Ralph A. James, Albert Ghiorso", "country": "United States" },
+  "occurrence": { "natural": true, "abundance_summary": "Trace amounts have been detected in uranium ores from neutron capture processes, but for practical purposes curium is synthetic, produced in nuclear reactors by successive neutron capture on plutonium.", "states": ["trace in uranium ores (synthetic in practice)"] },
+  "compounds": [
+    { "formula": "CmO2", "name": "Curium(IV) oxide", "summary": "Black solid; one of the more stable +4 actinide oxides and a useful starting material for curium chemistry." },
+    { "formula": "Cm2O3", "name": "Curium(III) oxide", "summary": "Whitish solid that emits a characteristic glow due to self-radiation; the most thermodynamically stable curium oxide." },
+    { "formula": "CmF3", "name": "Curium(III) fluoride", "summary": "Insoluble white solid used as an intermediate in producing metallic curium by reduction with barium vapor." }
+  ],
+  "uses": [
+    "Alpha-particle X-ray spectrometers on Mars rovers and other planetary missions for elemental analysis (Cm-244)",
+    "Source of plutonium-238 via successive neutron capture and beta decay",
+    "Scientific research into transuranic chemistry and synthesis of heavier elements",
+    "Potential heat source for compact radioisotope thermoelectric generators"
+  ],
+  "reactivity_summary": "A silvery, malleable metal that is chemically reactive, more so than its lanthanide analog gadolinium. It tarnishes in air and reacts with acids. The +3 state dominates its chemistry, although +4 is accessible in solid compounds; curium glows pink-purple in the dark from intense self-radiation.",
+  "isotopes_summary": "All isotopes are radioactive. Curium-247 has the longest half-life (15.6 million years), but Cm-244 (half-life 18.1 years) and Cm-248 are the most commonly used in research and applications. Cm-244 is a strong alpha emitter used in spectrometers.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Curium", "url": "https://www.rsc.org/periodic-table/element/96/curium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Curium", "url": "https://www.britannica.com/science/curium" },
+    { "field": "applications", "source": "NASA - Alpha Particle X-ray Spectrometer", "url": "https://mars.nasa.gov/msl/spacecraft/instruments/apxs/" }
+  ]
+}

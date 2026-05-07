@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 63,
+  "symbol": "Eu",
+  "name": "Europium",
+  "name_origin": "Named after the continent of Europe.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 151.964,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f7 5s2 5p6 6s2",
+  "electron_configuration_short": "[Xe] 4f7 6s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    25,
+    8,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 5.244,
+  "melting_point_k": 1099,
+  "boiling_point_k": 1802,
+  "electronegativity_pauling": 1.2,
+  "oxidation_states": [
+    2,
+    3
+  ],
+  "discovery": {
+    "year": 1901,
+    "discoverer": "Eugene-Anatole Demarcay",
+    "country": "France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "One of the rarer rare-earth elements (~2 ppm in crust); never found as the free element. Recovered chiefly from monazite and bastnaesite.",
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "trace in soils"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "Eu2O3",
+      "name": "Europium(III) oxide",
+      "summary": "Pale pink solid; doping agent giving the strong red emission used in colour CRTs and trichromatic fluorescent lamps."
+    },
+    {
+      "formula": "EuCl3",
+      "name": "Europium(III) chloride",
+      "summary": "Pale yellow hygroscopic salt; precursor to europium phosphors and shift reagent for NMR."
+    },
+    {
+      "formula": "EuS",
+      "name": "Europium(II) sulfide",
+      "summary": "Black ferromagnetic semiconductor studied for spintronic and magneto-optical applications."
+    },
+    {
+      "formula": "Eu:Y2O3",
+      "name": "Europium-doped yttrium oxide",
+      "summary": "Red phosphor (YOX) used historically in television cathode-ray tubes and in compact fluorescent lamps."
+    }
+  ],
+  "uses": [
+    "Red phosphors in colour television cathode-ray tubes and trichromatic fluorescent lamps (Y2O3:Eu3+)",
+    "Blue phosphors in compact fluorescent and white LED lighting (BaMgAl10O17:Eu2+)",
+    "Anti-counterfeiting fluorescent inks on euro banknotes",
+    "Neutron-absorbing control rods in some nuclear reactors",
+    "Scintillators and phosphors for X-ray imaging plates",
+    "Lanthanide shift reagents in NMR spectroscopy"
+  ],
+  "reactivity_summary": "Softest and most reactive of the lanthanides; ignites in air above ~150 degrees C and reacts vigorously with water like calcium. Has the largest body-centred-cubic unit cell of any lanthanide and shows accessible Eu(II) chemistry.",
+  "isotopes_summary": "Europium has two naturally occurring isotopes: Eu-151 (~47.81%) and Eu-153 (~52.19%). Eu-151 was recently shown to be very weakly radioactive (alpha decay, half-life ~5x10^18 years). Eu-152 and Eu-154 are important reactor-produced gamma sources.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Europium (Eu) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Europium",
+      "url": "https://www.rsc.org/periodic-table/element/63/europium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Europium",
+      "url": "https://www.britannica.com/science/europium"
+    }
+  ]
+}

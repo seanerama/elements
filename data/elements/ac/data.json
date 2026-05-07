@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 89,
+  "symbol": "Ac",
+  "name": "Actinium",
+  "name_origin": "From the Greek 'aktinos' meaning 'ray' or 'beam', referring to its radioactive emissions.",
+  "category": "actinide",
+  "period": 7,
+  "group": 3,
+  "block": "d",
+  "atomic_mass": 227,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 6d1 7s2",
+  "electron_configuration_short": "[Rn] 6d1 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 18, 9, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 10.07,
+  "melting_point_k": 1323,
+  "boiling_point_k": 3471,
+  "electronegativity_pauling": 1.1,
+  "oxidation_states": [3],
+  "discovery": { "year": 1899, "discoverer": "Andre-Louis Debierne", "country": "France" },
+  "occurrence": { "natural": true, "abundance_summary": "Extremely rare in nature; found in trace amounts in uranium ores at roughly 5 × 10^-15 g per gram of uranium. Most actinium is produced artificially by neutron irradiation of radium-226.", "states": ["trace in uranium ores"] },
+  "compounds": [
+    { "formula": "Ac2O3", "name": "Actinium(III) oxide", "summary": "White solid; the most stable oxide of actinium and isostructural with lanthanum oxide." },
+    { "formula": "AcF3", "name": "Actinium(III) fluoride", "summary": "Insoluble white solid used in early purification schemes for actinium isotopes." },
+    { "formula": "AcCl3", "name": "Actinium(III) chloride", "summary": "Hygroscopic white solid; intermediate in the preparation of actinium metal by reduction with alkali metals." }
+  ],
+  "uses": [
+    "Actinium-225 is used in targeted alpha therapy for treating cancers including prostate cancer and leukemia",
+    "Actinium-227 mixed with beryllium serves as a neutron source",
+    "Used in radioisotope thermoelectric generators in research applications",
+    "Tracer in geochemistry and oceanography"
+  ],
+  "reactivity_summary": "A silvery, highly reactive metal that glows pale blue in the dark from intense self-radiation. It reacts with water and oxygen, and its chemistry resembles that of lanthanum, predominantly forming Ac(III) compounds.",
+  "isotopes_summary": "All isotopes are radioactive. Actinium-227 (half-life 21.77 years) is the longest-lived and is found in nature as a member of the uranium-235 decay series. Actinium-225 (half-life 10 days) is medically important.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Actinium", "url": "https://www.rsc.org/periodic-table/element/89/actinium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Actinium", "url": "https://www.britannica.com/science/actinium" },
+    { "field": "medical_use", "source": "U.S. Department of Energy - Isotope Program: Actinium-225", "url": "https://www.isotopes.gov/" }
+  ]
+}

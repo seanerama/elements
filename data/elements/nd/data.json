@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 60,
+  "symbol": "Nd",
+  "name": "Neodymium",
+  "name_origin": "From Greek 'neos' (new) and 'didymos' (twin), the 'new twin' separated from didymium by Welsbach.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 144.242,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f4 5s2 5p6 6s2",
+  "electron_configuration_short": "[Xe] 4f4 6s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    22,
+    8,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.01,
+  "melting_point_k": 1297,
+  "boiling_point_k": 3347,
+  "electronegativity_pauling": 1.14,
+  "oxidation_states": [
+    2,
+    3,
+    4
+  ],
+  "discovery": {
+    "year": 1885,
+    "discoverer": "Carl Auer von Welsbach",
+    "country": "Austria"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Relatively abundant lanthanide (~41.5 ppm in crust), about as common as copper; mined chiefly from monazite and bastnaesite, with major production in China.",
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "trace in soils"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "Nd2O3",
+      "name": "Neodymium(III) oxide",
+      "summary": "Light blue-grey solid used as a glass colourant (violet-purple) and as a starting material for NdFeB magnet production."
+    },
+    {
+      "formula": "NdCl3",
+      "name": "Neodymium(III) chloride",
+      "summary": "Mauve-coloured hygroscopic salt used as a catalyst in polymerisation and as a precursor for neodymium magnets."
+    },
+    {
+      "formula": "NdF3",
+      "name": "Neodymium(III) fluoride",
+      "summary": "Used in fluoride glasses and in the production of metallic neodymium by electrolysis."
+    },
+    {
+      "formula": "Nd2Fe14B",
+      "name": "Neodymium iron boride",
+      "summary": "Tetragonal intermetallic compound that forms the basis of the strongest commercial permanent magnets."
+    }
+  ],
+  "uses": [
+    "Neodymium-iron-boron (NdFeB) permanent magnets in motors, generators, hard drives, and headphones",
+    "Nd:YAG (Y3Al5O12:Nd3+) infrared lasers used in surgery, materials processing, and military rangefinders",
+    "Glass colourant producing violet-to-wine-red 'neodymium glass' tints",
+    "Welder's protective glasses (didymium) that filter sodium-D emission",
+    "Wind-turbine direct-drive generators",
+    "Catalysts for polymerisation of butadiene and isoprene synthetic rubbers"
+  ],
+  "reactivity_summary": "Soft, silvery metal that tarnishes rapidly in air, forming a flaky oxide that promotes further corrosion. Reacts with water (slowly cold, quickly hot) and dissolves readily in dilute acids; burns readily when finely divided.",
+  "isotopes_summary": "Neodymium has seven naturally occurring isotopes (Nd-142 to Nd-150); five are stable and two (Nd-144, Nd-150) are very long-lived primordial radioisotopes. Nd-142 is the most abundant (~27%).",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Neodymium (Nd) — image from Wikimedia Commons (CC-BY-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Neodymium",
+      "url": "https://www.rsc.org/periodic-table/element/60/neodymium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Neodymium",
+      "url": "https://www.britannica.com/science/neodymium"
+    }
+  ]
+}

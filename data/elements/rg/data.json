@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 111,
+  "symbol": "Rg",
+  "name": "Roentgenium",
+  "name_origin": "Named after German physicist Wilhelm Conrad Rontgen, the discoverer of X-rays and the 1901 Nobel Prize laureate in Physics.",
+  "category": "unknown",
+  "period": 7,
+  "group": 11,
+  "block": "d",
+  "atomic_mass": 282,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d9 7s2",
+  "electron_configuration_short": "[Rn] 5f14 6d9 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 17, 2],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [],
+  "discovery": {
+    "year": 1994,
+    "discoverer": "Gesellschaft fur Schwerionenforschung (GSI) team led by Sigurd Hofmann",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Roentgenium does not occur naturally. It is a synthetic element produced in particle accelerators via cold-fusion reactions such as 64Ni + 209Bi.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "No chemistry of roentgenium has been experimentally characterized. By analogy with its lighter group 11 homologs (copper, silver, gold) it is predicted to be a noble metal, with relativistic calculations suggesting an unusually stable +3 oxidation state and possible noble-gas-like inertness in some configurations. The listed configuration [Rn] 5f14 6d9 7s2 is the periodic-trend prediction; relativistic models also suggest [Rn] 5f14 6d10 7s1 (gold-like) is plausible.",
+  "isotopes_summary": "All roentgenium isotopes are radioactive. The longest-lived confirmed isotope is 282Rg with a half-life of about 100 seconds, identified as a decay product in chains from heavier elements. Other isotopes have half-lives ranging from milliseconds to tens of seconds.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Roentgenium", "url": "https://www.rsc.org/periodic-table/element/111/roentgenium" },
+    { "field": "electron_configuration, reactivity_summary", "source": "Wikipedia: Roentgenium", "url": "https://en.wikipedia.org/wiki/Roentgenium" }
+  ]
+}

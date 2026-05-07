@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 50,
+  "symbol": "Sn",
+  "name": "Tin",
+  "name_origin": "The English name 'tin' is of Germanic origin; the symbol Sn comes from the Latin word 'stannum' for the metal (originally an alloy of silver and lead).",
+  "category": "post-transition",
+  "period": 5,
+  "group": 14,
+  "block": "p",
+  "atomic_mass": 118.71,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p2",
+  "electron_configuration_short": "[Kr] 4d10 5s2 5p2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    4
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.265,
+  "melting_point_k": 505.08,
+  "boiling_point_k": 2875,
+  "electronegativity_pauling": 1.96,
+  "oxidation_states": [
+    -4,
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4
+  ],
+  "discovery": {
+    "year": null,
+    "discoverer": "Known since antiquity",
+    "country": null
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Tin is the 49th most abundant element in Earth's crust (about 2 ppm). It is rarely found as the native metal; the principal ore is cassiterite (SnO2), with significant deposits in Southeast Asia, China, Bolivia, and Australia.",
+    "states": [
+      "mineral - cassiterite (SnO2)",
+      "stannite",
+      "trace native"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "SnO2",
+      "name": "Tin(IV) oxide (cassiterite)",
+      "summary": "The principal ore of tin and a transparent conducting oxide used in gas sensors, glass coatings, and ceramic glazes."
+    },
+    {
+      "formula": "SnCl2",
+      "name": "Tin(II) chloride",
+      "summary": "A white crystalline reducing agent and mordant used in dyeing, electroplating, and as a chemical reductant."
+    },
+    {
+      "formula": "SnCl4",
+      "name": "Tin(IV) chloride",
+      "summary": "A colorless fuming liquid used as a Lewis acid catalyst, in organotin synthesis, and historically in glass coatings."
+    },
+    {
+      "formula": "SnS",
+      "name": "Tin(II) sulfide",
+      "summary": "A dark grey semiconductor with photovoltaic potential and an analog of black phosphorus."
+    },
+    {
+      "formula": "(C4H9)3SnH",
+      "name": "Tributyltin hydride",
+      "summary": "An organotin reagent widely used as a radical reducing agent in organic synthesis."
+    }
+  ],
+  "uses": [
+    "Tin plating (tinplate) of steel containers for food preservation",
+    "Solders, including traditional tin-lead and modern lead-free tin-silver-copper alloys for electronics",
+    "Bronze (copper-tin alloy), pewter, and bell metal alloys",
+    "Float glass production, where molten tin provides the flat bath for plate glass",
+    "Organotin compounds as PVC stabilizers, biocides, and catalysts in polyurethane production"
+  ],
+  "reactivity_summary": "Tin is a soft, silvery-white post-transition metal that is malleable and ductile at room temperature. It is resistant to corrosion from water but is attacked by strong acids and bases. Below 13.2 degrees C, white (beta) tin slowly transforms into brittle grey (alpha) tin, a phenomenon known as 'tin pest.' It exhibits two principal oxidation states, +2 and +4, with +4 being the more stable.",
+  "isotopes_summary": "Tin has 10 stable isotopes (more than any other element), with mass numbers 112, 114, 115, 116, 117, 118, 119, 120, 122, and 124; tin-120 is the most abundant (32.6%). Its high count of stable isotopes is attributed to its proton 'magic number' of 50, making the nucleus particularly stable. Many radioisotopes are also known, used in research and medicine.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Tin (Sn) — image from Wikimedia Commons (CC-BY-SA-3.0).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Tin",
+      "url": "https://www.rsc.org/periodic-table/element/50/tin"
+    },
+    {
+      "field": "general",
+      "source": "Encyclopedia Britannica - Tin",
+      "url": "https://www.britannica.com/science/tin"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)"
+    },
+    {
+      "field": "isotopes",
+      "source": "IUPAC Atomic Weights of the Elements 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    }
+  ]
+}

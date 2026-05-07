@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 6,
+  "symbol": "C",
+  "name": "Carbon",
+  "name_origin": "From Latin 'carbo' (charcoal), reflecting carbon's long-recognized presence in soot and wood char.",
+  "category": "nonmetal",
+  "period": 2,
+  "group": 14,
+  "block": "p",
+  "atomic_mass": 12.011,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p2",
+  "electron_configuration_short": "[He] 2s2 2p2",
+  "electrons_per_shell": [
+    2,
+    4
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 2.267,
+  "melting_point_k": 3823,
+  "boiling_point_k": 4098,
+  "electronegativity_pauling": 2.55,
+  "oxidation_states": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "discovery": {
+    "year": null,
+    "discoverer": "Known since prehistory; recognized as an element by Antoine Lavoisier in 1789",
+    "country": null
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Carbon is the 15th most abundant element in Earth's crust (~200 ppm) and the 4th most abundant element in the universe by mass. It occurs free as graphite and diamond, in carbonate rocks (limestone, dolomite), in fossil fuels (coal, oil, natural gas), and as the structural backbone of all known life.",
+    "states": [
+      "graphite and diamond (native)",
+      "carbonate minerals (calcite, dolomite)",
+      "fossil fuels (coal, petroleum, natural gas)",
+      "atmospheric CO2",
+      "all biomass and organic matter"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "CO2",
+      "name": "Carbon dioxide",
+      "summary": "A trace atmospheric gas central to the carbon cycle, photosynthesis, and anthropogenic climate change."
+    },
+    {
+      "formula": "CO",
+      "name": "Carbon monoxide",
+      "summary": "A toxic, colorless gas produced by incomplete combustion; an important industrial reductant in metallurgy."
+    },
+    {
+      "formula": "CH4",
+      "name": "Methane",
+      "summary": "The simplest hydrocarbon and main component of natural gas; a potent greenhouse gas."
+    },
+    {
+      "formula": "CaCO3",
+      "name": "Calcium carbonate",
+      "summary": "The chief component of limestone, marble, and seashells; widely used in construction and as a pH buffer."
+    },
+    {
+      "formula": "C6H12O6",
+      "name": "Glucose",
+      "summary": "A simple sugar that is the primary energy source for most living cells."
+    },
+    {
+      "formula": "SiC",
+      "name": "Silicon carbide",
+      "summary": "An extremely hard ceramic used as an abrasive and in high-temperature, high-power semiconductor devices."
+    }
+  ],
+  "uses": [
+    "Steel production (coke as reductant and carburizing agent)",
+    "Electrodes and refractories (graphite) in electric arc furnaces and batteries",
+    "Activated carbon for water and air purification",
+    "Diamond cutting tools, abrasives, and gem-quality jewelry",
+    "Carbon fiber composites for aerospace, automotive, and sporting goods",
+    "Lithium-ion battery anodes (graphite)"
+  ],
+  "reactivity_summary": "Elemental carbon is unreactive at ordinary temperatures but burns in oxygen at high temperatures to give CO2 (or CO if oxygen is limited). Its unique ability to form long stable chains and rings of covalent C-C bonds (catenation) underlies the entire field of organic chemistry and the molecular machinery of life.",
+  "isotopes_summary": "Carbon has two stable isotopes, 12C (~98.9%) and 13C (~1.1%); 12C defines the unified atomic mass unit. The cosmogenic radioisotope 14C (half-life 5,700 years) is the basis of radiocarbon dating used in archaeology and paleoclimatology.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Carbon (C) — image from Wikimedia Commons (CC-BY-SA-3.0).",
+  "citations": [
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Royal Society of Chemistry - Periodic Table: Carbon",
+      "url": "https://www.rsc.org/periodic-table/element/6/carbon"
+    },
+    {
+      "field": "isotopes_summary",
+      "source": "NIST Atomic Weights and Isotopic Compositions",
+      "url": "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-relative-atomic-masses"
+    }
+  ]
+}

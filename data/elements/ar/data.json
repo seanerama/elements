@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 18,
+  "symbol": "Ar",
+  "name": "Argon",
+  "name_origin": "From the Greek 'argos' meaning 'lazy' or 'idle', reflecting its chemical inertness.",
+  "category": "noble-gas",
+  "period": 3,
+  "group": 18,
+  "block": "p",
+  "atomic_mass": 39.95,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6",
+  "electron_configuration_short": "[Ne] 3s2 3p6",
+  "electrons_per_shell": [2, 8, 8],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.001784,
+  "melting_point_k": 83.81,
+  "boiling_point_k": 87.302,
+  "electronegativity_pauling": null,
+  "oxidation_states": [0],
+  "discovery": {
+    "year": 1894,
+    "discoverer": "Lord Rayleigh and William Ramsay",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Argon is the third most abundant gas in Earth's atmosphere at about 0.934% by volume, after nitrogen and oxygen. Most of the argon on Earth (Ar-40) is produced by radioactive decay of potassium-40 in the crust.",
+    "states": ["atmospheric gas (~0.934% by volume)", "trace amounts dissolved in seawater and groundwater", "trapped in some minerals"]
+  },
+  "compounds": [
+    { "formula": "HArF", "name": "Argon fluorohydride", "summary": "The first stable neutral compound of argon, observed at very low temperatures (~17 K) in 2000." },
+    { "formula": "Ar(H2O)n", "name": "Argon clathrate hydrate", "summary": "An inclusion compound where argon atoms are trapped in a cage-like water lattice at low temperature and elevated pressure." },
+    { "formula": "ArH+", "name": "Argonium ion", "summary": "A cation of argon detected in interstellar space, notably in the Crab Nebula; the first noble-gas molecule found in space." },
+    { "formula": "Ar2", "name": "Argon excimer", "summary": "An excited-state diatomic argon used to generate UV light around 126 nm in excimer lamps and lasers." },
+    { "formula": "[Ar*Cu]+", "name": "Argon-metal cation complexes", "summary": "Weakly bound gas-phase ions in which argon coordinates to transition-metal cations, observed by mass spectrometry." }
+  ],
+  "uses": [
+    "Inert shielding gas for arc welding (e.g., MIG and TIG processes) of stainless steel and aluminum",
+    "Fill gas in incandescent and fluorescent light bulbs to prevent filament oxidation",
+    "Inert atmosphere for growing silicon and germanium crystals in semiconductor manufacturing",
+    "Insulating gas fill between panes of energy-efficient double- and triple-glazed windows",
+    "Carrier and plasma gas in inductively coupled plasma (ICP) and gas chromatography instruments",
+    "Cryogenic liquid in some laboratory and medical applications, including argon-laser surgery"
+  ],
+  "reactivity_summary": "Argon is a colorless, odorless monatomic noble gas with a complete valence electron shell, making it chemically inert under nearly all conditions. Only a handful of metastable compounds (such as HArF) and weakly bound complexes have ever been observed.",
+  "isotopes_summary": "Argon has three stable isotopes: Ar-40 (~99.6% on Earth, but only ~84% in the Sun), Ar-36 (~0.33%), and Ar-38 (~0.06%). The terrestrial dominance of Ar-40 from K-40 decay underlies the K-Ar and Ar-Ar dating methods used in geology.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, atomic_mass_uncertain", "source": "IUPAC Standard Atomic Weights 2021 (CIAAW) - interval [39.792, 39.963]", "url": "https://ciaaw.org/argon.htm" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "NIST Chemistry WebBook - Argon", "url": "https://webbook.nist.gov/chemistry/" },
+    { "field": "electron_configuration, atmospheric abundance", "source": "Royal Society of Chemistry - Periodic Table: Argon", "url": "https://www.rsc.org/periodic-table/element/18/argon" },
+    { "field": "discovery, HArF compound", "source": "Encyclopaedia Britannica - Argon", "url": "https://www.britannica.com/science/argon" }
+  ]
+}

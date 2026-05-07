@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 92,
+  "symbol": "U",
+  "name": "Uranium",
+  "name_origin": "Named after the planet Uranus, which had been discovered eight years before the element.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 238.02891,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f3 6s2 6p6 6d1 7s2",
+  "electron_configuration_short": "[Rn] 5f3 6d1 7s2",
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    21,
+    9,
+    2
+  ],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 19.1,
+  "melting_point_k": 1405.3,
+  "boiling_point_k": 4404,
+  "electronegativity_pauling": 1.38,
+  "oxidation_states": [
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "discovery": {
+    "year": 1789,
+    "discoverer": "Martin Heinrich Klaproth",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "About 2.7 ppm in Earth's crust, more abundant than silver. Principal ores include uraninite (pitchblende), carnotite, autunite, and uranophane. Significant deposits occur in Kazakhstan, Canada, Australia, and Namibia.",
+    "states": [
+      "uraninite (pitchblende)",
+      "carnotite",
+      "autunite",
+      "uranophane",
+      "trace in seawater"
+    ]
+  },
+  "compounds": [
+    {
+      "formula": "UO2",
+      "name": "Uranium dioxide",
+      "summary": "Black ceramic solid used as the standard fuel in light-water nuclear reactors; pelletized and clad in zirconium alloy tubes."
+    },
+    {
+      "formula": "UF6",
+      "name": "Uranium hexafluoride",
+      "summary": "Volatile white solid that sublimes at 56.5 degrees C; the only gaseous uranium compound at near-ambient conditions, used in gaseous diffusion and centrifuge enrichment of uranium isotopes."
+    },
+    {
+      "formula": "UO2(NO3)2",
+      "name": "Uranyl nitrate",
+      "summary": "Yellow crystalline solid that fluoresces green; used in nuclear fuel reprocessing (PUREX process) and historically in photography and ceramics."
+    },
+    {
+      "formula": "U3O8",
+      "name": "Triuranium octoxide (yellowcake)",
+      "summary": "Olive-green to black solid; the most stable uranium oxide and the form in which uranium is typically traded as 'yellowcake' concentrate."
+    },
+    {
+      "formula": "UC",
+      "name": "Uranium carbide",
+      "summary": "Refractory ceramic studied as an advanced nuclear fuel for fast and high-temperature reactors."
+    }
+  ],
+  "uses": [
+    "Fuel for nuclear power reactors (enriched in U-235)",
+    "Fissile material in nuclear weapons",
+    "Depleted uranium in armor-piercing ammunition and tank armor due to its high density",
+    "Counterweights in aircraft control surfaces",
+    "Radiation shielding in medical and industrial radiography",
+    "Coloring agent in historical uranium glass and ceramic glazes (vaseline glass)"
+  ],
+  "reactivity_summary": "A silvery-white metal that tarnishes in air to form a dark oxide layer. Powdered uranium is pyrophoric. It reacts with water (slowly when cold, rapidly when hot) and dissolves in acids. Chemistry is rich, dominated by the +4 and +6 oxidation states; the uranyl ion (UO2 2+) is particularly important.",
+  "isotopes_summary": "All isotopes are radioactive. Natural uranium consists primarily of U-238 (99.27 percent, half-life 4.468 billion years) and U-235 (0.72 percent, half-life 703.8 million years), with traces of U-234. U-235 and U-233 are fissile, while U-238 is fertile, capable of breeding to plutonium-239.",
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Uranium (U) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
+  "citations": [
+    {
+      "field": "general",
+      "source": "IUPAC Periodic Table of the Elements",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Uranium",
+      "url": "https://www.rsc.org/periodic-table/element/92/uranium"
+    },
+    {
+      "field": "discovery",
+      "source": "Encyclopaedia Britannica - Uranium",
+      "url": "https://www.britannica.com/science/uranium"
+    },
+    {
+      "field": "nuclear_fuel",
+      "source": "World Nuclear Association - Uranium",
+      "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/introduction/what-is-uranium-how-does-it-work.aspx"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed."
+    }
+  ]
+}
