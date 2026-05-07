@@ -1,0 +1,199 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Wordmark from '@/components/Wordmark.astro';
+import HighScoreCard from '@/components/games/HighScoreCard.tsx';
+---
+
+<BaseLayout
+  title="Games — Elements"
+  description="Test what you know. Guess the element from a photo or property; identify compounds from their formula."
+>
+  <header class="topbar">
+    <a href="/" class="brand" aria-label="Elements home">
+      <Wordmark size="md" />
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/" class="nav-link">Periodic Table</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/games" class="nav-link" aria-current="page">Games</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/about" class="nav-link">About</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page">
+    <section class="lede">
+      <p class="eyebrow">Test What You Know</p>
+      <h1>Trivia.</h1>
+      <p class="sub">
+        Two modes. Ten questions per round. Streaks count, scores persist across visits, and
+        every wrong answer comes with the explanation you needed.
+      </p>
+    </section>
+
+    <section class="cards">
+      <HighScoreCard
+        client:load
+        mode="element"
+        href="/games/element"
+        title="Guess the Element"
+        description="Identify an element from its symbol, atomic number, electron configuration, or photograph."
+      />
+      <HighScoreCard
+        client:load
+        mode="compound"
+        href="/games/compound"
+        title="Guess the Compound"
+        description="Match common compounds to their chemical formulas — and back."
+      />
+    </section>
+  </main>
+</BaseLayout>
+
+<style is:global>
+  .game-card {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: var(--space-md);
+    padding: var(--space-2xl);
+    background: var(--color-paper-shade);
+    border: var(--border-double);
+    text-decoration: none;
+    color: var(--color-ink);
+    transition:
+      box-shadow var(--duration-base) var(--easing-out),
+      transform var(--duration-base) var(--easing-out);
+  }
+
+  .game-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-paper-lifted);
+  }
+
+  .game-card h2 {
+    margin: 0 0 var(--space-xs);
+    font-family: var(--font-serif);
+    font-size: var(--text-h2);
+    color: var(--color-ink);
+  }
+
+  .game-card p {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    color: var(--color-ink-muted);
+    line-height: 1.55;
+  }
+
+  .game-card dl {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px var(--space-md);
+    margin: 0;
+    padding-top: var(--space-md);
+    border-top: var(--border-rule);
+    border-color: var(--color-rule-light);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+  }
+
+  .game-card dt {
+    text-align: left;
+    color: var(--color-ink-muted);
+  }
+
+  .game-card dd {
+    margin: 0;
+    text-align: right;
+  }
+
+  .game-card dd.mono {
+    font-family: var(--font-mono);
+  }
+
+  .game-card .cta {
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    font-weight: 500;
+    color: var(--color-accent-vermillion);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+</style>
+
+<style>
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-md) var(--space-2xl);
+    border-bottom: var(--border-rule);
+  }
+
+  .brand {
+    text-decoration: none;
+  }
+
+  .nav {
+    display: flex;
+    gap: var(--space-sm);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+  }
+
+  .nav-link {
+    color: var(--color-ink);
+    text-decoration: none;
+    padding: var(--space-2xs) var(--space-xs);
+  }
+
+  .nav-link[aria-current='page'] {
+    border-bottom: 2px solid var(--color-accent-vermillion);
+    padding-bottom: var(--space-2xs);
+  }
+
+  .sep {
+    color: var(--color-rule-light);
+  }
+
+  .page {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: var(--space-2xl);
+  }
+
+  .lede {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+  }
+
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: var(--text-eyebrow);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-accent-vermillion);
+    margin-bottom: var(--space-sm);
+  }
+
+  .sub {
+    max-width: 540px;
+    margin: var(--space-md) auto 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-body-lg);
+    color: var(--color-ink-muted);
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  @media (min-width: 768px) {
+    .cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>
