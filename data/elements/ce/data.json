@@ -12,13 +12,24 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f1 5s2 5p6 5d1 6s2",
   "electron_configuration_short": "[Xe] 4f1 5d1 6s2",
-  "electrons_per_shell": [2, 8, 18, 19, 9, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    19,
+    9,
+    2
+  ],
   "phase_at_stp": "solid",
-  "density_g_per_cm3": 6.770,
-  "melting_point_k": 1068.0,
-  "boiling_point_k": 3716.0,
+  "density_g_per_cm3": 6.77,
+  "melting_point_k": 1068,
+  "boiling_point_k": 3716,
   "electronegativity_pauling": 1.12,
-  "oxidation_states": [2, 3, 4],
+  "oxidation_states": [
+    2,
+    3,
+    4
+  ],
   "discovery": {
     "year": 1803,
     "discoverer": "Jons Jakob Berzelius and Wilhelm Hisinger; independently by Martin Heinrich Klaproth",
@@ -27,7 +38,12 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Most abundant rare-earth element in the Earth's crust (~66 ppm), more common than copper; principal ores are bastnaesite and monazite.",
-    "states": ["bastnaesite ore", "monazite ore", "synchysite", "trace in soils"]
+    "states": [
+      "bastnaesite ore",
+      "monazite ore",
+      "synchysite",
+      "trace in soils"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +77,8 @@
   ],
   "reactivity_summary": "Highly reactive iron-grey metal; pyrophoric when finely divided and tarnishes rapidly in air. Reacts with water (slowly cold, quickly hot) and dissolves readily in dilute acids. Notable for accessible Ce(III)/Ce(IV) redox chemistry.",
   "isotopes_summary": "Cerium has four stable or long-lived naturally occurring isotopes: Ce-136, Ce-138, Ce-140 (most abundant ~88.45%), and Ce-142. Ce-144 (half-life 285 days) is an important fission product used in radioisotope thermoelectric generators historically.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Cerium (Ce) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

@@ -12,13 +12,23 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s1",
   "electron_configuration_short": "[Xe] 6s1",
-  "electrons_per_shell": [2, 8, 18, 18, 8, 1],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    8,
+    1
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 1.93,
   "melting_point_k": 301.7,
-  "boiling_point_k": 944.0,
+  "boiling_point_k": 944,
   "electronegativity_pauling": 0.79,
-  "oxidation_states": [-1, 1],
+  "oxidation_states": [
+    -1,
+    1
+  ],
   "discovery": {
     "year": 1860,
     "discoverer": "Robert Bunsen and Gustav Kirchhoff",
@@ -27,7 +37,11 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Relatively rare in Earth's crust (~3 ppm); primarily obtained from the mineral pollucite found in pegmatites, with major deposits at Bernic Lake, Manitoba, Canada.",
-    "states": ["pollucite ore", "trace in seawater", "minor in lepidolite"]
+    "states": [
+      "pollucite ore",
+      "trace in seawater",
+      "minor in lepidolite"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +75,8 @@
   ],
   "reactivity_summary": "Extremely reactive alkali metal that ignites spontaneously in air and reacts explosively with water to produce caesium hydroxide and hydrogen gas. Must be stored under inert atmosphere or in dry mineral oil.",
   "isotopes_summary": "Caesium has one stable isotope, Cs-133, which is the basis of the SI definition of the second. Numerous radioactive isotopes are known, including Cs-137 (half-life 30.17 years), a notable nuclear fission product and radiological contaminant.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Caesium (Cs) — image from Wikimedia Commons (CC-BY-SA-3.0).",
   "citations": [
     {
       "field": "general",

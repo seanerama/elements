@@ -12,13 +12,23 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 6s2",
-  "electrons_per_shell": [2, 8, 18, 18, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 3.51,
-  "melting_point_k": 1000.0,
-  "boiling_point_k": 2118.0,
+  "melting_point_k": 1000,
+  "boiling_point_k": 2118,
   "electronegativity_pauling": 0.89,
-  "oxidation_states": [1, 2],
+  "oxidation_states": [
+    1,
+    2
+  ],
   "discovery": {
     "year": 1808,
     "discoverer": "Humphry Davy",
@@ -27,7 +37,11 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Moderately abundant in Earth's crust (~425 ppm); found chiefly in the minerals baryte (BaSO4) and witherite (BaCO3).",
-    "states": ["baryte (barite) ore", "witherite ore", "trace in seawater"]
+    "states": [
+      "baryte (barite) ore",
+      "witherite ore",
+      "trace in seawater"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +75,8 @@
   ],
   "reactivity_summary": "Highly reactive alkaline-earth metal that tarnishes rapidly in air and reacts vigorously with water and acids. Soluble barium compounds are toxic; insoluble BaSO4 is biologically inert and safe for medical use.",
   "isotopes_summary": "Barium has seven stable isotopes, with Ba-138 the most abundant (~71.7%). Ba-137m is a metastable nuclear isomer used as a calibration source; Ba-133 (half-life 10.5 years) is also widely used as a gamma-ray standard.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Barium (Ba) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
   "citations": [
     {
       "field": "general",

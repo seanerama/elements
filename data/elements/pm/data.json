@@ -12,13 +12,23 @@
   "atomic_mass_uncertain": true,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f5 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 4f5 6s2",
-  "electrons_per_shell": [2, 8, 18, 23, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    23,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 7.26,
-  "melting_point_k": 1315.0,
-  "boiling_point_k": 3273.0,
+  "melting_point_k": 1315,
+  "boiling_point_k": 3273,
   "electronegativity_pauling": 1.13,
-  "oxidation_states": [2, 3],
+  "oxidation_states": [
+    2,
+    3
+  ],
   "discovery": {
     "year": 1945,
     "discoverer": "Jacob A. Marinsky, Lawrence E. Glendenin, and Charles D. Coryell",
@@ -27,7 +37,11 @@
   "occurrence": {
     "natural": false,
     "abundance_summary": "Essentially absent from Earth's crust; only trace amounts (~10^-15 g per kg) occur naturally as products of spontaneous fission of U-238 in pitchblende. Produced artificially as a fission product in nuclear reactors.",
-    "states": ["trace in uranium ores", "fission product in nuclear reactors", "produced synthetically"]
+    "states": [
+      "trace in uranium ores",
+      "fission product in nuclear reactors",
+      "produced synthetically"
+    ]
   },
   "compounds": [
     {
@@ -60,8 +74,8 @@
   ],
   "reactivity_summary": "A silvery, highly radioactive metal whose chemistry resembles other trivalent lanthanides; reacts with air, water (slowly cold, faster hot), and acids. All bulk samples are warm to the touch from radioactive self-heating and emit a faint blue-green glow due to beta-induced fluorescence.",
   "isotopes_summary": "Promethium has no stable isotopes. The most stable are Pm-145 (half-life 17.7 years), Pm-146 (5.53 years), and Pm-147 (2.62 years), the last being the most commercially important and produced as a uranium fission product.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Promethium (Pm) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
   "citations": [
     {
       "field": "general",

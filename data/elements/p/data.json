@@ -12,13 +12,26 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p3",
   "electron_configuration_short": "[Ne] 3s2 3p3",
-  "electrons_per_shell": [2, 8, 5],
+  "electrons_per_shell": [
+    2,
+    8,
+    5
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 1.823,
   "melting_point_k": 317.3,
   "boiling_point_k": 553.7,
   "electronegativity_pauling": 2.19,
-  "oxidation_states": [-3, -2, -1, 1, 2, 3, 4, 5],
+  "oxidation_states": [
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "discovery": {
     "year": 1669,
     "discoverer": "Hennig Brand",
@@ -27,15 +40,43 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Phosphorus is the eleventh most abundant element in Earth's crust (~0.1%). It does not occur as a free element in nature because of its high reactivity; it is found in phosphate rocks (apatites) and in all living tissues.",
-    "states": ["apatite (Ca5(PO4)3(F,Cl,OH))", "phosphorite ore", "DNA, RNA, ATP, phospholipids, and bones in living organisms"]
+    "states": [
+      "apatite (Ca5(PO4)3(F,Cl,OH))",
+      "phosphorite ore",
+      "DNA, RNA, ATP, phospholipids, and bones in living organisms"
+    ]
   },
   "compounds": [
-    { "formula": "H3PO4", "name": "Phosphoric acid", "summary": "A triprotic acid used in fertilizers, food additives (acidulant in colas), and rust removal." },
-    { "formula": "P2O5", "name": "Phosphorus pentoxide (P4O10)", "summary": "A potent dehydrating agent and the anhydride of phosphoric acid." },
-    { "formula": "PH3", "name": "Phosphine", "summary": "A toxic, flammable gas used as a fumigant and as a doping agent in semiconductors." },
-    { "formula": "PCl3", "name": "Phosphorus trichloride", "summary": "An important industrial intermediate for making pesticides, plasticizers, and other phosphorus compounds." },
-    { "formula": "Ca5(PO4)3(OH)", "name": "Hydroxyapatite", "summary": "The principal mineral component of bones and tooth enamel." },
-    { "formula": "C10H16N5O13P3", "name": "Adenosine triphosphate (ATP)", "summary": "The universal energy-carrier molecule of living cells." }
+    {
+      "formula": "H3PO4",
+      "name": "Phosphoric acid",
+      "summary": "A triprotic acid used in fertilizers, food additives (acidulant in colas), and rust removal."
+    },
+    {
+      "formula": "P2O5",
+      "name": "Phosphorus pentoxide (P4O10)",
+      "summary": "A potent dehydrating agent and the anhydride of phosphoric acid."
+    },
+    {
+      "formula": "PH3",
+      "name": "Phosphine",
+      "summary": "A toxic, flammable gas used as a fumigant and as a doping agent in semiconductors."
+    },
+    {
+      "formula": "PCl3",
+      "name": "Phosphorus trichloride",
+      "summary": "An important industrial intermediate for making pesticides, plasticizers, and other phosphorus compounds."
+    },
+    {
+      "formula": "Ca5(PO4)3(OH)",
+      "name": "Hydroxyapatite",
+      "summary": "The principal mineral component of bones and tooth enamel."
+    },
+    {
+      "formula": "C10H16N5O13P3",
+      "name": "Adenosine triphosphate (ATP)",
+      "summary": "The universal energy-carrier molecule of living cells."
+    }
   ],
   "uses": [
     "Phosphate fertilizers for agriculture (largest single use globally)",
@@ -47,12 +88,28 @@
   ],
   "reactivity_summary": "Phosphorus exists in several allotropes with very different properties: white phosphorus is highly reactive, pyrophoric, and toxic, while red and black phosphorus are more stable. White phosphorus ignites spontaneously in air above ~30 degrees Celsius and reacts vigorously with oxygen and halogens.",
   "isotopes_summary": "Phosphorus has only one stable isotope, P-31. P-32 (half-life 14.3 days) and P-33 (half-life 25.3 days) are widely used as radioactive tracers in biochemistry and medicine.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Phosphorus (P) — image from Wikimedia Commons (PUBLIC-DOMAIN).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021 (CIAAW)", "url": "https://ciaaw.org/phosphorus.htm" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3 (white P)", "source": "NIST Chemistry WebBook - Phosphorus", "url": "https://webbook.nist.gov/chemistry/" },
-    { "field": "electronegativity_pauling, electron_configuration", "source": "Royal Society of Chemistry - Periodic Table: Phosphorus", "url": "https://www.rsc.org/periodic-table/element/15/phosphorus" },
-    { "field": "discovery", "source": "Encyclopaedia Britannica - Phosphorus", "url": "https://www.britannica.com/science/phosphorus-chemical-element" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021 (CIAAW)",
+      "url": "https://ciaaw.org/phosphorus.htm"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3 (white P)",
+      "source": "NIST Chemistry WebBook - Phosphorus",
+      "url": "https://webbook.nist.gov/chemistry/"
+    },
+    {
+      "field": "electronegativity_pauling, electron_configuration",
+      "source": "Royal Society of Chemistry - Periodic Table: Phosphorus",
+      "url": "https://www.rsc.org/periodic-table/element/15/phosphorus"
+    },
+    {
+      "field": "discovery",
+      "source": "Encyclopaedia Britannica - Phosphorus",
+      "url": "https://www.britannica.com/science/phosphorus-chemical-element"
+    }
   ]
 }

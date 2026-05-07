@@ -12,13 +12,25 @@
   "atomic_mass_uncertain": true,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s1",
   "electron_configuration_short": "[Ar] 3d10 4s1",
-  "electrons_per_shell": [2, 8, 18, 1],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    1
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 8.96,
   "melting_point_k": 1357.77,
   "boiling_point_k": 2835,
-  "electronegativity_pauling": 1.90,
-  "oxidation_states": [-2, -1, 1, 2, 3, 4],
+  "electronegativity_pauling": 1.9,
+  "oxidation_states": [
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4
+  ],
   "discovery": {
     "year": null,
     "discoverer": "Known since antiquity",
@@ -27,14 +39,40 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Copper is the 25th most abundant element in Earth's crust at roughly 50-70 ppm. It occurs as native metal and in numerous sulfide and oxide ores; major producing countries include Chile, Peru, China, and the United States.",
-    "states": ["native copper", "chalcopyrite (CuFeS2)", "bornite (Cu5FeS4)", "malachite (Cu2CO3(OH)2)", "azurite (Cu3(CO3)2(OH)2)"]
+    "states": [
+      "native copper",
+      "chalcopyrite (CuFeS2)",
+      "bornite (Cu5FeS4)",
+      "malachite (Cu2CO3(OH)2)",
+      "azurite (Cu3(CO3)2(OH)2)"
+    ]
   },
   "compounds": [
-    { "formula": "CuSO4", "name": "Copper(II) sulfate", "summary": "Bright blue crystalline salt used as a fungicide, algicide, and in electroplating baths." },
-    { "formula": "Cu2O", "name": "Copper(I) oxide", "summary": "A red semiconducting solid used as a pigment, antifouling agent in marine paints, and in rectifier diodes." },
-    { "formula": "CuO", "name": "Copper(II) oxide", "summary": "Black solid used as a pigment in ceramics and as a precursor for many copper compounds." },
-    { "formula": "CuCl2", "name": "Copper(II) chloride", "summary": "Yellow-brown salt used as a catalyst in organic synthesis and in the Wacker process." },
-    { "formula": "Cu(OH)2", "name": "Copper(II) hydroxide", "summary": "Blue gelatinous solid used as a fungicide and as a precursor to copper oxychloride pigments." }
+    {
+      "formula": "CuSO4",
+      "name": "Copper(II) sulfate",
+      "summary": "Bright blue crystalline salt used as a fungicide, algicide, and in electroplating baths."
+    },
+    {
+      "formula": "Cu2O",
+      "name": "Copper(I) oxide",
+      "summary": "A red semiconducting solid used as a pigment, antifouling agent in marine paints, and in rectifier diodes."
+    },
+    {
+      "formula": "CuO",
+      "name": "Copper(II) oxide",
+      "summary": "Black solid used as a pigment in ceramics and as a precursor for many copper compounds."
+    },
+    {
+      "formula": "CuCl2",
+      "name": "Copper(II) chloride",
+      "summary": "Yellow-brown salt used as a catalyst in organic synthesis and in the Wacker process."
+    },
+    {
+      "formula": "Cu(OH)2",
+      "name": "Copper(II) hydroxide",
+      "summary": "Blue gelatinous solid used as a fungicide and as a precursor to copper oxychloride pigments."
+    }
   ],
   "uses": [
     "Electrical wiring and power transmission due to high conductivity",
@@ -46,12 +84,28 @@
   ],
   "reactivity_summary": "Copper is a relatively unreactive metal that resists corrosion in dry air but slowly forms a green patina (basic copper carbonate) in moist atmospheres containing CO2 or sulfur compounds. It does not react with non-oxidizing acids but dissolves in oxidizing acids such as nitric acid and hot concentrated sulfuric acid. Copper readily forms colored Cu(I) and Cu(II) complexes.",
   "isotopes_summary": "Copper has two stable isotopes: 63Cu (~69.15%) and 65Cu (~30.85%). About 27 radioisotopes have been characterized; the longest-lived is 67Cu (half-life ~61.8 hours), and 64Cu (half-life ~12.7 hours) is used in positron emission tomography and radiotherapy.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Copper (Cu) — image from Wikimedia Commons (CC-BY-SA-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery, occurrence", "source": "Royal Society of Chemistry - Periodic Table: Copper", "url": "https://www.rsc.org/periodic-table/element/29/copper" },
-    { "field": "electron_configuration", "source": "NIST Atomic Spectra Database", "url": "https://www.nist.gov/pml/atomic-spectra-database" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, occurrence",
+      "source": "Royal Society of Chemistry - Periodic Table: Copper",
+      "url": "https://www.rsc.org/periodic-table/element/29/copper"
+    },
+    {
+      "field": "electron_configuration",
+      "source": "NIST Atomic Spectra Database",
+      "url": "https://www.nist.gov/pml/atomic-spectra-database"
+    }
   ]
 }

@@ -12,13 +12,24 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f7 5s2 5p6 5d1 6s2",
   "electron_configuration_short": "[Xe] 4f7 5d1 6s2",
-  "electrons_per_shell": [2, 8, 18, 25, 9, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    25,
+    9,
+    2
+  ],
   "phase_at_stp": "solid",
-  "density_g_per_cm3": 7.90,
-  "melting_point_k": 1585.0,
-  "boiling_point_k": 3546.0,
-  "electronegativity_pauling": 1.20,
-  "oxidation_states": [1, 2, 3],
+  "density_g_per_cm3": 7.9,
+  "melting_point_k": 1585,
+  "boiling_point_k": 3546,
+  "electronegativity_pauling": 1.2,
+  "oxidation_states": [
+    1,
+    2,
+    3
+  ],
   "discovery": {
     "year": 1880,
     "discoverer": "Jean Charles Galissard de Marignac",
@@ -27,7 +38,12 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Moderately abundant lanthanide (~6.2 ppm in crust); always found combined with other lanthanides in monazite, bastnaesite, gadolinite, and xenotime ores.",
-    "states": ["monazite ore", "bastnaesite ore", "gadolinite", "xenotime"]
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "gadolinite",
+      "xenotime"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +77,8 @@
   ],
   "reactivity_summary": "Silvery-white ductile metal that is relatively stable in dry air but tarnishes rapidly in moist air, forming a flaky oxide that promotes further corrosion. Reacts slowly with water and dissolves in dilute acids. Ferromagnetic just below room temperature.",
   "isotopes_summary": "Gadolinium has six stable isotopes (Gd-154, 155, 156, 157, 158, 160) and one primordial radioisotope Gd-152 (alpha emitter, half-life 1.08x10^14 years). Gd-157 has the highest known thermal neutron capture cross-section of any stable nuclide.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Gadolinium (Gd) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

@@ -12,13 +12,23 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 4f14 6s2",
-  "electrons_per_shell": [2, 8, 18, 32, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
-  "density_g_per_cm3": 6.90,
-  "melting_point_k": 1097.0,
-  "boiling_point_k": 1469.0,
+  "density_g_per_cm3": 6.9,
+  "melting_point_k": 1097,
+  "boiling_point_k": 1469,
   "electronegativity_pauling": 1.1,
-  "oxidation_states": [2, 3],
+  "oxidation_states": [
+    2,
+    3
+  ],
   "discovery": {
     "year": 1878,
     "discoverer": "Jean Charles Galissard de Marignac",
@@ -27,7 +37,12 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Moderately abundant lanthanide (~3.2 ppm in crust); recovered chiefly from monazite, xenotime, and ion-adsorption clays.",
-    "states": ["monazite ore", "xenotime", "ion-adsorption clays", "euxenite"]
+    "states": [
+      "monazite ore",
+      "xenotime",
+      "ion-adsorption clays",
+      "euxenite"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +76,8 @@
   ],
   "reactivity_summary": "Soft, silvery, ductile lanthanide that is unusual in being divalent in some compounds; tarnishes slowly in dry air, oxidises rapidly in moist air. Reacts with water (slowly cold, faster hot) and dissolves readily in dilute acids; the metal can ignite in air at elevated temperatures.",
   "isotopes_summary": "Ytterbium has seven naturally occurring stable isotopes (Yb-168, 170, 171, 172, 173, 174, 176). Yb-174 is the most abundant (~31.83%). Yb-169 (half-life 32 days) is used as a portable X-ray source and gamma-ray standard.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Ytterbium (Yb) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

@@ -12,13 +12,33 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d7 6s2",
   "electron_configuration_short": "[Xe] 4f14 5d7 6s2",
-  "electrons_per_shell": [2, 8, 18, 32, 15, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    15,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 22.562,
   "melting_point_k": 2719,
   "boiling_point_k": 4701,
   "electronegativity_pauling": 2.2,
-  "oxidation_states": [-3, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "oxidation_states": [
+    -3,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
   "discovery": {
     "year": 1803,
     "discoverer": "Smithson Tennant",
@@ -27,14 +47,39 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Iridium is one of the rarest elements in Earth's crust (~0.001 ppm) but is more abundant in many meteorites; the iridium anomaly in the Cretaceous-Paleogene boundary clay was a key piece of evidence for the asteroid impact theory of the dinosaur extinction. Most iridium is recovered as a byproduct of platinum and nickel mining in South Africa and Russia.",
-    "states": ["bound in platinum-group ores", "native osmiridium and iridosmine alloys", "trace in nickel-copper sulfide deposits", "elevated in iron meteorites and the K-Pg boundary clay"]
+    "states": [
+      "bound in platinum-group ores",
+      "native osmiridium and iridosmine alloys",
+      "trace in nickel-copper sulfide deposits",
+      "elevated in iron meteorites and the K-Pg boundary clay"
+    ]
   },
   "compounds": [
-    { "formula": "IrO2", "name": "Iridium dioxide", "summary": "A blue-black rutile-structured oxide that is an outstanding electrocatalyst for oxygen evolution in PEM water electrolysis." },
-    { "formula": "IrCl3", "name": "Iridium trichloride", "summary": "An olive-green solid used as a precursor for iridium organometallic catalysts and OLED emitters." },
-    { "formula": "Ir(ppy)3", "name": "Tris(2-phenylpyridine)iridium", "summary": "A cyclometalated complex used as a green phosphorescent emitter in OLED displays." },
-    { "formula": "IrF6", "name": "Iridium hexafluoride", "summary": "A yellow volatile solid that is one of the most powerful fluorinating agents known." },
-    { "formula": "[IrCl6]2-", "name": "Hexachloroiridate(IV)", "summary": "A dark red anion used in electrochemistry as a stable one-electron outer-sphere oxidant." }
+    {
+      "formula": "IrO2",
+      "name": "Iridium dioxide",
+      "summary": "A blue-black rutile-structured oxide that is an outstanding electrocatalyst for oxygen evolution in PEM water electrolysis."
+    },
+    {
+      "formula": "IrCl3",
+      "name": "Iridium trichloride",
+      "summary": "An olive-green solid used as a precursor for iridium organometallic catalysts and OLED emitters."
+    },
+    {
+      "formula": "Ir(ppy)3",
+      "name": "Tris(2-phenylpyridine)iridium",
+      "summary": "A cyclometalated complex used as a green phosphorescent emitter in OLED displays."
+    },
+    {
+      "formula": "IrF6",
+      "name": "Iridium hexafluoride",
+      "summary": "A yellow volatile solid that is one of the most powerful fluorinating agents known."
+    },
+    {
+      "formula": "[IrCl6]2-",
+      "name": "Hexachloroiridate(IV)",
+      "summary": "A dark red anion used in electrochemistry as a stable one-electron outer-sphere oxidant."
+    }
   ],
   "uses": [
     "Crucibles for growing high-purity oxide single crystals (sapphire, YAG) at high temperatures",
@@ -46,12 +91,28 @@
   ],
   "reactivity_summary": "Iridium is the second-densest element (~22.56 g/cm3) and the most corrosion-resistant metal known. It is unattacked by all acids and aqua regia at room temperature, and resists molten salts and silicates better than any other metal, which is why it is used for high-temperature crucibles. It can be slowly attacked by molten alkali cyanides and by oxygen at red heat. Compact iridium is essentially inert in air up to 1000 C.",
   "isotopes_summary": "Iridium has two naturally occurring isotopes: 191Ir (~37.3%) and 193Ir (~62.7%), both stable. The synthetic isotope 192Ir (t1/2 ~73.8 d) is widely used as a gamma source for industrial radiography and as a sealed source in high-dose-rate brachytherapy for cancer treatment. The 193mIr isomer is used in Mossbauer spectroscopy.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Iridium (Ir) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Iridium", "url": "https://www.rsc.org/periodic-table/element/77/iridium" },
-    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Platinum-Group Metals", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-platinum.pdf" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Iridium",
+      "url": "https://www.rsc.org/periodic-table/element/77/iridium"
+    },
+    {
+      "field": "uses, occurrence",
+      "source": "USGS Mineral Commodity Summaries - Platinum-Group Metals",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-platinum.pdf"
+    }
   ]
 }

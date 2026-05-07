@@ -12,13 +12,23 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f11 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 4f11 6s2",
-  "electrons_per_shell": [2, 8, 18, 29, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    29,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 8.79,
-  "melting_point_k": 1734.0,
-  "boiling_point_k": 2993.0,
+  "melting_point_k": 1734,
+  "boiling_point_k": 2993,
   "electronegativity_pauling": 1.23,
-  "oxidation_states": [2, 3],
+  "oxidation_states": [
+    2,
+    3
+  ],
   "discovery": {
     "year": 1878,
     "discoverer": "Per Teodor Cleve; independently by Marc Delafontaine and Jacques-Louis Soret",
@@ -27,7 +37,12 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Moderately rare lanthanide (~1.3 ppm in crust); recovered as a minor component of monazite, gadolinite, and xenotime ores.",
-    "states": ["monazite ore", "gadolinite", "xenotime", "bastnaesite ore"]
+    "states": [
+      "monazite ore",
+      "gadolinite",
+      "xenotime",
+      "bastnaesite ore"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +76,8 @@
   ],
   "reactivity_summary": "Soft, silvery-white ductile metal that is stable in dry air at room temperature but rapidly oxidises in moist air or at elevated temperatures. Reacts slowly with cold water, more vigorously with hot water and dilute acids.",
   "isotopes_summary": "Holmium has one stable, naturally occurring isotope (Ho-165). The metastable nuclear isomer Ho-166m1 (half-life ~1200 years) and Ho-163 (~4570 years) are the longest-lived synthetic isotopes; Ho-166 is used in radiotherapy.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Holmium (Ho) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

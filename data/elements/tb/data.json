@@ -12,13 +12,25 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f9 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 4f9 6s2",
-  "electrons_per_shell": [2, 8, 18, 27, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    27,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 8.23,
-  "melting_point_k": 1629.0,
-  "boiling_point_k": 3503.0,
+  "melting_point_k": 1629,
+  "boiling_point_k": 3503,
   "electronegativity_pauling": 1.2,
-  "oxidation_states": [1, 2, 3, 4],
+  "oxidation_states": [
+    1,
+    2,
+    3,
+    4
+  ],
   "discovery": {
     "year": 1843,
     "discoverer": "Carl Gustaf Mosander",
@@ -27,7 +39,12 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "One of the rarer of the rare-earth elements (~1.2 ppm in crust); recovered chiefly from monazite, bastnaesite, and xenotime as a minor component.",
-    "states": ["monazite ore", "bastnaesite ore", "xenotime", "ion-adsorption clays"]
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "xenotime",
+      "ion-adsorption clays"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +78,8 @@
   ],
   "reactivity_summary": "Silvery-white ductile rare-earth metal; reasonably stable in dry air but tarnishes slowly in moist air. Reacts slowly with cold water, more rapidly with hot water and acids. Two allotropes interconvert near 1250 degrees C.",
   "isotopes_summary": "Terbium has only one stable, naturally occurring isotope (Tb-159). Many synthetic radioisotopes are known, of which Tb-158 (half-life 180 years) and Tb-157 (~71 years) are the longest-lived.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Terbium (Tb) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

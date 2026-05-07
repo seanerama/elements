@@ -12,13 +12,25 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f3 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 4f3 6s2",
-  "electrons_per_shell": [2, 8, 18, 21, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    21,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 6.77,
-  "melting_point_k": 1208.0,
-  "boiling_point_k": 3793.0,
+  "melting_point_k": 1208,
+  "boiling_point_k": 3793,
   "electronegativity_pauling": 1.13,
-  "oxidation_states": [2, 3, 4, 5],
+  "oxidation_states": [
+    2,
+    3,
+    4,
+    5
+  ],
   "discovery": {
     "year": 1885,
     "discoverer": "Carl Auer von Welsbach",
@@ -27,7 +39,11 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Moderately abundant rare-earth (~9.2 ppm in crust); always found together with other lanthanides, chiefly in monazite and bastnaesite ores.",
-    "states": ["monazite ore", "bastnaesite ore", "trace in soils"]
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "trace in soils"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +77,8 @@
   ],
   "reactivity_summary": "Soft, silvery-yellow metal; develops a green oxide coating in air that spalls off, exposing more metal. Reacts slowly with cold water and rapidly with acids. Burns readily in oxygen.",
   "isotopes_summary": "Praseodymium has only one stable, naturally occurring isotope (Pr-141). Many synthetic radioisotopes are known; Pr-143 (half-life 13.6 days) is a notable fission product.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Praseodymium (Pr) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

@@ -12,13 +12,26 @@
   "atomic_mass_uncertain": true,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p4",
   "electron_configuration_short": "[Ne] 3s2 3p4",
-  "electrons_per_shell": [2, 8, 6],
+  "electrons_per_shell": [
+    2,
+    8,
+    6
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 2.07,
   "melting_point_k": 388.36,
   "boiling_point_k": 717.8,
   "electronegativity_pauling": 2.58,
-  "oxidation_states": [-2, -1, 1, 2, 3, 4, 5, 6],
+  "oxidation_states": [
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
   "discovery": {
     "year": null,
     "discoverer": "Known since antiquity",
@@ -27,15 +40,47 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Sulfur is the tenth most abundant element by mass in the universe and the fifth most abundant on Earth. It occurs as the native element near volcanoes and hot springs, and in many sulfide and sulfate minerals.",
-    "states": ["native sulfur deposits", "pyrite (FeS2)", "galena (PbS)", "gypsum (CaSO4.2H2O)", "epsomite", "hydrogen sulfide in natural gas and crude oil", "amino acids cysteine and methionine in proteins"]
+    "states": [
+      "native sulfur deposits",
+      "pyrite (FeS2)",
+      "galena (PbS)",
+      "gypsum (CaSO4.2H2O)",
+      "epsomite",
+      "hydrogen sulfide in natural gas and crude oil",
+      "amino acids cysteine and methionine in proteins"
+    ]
   },
   "compounds": [
-    { "formula": "H2SO4", "name": "Sulfuric acid", "summary": "One of the most important industrial chemicals; produced in greater volumes than any other and used in fertilizer manufacture, batteries, and metal processing." },
-    { "formula": "H2S", "name": "Hydrogen sulfide", "summary": "A toxic, flammable gas with a rotten-egg odor; a major byproduct of petroleum refining and a building block of sulfur recovery." },
-    { "formula": "SO2", "name": "Sulfur dioxide", "summary": "A colorless gas and major air pollutant; used as a food preservative, bleaching agent, and in sulfuric acid production." },
-    { "formula": "SO3", "name": "Sulfur trioxide", "summary": "An intermediate in the contact process for making sulfuric acid; reacts violently with water." },
-    { "formula": "FeS2", "name": "Pyrite", "summary": "Iron disulfide ('fool's gold'); historically a source of sulfur and a sulfuric acid feedstock." },
-    { "formula": "CaSO4.2H2O", "name": "Gypsum", "summary": "Hydrated calcium sulfate; used in plaster of Paris, drywall, and as a soil amendment." }
+    {
+      "formula": "H2SO4",
+      "name": "Sulfuric acid",
+      "summary": "One of the most important industrial chemicals; produced in greater volumes than any other and used in fertilizer manufacture, batteries, and metal processing."
+    },
+    {
+      "formula": "H2S",
+      "name": "Hydrogen sulfide",
+      "summary": "A toxic, flammable gas with a rotten-egg odor; a major byproduct of petroleum refining and a building block of sulfur recovery."
+    },
+    {
+      "formula": "SO2",
+      "name": "Sulfur dioxide",
+      "summary": "A colorless gas and major air pollutant; used as a food preservative, bleaching agent, and in sulfuric acid production."
+    },
+    {
+      "formula": "SO3",
+      "name": "Sulfur trioxide",
+      "summary": "An intermediate in the contact process for making sulfuric acid; reacts violently with water."
+    },
+    {
+      "formula": "FeS2",
+      "name": "Pyrite",
+      "summary": "Iron disulfide ('fool's gold'); historically a source of sulfur and a sulfuric acid feedstock."
+    },
+    {
+      "formula": "CaSO4.2H2O",
+      "name": "Gypsum",
+      "summary": "Hydrated calcium sulfate; used in plaster of Paris, drywall, and as a soil amendment."
+    }
   ],
   "uses": [
     "Production of sulfuric acid (predominant use, vital for fertilizer manufacture)",
@@ -47,12 +92,28 @@
   ],
   "reactivity_summary": "Sulfur is a moderately reactive nonmetal that exists in many allotropes; the stable form at room temperature is rhombic S8 rings. It burns in air with a blue flame to form sulfur dioxide and combines directly with most metals and many nonmetals to form sulfides and sulfates.",
   "isotopes_summary": "Sulfur has four stable isotopes: S-32 (~95.0%), S-33 (~0.75%), S-34 (~4.25%), and S-36 (~0.01%). S-35, with a half-life of about 87 days, is widely used as a radioactive tracer in biochemistry.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Sulfur (S) — image from Wikimedia Commons (CC-BY-SA-4.0).",
   "citations": [
-    { "field": "atomic_mass, atomic_mass_uncertain", "source": "IUPAC Standard Atomic Weights 2021 (CIAAW) - interval [32.059, 32.076]", "url": "https://ciaaw.org/sulfur.htm" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "NIST Chemistry WebBook - Sulfur", "url": "https://webbook.nist.gov/chemistry/" },
-    { "field": "electronegativity_pauling, electron_configuration", "source": "Royal Society of Chemistry - Periodic Table: Sulfur", "url": "https://www.rsc.org/periodic-table/element/16/sulfur" },
-    { "field": "discovery", "source": "Encyclopaedia Britannica - Sulfur", "url": "https://www.britannica.com/science/sulfur" }
+    {
+      "field": "atomic_mass, atomic_mass_uncertain",
+      "source": "IUPAC Standard Atomic Weights 2021 (CIAAW) - interval [32.059, 32.076]",
+      "url": "https://ciaaw.org/sulfur.htm"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "NIST Chemistry WebBook - Sulfur",
+      "url": "https://webbook.nist.gov/chemistry/"
+    },
+    {
+      "field": "electronegativity_pauling, electron_configuration",
+      "source": "Royal Society of Chemistry - Periodic Table: Sulfur",
+      "url": "https://www.rsc.org/periodic-table/element/16/sulfur"
+    },
+    {
+      "field": "discovery",
+      "source": "Encyclopaedia Britannica - Sulfur",
+      "url": "https://www.britannica.com/science/sulfur"
+    }
   ]
 }

@@ -12,13 +12,24 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d2 4s2",
   "electron_configuration_short": "[Ar] 3d2 4s2",
-  "electrons_per_shell": [2, 8, 10, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    10,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 4.506,
   "melting_point_k": 1941,
   "boiling_point_k": 3560,
   "electronegativity_pauling": 1.54,
-  "oxidation_states": [-2, -1, 2, 3, 4],
+  "oxidation_states": [
+    -2,
+    -1,
+    2,
+    3,
+    4
+  ],
   "discovery": {
     "year": 1791,
     "discoverer": "William Gregor",
@@ -27,14 +38,40 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Titanium is the ninth most abundant element in Earth's crust (~0.57% by mass) and the seventh most abundant metal. It is found in nearly all igneous rocks and sediments, primarily as the minerals rutile (TiO2) and ilmenite (FeTiO3).",
-    "states": ["rutile (TiO2)", "ilmenite (FeTiO3)", "anatase (TiO2)", "titanite/sphene (CaTiSiO5)", "perovskite (CaTiO3)"]
+    "states": [
+      "rutile (TiO2)",
+      "ilmenite (FeTiO3)",
+      "anatase (TiO2)",
+      "titanite/sphene (CaTiSiO5)",
+      "perovskite (CaTiO3)"
+    ]
   },
   "compounds": [
-    { "formula": "TiO2", "name": "Titanium dioxide", "summary": "A bright white pigment used in paints, sunscreens, food coloring, and as a photocatalyst." },
-    { "formula": "TiCl4", "name": "Titanium tetrachloride", "summary": "A volatile colorless liquid used as an intermediate in titanium metal production and in Ziegler-Natta polymerization catalysts." },
-    { "formula": "TiN", "name": "Titanium nitride", "summary": "An extremely hard ceramic used as a gold-colored coating on cutting tools, drill bits, and decorative finishes." },
-    { "formula": "TiC", "name": "Titanium carbide", "summary": "A very hard refractory ceramic used in tool bits, heat-resistant coatings, and tungsten carbide composites." },
-    { "formula": "Ti(OPr-i)4", "name": "Titanium(IV) isopropoxide", "summary": "An organotitanium compound widely used as a catalyst and as a precursor for thin-film titanium oxides." }
+    {
+      "formula": "TiO2",
+      "name": "Titanium dioxide",
+      "summary": "A bright white pigment used in paints, sunscreens, food coloring, and as a photocatalyst."
+    },
+    {
+      "formula": "TiCl4",
+      "name": "Titanium tetrachloride",
+      "summary": "A volatile colorless liquid used as an intermediate in titanium metal production and in Ziegler-Natta polymerization catalysts."
+    },
+    {
+      "formula": "TiN",
+      "name": "Titanium nitride",
+      "summary": "An extremely hard ceramic used as a gold-colored coating on cutting tools, drill bits, and decorative finishes."
+    },
+    {
+      "formula": "TiC",
+      "name": "Titanium carbide",
+      "summary": "A very hard refractory ceramic used in tool bits, heat-resistant coatings, and tungsten carbide composites."
+    },
+    {
+      "formula": "Ti(OPr-i)4",
+      "name": "Titanium(IV) isopropoxide",
+      "summary": "An organotitanium compound widely used as a catalyst and as a precursor for thin-film titanium oxides."
+    }
   ],
   "uses": [
     "Aerospace structural components (jet engines, airframes) due to high strength-to-weight ratio",
@@ -46,12 +83,28 @@
   ],
   "reactivity_summary": "Titanium is a strong, lightweight transition metal with excellent corrosion resistance due to a passive oxide film. At room temperature it resists most acids, chlorine, and seawater, but at elevated temperatures it reacts readily with oxygen, nitrogen, hydrogen, and halogens. Powdered titanium is pyrophoric and can burn in pure nitrogen.",
   "isotopes_summary": "Titanium has five stable isotopes: 46Ti, 47Ti, 48Ti (most abundant at ~73.7%), 49Ti, and 50Ti. Radioactive isotopes include 44Ti (half-life ~60 years), which is produced in supernovae and used in astrophysical studies.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Titanium (Ti) — image from Wikimedia Commons (CC-BY-SA-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Titanium", "url": "https://www.rsc.org/periodic-table/element/22/titanium" },
-    { "field": "occurrence, uses", "source": "USGS Mineral Commodity Summaries - Titanium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/titanium-statistics-and-information" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Titanium",
+      "url": "https://www.rsc.org/periodic-table/element/22/titanium"
+    },
+    {
+      "field": "occurrence, uses",
+      "source": "USGS Mineral Commodity Summaries - Titanium",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/titanium-statistics-and-information"
+    }
   ]
 }

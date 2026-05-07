@@ -12,13 +12,20 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1",
   "electron_configuration_short": "[Ar] 4s1",
-  "electrons_per_shell": [2, 8, 8, 1],
+  "electrons_per_shell": [
+    2,
+    8,
+    8,
+    1
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 0.862,
   "melting_point_k": 336.7,
   "boiling_point_k": 1032,
   "electronegativity_pauling": 0.82,
-  "oxidation_states": [1],
+  "oxidation_states": [
+    1
+  ],
   "discovery": {
     "year": 1807,
     "discoverer": "Humphry Davy",
@@ -27,14 +34,40 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Potassium is the seventh most abundant element in Earth's crust (~2.1% by mass) and the eighth most abundant element overall. It does not occur as a free metal in nature due to its high reactivity, but is widespread in minerals such as sylvite, carnallite, and feldspar.",
-    "states": ["sylvite (KCl)", "carnallite (KMgCl3.6H2O)", "potash (K2CO3)", "dissolved K+ ions in seawater", "feldspar minerals"]
+    "states": [
+      "sylvite (KCl)",
+      "carnallite (KMgCl3.6H2O)",
+      "potash (K2CO3)",
+      "dissolved K+ ions in seawater",
+      "feldspar minerals"
+    ]
   },
   "compounds": [
-    { "formula": "KCl", "name": "Potassium chloride", "summary": "A naturally occurring salt used as a fertilizer, salt substitute, and in medical applications." },
-    { "formula": "KOH", "name": "Potassium hydroxide", "summary": "A strong caustic base used in the manufacture of soft soaps, biodiesel, and as an electrolyte in alkaline batteries." },
-    { "formula": "KNO3", "name": "Potassium nitrate (saltpeter)", "summary": "A key oxidizer in gunpowder, fireworks, and a common fertilizer ingredient." },
-    { "formula": "K2CO3", "name": "Potassium carbonate (potash)", "summary": "Used in glass and soap manufacturing and as a mild drying agent." },
-    { "formula": "KMnO4", "name": "Potassium permanganate", "summary": "A vivid purple oxidizing agent used in water treatment, disinfection, and organic chemistry." }
+    {
+      "formula": "KCl",
+      "name": "Potassium chloride",
+      "summary": "A naturally occurring salt used as a fertilizer, salt substitute, and in medical applications."
+    },
+    {
+      "formula": "KOH",
+      "name": "Potassium hydroxide",
+      "summary": "A strong caustic base used in the manufacture of soft soaps, biodiesel, and as an electrolyte in alkaline batteries."
+    },
+    {
+      "formula": "KNO3",
+      "name": "Potassium nitrate (saltpeter)",
+      "summary": "A key oxidizer in gunpowder, fireworks, and a common fertilizer ingredient."
+    },
+    {
+      "formula": "K2CO3",
+      "name": "Potassium carbonate (potash)",
+      "summary": "Used in glass and soap manufacturing and as a mild drying agent."
+    },
+    {
+      "formula": "KMnO4",
+      "name": "Potassium permanganate",
+      "summary": "A vivid purple oxidizing agent used in water treatment, disinfection, and organic chemistry."
+    }
   ],
   "uses": [
     "Potash fertilizers for agriculture (over 90% of mined potassium)",
@@ -46,12 +79,28 @@
   ],
   "reactivity_summary": "Potassium is an extremely reactive alkali metal that reacts vigorously and exothermically with water to produce hydrogen gas, often igniting the hydrogen with a lilac flame. It oxidizes rapidly in air and must be stored under mineral oil or inert gas. Potassium is more reactive than sodium and reacts violently with halogens and acids.",
   "isotopes_summary": "Potassium has three naturally occurring isotopes: 39K (~93.26%), 41K (~6.73%), and the long-lived radioactive 40K (~0.012%, half-life 1.25 billion years). 40K is the largest source of natural radioactivity in animals, including humans, and its decay to 40Ar is the basis for potassium-argon geological dating.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Potassium (K) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Potassium", "url": "https://www.rsc.org/periodic-table/element/19/potassium" },
-    { "field": "occurrence, isotopes", "source": "Los Alamos National Laboratory - Periodic Table: Potassium", "url": "https://periodic.lanl.gov/19.shtml" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Potassium",
+      "url": "https://www.rsc.org/periodic-table/element/19/potassium"
+    },
+    {
+      "field": "occurrence, isotopes",
+      "source": "Los Alamos National Laboratory - Periodic Table: Potassium",
+      "url": "https://periodic.lanl.gov/19.shtml"
+    }
   ]
 }

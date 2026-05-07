@@ -12,13 +12,23 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f6 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 4f6 6s2",
-  "electrons_per_shell": [2, 8, 18, 24, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    24,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 7.52,
-  "melting_point_k": 1345.0,
-  "boiling_point_k": 2067.0,
+  "melting_point_k": 1345,
+  "boiling_point_k": 2067,
   "electronegativity_pauling": 1.17,
-  "oxidation_states": [2, 3],
+  "oxidation_states": [
+    2,
+    3
+  ],
   "discovery": {
     "year": 1879,
     "discoverer": "Paul-Emile Lecoq de Boisbaudran",
@@ -27,7 +37,12 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Moderately abundant lanthanide (~7 ppm in crust); occurs in monazite, bastnaesite, samarskite, cerite, and gadolinite ores.",
-    "states": ["monazite ore", "bastnaesite ore", "samarskite", "trace in soils"]
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "samarskite",
+      "trace in soils"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +76,8 @@
   ],
   "reactivity_summary": "Silvery-white moderately reactive metal that tarnishes in air to form a yellowish oxide layer; reacts slowly with cold water and rapidly with hot water and acids. Spontaneously ignites in air above ~150 degrees C.",
   "isotopes_summary": "Samarium has seven naturally occurring isotopes (Sm-144, Sm-147, Sm-148, Sm-149, Sm-150, Sm-152, Sm-154). Sm-152 is the most abundant (~26.75%); Sm-147, Sm-148 and Sm-149 are very long-lived alpha emitters. Sm-149 is also a strong neutron absorber.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Samarium (Sm) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

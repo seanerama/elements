@@ -12,13 +12,29 @@
   "atomic_mass_uncertain": true,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d5 5s2",
   "electron_configuration_short": "[Kr] 4d5 5s2",
-  "electrons_per_shell": [2, 8, 18, 13, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    13,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 11,
   "melting_point_k": 2430,
   "boiling_point_k": 4538,
   "electronegativity_pauling": 1.9,
-  "oxidation_states": [-3, -1, 1, 2, 3, 4, 5, 6, 7],
+  "oxidation_states": [
+    -3,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
   "discovery": {
     "year": 1937,
     "discoverer": "Carlo Perrier and Emilio Segre",
@@ -27,14 +43,38 @@
   "occurrence": {
     "natural": false,
     "abundance_summary": "Technetium is essentially absent from Earth's crust because all its isotopes are radioactive and short-lived relative to Earth's age. Trace amounts occur naturally as a uranium spontaneous-fission product in pitchblende. It has been detected spectroscopically in S-, M-, and N-type stars, providing evidence of ongoing stellar nucleosynthesis.",
-    "states": ["produced artificially in nuclear reactors and cyclotrons", "trace as uranium fission product", "detected in some red giant stars"]
+    "states": [
+      "produced artificially in nuclear reactors and cyclotrons",
+      "trace as uranium fission product",
+      "detected in some red giant stars"
+    ]
   },
   "compounds": [
-    { "formula": "TcO4-", "name": "Pertechnetate ion", "summary": "The most common aqueous form of technetium, used as the starting material for medical imaging agents." },
-    { "formula": "Tc2O7", "name": "Technetium heptoxide", "summary": "A volatile yellow oxide that is the highest oxide of technetium." },
-    { "formula": "TcO2", "name": "Technetium dioxide", "summary": "A black solid produced by reduction of pertechnetate, used as a precursor in technetium chemistry." },
-    { "formula": "NaTcO4", "name": "Sodium pertechnetate", "summary": "A water-soluble salt commonly used to deliver 99mTc for medical imaging." },
-    { "formula": "TcF6", "name": "Technetium hexafluoride", "summary": "A yellow volatile compound that is one of the few high-oxidation-state binary fluorides of technetium." }
+    {
+      "formula": "TcO4-",
+      "name": "Pertechnetate ion",
+      "summary": "The most common aqueous form of technetium, used as the starting material for medical imaging agents."
+    },
+    {
+      "formula": "Tc2O7",
+      "name": "Technetium heptoxide",
+      "summary": "A volatile yellow oxide that is the highest oxide of technetium."
+    },
+    {
+      "formula": "TcO2",
+      "name": "Technetium dioxide",
+      "summary": "A black solid produced by reduction of pertechnetate, used as a precursor in technetium chemistry."
+    },
+    {
+      "formula": "NaTcO4",
+      "name": "Sodium pertechnetate",
+      "summary": "A water-soluble salt commonly used to deliver 99mTc for medical imaging."
+    },
+    {
+      "formula": "TcF6",
+      "name": "Technetium hexafluoride",
+      "summary": "A yellow volatile compound that is one of the few high-oxidation-state binary fluorides of technetium."
+    }
   ],
   "uses": [
     "99mTc as the most widely used medical radioisotope for diagnostic imaging (over 30 million scans per year)",
@@ -45,12 +85,28 @@
   ],
   "reactivity_summary": "Technetium is a silvery-gray radioactive metal that resembles rhenium and platinum in chemistry. It tarnishes slowly in moist air and dissolves in nitric acid, aqua regia, and concentrated sulfuric acid but not in hydrochloric acid. It exhibits a wide range of oxidation states from -1 to +7, with +7 (pertechnetate) being the most stable in aqueous solution.",
   "isotopes_summary": "Technetium has no stable isotopes; all 22 known isotopes are radioactive. The longest-lived are 97Tc (half-life 4.21 million years), 98Tc (4.2 million years), and 99Tc (211,000 years). The metastable nuclear isomer 99mTc (half-life 6.01 hours) is the workhorse of nuclear medicine, decaying via gamma emission to ground-state 99Tc.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Technetium (Tc) — image from Wikimedia Commons (CC-BY-SA-4.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021 (most stable isotope)", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Technetium", "url": "https://www.rsc.org/periodic-table/element/43/technetium" },
-    { "field": "isotopes, medical use", "source": "IAEA - Technetium-99m and Nuclear Medicine", "url": "https://www.iaea.org/topics/nuclear-medicine" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021 (most stable isotope)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery",
+      "source": "Royal Society of Chemistry - Periodic Table: Technetium",
+      "url": "https://www.rsc.org/periodic-table/element/43/technetium"
+    },
+    {
+      "field": "isotopes, medical use",
+      "source": "IAEA - Technetium-99m and Nuclear Medicine",
+      "url": "https://www.iaea.org/topics/nuclear-medicine"
+    }
   ]
 }

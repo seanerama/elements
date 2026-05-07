@@ -12,13 +12,27 @@
   "atomic_mass_uncertain": true,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p4",
   "electron_configuration_short": "[Ar] 3d10 4s2 4p4",
-  "electrons_per_shell": [2, 8, 18, 6],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    6
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 4.81,
   "melting_point_k": 494,
   "boiling_point_k": 958,
   "electronegativity_pauling": 2.55,
-  "oxidation_states": [-2, -1, 1, 2, 3, 4, 5, 6],
+  "oxidation_states": [
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
   "discovery": {
     "year": 1817,
     "discoverer": "Jons Jacob Berzelius and Johan Gottlieb Gahn",
@@ -27,14 +41,39 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Selenium is rare in Earth's crust at roughly 0.05 ppm. It is recovered almost entirely as a by-product of copper refining (anode slimes); major producers include Japan, Germany, Belgium, and Russia.",
-    "states": ["trace in copper sulfide ores", "anode slimes from copper electrorefining", "rare minerals such as clausthalite (PbSe) and crooksite", "trace in soils and certain plants"]
+    "states": [
+      "trace in copper sulfide ores",
+      "anode slimes from copper electrorefining",
+      "rare minerals such as clausthalite (PbSe) and crooksite",
+      "trace in soils and certain plants"
+    ]
   },
   "compounds": [
-    { "formula": "SeO2", "name": "Selenium dioxide", "summary": "White solid that sublimes readily; an important reagent in organic synthesis for the oxidation of allylic and benzylic positions." },
-    { "formula": "H2SeO4", "name": "Selenic acid", "summary": "Strong, hot-concentrated oxidizing acid analogous to sulfuric acid; capable of dissolving gold and used in selenate-salt synthesis." },
-    { "formula": "H2Se", "name": "Hydrogen selenide", "summary": "Colorless, highly toxic gas with an offensive odor; used as a precursor in the deposition of selenide semiconductors." },
-    { "formula": "CdSe", "name": "Cadmium selenide", "summary": "Direct-bandgap semiconductor used in photoconductors and as the basis of many quantum-dot displays and biomedical fluorophores." },
-    { "formula": "Na2SeO3", "name": "Sodium selenite", "summary": "Soluble salt used as a dietary supplement source of selenium and as an additive in glassmaking." }
+    {
+      "formula": "SeO2",
+      "name": "Selenium dioxide",
+      "summary": "White solid that sublimes readily; an important reagent in organic synthesis for the oxidation of allylic and benzylic positions."
+    },
+    {
+      "formula": "H2SeO4",
+      "name": "Selenic acid",
+      "summary": "Strong, hot-concentrated oxidizing acid analogous to sulfuric acid; capable of dissolving gold and used in selenate-salt synthesis."
+    },
+    {
+      "formula": "H2Se",
+      "name": "Hydrogen selenide",
+      "summary": "Colorless, highly toxic gas with an offensive odor; used as a precursor in the deposition of selenide semiconductors."
+    },
+    {
+      "formula": "CdSe",
+      "name": "Cadmium selenide",
+      "summary": "Direct-bandgap semiconductor used in photoconductors and as the basis of many quantum-dot displays and biomedical fluorophores."
+    },
+    {
+      "formula": "Na2SeO3",
+      "name": "Sodium selenite",
+      "summary": "Soluble salt used as a dietary supplement source of selenium and as an additive in glassmaking."
+    }
   ],
   "uses": [
     "Decolorizing and red-coloring agent in glass manufacturing",
@@ -46,12 +85,28 @@
   ],
   "reactivity_summary": "Selenium exists in several allotropes including red amorphous, gray (metallic) trigonal, and red monoclinic forms. It is stable in air at room temperature and burns with a blue flame to give SeO2. Selenium reacts with most metals to form selenides, and with strong oxidizing acids to form selenous and selenic acids. Its photoconductivity (resistance drops sharply on illumination) underpins many of its electronic applications.",
   "isotopes_summary": "Selenium has six naturally occurring isotopes: 74Se (~0.89%), 76Se (~9.37%), 77Se (~7.63%), 78Se (~23.77%), 80Se (~49.61%), and 82Se (~8.73%). 82Se is observationally stable but undergoes very slow double beta decay and is studied in neutrinoless-double-beta-decay experiments. The longest-lived radioisotope is 79Se (half-life ~3.27 x 10^5 years).",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Selenium (Se) — image from Wikimedia Commons (CC-BY-SA-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Selenium", "url": "https://www.rsc.org/periodic-table/element/34/selenium" },
-    { "field": "uses (dietary)", "source": "NIH Office of Dietary Supplements - Selenium Fact Sheet", "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Selenium",
+      "url": "https://www.rsc.org/periodic-table/element/34/selenium"
+    },
+    {
+      "field": "uses (dietary)",
+      "source": "NIH Office of Dietary Supplements - Selenium Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+    }
   ]
 }

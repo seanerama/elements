@@ -12,13 +12,26 @@
   "atomic_mass_uncertain": true,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p5",
   "electron_configuration_short": "[Ne] 3s2 3p5",
-  "electrons_per_shell": [2, 8, 7],
+  "electrons_per_shell": [
+    2,
+    8,
+    7
+  ],
   "phase_at_stp": "gas",
   "density_g_per_cm3": 0.003214,
   "melting_point_k": 171.6,
   "boiling_point_k": 239.11,
   "electronegativity_pauling": 3.16,
-  "oxidation_states": [-1, 1, 2, 3, 4, 5, 6, 7],
+  "oxidation_states": [
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
   "discovery": {
     "year": 1774,
     "discoverer": "Carl Wilhelm Scheele",
@@ -27,15 +40,44 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Chlorine is the 21st most abundant element in Earth's crust (~145 ppm) and the most abundant halogen in seawater. Its high reactivity means it does not occur as the free element in nature; it is found mainly as the chloride ion in salts.",
-    "states": ["dissolved in seawater (as Cl-)", "rock salt (halite, NaCl)", "sylvite (KCl)", "carnallite (KMgCl3.6H2O)"]
+    "states": [
+      "dissolved in seawater (as Cl-)",
+      "rock salt (halite, NaCl)",
+      "sylvite (KCl)",
+      "carnallite (KMgCl3.6H2O)"
+    ]
   },
   "compounds": [
-    { "formula": "HCl", "name": "Hydrogen chloride / Hydrochloric acid", "summary": "A strong mineral acid widely used in metal pickling, food processing, and chemical synthesis; produced naturally in the stomach as gastric acid." },
-    { "formula": "NaClO", "name": "Sodium hypochlorite", "summary": "The active ingredient in liquid bleach and a common disinfectant for water and surfaces." },
-    { "formula": "PVC ((C2H3Cl)n)", "name": "Polyvinyl chloride", "summary": "A widely used thermoplastic polymer for pipes, flooring, cable insulation, and medical tubing." },
-    { "formula": "CHCl3", "name": "Chloroform", "summary": "An organic solvent and historic anesthetic, now mainly used as a precursor to PTFE refrigerants." },
-    { "formula": "KCl", "name": "Potassium chloride", "summary": "A potassium fertilizer (potash), salt substitute, and component of lethal-injection mixtures." },
-    { "formula": "ClO2", "name": "Chlorine dioxide", "summary": "A powerful disinfectant and bleach used in drinking water treatment and pulp processing." }
+    {
+      "formula": "HCl",
+      "name": "Hydrogen chloride / Hydrochloric acid",
+      "summary": "A strong mineral acid widely used in metal pickling, food processing, and chemical synthesis; produced naturally in the stomach as gastric acid."
+    },
+    {
+      "formula": "NaClO",
+      "name": "Sodium hypochlorite",
+      "summary": "The active ingredient in liquid bleach and a common disinfectant for water and surfaces."
+    },
+    {
+      "formula": "PVC ((C2H3Cl)n)",
+      "name": "Polyvinyl chloride",
+      "summary": "A widely used thermoplastic polymer for pipes, flooring, cable insulation, and medical tubing."
+    },
+    {
+      "formula": "CHCl3",
+      "name": "Chloroform",
+      "summary": "An organic solvent and historic anesthetic, now mainly used as a precursor to PTFE refrigerants."
+    },
+    {
+      "formula": "KCl",
+      "name": "Potassium chloride",
+      "summary": "A potassium fertilizer (potash), salt substitute, and component of lethal-injection mixtures."
+    },
+    {
+      "formula": "ClO2",
+      "name": "Chlorine dioxide",
+      "summary": "A powerful disinfectant and bleach used in drinking water treatment and pulp processing."
+    }
   ],
   "uses": [
     "Disinfection of drinking water and swimming pools",
@@ -47,12 +89,28 @@
   ],
   "reactivity_summary": "Chlorine is a highly reactive yellow-green diatomic gas with a sharp, choking odor; it is a strong oxidizing agent and the second most reactive halogen after fluorine. It reacts directly with nearly all elements (except noble gases and a few unreactive metals) and forms acidic solutions in water.",
   "isotopes_summary": "Chlorine has two stable isotopes, Cl-35 (~75.8%) and Cl-37 (~24.2%). The most notable radioisotope is Cl-36, with a half-life of about 301,000 years, used in geological and groundwater dating.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Chlorine (Cl) — image from Wikimedia Commons (CC-BY-SA-3.0).",
   "citations": [
-    { "field": "atomic_mass, atomic_mass_uncertain", "source": "IUPAC Standard Atomic Weights 2021 (CIAAW) - interval [35.446, 35.457]", "url": "https://ciaaw.org/chlorine.htm" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "NIST Chemistry WebBook - Chlorine", "url": "https://webbook.nist.gov/chemistry/" },
-    { "field": "electronegativity_pauling, electron_configuration", "source": "Royal Society of Chemistry - Periodic Table: Chlorine", "url": "https://www.rsc.org/periodic-table/element/17/chlorine" },
-    { "field": "discovery", "source": "Encyclopaedia Britannica - Chlorine", "url": "https://www.britannica.com/science/chlorine" }
+    {
+      "field": "atomic_mass, atomic_mass_uncertain",
+      "source": "IUPAC Standard Atomic Weights 2021 (CIAAW) - interval [35.446, 35.457]",
+      "url": "https://ciaaw.org/chlorine.htm"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "NIST Chemistry WebBook - Chlorine",
+      "url": "https://webbook.nist.gov/chemistry/"
+    },
+    {
+      "field": "electronegativity_pauling, electron_configuration",
+      "source": "Royal Society of Chemistry - Periodic Table: Chlorine",
+      "url": "https://www.rsc.org/periodic-table/element/17/chlorine"
+    },
+    {
+      "field": "discovery",
+      "source": "Encyclopaedia Britannica - Chlorine",
+      "url": "https://www.britannica.com/science/chlorine"
+    }
   ]
 }

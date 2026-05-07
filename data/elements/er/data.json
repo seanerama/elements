@@ -12,13 +12,23 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f12 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 4f12 6s2",
-  "electrons_per_shell": [2, 8, 18, 30, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    30,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 9.066,
-  "melting_point_k": 1802.0,
-  "boiling_point_k": 3141.0,
+  "melting_point_k": 1802,
+  "boiling_point_k": 3141,
   "electronegativity_pauling": 1.24,
-  "oxidation_states": [2, 3],
+  "oxidation_states": [
+    2,
+    3
+  ],
   "discovery": {
     "year": 1843,
     "discoverer": "Carl Gustaf Mosander",
@@ -27,7 +37,12 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Moderately abundant lanthanide (~3.5 ppm in crust); concentrated in xenotime, monazite, gadolinite, and ion-adsorption clays.",
-    "states": ["xenotime", "monazite ore", "gadolinite", "ion-adsorption clays"]
+    "states": [
+      "xenotime",
+      "monazite ore",
+      "gadolinite",
+      "ion-adsorption clays"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +76,8 @@
   ],
   "reactivity_summary": "Silvery-white ductile lanthanide that resists oxidation more than its lighter neighbours; tarnishes slowly in moist air. Reacts slowly with water and dissolves readily in dilute acids; the powdered metal can ignite in air.",
   "isotopes_summary": "Erbium has six naturally occurring stable isotopes (Er-162, 164, 166, 167, 168, 170). Er-166 is the most abundant (~33.5%). The longest-lived radioisotope is Er-169 (half-life 9.4 days).",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Erbium (Er) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

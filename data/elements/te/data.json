@@ -12,13 +12,28 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4",
   "electron_configuration_short": "[Kr] 4d10 5s2 5p4",
-  "electrons_per_shell": [2, 8, 18, 18, 6],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    18,
+    6
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 6.232,
   "melting_point_k": 722.66,
   "boiling_point_k": 1261,
   "electronegativity_pauling": 2.1,
-  "oxidation_states": [-2, -1, 1, 2, 3, 4, 5, 6],
+  "oxidation_states": [
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
   "discovery": {
     "year": 1782,
     "discoverer": "Franz-Joseph Muller von Reichenstein (isolated); named by Martin Heinrich Klaproth in 1798",
@@ -27,7 +42,11 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Tellurium is one of the rarest stable elements in Earth's crust (about 0.001 ppm), comparable to platinum. It occurs as native tellurium and in tellurides such as calaverite (AuTe2) and sylvanite. It is recovered chiefly as a byproduct of copper electrolytic refining.",
-    "states": ["mineral - calaverite, sylvanite", "trace native", "byproduct of copper refining"]
+    "states": [
+      "mineral - calaverite, sylvanite",
+      "trace native",
+      "byproduct of copper refining"
+    ]
   },
   "compounds": [
     {
@@ -65,8 +84,8 @@
   ],
   "reactivity_summary": "Tellurium is a brittle, silvery-white metalloid with a metallic luster. In its crystalline form it is stable in air; finely divided tellurium burns in air to form TeO2. It is insoluble in water but dissolves in nitric acid, aqua regia, and concentrated sulfuric acid. Tellurium reacts with halogens to form tetrahalides and with most metals to form tellurides. Even small exposures can cause humans to exude a strong, garlic-like odor on the breath.",
   "isotopes_summary": "Tellurium has eight naturally occurring isotopes, of which six are stable or considered stable, and two (tellurium-128 and tellurium-130) are radioactive but with extraordinarily long half-lives. Tellurium-128 has the longest measured half-life of any nuclide (about 2.2 x 10^24 years) via double beta decay. Tellurium-130 is the most abundant isotope (34.08%).",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Tellurium (Te) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

@@ -12,13 +12,26 @@
   "atomic_mass_uncertain": true,
   "electron_configuration": "1s2 2s2 2p3",
   "electron_configuration_short": "[He] 2s2 2p3",
-  "electrons_per_shell": [2, 5],
+  "electrons_per_shell": [
+    2,
+    5
+  ],
   "phase_at_stp": "gas",
   "density_g_per_cm3": 0.0012506,
   "melting_point_k": 63.15,
   "boiling_point_k": 77.355,
   "electronegativity_pauling": 3.04,
-  "oxidation_states": [-3, -2, -1, 0, 1, 2, 3, 4, 5],
+  "oxidation_states": [
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "discovery": {
     "year": 1772,
     "discoverer": "Daniel Rutherford",
@@ -27,15 +40,44 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Nitrogen as N2 makes up ~78% of Earth's atmosphere by volume, the largest accessible reservoir of any element. It is also fixed into nitrates, ammonia, amino acids, and nucleic acids, where it is essential to all known life.",
-    "states": ["N2 gas in atmosphere", "nitrate evaporite minerals (Chile saltpeter)", "in proteins, nucleic acids, and other biomolecules", "ammonia and ammonium in soils and water"]
+    "states": [
+      "N2 gas in atmosphere",
+      "nitrate evaporite minerals (Chile saltpeter)",
+      "in proteins, nucleic acids, and other biomolecules",
+      "ammonia and ammonium in soils and water"
+    ]
   },
   "compounds": [
-    { "formula": "NH3", "name": "Ammonia", "summary": "A pungent base produced industrially via the Haber-Bosch process and used as the foundation of nitrogen fertilizers." },
-    { "formula": "HNO3", "name": "Nitric acid", "summary": "A strong oxidizing acid used in fertilizer, explosive, and metallurgical industries." },
-    { "formula": "N2O", "name": "Nitrous oxide", "summary": "A mild anesthetic and dental analgesic ('laughing gas'); also a propellant in aerosol whipped cream." },
-    { "formula": "NO2", "name": "Nitrogen dioxide", "summary": "A red-brown toxic gas, a major air pollutant from combustion that contributes to smog and acid rain." },
-    { "formula": "NaNO3", "name": "Sodium nitrate", "summary": "Known as Chile saltpeter, used historically in fertilizer, explosives, and as a food preservative." },
-    { "formula": "C3H5N3O9", "name": "Nitroglycerin", "summary": "An unstable nitrate ester used both as a powerful explosive (in dynamite) and a vasodilator drug for angina." }
+    {
+      "formula": "NH3",
+      "name": "Ammonia",
+      "summary": "A pungent base produced industrially via the Haber-Bosch process and used as the foundation of nitrogen fertilizers."
+    },
+    {
+      "formula": "HNO3",
+      "name": "Nitric acid",
+      "summary": "A strong oxidizing acid used in fertilizer, explosive, and metallurgical industries."
+    },
+    {
+      "formula": "N2O",
+      "name": "Nitrous oxide",
+      "summary": "A mild anesthetic and dental analgesic ('laughing gas'); also a propellant in aerosol whipped cream."
+    },
+    {
+      "formula": "NO2",
+      "name": "Nitrogen dioxide",
+      "summary": "A red-brown toxic gas, a major air pollutant from combustion that contributes to smog and acid rain."
+    },
+    {
+      "formula": "NaNO3",
+      "name": "Sodium nitrate",
+      "summary": "Known as Chile saltpeter, used historically in fertilizer, explosives, and as a food preservative."
+    },
+    {
+      "formula": "C3H5N3O9",
+      "name": "Nitroglycerin",
+      "summary": "An unstable nitrate ester used both as a powerful explosive (in dynamite) and a vasodilator drug for angina."
+    }
   ],
   "uses": [
     "Synthesis of ammonia for fertilizer (Haber-Bosch process)",
@@ -47,12 +89,28 @@
   ],
   "reactivity_summary": "Diatomic N2 is exceptionally inert because of its very strong triple bond (945 kJ/mol), making industrial 'fixation' of atmospheric nitrogen energy-intensive. Once fixed, nitrogen forms a very wide range of oxides, hydrides, and organonitrogen compounds, and many nitrogen-rich molecules (azides, nitro compounds) are powerful explosives.",
   "isotopes_summary": "Nitrogen has two stable isotopes: 14N (~99.6%) and 15N (~0.4%). 15N is used as a non-radioactive tracer in biological and ecological studies; the radioisotope 13N (half-life 10 minutes) is used in PET imaging.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Nitrogen (N) — image from Wikimedia Commons (CC-BY-SA-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k", "source": "NIST WebBook - Nitrogen", "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7727379" },
-    { "field": "discovery, uses", "source": "Royal Society of Chemistry - Periodic Table: Nitrogen", "url": "https://www.rsc.org/periodic-table/element/7/nitrogen" },
-    { "field": "occurrence", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k",
+      "source": "NIST WebBook - Nitrogen",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7727379"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Royal Society of Chemistry - Periodic Table: Nitrogen",
+      "url": "https://www.rsc.org/periodic-table/element/7/nitrogen"
+    },
+    {
+      "field": "occurrence",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    }
   ]
 }

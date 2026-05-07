@@ -12,13 +12,22 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s1",
   "electron_configuration_short": "[Kr] 5s1",
-  "electrons_per_shell": [2, 8, 18, 8, 1],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    8,
+    1
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 1.532,
   "melting_point_k": 312.45,
   "boiling_point_k": 961,
   "electronegativity_pauling": 0.82,
-  "oxidation_states": [-1, 1],
+  "oxidation_states": [
+    -1,
+    1
+  ],
   "discovery": {
     "year": 1861,
     "discoverer": "Robert Bunsen and Gustav Kirchhoff",
@@ -27,14 +36,39 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Rubidium is the 23rd most abundant element in Earth's crust at roughly 90 ppm, comparable to nickel or zinc. It does not occur free in nature but is found in small amounts in minerals such as lepidolite, pollucite, and carnallite.",
-    "states": ["bound in lepidolite", "bound in pollucite", "bound in carnallite", "trace in seawater"]
+    "states": [
+      "bound in lepidolite",
+      "bound in pollucite",
+      "bound in carnallite",
+      "trace in seawater"
+    ]
   },
   "compounds": [
-    { "formula": "RbCl", "name": "Rubidium chloride", "summary": "A water-soluble ionic salt used in biochemistry research and as a non-radioactive marker." },
-    { "formula": "RbOH", "name": "Rubidium hydroxide", "summary": "A strong base similar to potassium hydroxide, used in some specialty chemistry applications." },
-    { "formula": "Rb2CO3", "name": "Rubidium carbonate", "summary": "Used in special-purpose optical glasses to improve stability and reduce conductivity." },
-    { "formula": "RbO2", "name": "Rubidium superoxide", "summary": "A yellow-orange compound formed when rubidium burns in oxygen, of interest in oxygen-storage chemistry." },
-    { "formula": "RbI", "name": "Rubidium iodide", "summary": "An ionic salt with applications in scintillation detectors and specialty optics." }
+    {
+      "formula": "RbCl",
+      "name": "Rubidium chloride",
+      "summary": "A water-soluble ionic salt used in biochemistry research and as a non-radioactive marker."
+    },
+    {
+      "formula": "RbOH",
+      "name": "Rubidium hydroxide",
+      "summary": "A strong base similar to potassium hydroxide, used in some specialty chemistry applications."
+    },
+    {
+      "formula": "Rb2CO3",
+      "name": "Rubidium carbonate",
+      "summary": "Used in special-purpose optical glasses to improve stability and reduce conductivity."
+    },
+    {
+      "formula": "RbO2",
+      "name": "Rubidium superoxide",
+      "summary": "A yellow-orange compound formed when rubidium burns in oxygen, of interest in oxygen-storage chemistry."
+    },
+    {
+      "formula": "RbI",
+      "name": "Rubidium iodide",
+      "summary": "An ionic salt with applications in scintillation detectors and specialty optics."
+    }
   ],
   "uses": [
     "Atomic clocks (rubidium frequency standards) for GPS and telecommunications timing",
@@ -45,12 +79,28 @@
   ],
   "reactivity_summary": "Rubidium is an extremely reactive alkali metal that ignites spontaneously in air and reacts violently, often explosively, with water to release hydrogen and form rubidium hydroxide. It must be stored under dry mineral oil or inert gas. It reacts vigorously with halogens and forms amalgams with mercury.",
   "isotopes_summary": "Rubidium has two naturally occurring isotopes: stable 85Rb (~72.17%) and the very long-lived radioactive 87Rb (~27.83%, half-life ~4.9x10^10 years), which beta-decays to 87Sr and is widely used in rubidium-strontium geochronology to date rocks. Numerous synthetic isotopes have been produced for research.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Rubidium (Rb) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Rubidium", "url": "https://www.rsc.org/periodic-table/element/37/rubidium" },
-    { "field": "isotopes", "source": "IAEA Nuclear Data Services - Rubidium", "url": "https://www-nds.iaea.org/" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery",
+      "source": "Royal Society of Chemistry - Periodic Table: Rubidium",
+      "url": "https://www.rsc.org/periodic-table/element/37/rubidium"
+    },
+    {
+      "field": "isotopes",
+      "source": "IAEA Nuclear Data Services - Rubidium",
+      "url": "https://www-nds.iaea.org/"
+    }
   ]
 }

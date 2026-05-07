@@ -12,13 +12,24 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f4 5s2 5p6 6s2",
   "electron_configuration_short": "[Xe] 4f4 6s2",
-  "electrons_per_shell": [2, 8, 18, 22, 8, 2],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    22,
+    8,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 7.01,
-  "melting_point_k": 1297.0,
-  "boiling_point_k": 3347.0,
+  "melting_point_k": 1297,
+  "boiling_point_k": 3347,
   "electronegativity_pauling": 1.14,
-  "oxidation_states": [2, 3, 4],
+  "oxidation_states": [
+    2,
+    3,
+    4
+  ],
   "discovery": {
     "year": 1885,
     "discoverer": "Carl Auer von Welsbach",
@@ -27,7 +38,11 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Relatively abundant lanthanide (~41.5 ppm in crust), about as common as copper; mined chiefly from monazite and bastnaesite, with major production in China.",
-    "states": ["monazite ore", "bastnaesite ore", "trace in soils"]
+    "states": [
+      "monazite ore",
+      "bastnaesite ore",
+      "trace in soils"
+    ]
   },
   "compounds": [
     {
@@ -61,8 +76,8 @@
   ],
   "reactivity_summary": "Soft, silvery metal that tarnishes rapidly in air, forming a flaky oxide that promotes further corrosion. Reacts with water (slowly cold, quickly hot) and dissolves readily in dilute acids; burns readily when finely divided.",
   "isotopes_summary": "Neodymium has seven naturally occurring isotopes (Nd-142 to Nd-150); five are stable and two (Nd-144, Nd-150) are very long-lived primordial radioisotopes. Nd-142 is the most abundant (~27%).",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Neodymium (Nd) — image from Wikimedia Commons (CC-BY-3.0).",
   "citations": [
     {
       "field": "general",

@@ -12,13 +12,18 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2",
   "electron_configuration_short": "[He] 2s2",
-  "electrons_per_shell": [2, 2],
+  "electrons_per_shell": [
+    2,
+    2
+  ],
   "phase_at_stp": "solid",
   "density_g_per_cm3": 1.848,
   "melting_point_k": 1560,
   "boiling_point_k": 2742,
   "electronegativity_pauling": 1.57,
-  "oxidation_states": [2],
+  "oxidation_states": [
+    2
+  ],
   "discovery": {
     "year": 1798,
     "discoverer": "Louis-Nicolas Vauquelin (identified); Friedrich Wohler and Antoine Bussy isolated the metal in 1828",
@@ -27,14 +32,38 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Beryllium is relatively rare in Earth's crust (~2.8 ppm) and never found as the free element. The principal ores are beryl (Be3Al2Si6O18) and bertrandite; gem-quality beryl varieties include emerald and aquamarine.",
-    "states": ["in beryl mineral", "in bertrandite", "trace component in many silicate minerals"]
+    "states": [
+      "in beryl mineral",
+      "in bertrandite",
+      "trace component in many silicate minerals"
+    ]
   },
   "compounds": [
-    { "formula": "BeO", "name": "Beryllium oxide", "summary": "A high-melting ceramic with exceptional thermal conductivity, used in electronics and nuclear reactors but toxic if inhaled as dust." },
-    { "formula": "BeF2", "name": "Beryllium fluoride", "summary": "A glassy ionic solid used in molten-salt nuclear reactor coolants (FLiBe)." },
-    { "formula": "Be(OH)2", "name": "Beryllium hydroxide", "summary": "An amphoteric hydroxide that is an intermediate in extracting beryllium from ores." },
-    { "formula": "BeCl2", "name": "Beryllium chloride", "summary": "A covalent, polymeric solid used as a Lewis acid catalyst and a precursor to beryllium metal." },
-    { "formula": "Be3Al2Si6O18", "name": "Beryl", "summary": "The principal beryllium-bearing mineral; gem-quality forms include emerald (green) and aquamarine (blue)." }
+    {
+      "formula": "BeO",
+      "name": "Beryllium oxide",
+      "summary": "A high-melting ceramic with exceptional thermal conductivity, used in electronics and nuclear reactors but toxic if inhaled as dust."
+    },
+    {
+      "formula": "BeF2",
+      "name": "Beryllium fluoride",
+      "summary": "A glassy ionic solid used in molten-salt nuclear reactor coolants (FLiBe)."
+    },
+    {
+      "formula": "Be(OH)2",
+      "name": "Beryllium hydroxide",
+      "summary": "An amphoteric hydroxide that is an intermediate in extracting beryllium from ores."
+    },
+    {
+      "formula": "BeCl2",
+      "name": "Beryllium chloride",
+      "summary": "A covalent, polymeric solid used as a Lewis acid catalyst and a precursor to beryllium metal."
+    },
+    {
+      "formula": "Be3Al2Si6O18",
+      "name": "Beryl",
+      "summary": "The principal beryllium-bearing mineral; gem-quality forms include emerald (green) and aquamarine (blue)."
+    }
   ],
   "uses": [
     "Beryllium-copper alloys for non-sparking, non-magnetic precision tools and springs",
@@ -46,12 +75,28 @@
   ],
   "reactivity_summary": "Beryllium is a hard, lightweight, steel-gray metal that forms a passivating oxide layer giving good corrosion resistance. It is amphoteric, dissolving in both acids and strong alkalis. Inhaled beryllium dust and compounds are highly toxic, causing chronic beryllium disease (berylliosis), so industrial handling is tightly regulated.",
   "isotopes_summary": "Only one stable isotope, 9Be, exists; cosmogenic 10Be (half-life ~1.4 million years) is produced by cosmic-ray spallation and is widely used in geological dating of ice cores and marine sediments.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Beryllium (Be) — image from Wikimedia Commons (CC-BY-SA-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k, density", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery, uses", "source": "Royal Society of Chemistry - Periodic Table: Beryllium", "url": "https://www.rsc.org/periodic-table/element/4/beryllium" },
-    { "field": "occurrence", "source": "USGS Mineral Commodity Summaries: Beryllium 2024", "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-beryllium.pdf" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Royal Society of Chemistry - Periodic Table: Beryllium",
+      "url": "https://www.rsc.org/periodic-table/element/4/beryllium"
+    },
+    {
+      "field": "occurrence",
+      "source": "USGS Mineral Commodity Summaries: Beryllium 2024",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-beryllium.pdf"
+    }
   ]
 }

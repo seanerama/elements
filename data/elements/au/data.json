@@ -12,13 +12,29 @@
   "atomic_mass_uncertain": false,
   "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s1",
   "electron_configuration_short": "[Xe] 4f14 5d10 6s1",
-  "electrons_per_shell": [2, 8, 18, 32, 18, 1],
+  "electrons_per_shell": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    1
+  ],
   "phase_at_stp": "solid",
-  "density_g_per_cm3": 19.30,
+  "density_g_per_cm3": 19.3,
   "melting_point_k": 1337.33,
   "boiling_point_k": 3243,
   "electronegativity_pauling": 2.54,
-  "oxidation_states": [-3, -2, -1, 0, 1, 2, 3, 5],
+  "oxidation_states": [
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
   "discovery": {
     "year": null,
     "discoverer": "Known since prehistory",
@@ -27,14 +43,39 @@
   "occurrence": {
     "natural": true,
     "abundance_summary": "Gold is rare in Earth's crust at about 0.004 ppm but is concentrated in hydrothermal quartz veins, placer deposits, and Witwatersrand-type conglomerates. The largest producers today are China, Australia, Russia, the United States, and Canada. Most gold occurs as the native metal, often alloyed with silver as electrum.",
-    "states": ["native gold (often as electrum, Au-Ag alloy)", "bound in calaverite (AuTe2) and sylvanite ((Au,Ag)Te2)", "trace in pyrite and arsenopyrite (refractory ores)", "alluvial placer deposits"]
+    "states": [
+      "native gold (often as electrum, Au-Ag alloy)",
+      "bound in calaverite (AuTe2) and sylvanite ((Au,Ag)Te2)",
+      "trace in pyrite and arsenopyrite (refractory ores)",
+      "alluvial placer deposits"
+    ]
   },
   "compounds": [
-    { "formula": "AuCl3", "name": "Gold(III) chloride", "summary": "A red crystalline solid that is the most common precursor for Au(III) chemistry and homogeneous gold catalysis." },
-    { "formula": "HAuCl4", "name": "Chloroauric acid (tetrachloroauric acid)", "summary": "A yellow-orange water-soluble acid used to electroplate gold and to prepare colloidal gold nanoparticles." },
-    { "formula": "Au2S", "name": "Gold(I) sulfide", "summary": "A black sulfide used historically as a pigment and as a precursor in gold colloid chemistry." },
-    { "formula": "Au(CN)2-", "name": "Dicyanoaurate(I)", "summary": "The water-soluble cyanide complex formed in the cyanide leaching process used to extract gold from low-grade ores." },
-    { "formula": "AuF3", "name": "Gold(III) fluoride", "summary": "An orange solid used as a strong fluorinating agent and a probe of relativistic bonding effects in gold chemistry." }
+    {
+      "formula": "AuCl3",
+      "name": "Gold(III) chloride",
+      "summary": "A red crystalline solid that is the most common precursor for Au(III) chemistry and homogeneous gold catalysis."
+    },
+    {
+      "formula": "HAuCl4",
+      "name": "Chloroauric acid (tetrachloroauric acid)",
+      "summary": "A yellow-orange water-soluble acid used to electroplate gold and to prepare colloidal gold nanoparticles."
+    },
+    {
+      "formula": "Au2S",
+      "name": "Gold(I) sulfide",
+      "summary": "A black sulfide used historically as a pigment and as a precursor in gold colloid chemistry."
+    },
+    {
+      "formula": "Au(CN)2-",
+      "name": "Dicyanoaurate(I)",
+      "summary": "The water-soluble cyanide complex formed in the cyanide leaching process used to extract gold from low-grade ores."
+    },
+    {
+      "formula": "AuF3",
+      "name": "Gold(III) fluoride",
+      "summary": "An orange solid used as a strong fluorinating agent and a probe of relativistic bonding effects in gold chemistry."
+    }
   ],
   "uses": [
     "Jewelry, decorative arts, and bullion as a store of value",
@@ -46,12 +87,28 @@
   ],
   "reactivity_summary": "Gold is a soft, dense, lustrous yellow metal and the most malleable and ductile of all metals. It is chemically very inert: it does not tarnish in air or water at any temperature, resists most acids, and is dissolved only by aqua regia, selenic acid, hot concentrated H2SO4 with oxidizers, and aqueous halogen or cyanide solutions. The yellow color and anomalous [Xe] 4f14 5d10 6s1 configuration are consequences of relativistic contraction of the 6s orbital.",
   "isotopes_summary": "Gold has only one naturally occurring stable isotope, 197Au, with a nuclear spin of 3/2. About 36 radioisotopes have been synthesized, of which 195Au (t1/2 186 d) and 198Au (t1/2 2.7 d) are most important. 198Au has been used in cancer brachytherapy, and Au nanoparticles labeled with 198Au are studied for theranostic applications.",
-  "image_primary": null,
-  "image_alt": null,
+  "image_primary": "images/sample.jpg",
+  "image_alt": "Gold (Au) — image from Wikimedia Commons (CC-BY-SA-3.0).",
   "citations": [
-    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
-    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Gold", "url": "https://www.rsc.org/periodic-table/element/79/gold" },
-    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Gold", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-gold.pdf" }
+    {
+      "field": "atomic_mass",
+      "source": "IUPAC Standard Atomic Weights 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "melting_point_k, boiling_point_k, density_g_per_cm3",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd ed.",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, name_origin",
+      "source": "Royal Society of Chemistry - Periodic Table: Gold",
+      "url": "https://www.rsc.org/periodic-table/element/79/gold"
+    },
+    {
+      "field": "uses, occurrence",
+      "source": "USGS Mineral Commodity Summaries - Gold",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-gold.pdf"
+    }
   ]
 }
