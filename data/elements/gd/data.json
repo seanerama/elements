@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 64,
+  "symbol": "Gd",
+  "name": "Gadolinium",
+  "name_origin": "Named after the mineral gadolinite, which itself was named for Finnish chemist Johan Gadolin.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 157.25,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f7 5s2 5p6 5d1 6s2",
+  "electron_configuration_short": "[Xe] 4f7 5d1 6s2",
+  "electrons_per_shell": [2, 8, 18, 25, 9, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.90,
+  "melting_point_k": 1585.0,
+  "boiling_point_k": 3546.0,
+  "electronegativity_pauling": 1.20,
+  "oxidation_states": [1, 2, 3],
+  "discovery": {
+    "year": 1880,
+    "discoverer": "Jean Charles Galissard de Marignac",
+    "country": "Switzerland"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Moderately abundant lanthanide (~6.2 ppm in crust); always found combined with other lanthanides in monazite, bastnaesite, gadolinite, and xenotime ores.",
+    "states": ["monazite ore", "bastnaesite ore", "gadolinite", "xenotime"]
+  },
+  "compounds": [
+    {
+      "formula": "Gd2O3",
+      "name": "Gadolinium(III) oxide",
+      "summary": "White solid with high neutron absorption cross-section; used in nuclear reactor shielding and as a precursor for MRI contrast agents."
+    },
+    {
+      "formula": "GdCl3",
+      "name": "Gadolinium(III) chloride",
+      "summary": "White hygroscopic salt; precursor for gadolinium-based MRI contrast agents and high-purity metal."
+    },
+    {
+      "formula": "Gd-DTPA",
+      "name": "Gadopentetic acid (Magnevist)",
+      "summary": "Octacoordinate Gd(III) chelate used as a paramagnetic intravenous MRI contrast agent."
+    },
+    {
+      "formula": "GdGaO3 / Gd3Ga5O12",
+      "name": "Gadolinium gallium garnet (GGG)",
+      "summary": "Single-crystal substrate for magnetic-bubble memory devices and a host for solid-state lasers."
+    }
+  ],
+  "uses": [
+    "Paramagnetic contrast agents for medical magnetic resonance imaging (MRI)",
+    "Neutron-shielding and burnable poisons in nuclear reactor control rods",
+    "Magnetocaloric refrigeration near room temperature (Gd has a Curie point of 293 K)",
+    "Phosphor host in colour TV tubes and X-ray intensifying screens (Gd2O2S)",
+    "Microwave electronics components (gadolinium gallium garnet substrates)",
+    "Alloying additive that improves workability of iron, chromium, and related metals"
+  ],
+  "reactivity_summary": "Silvery-white ductile metal that is relatively stable in dry air but tarnishes rapidly in moist air, forming a flaky oxide that promotes further corrosion. Reacts slowly with water and dissolves in dilute acids. Ferromagnetic just below room temperature.",
+  "isotopes_summary": "Gadolinium has six stable isotopes (Gd-154, 155, 156, 157, 158, 160) and one primordial radioisotope Gd-152 (alpha emitter, half-life 1.08x10^14 years). Gd-157 has the highest known thermal neutron capture cross-section of any stable nuclide.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Gadolinium",
+      "url": "https://www.rsc.org/periodic-table/element/64/gadolinium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Gadolinium",
+      "url": "https://www.britannica.com/science/gadolinium"
+    }
+  ]
+}

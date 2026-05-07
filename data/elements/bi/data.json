@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 83,
+  "symbol": "Bi",
+  "name": "Bismuth",
+  "name_origin": "From the German 'Wismut' (later Latinized to 'bisemutum'), thought to derive from Old High German 'wis mat' meaning 'white mass', referring to the appearance of the native metal.",
+  "category": "post-transition",
+  "period": 6,
+  "group": 15,
+  "block": "p",
+  "atomic_mass": 208.9804,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p3",
+  "electron_configuration_short": "[Xe] 4f14 5d10 6s2 6p3",
+  "electrons_per_shell": [2, 8, 18, 32, 18, 5],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 9.78,
+  "melting_point_k": 544.7,
+  "boiling_point_k": 1837,
+  "electronegativity_pauling": 2.02,
+  "oxidation_states": [-3, -2, -1, 1, 2, 3, 4, 5],
+  "discovery": {
+    "year": 1753,
+    "discoverer": "Claude Geoffroy the Younger (recognized as distinct element)",
+    "country": "France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Bismuth is rare in Earth's crust at about 0.009 ppm. It occurs as native metal and in the minerals bismuthinite (Bi2S3) and bismite (Bi2O3), but most production is as a byproduct of lead, copper, tin, molybdenum, and tungsten refining. China, Laos, and Mexico are leading producers.",
+    "states": ["native bismuth in hydrothermal veins", "bound in bismuthinite (Bi2S3)", "bound in bismite (Bi2O3) and bismutite (Bi2(CO3)O2)", "byproduct of Pb, Cu, Sn, Mo, W refining"]
+  },
+  "compounds": [
+    { "formula": "Bi2O3", "name": "Bismuth(III) oxide", "summary": "A pale yellow oxide used in oxygen-ion conductors, solid oxide fuel cells, and ceramic glazes." },
+    { "formula": "BiOCl", "name": "Bismuth oxychloride", "summary": "A pearlescent white solid used in cosmetics for shimmer effects and as a photocatalyst." },
+    { "formula": "C6H4(COO)2BiOH", "name": "Bismuth subsalicylate", "summary": "The active ingredient in Pepto-Bismol, used as an antidiarrheal and to treat gastric ulcers caused by H. pylori." },
+    { "formula": "Bi(NO3)3", "name": "Bismuth(III) nitrate", "summary": "A white deliquescent solid used as a Lewis-acid catalyst and as a precursor for other bismuth compounds." },
+    { "formula": "Bi2Te3", "name": "Bismuth telluride", "summary": "A semiconductor that is the workhorse material for room-temperature thermoelectric coolers and a model topological insulator." }
+  ],
+  "uses": [
+    "Pepto-Bismol and other gastrointestinal medications (bismuth subsalicylate, bismuth subcitrate)",
+    "Lead-free solders, plumbing alloys, and free-machining brass replacements",
+    "Low-melting fusible alloys (e.g., Wood's metal, Field's metal) for fire sprinklers and casting",
+    "Cosmetics: pearlescent pigments based on bismuth oxychloride",
+    "Thermoelectric devices for solid-state cooling and waste-heat recovery (Bi2Te3)",
+    "Catalysts for production of acrylonitrile and other oxidation reactions"
+  ],
+  "reactivity_summary": "Bismuth is a brittle, silvery-white metal with a pinkish tinge that often forms iridescent oxide layers when freshly cast, producing colorful stair-step crystals. It is one of the few substances that is denser as a solid than as a liquid (like water), so it expands on freezing. It is stable in dry air and water at room temperature but tarnishes slowly in moist air. It dissolves in oxidizing acids such as HNO3 and concentrated H2SO4 and reacts with halogens. Despite being heavy, bismuth is one of the least toxic heavy metals.",
+  "isotopes_summary": "Bismuth was long believed to have only the stable isotope 209Bi, but it was shown in 2003 to be a very long-lived alpha emitter with a half-life of about 2x10^19 years (over a billion times the age of the universe), so it is effectively stable for practical purposes. Several short-lived radioisotopes occur in the natural decay chains (210Bi, 212Bi, 214Bi). 213Bi (t1/2 ~46 min) is being developed as an alpha-emitter for targeted alpha therapy in oncology.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Bismuth", "url": "https://www.rsc.org/periodic-table/element/83/bismuth" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries - Bismuth", "url": "https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-bismuth.pdf" }
+  ]
+}

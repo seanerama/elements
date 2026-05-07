@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 88,
+  "symbol": "Ra",
+  "name": "Radium",
+  "name_origin": "From the Latin 'radius' meaning 'ray', after the intense radioactivity it emits.",
+  "category": "alkaline-earth",
+  "period": 7,
+  "group": 2,
+  "block": "s",
+  "atomic_mass": 226,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 7s2",
+  "electron_configuration_short": "[Rn] 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 18, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 5.5,
+  "melting_point_k": 973,
+  "boiling_point_k": 2010,
+  "electronegativity_pauling": 0.9,
+  "oxidation_states": [2],
+  "discovery": { "year": 1898, "discoverer": "Pierre Curie, Marie Curie, Gustave Bemont", "country": "France" },
+  "occurrence": { "natural": true, "abundance_summary": "Found in trace amounts in uranium and thorium ores; about one part in 10^12 by mass in Earth's crust. Pitchblende (uraninite) is the principal source.", "states": ["trace in uranium ores (pitchblende)", "trace in thorium ores"] },
+  "compounds": [
+    { "formula": "RaCl2", "name": "Radium chloride", "summary": "First radium compound prepared in pure form by Marie Curie; used to isolate radium by fractional crystallization from barium chloride." },
+    { "formula": "RaBr2", "name": "Radium bromide", "summary": "Glows faintly blue from self-radiation; historically used in luminous paints and early radiotherapy preparations." },
+    { "formula": "RaSO4", "name": "Radium sulfate", "summary": "Among the most insoluble sulfates known; useful for separating radium from solutions containing barium." }
+  ],
+  "uses": [
+    "Historically used in luminous paint for clock and instrument dials (now banned due to severe health risks)",
+    "Early 20th-century cancer radiotherapy (largely replaced by safer isotopes like cobalt-60)",
+    "Neutron source when mixed with beryllium (Ra-Be neutron sources)",
+    "Scientific reference standard for radioactivity (the curie unit was originally based on radium-226)"
+  ],
+  "reactivity_summary": "A highly reactive alkaline earth metal that tarnishes rapidly in air, forming a black nitride layer, and reacts vigorously with water to release hydrogen and form radium hydroxide. Its chemistry closely resembles that of barium.",
+  "isotopes_summary": "All isotopes are radioactive. Radium-226 (half-life 1600 years) is the most stable and most abundant in nature, decaying by alpha emission to radon-222. Other natural isotopes include Ra-223, Ra-224, and Ra-228.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Radium", "url": "https://www.rsc.org/periodic-table/element/88/radium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Radium", "url": "https://www.britannica.com/science/radium" },
+    { "field": "physical_properties", "source": "CRC Handbook of Chemistry and Physics, 102nd ed." }
+  ]
+}

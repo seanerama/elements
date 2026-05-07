@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 102,
+  "symbol": "No",
+  "name": "Nobelium",
+  "name_origin": "Named in honor of Alfred Nobel, the Swedish chemist and inventor of dynamite who established the Nobel Prizes.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 259,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 7s2",
+  "electron_configuration_short": "[Rn] 5f14 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 9.9,
+  "melting_point_k": 1100,
+  "boiling_point_k": null,
+  "electronegativity_pauling": 1.3,
+  "oxidation_states": [3, 2],
+  "discovery": { "year": 1966, "discoverer": "Joint Institute for Nuclear Research (Dubna) team, with prior contested claims by Nobel Institute (Sweden) in 1957 and Lawrence Berkeley team in 1958", "country": "Soviet Union (recognized)" },
+  "occurrence": { "natural": false, "abundance_summary": "Synthetic element not found in nature; produced by bombarding curium or californium targets with carbon, oxygen, or neon ions in heavy-ion accelerators, only a few atoms at a time.", "states": ["synthetic"] },
+  "compounds": [
+    { "formula": "NoCl2", "name": "Nobelium(II) chloride", "summary": "Inferred dichloride observed only on the tracer scale; notable as evidence of nobelium's preference for the +2 oxidation state, which is unusual among the actinides." }
+  ],
+  "uses": [
+    "Scientific research into the chemistry of the heaviest actinides",
+    "Studies of relativistic effects on electronic structure and oxidation-state preferences"
+  ],
+  "reactivity_summary": "Bulk metallic nobelium has never been prepared. Tracer-scale chemistry shows that, uniquely among the actinides, nobelium is most stable in the +2 oxidation state because of the closed-shell 5f14 configuration of No(II); the +3 state is more difficult to reach than for neighboring actinides.",
+  "isotopes_summary": "All isotopes are radioactive. Nobelium-259 has the longest half-life (about 58 minutes). No-255 and No-254 are commonly produced in heavy-ion fusion experiments and have half-lives of minutes.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Nobelium", "url": "https://www.rsc.org/periodic-table/element/102/nobelium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Nobelium", "url": "https://www.britannica.com/science/nobelium" },
+    { "field": "oxidation_states", "source": "IUPAC and IUPAP Joint Working Party reports on transfermium element discoveries" }
+  ]
+}

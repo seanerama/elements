@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 87,
+  "symbol": "Fr",
+  "name": "Francium",
+  "name_origin": "Named after France, the home country of its discoverer Marguerite Perey.",
+  "category": "alkali-metal",
+  "period": 7,
+  "group": 1,
+  "block": "s",
+  "atomic_mass": 223,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 7s1",
+  "electron_configuration_short": "[Rn] 7s1",
+  "electrons_per_shell": [2, 8, 18, 32, 18, 8, 1],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 1.87,
+  "melting_point_k": 300,
+  "boiling_point_k": 950,
+  "electronegativity_pauling": 0.7,
+  "oxidation_states": [1],
+  "discovery": { "year": 1939, "discoverer": "Marguerite Perey", "country": "France" },
+  "occurrence": { "natural": true, "abundance_summary": "Extremely rare; trace amounts produced in uranium and thorium ores from radioactive decay of actinium-227. Estimated less than 30 g exists in Earth's crust at any time.", "states": ["trace in uranium/thorium ores"] },
+  "compounds": [
+    { "formula": "FrCl", "name": "Francium chloride", "summary": "Hypothetical alkali halide; expected to be highly water-soluble like other alkali chlorides, but only studied in trace ion-exchange experiments." },
+    { "formula": "FrClO4", "name": "Francium perchlorate", "summary": "Used historically in coprecipitation studies with cesium perchlorate to confirm francium's chemical similarity to cesium." }
+  ],
+  "uses": [
+    "Atomic structure research, including measurements of fundamental symmetries and parity violation in heavy atoms",
+    "Studies of atomic energy levels in the heaviest naturally occurring alkali metal"
+  ],
+  "reactivity_summary": "Francium is the second most electropositive element and would be extremely reactive, igniting spontaneously in air and reacting violently with water. However, no observable bulk sample has ever been prepared because of its rapid radioactive decay.",
+  "isotopes_summary": "All isotopes are radioactive; the longest-lived is francium-223 with a half-life of about 22 minutes, decaying by beta emission to radium-223. No stable isotopes exist.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Francium", "url": "https://www.rsc.org/periodic-table/element/87/francium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Francium", "url": "https://www.britannica.com/science/francium" },
+    { "field": "physical_properties", "source": "CRC Handbook of Chemistry and Physics, 102nd ed." }
+  ]
+}

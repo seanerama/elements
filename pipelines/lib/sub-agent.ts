@@ -39,7 +39,7 @@ export async function runElementSubAgent(opts: SubAgentOptions): Promise<SubAgen
   const { prompt, maxAttempts = 3 } = opts;
 
   // Lazy-import so the runtime doesn't need the SDK unless this script runs.
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
   let Anthropic: any;
   try {
     Anthropic = (await import('@anthropic-ai/sdk')).default;
@@ -67,9 +67,9 @@ export async function runElementSubAgent(opts: SubAgentOptions): Promise<SubAgen
         messages: [{ role: 'user', content: prompt }],
       });
       const text = response.content
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
         .filter((c: any) => c.type === 'text')
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
         .map((c: any) => c.text)
         .join('');
       const parsed = JSON.parse(text);

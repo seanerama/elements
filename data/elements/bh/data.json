@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 107,
+  "symbol": "Bh",
+  "name": "Bohrium",
+  "name_origin": "Named after Danish physicist Niels Bohr, a foundational figure in quantum theory and atomic structure.",
+  "category": "transition-metal",
+  "period": 7,
+  "group": 7,
+  "block": "d",
+  "atomic_mass": 270,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d5 7s2",
+  "electron_configuration_short": "[Rn] 5f14 6d5 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 13, 2],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [7],
+  "discovery": {
+    "year": 1981,
+    "discoverer": "Gesellschaft fur Schwerionenforschung (GSI) team led by Peter Armbruster and Gottfried Munzenberg",
+    "country": "West Germany"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Bohrium does not occur naturally. It is a synthetic element produced in particle accelerators by cold fusion reactions such as 54Cr on 209Bi.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [
+    { "formula": "BhO3Cl", "name": "Bohrium oxychloride", "summary": "A volatile oxychloride observed in gas-phase chromatography experiments, analogous to TcO3Cl and ReO3Cl, confirming bohrium's classification as a group 7 element." }
+  ],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "Bohrium behaves as a group 7 transition metal, chemically resembling rhenium and technetium with a dominant +7 oxidation state. Gas-phase experiments demonstrate it forms volatile oxychlorides similar to those of its lighter homologs, with slightly lower volatility than ReO3Cl.",
+  "isotopes_summary": "All bohrium isotopes are radioactive. The longest-lived confirmed isotope is 270Bh with a half-life of about 1 minute; shorter-lived isotopes such as 267Bh (half-life ~17 seconds) have been used in single-atom chemistry experiments.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Bohrium", "url": "https://www.rsc.org/periodic-table/element/107/bohrium" },
+    { "field": "electron_configuration, oxidation_states, compounds", "source": "Wikipedia: Bohrium", "url": "https://en.wikipedia.org/wiki/Bohrium" },
+    { "field": "compounds (BhO3Cl)", "source": "Eichler, R. et al. 'Chemical characterization of bohrium (element 107)', Nature, 2000", "url": "https://www.nature.com/articles/35046501" }
+  ]
+}

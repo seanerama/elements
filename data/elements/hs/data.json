@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 108,
+  "symbol": "Hs",
+  "name": "Hassium",
+  "name_origin": "Named after the Latin name Hassia for the German state of Hesse, where the GSI laboratory in Darmstadt is located.",
+  "category": "transition-metal",
+  "period": 7,
+  "group": 8,
+  "block": "d",
+  "atomic_mass": 269,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d6 7s2",
+  "electron_configuration_short": "[Rn] 5f14 6d6 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 14, 2],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [8],
+  "discovery": {
+    "year": 1984,
+    "discoverer": "Gesellschaft fur Schwerionenforschung (GSI) team led by Peter Armbruster and Gottfried Munzenberg",
+    "country": "West Germany"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Hassium does not occur naturally. It is a synthetic element produced in particle accelerators, typically via the fusion reaction 26Mg + 248Cm or 58Fe + 208Pb.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [
+    { "formula": "HsO4", "name": "Hassium tetroxide", "summary": "A highly volatile tetroxide identified in gas-phase chromatography experiments. Its formation and adsorption behavior closely parallel OsO4 and confirm hassium's group 8 chemistry." }
+  ],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "Hassium behaves as a group 8 transition metal, chemically similar to osmium and ruthenium, with a dominant +8 oxidation state. The volatile tetroxide HsO4 is the most thoroughly studied compound and demonstrates osmium-like chemistry consistent with periodic-trend predictions.",
+  "isotopes_summary": "All hassium isotopes are radioactive. The longest-lived confirmed isotope is 269Hs (or 270Hs in some assessments) with a half-life on the order of seconds to tens of seconds; this short half-life is sufficient for single-atom gas-phase chemistry.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Hassium", "url": "https://www.rsc.org/periodic-table/element/108/hassium" },
+    { "field": "electron_configuration, oxidation_states, compounds", "source": "Wikipedia: Hassium", "url": "https://en.wikipedia.org/wiki/Hassium" },
+    { "field": "compounds (HsO4)", "source": "Dullmann, Ch.E. et al. 'Chemical investigation of hassium (element 108)', Nature, 2002", "url": "https://www.nature.com/articles/nature00980" }
+  ]
+}

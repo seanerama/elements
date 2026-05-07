@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 117,
+  "symbol": "Ts",
+  "name": "Tennessine",
+  "name_origin": "Named after the U.S. state of Tennessee, recognizing Oak Ridge National Laboratory, Vanderbilt University, and the University of Tennessee, which contributed the 249Bk target material.",
+  "category": "unknown",
+  "period": 7,
+  "group": 17,
+  "block": "p",
+  "atomic_mass": 294,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p5",
+  "electron_configuration_short": "[Rn] 5f14 6d10 7s2 7p5",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 18, 7],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [],
+  "discovery": {
+    "year": 2010,
+    "discoverer": "Joint Institute for Nuclear Research (JINR) Dubna team led by Yuri Oganessian, with Oak Ridge National Laboratory, Vanderbilt University, and Lawrence Livermore National Laboratory",
+    "country": "Russia / United States"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Tennessine does not occur naturally. It is a synthetic element produced in particle accelerators via the hot-fusion reaction 48Ca + 249Bk.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "No chemistry of tennessine has been experimentally characterized. Although it sits in group 17 below the halogens, relativistic calculations predict that strong spin-orbit splitting of the 7p shell will make tennessine behave more like a post-transition metal/metalloid than a classical halogen, with a likely stable +1 (and possibly +3) oxidation state and a less stable -1 state than chlorine, bromine, or iodine.",
+  "isotopes_summary": "All tennessine isotopes are radioactive. The longest-lived confirmed isotopes are 293Ts and 294Ts, both with half-lives on the order of tens of milliseconds. Their alpha-decay chains produce moscovium, nihonium, and lighter daughter nuclei.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Tennessine", "url": "https://www.rsc.org/periodic-table/element/117/tennessine" },
+    { "field": "electron_configuration, reactivity_summary", "source": "Wikipedia: Tennessine", "url": "https://en.wikipedia.org/wiki/Tennessine" },
+    { "field": "discovery", "source": "Oganessian, Yu.Ts. et al. 'Synthesis of a New Element with Atomic Number Z=117', Phys. Rev. Lett., 2010", "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.104.142502" }
+  ]
+}

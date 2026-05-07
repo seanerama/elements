@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 49,
+  "symbol": "In",
+  "name": "Indium",
+  "name_origin": "From the Latin 'indicum' (indigo), referring to the bright indigo blue line in its atomic emission spectrum.",
+  "category": "post-transition",
+  "period": 5,
+  "group": 13,
+  "block": "p",
+  "atomic_mass": 114.818,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p1",
+  "electron_configuration_short": "[Kr] 4d10 5s2 5p1",
+  "electrons_per_shell": [2, 8, 18, 18, 3],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.31,
+  "melting_point_k": 429.7485,
+  "boiling_point_k": 2345,
+  "electronegativity_pauling": 1.78,
+  "oxidation_states": [-5, -2, -1, 1, 2, 3],
+  "discovery": {
+    "year": 1863,
+    "discoverer": "Ferdinand Reich and Hieronymous Theodor Richter",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Very rare in Earth's crust (about 0.05 ppm); not found free in nature, occurs primarily as a trace constituent in zinc and lead-zinc sulfide ores such as sphalerite. It is recovered as a byproduct of zinc refining.",
+    "states": ["mineral trace", "sulfide ores"]
+  },
+  "compounds": [
+    {
+      "formula": "In2O3",
+      "name": "Indium(III) oxide",
+      "summary": "A pale yellow solid; a key precursor to indium tin oxide (ITO) used in transparent conductive coatings."
+    },
+    {
+      "formula": "InCl3",
+      "name": "Indium(III) chloride",
+      "summary": "A white, hygroscopic solid used as a Lewis acid catalyst in organic synthesis."
+    },
+    {
+      "formula": "InP",
+      "name": "Indium phosphide",
+      "summary": "A III-V semiconductor used in high-frequency electronics, photonics, and laser diodes."
+    },
+    {
+      "formula": "InAs",
+      "name": "Indium arsenide",
+      "summary": "A narrow band-gap semiconductor used in infrared detectors and high-mobility transistors."
+    },
+    {
+      "formula": "In(OH)3",
+      "name": "Indium(III) hydroxide",
+      "summary": "A white amphoteric solid that is an intermediate in indium ore processing."
+    }
+  ],
+  "uses": [
+    "Indium tin oxide (ITO) transparent conductive coatings for LCD displays, touchscreens, and solar cells",
+    "Low-melting fusible alloys (such as Field's metal) for safety devices and specialty solders",
+    "Compound semiconductors (InP, InGaAs) for fiber-optic communications and photodetectors",
+    "Cold-welding and vacuum seals exploiting indium's softness and ductility",
+    "Coatings on bearings to reduce wear and corrosion in high-performance engines"
+  ],
+  "reactivity_summary": "Indium is a soft, silvery, ductile post-transition metal that is stable in dry air at room temperature but tarnishes slowly to form a thin oxide layer. It burns at higher temperatures to give In2O3 with a violet flame, dissolves in mineral acids, and is not attacked by alkalis. Its most stable oxidation state is +3, although +1 compounds are also known.",
+  "isotopes_summary": "Indium has two naturally occurring isotopes: indium-113 (stable, 4.28% abundance) and indium-115 (95.72% abundance), which is weakly radioactive with a half-life of 4.41 x 10^14 years. About 40 synthetic radioisotopes are known; indium-111 is widely used in nuclear medicine for diagnostic imaging.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Indium",
+      "url": "https://www.rsc.org/periodic-table/element/49/indium"
+    },
+    {
+      "field": "general",
+      "source": "Encyclopedia Britannica - Indium",
+      "url": "https://www.britannica.com/science/indium"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)"
+    },
+    {
+      "field": "isotopes",
+      "source": "IUPAC Atomic Weights of the Elements 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    }
+  ]
+}

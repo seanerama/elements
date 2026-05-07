@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 69,
+  "symbol": "Tm",
+  "name": "Thulium",
+  "name_origin": "From Thule, an ancient name for a far-northern land, used by Cleve to denote his Scandinavian homeland.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 168.934218,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f13 5s2 5p6 6s2",
+  "electron_configuration_short": "[Xe] 4f13 6s2",
+  "electrons_per_shell": [2, 8, 18, 31, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 9.32,
+  "melting_point_k": 1818.0,
+  "boiling_point_k": 2223.0,
+  "electronegativity_pauling": 1.25,
+  "oxidation_states": [2, 3],
+  "discovery": {
+    "year": 1879,
+    "discoverer": "Per Teodor Cleve",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Least abundant of the naturally occurring lanthanides apart from promethium (~0.5 ppm in crust); recovered chiefly as a minor component of xenotime and monazite.",
+    "states": ["xenotime", "monazite ore", "ion-adsorption clays", "gadolinite"]
+  },
+  "compounds": [
+    {
+      "formula": "Tm2O3",
+      "name": "Thulium(III) oxide",
+      "summary": "Pale green solid used as a precursor for thulium-doped laser hosts and other thulium chemistry."
+    },
+    {
+      "formula": "TmCl3",
+      "name": "Thulium(III) chloride",
+      "summary": "Bright yellow hygroscopic salt used as a precursor for thulium metal production."
+    },
+    {
+      "formula": "TmF3",
+      "name": "Thulium(III) fluoride",
+      "summary": "Used as feedstock for high-purity thulium metal and in fluoride glass for fibre amplifiers."
+    },
+    {
+      "formula": "Tm:YAG",
+      "name": "Thulium-doped yttrium aluminium garnet",
+      "summary": "Active medium for ~2 micrometre solid-state lasers used in surgery and lidar."
+    }
+  ],
+  "uses": [
+    "Active dopant in ~2 micrometre Tm:YAG and Tm:YLF lasers for surgery and remote sensing",
+    "Portable X-ray sources (Tm-170) for non-destructive testing in remote locations",
+    "Fibre-laser amplifiers operating in the 1.7-2.1 micrometre 'eye-safe' band",
+    "Blue-emitting phosphor activator in some euro banknote security inks",
+    "Dopant in solid-state and fibre lasers and high-temperature superconductors",
+    "Specialty alloys and metallurgical research"
+  ],
+  "reactivity_summary": "Soft, silvery-grey ductile lanthanide; tarnishes slowly in dry air, faster in moist air. Reacts slowly with cold water and quickly with dilute acids. Two allotropes are known.",
+  "isotopes_summary": "Thulium has only one stable, naturally occurring isotope (Tm-169). Many synthetic isotopes are known; Tm-171 (half-life 1.92 years) and Tm-170 (128.6 days, gamma emitter) are the most useful for medical and industrial applications.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Thulium",
+      "url": "https://www.rsc.org/periodic-table/element/69/thulium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Thulium",
+      "url": "https://www.britannica.com/science/thulium"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 91,
+  "symbol": "Pa",
+  "name": "Protactinium",
+  "name_origin": "From the Greek 'protos' (first) and actinium, because it decays into actinium.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 231.03588,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f2 6s2 6p6 6d1 7s2",
+  "electron_configuration_short": "[Rn] 5f2 6d1 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 20, 9, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 15.37,
+  "melting_point_k": 1841,
+  "boiling_point_k": 4300,
+  "electronegativity_pauling": 1.5,
+  "oxidation_states": [5, 4, 3, 2],
+  "discovery": { "year": 1913, "discoverer": "Kasimir Fajans, Oswald Helmuth Gohring (Pa-234m); Otto Hahn, Lise Meitner, Frederick Soddy, John Cranston (Pa-231)", "country": "Germany / United Kingdom" },
+  "occurrence": { "natural": true, "abundance_summary": "Extremely rare in nature; about 0.1 ppt of uranium ores. Pitchblende from the Democratic Republic of Congo contains the highest concentrations, around 3 ppm.", "states": ["trace in pitchblende and uranium ores"] },
+  "compounds": [
+    { "formula": "Pa2O5", "name": "Protactinium pentoxide", "summary": "White solid, the most stable oxide of protactinium; isostructural with the pentoxides of niobium and tantalum." },
+    { "formula": "PaF5", "name": "Protactinium pentafluoride", "summary": "Volatile white solid used as a precursor in protactinium chemistry and in early studies of actinide bonding." },
+    { "formula": "PaCl5", "name": "Protactinium pentachloride", "summary": "Yellow crystalline solid useful in vapor-phase studies and as a precursor for further protactinium compounds." }
+  ],
+  "uses": [
+    "Scientific research into actinide chemistry and nuclear physics",
+    "Tracer in oceanographic dating, particularly the Pa-231/Th-230 ratio for marine sediment chronology"
+  ],
+  "reactivity_summary": "A bright silvery metal that resists corrosion at room temperature but tarnishes slowly in air. It reacts with oxygen, water vapor, and inorganic acids. Chemistry is dominated by the +5 state, with chemical similarity to tantalum and niobium.",
+  "isotopes_summary": "All isotopes are radioactive. Protactinium-231 (half-life 32,760 years) is the longest-lived and most common; it occurs in the uranium-235 decay chain. Protactinium-234 is a short-lived intermediate in the uranium-238 decay chain.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Protactinium", "url": "https://www.rsc.org/periodic-table/element/91/protactinium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Protactinium", "url": "https://www.britannica.com/science/protactinium" },
+    { "field": "physical_properties", "source": "CRC Handbook of Chemistry and Physics, 102nd ed." }
+  ]
+}

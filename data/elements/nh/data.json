@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 113,
+  "symbol": "Nh",
+  "name": "Nihonium",
+  "name_origin": "Named after Nihon, one of the Japanese names for Japan, in recognition of the RIKEN team that first synthesized it.",
+  "category": "unknown",
+  "period": 7,
+  "group": 13,
+  "block": "p",
+  "atomic_mass": 286,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2 7p1",
+  "electron_configuration_short": "[Rn] 5f14 6d10 7s2 7p1",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 18, 3],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [],
+  "discovery": {
+    "year": 2004,
+    "discoverer": "RIKEN team led by Kosuke Morita",
+    "country": "Japan"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Nihonium does not occur naturally. It is a synthetic element produced in particle accelerators via reactions such as 70Zn + 209Bi (RIKEN) and as a decay product of moscovium.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "No chemistry of nihonium has been experimentally characterized. By analogy with its lighter group 13 homologs (indium, thallium) it is predicted to be a post-transition metal favoring the +1 oxidation state, with relativistic stabilization of the 7s2 pair making the +3 state likely less common than for thallium.",
+  "isotopes_summary": "All nihonium isotopes are radioactive. The longest-lived confirmed isotope is 286Nh with a half-life of about 10 seconds; lighter isotopes have half-lives ranging from milliseconds to seconds.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Nihonium", "url": "https://www.rsc.org/periodic-table/element/113/nihonium" },
+    { "field": "electron_configuration, reactivity_summary", "source": "Wikipedia: Nihonium", "url": "https://en.wikipedia.org/wiki/Nihonium" }
+  ]
+}

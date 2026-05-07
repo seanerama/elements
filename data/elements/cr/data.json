@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 24,
+  "symbol": "Cr",
+  "name": "Chromium",
+  "name_origin": "From the Greek 'chroma' meaning 'color', because many of its compounds display a wide range of vivid colors.",
+  "category": "transition-metal",
+  "period": 4,
+  "group": 6,
+  "block": "d",
+  "atomic_mass": 51.9961,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d5 4s1",
+  "electron_configuration_short": "[Ar] 3d5 4s1",
+  "electrons_per_shell": [2, 8, 13, 1],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.15,
+  "melting_point_k": 2180,
+  "boiling_point_k": 2944,
+  "electronegativity_pauling": 1.66,
+  "oxidation_states": [-2, -1, 0, 1, 2, 3, 4, 5, 6],
+  "discovery": {
+    "year": 1797,
+    "discoverer": "Louis Nicolas Vauquelin",
+    "country": "France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Chromium is the 22nd most abundant element in Earth's crust (~102 ppm) and is found primarily as the mineral chromite (FeCr2O4). The largest commercial deposits are in South Africa, Kazakhstan, India, and Turkey.",
+    "states": ["chromite (FeCr2O4)", "crocoite (PbCrO4)", "trace amounts in rubies and emeralds (responsible for color)", "ferrochromium ore deposits"]
+  },
+  "compounds": [
+    { "formula": "Cr2O3", "name": "Chromium(III) oxide", "summary": "A green pigment used in paints, ceramics, and as a polishing abrasive; also a refractory material." },
+    { "formula": "CrO3", "name": "Chromium trioxide", "summary": "A dark red, strongly oxidizing acidic oxide used in chrome plating and as a powerful oxidizing agent in organic chemistry." },
+    { "formula": "K2Cr2O7", "name": "Potassium dichromate", "summary": "An orange crystalline oxidizer used in leather tanning, photography, and analytical chemistry; classified as a carcinogen." },
+    { "formula": "PbCrO4", "name": "Lead(II) chromate (chrome yellow)", "summary": "A bright yellow pigment historically used in paint and as the original 'school bus yellow'." },
+    { "formula": "CrCl3", "name": "Chromium(III) chloride", "summary": "A violet solid used as a precursor to dyes, catalysts, and other chromium compounds." },
+    { "formula": "FeCr2O4", "name": "Chromite", "summary": "The principal commercial ore of chromium, used directly in refractory bricks for high-temperature furnaces." }
+  ],
+  "uses": [
+    "Stainless steel manufacture (chromium provides corrosion resistance, ~85% of chromium use)",
+    "Decorative and hard chrome plating on automotive parts, plumbing fixtures, and tools",
+    "Pigments (chrome yellow, chrome green, chrome oxide green) in paints and ceramics",
+    "Leather tanning using chromium(III) salts",
+    "High-temperature alloys and superalloys for jet engines and gas turbines",
+    "Refractory bricks made from chromite for steel-making furnaces"
+  ],
+  "reactivity_summary": "Chromium is a hard, lustrous, steel-gray transition metal that takes a high polish and resists tarnishing due to a thin passive oxide layer. It dissolves in dilute hydrochloric and sulfuric acids but is passivated by nitric acid. Chromium(VI) compounds are powerful oxidizers and are highly toxic and carcinogenic, while chromium(III) is the most stable common oxidation state.",
+  "isotopes_summary": "Chromium has four stable isotopes: 50Cr, 52Cr (most abundant at ~83.79%), 53Cr, and 54Cr. The radioisotope 51Cr (half-life 27.7 days) is used in medicine for labeling red blood cells and measuring blood volume.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Chromium", "url": "https://www.rsc.org/periodic-table/element/24/chromium" },
+    { "field": "occurrence, uses", "source": "USGS Mineral Commodity Summaries - Chromium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/chromium-statistics-and-information" }
+  ]
+}

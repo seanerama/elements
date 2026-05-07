@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 54,
+  "symbol": "Xe",
+  "name": "Xenon",
+  "name_origin": "From the Greek 'xenos' meaning 'stranger' or 'foreigner', reflecting its rarity; named by its discoverers William Ramsay and Morris Travers in 1898.",
+  "category": "noble-gas",
+  "period": 5,
+  "group": 18,
+  "block": "p",
+  "atomic_mass": 131.293,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6",
+  "electron_configuration_short": "[Kr] 4d10 5s2 5p6",
+  "electrons_per_shell": [2, 8, 18, 18, 8],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.005887,
+  "melting_point_k": 161.4,
+  "boiling_point_k": 165.051,
+  "electronegativity_pauling": 2.6,
+  "oxidation_states": [0, 1, 2, 4, 6, 8],
+  "discovery": {
+    "year": 1898,
+    "discoverer": "William Ramsay and Morris Travers",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Xenon is exceedingly rare in Earth's atmosphere, present at only about 0.087 ppm by volume (roughly 1 part in 11.5 million). It is obtained commercially by the fractional distillation of liquefied air as a byproduct of oxygen and nitrogen production.",
+    "states": ["atmospheric trace gas", "trace in some natural gas wells"]
+  },
+  "compounds": [
+    {
+      "formula": "XeF2",
+      "name": "Xenon difluoride",
+      "summary": "A colorless crystalline solid that was one of the first noble-gas compounds synthesized; widely used as a strong fluorinating agent and as an etchant for silicon in MEMS fabrication."
+    },
+    {
+      "formula": "XeF4",
+      "name": "Xenon tetrafluoride",
+      "summary": "A colorless crystalline solid produced by direct reaction of xenon with excess fluorine; first synthesized in 1962 and a milestone in noble-gas chemistry."
+    },
+    {
+      "formula": "XeO3",
+      "name": "Xenon trioxide",
+      "summary": "A colorless, dangerously explosive solid that is a powerful oxidizer; aqueous solutions yield xenic acid."
+    },
+    {
+      "formula": "XeF6",
+      "name": "Xenon hexafluoride",
+      "summary": "A colorless solid produced by reaction of xenon with excess fluorine under pressure; the strongest fluorinating agent among xenon fluorides."
+    },
+    {
+      "formula": "XeO4",
+      "name": "Xenon tetroxide",
+      "summary": "A yellow gas that is unstable and explosive above -36 degrees C; one of the few stable +8 oxidation state compounds."
+    },
+    {
+      "formula": "Na4XeO6",
+      "name": "Sodium perxenate",
+      "summary": "A yellow crystalline salt of the perxenate anion (XeO6^4-), used as a powerful oxidizing agent in analytical chemistry."
+    }
+  ],
+  "uses": [
+    "High-intensity arc lamps for cinema projectors, automotive HID headlights, and IMAX theaters",
+    "Anesthetic gas with neuroprotective properties (used in research and limited clinical practice)",
+    "Propellant in ion thrusters for satellite station-keeping and deep-space missions",
+    "Working medium in excimer lasers (XeCl, XeF) used in photolithography and medical procedures",
+    "Detector medium in dark-matter and neutrinoless double-beta-decay experiments (liquid xenon TPCs)",
+    "Calibration source and tracer in nuclear medicine (radioactive xenon-133 for lung ventilation studies)"
+  ],
+  "reactivity_summary": "Xenon is a colorless, odorless, dense noble gas that was long considered chemically inert. In 1962 Neil Bartlett demonstrated that xenon could form true chemical compounds, beginning the field of noble-gas chemistry. Xenon reacts directly with fluorine to give XeF2, XeF4, and XeF6, and from these many oxides, oxyfluorides, and salts have been derived. Its chemistry features oxidation states of +2, +4, +6, and +8, with the highest states stabilized by the most electronegative ligands (F and O).",
+  "isotopes_summary": "Xenon has nine naturally occurring isotopes, of which seven (xenon-126, 128, 129, 130, 131, 132, 134) are stable and two (xenon-124 and xenon-136) are observationally radioactive with extraordinarily long half-lives via double beta decay. Xenon-129 is used in NMR spectroscopy and in hyperpolarized MRI of the lungs, while xenon-133 and xenon-135 are notable fission products; xenon-135 has the largest known thermal neutron capture cross section of any nuclide.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Xenon",
+      "url": "https://www.rsc.org/periodic-table/element/54/xenon"
+    },
+    {
+      "field": "general",
+      "source": "Encyclopedia Britannica - Xenon",
+      "url": "https://www.britannica.com/science/xenon"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)"
+    },
+    {
+      "field": "isotopes",
+      "source": "IUPAC Atomic Weights of the Elements 2021",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    }
+  ]
+}

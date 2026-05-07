@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 65,
+  "symbol": "Tb",
+  "name": "Terbium",
+  "name_origin": "Named after the village of Ytterby in Sweden, source of several rare-earth minerals.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 158.925354,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f9 5s2 5p6 6s2",
+  "electron_configuration_short": "[Xe] 4f9 6s2",
+  "electrons_per_shell": [2, 8, 18, 27, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 8.23,
+  "melting_point_k": 1629.0,
+  "boiling_point_k": 3503.0,
+  "electronegativity_pauling": 1.2,
+  "oxidation_states": [1, 2, 3, 4],
+  "discovery": {
+    "year": 1843,
+    "discoverer": "Carl Gustaf Mosander",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "One of the rarer of the rare-earth elements (~1.2 ppm in crust); recovered chiefly from monazite, bastnaesite, and xenotime as a minor component.",
+    "states": ["monazite ore", "bastnaesite ore", "xenotime", "ion-adsorption clays"]
+  },
+  "compounds": [
+    {
+      "formula": "Tb2O3",
+      "name": "Terbium(III) oxide",
+      "summary": "White solid that turns brown-black on partial oxidation; precursor for terbium phosphors and metal."
+    },
+    {
+      "formula": "Tb4O7",
+      "name": "Terbium oxide (mixed valence)",
+      "summary": "Dark brown commercial form of terbium oxide used as a green phosphor activator and starting material."
+    },
+    {
+      "formula": "TbCl3",
+      "name": "Terbium(III) chloride",
+      "summary": "White hygroscopic salt used as a precursor to terbium phosphors and metal."
+    },
+    {
+      "formula": "Tb0.3Dy0.7Fe2",
+      "name": "Terfenol-D",
+      "summary": "Giant magnetostrictive alloy that changes length significantly in a magnetic field; used in actuators and sonar transducers."
+    }
+  ],
+  "uses": [
+    "Green phosphors in trichromatic fluorescent lamps and CRT displays (e.g., LaPO4:Ce,Tb)",
+    "Activator in green-emitting X-ray intensifying screens (Gd2O2S:Tb)",
+    "Magnetostrictive Terfenol-D actuators, sonars, and acoustic devices",
+    "Solid-state device memory and magneto-optical recording media",
+    "Stabiliser in high-temperature fuel cells (calcium fluoride and zirconium dioxide)",
+    "Dopant in solid-state lasers and as an activator in long-persistence phosphors"
+  ],
+  "reactivity_summary": "Silvery-white ductile rare-earth metal; reasonably stable in dry air but tarnishes slowly in moist air. Reacts slowly with cold water, more rapidly with hot water and acids. Two allotropes interconvert near 1250 degrees C.",
+  "isotopes_summary": "Terbium has only one stable, naturally occurring isotope (Tb-159). Many synthetic radioisotopes are known, of which Tb-158 (half-life 180 years) and Tb-157 (~71 years) are the longest-lived.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Terbium",
+      "url": "https://www.rsc.org/periodic-table/element/65/terbium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Terbium",
+      "url": "https://www.britannica.com/science/terbium"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 98,
+  "symbol": "Cf",
+  "name": "Californium",
+  "name_origin": "Named after the U.S. state of California and the University of California, where it was first synthesized.",
+  "category": "actinide",
+  "period": 7,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 251,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f10 6s2 6p6 7s2",
+  "electron_configuration_short": "[Rn] 5f10 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 28, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 15.1,
+  "melting_point_k": 1173,
+  "boiling_point_k": 1743,
+  "electronegativity_pauling": 1.3,
+  "oxidation_states": [5, 4, 3, 2],
+  "discovery": { "year": 1950, "discoverer": "Stanley G. Thompson, Kenneth Street Jr., Albert Ghiorso, Glenn T. Seaborg", "country": "United States" },
+  "occurrence": { "natural": false, "abundance_summary": "Synthetic element not found in measurable amounts in nature; produced by intense neutron irradiation of curium and berkelium targets at high-flux research reactors.", "states": ["synthetic"] },
+  "compounds": [
+    { "formula": "Cf2O3", "name": "Californium(III) oxide", "summary": "Yellow-green solid; the most stable californium oxide, used in fundamental chemistry studies of the heavy actinides." },
+    { "formula": "CfCl3", "name": "Californium(III) chloride", "summary": "Green crystalline solid that serves as a typical starting point for californium solution and coordination chemistry." },
+    { "formula": "CfOCl", "name": "Californium oxychloride", "summary": "Solid intermediate produced during fluoride/oxide processing of californium isotopes." }
+  ],
+  "uses": [
+    "Compact, intense neutron sources for reactor startup, oil-well logging, and detection of explosives and gold/silver ores (Cf-252)",
+    "Cancer treatment via neutron brachytherapy",
+    "Neutron activation analysis of trace elements",
+    "Target material for synthesizing heavier elements including oganesson (element 118)",
+    "Identification of metal corrosion and material defects via portable neutron radiography"
+  ],
+  "reactivity_summary": "A silvery, soft metal that can be cut with a knife. It reacts with steam, air, and acids. Like other heavy actinides, the +3 state dominates its chemistry, although +2 is more accessible than in earlier actinides. Californium-252 is intensely radioactive and a powerful spontaneous-fission neutron emitter.",
+  "isotopes_summary": "All isotopes are radioactive. Californium-251 has the longest half-life (898 years). The most important isotope by far is Cf-252 (half-life 2.645 years), a strong spontaneous-fission neutron source emitting about 2.3 × 10^12 neutrons per gram per second.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "general", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "general", "source": "Royal Society of Chemistry - Californium", "url": "https://www.rsc.org/periodic-table/element/98/californium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Californium", "url": "https://www.britannica.com/science/californium" },
+    { "field": "applications", "source": "Oak Ridge National Laboratory - Californium-252", "url": "https://www.ornl.gov/" }
+  ]
+}

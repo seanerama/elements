@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 66,
+  "symbol": "Dy",
+  "name": "Dysprosium",
+  "name_origin": "From Greek 'dysprositos' meaning 'hard to obtain', reflecting the difficulty of its isolation.",
+  "category": "lanthanide",
+  "period": 6,
+  "group": null,
+  "block": "f",
+  "atomic_mass": 162.500,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f10 5s2 5p6 6s2",
+  "electron_configuration_short": "[Xe] 4f10 6s2",
+  "electrons_per_shell": [2, 8, 18, 28, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 8.540,
+  "melting_point_k": 1680.0,
+  "boiling_point_k": 2840.0,
+  "electronegativity_pauling": 1.22,
+  "oxidation_states": [2, 3, 4],
+  "discovery": {
+    "year": 1886,
+    "discoverer": "Paul-Emile Lecoq de Boisbaudran",
+    "country": "France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Moderately abundant lanthanide (~5.2 ppm in crust); concentrated in xenotime, monazite, bastnaesite, and ion-adsorption clays in southern China.",
+    "states": ["xenotime", "monazite ore", "bastnaesite ore", "ion-adsorption clays"]
+  },
+  "compounds": [
+    {
+      "formula": "Dy2O3",
+      "name": "Dysprosium(III) oxide",
+      "summary": "Pale yellow-green solid with high neutron absorption; precursor for dysprosium magnets and ceramics."
+    },
+    {
+      "formula": "DyCl3",
+      "name": "Dysprosium(III) chloride",
+      "summary": "Bright yellow hygroscopic salt; precursor for dysprosium metal production by metallothermic reduction."
+    },
+    {
+      "formula": "DyF3",
+      "name": "Dysprosium(III) fluoride",
+      "summary": "Used as feedstock for high-purity dysprosium metal production and in optical coatings."
+    },
+    {
+      "formula": "Tb0.3Dy0.7Fe2",
+      "name": "Terfenol-D",
+      "summary": "Magnetostrictive alloy of terbium, dysprosium, and iron used in transducers and actuators."
+    }
+  ],
+  "uses": [
+    "Additive in NdFeB permanent magnets to maintain coercivity at elevated temperatures (EV traction motors, wind turbines)",
+    "Magnetostrictive component of Terfenol-D for transducers and active vibration control",
+    "Neutron-absorbing material in nuclear reactor control rods (dysprosium oxide-nickel cermets)",
+    "Dysprosium iodide in metal-halide arc lamps for very bright high-CRI lighting",
+    "Magnetic data-storage media (read/write heads, magneto-optical discs)",
+    "Phosphor activator in long-persistence afterglow phosphors (e.g., SrAl2O4:Eu,Dy)"
+  ],
+  "reactivity_summary": "Silvery-white ductile lanthanide; stable in air at room temperature but slowly oxidises and forms an oxide layer. Reacts slowly with cold water and rapidly with dilute acids; shavings can ignite in air at moderately elevated temperatures.",
+  "isotopes_summary": "Dysprosium has seven naturally occurring isotopes (Dy-156, 158, 160, 161, 162, 163, 164). Dy-164 is the most abundant (~28.26%); Dy-156 and Dy-158 are very long-lived (effectively stable) alpha emitters. Dy-154 (~3x10^6 years) is the longest-lived synthetic isotope.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    {
+      "field": "general",
+      "source": "Royal Society of Chemistry - Periodic Table: Dysprosium",
+      "url": "https://www.rsc.org/periodic-table/element/66/dysprosium"
+    },
+    {
+      "field": "atomic_mass, electron_configuration",
+      "source": "IUPAC Periodic Table of the Elements (2021)",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+    },
+    {
+      "field": "physical_properties",
+      "source": "CRC Handbook of Chemistry and Physics, 102nd Edition",
+      "url": "https://hbcp.chemnetbase.com/"
+    },
+    {
+      "field": "discovery, uses",
+      "source": "Encyclopaedia Britannica - Dysprosium",
+      "url": "https://www.britannica.com/science/dysprosium"
+    }
+  ]
+}

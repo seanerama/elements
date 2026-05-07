@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 47,
+  "symbol": "Ag",
+  "name": "Silver",
+  "name_origin": "The English name comes from Old English 'seolfor'. The chemical symbol Ag derives from the Latin 'argentum', from the Proto-Indo-European root meaning 'shining' or 'white'.",
+  "category": "transition-metal",
+  "period": 5,
+  "group": 11,
+  "block": "d",
+  "atomic_mass": 107.8682,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s1",
+  "electron_configuration_short": "[Kr] 4d10 5s1",
+  "electrons_per_shell": [2, 8, 18, 18, 1],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 10.49,
+  "melting_point_k": 1234.93,
+  "boiling_point_k": 2435,
+  "electronegativity_pauling": 1.93,
+  "oxidation_states": [-2, -1, 1, 2, 3],
+  "discovery": {
+    "year": -3000,
+    "discoverer": "Known since prehistoric times (pre-3000 BCE)",
+    "country": "Anatolia (modern Turkey)"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Silver is the 65th most abundant element in Earth's crust at about 0.075 ppm. It occurs as native metal and in ores such as argentite (Ag2S), chlorargyrite (AgCl), and as a byproduct of copper, lead, zinc, and gold mining. Mexico, Peru, and China are the leading producers.",
+    "states": ["native silver", "bound in argentite (Ag2S)", "bound in chlorargyrite (AgCl)", "byproduct of copper and lead-zinc mining"]
+  },
+  "compounds": [
+    { "formula": "AgNO3", "name": "Silver nitrate", "summary": "A water-soluble white solid used as a starting material for almost all silver chemistry, in photography, and as a topical antiseptic." },
+    { "formula": "AgBr", "name": "Silver bromide", "summary": "A pale yellow light-sensitive compound that was the principal photoactive component of black-and-white photographic film." },
+    { "formula": "AgCl", "name": "Silver chloride", "summary": "A white insoluble solid that darkens on exposure to light; used in reference electrodes and as a key analytical precipitate." },
+    { "formula": "Ag2S", "name": "Silver sulfide", "summary": "The black tarnish that forms on silverware in the presence of sulfur compounds; the principal ore mineral argentite." },
+    { "formula": "Ag2O", "name": "Silver oxide", "summary": "A dark-brown solid used as a cathode in silver-oxide button cell batteries." }
+  ],
+  "uses": [
+    "Coinage, jewelry, and silverware (often as sterling silver, 92.5% Ag)",
+    "Electrical contacts and conductors (highest electrical conductivity of any element)",
+    "Mirror coatings, optical reflectors, and high-end audio cables",
+    "Photovoltaic solar cells (silver paste contacts in crystalline silicon panels)",
+    "Antimicrobial coatings, wound dressings, and water purification",
+    "Catalyst in industrial production of ethylene oxide and formaldehyde"
+  ],
+  "reactivity_summary": "Silver is a soft, lustrous transition metal with the highest electrical and thermal conductivity of any element. It is unreactive toward oxygen and water under ordinary conditions but tarnishes in air containing hydrogen sulfide to form black Ag2S. It dissolves readily in nitric acid and hot concentrated sulfuric acid, but is resistant to hydrochloric acid due to a passivating AgCl layer.",
+  "isotopes_summary": "Silver has two stable naturally occurring isotopes: 107Ag (~51.84%) and 109Ag (~48.16%). The longest-lived radioisotopes are 105Ag (half-life 41.3 days) and 111Ag (7.45 days). Silver-108m (half-life 418 years) is a notable nuclear-reactor activation product.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Silver", "url": "https://www.rsc.org/periodic-table/element/47/silver" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries: Silver", "url": "https://www.usgs.gov/centers/national-minerals-information-center/silver-statistics-and-information" }
+  ]
+}

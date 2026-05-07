@@ -29,7 +29,10 @@ function parseArgs(): { only?: Set<string>; validateOnly: boolean } {
   for (const a of argv) {
     if (a.startsWith('--only=')) {
       only = new Set(
-        a.slice('--only='.length).split(',').map((s) => s.trim().toLowerCase()),
+        a
+          .slice('--only='.length)
+          .split(',')
+          .map((s) => s.trim().toLowerCase()),
       );
     }
     if (a === '--validate-only') {

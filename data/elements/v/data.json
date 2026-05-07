@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 23,
+  "symbol": "V",
+  "name": "Vanadium",
+  "name_origin": "Named after Vanadis, an Old Norse name for the goddess Freyja, because of the wide range of beautiful colors found in its compounds.",
+  "category": "transition-metal",
+  "period": 4,
+  "group": 5,
+  "block": "d",
+  "atomic_mass": 50.9415,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d3 4s2",
+  "electron_configuration_short": "[Ar] 3d3 4s2",
+  "electrons_per_shell": [2, 8, 11, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 6.0,
+  "melting_point_k": 2183,
+  "boiling_point_k": 3680,
+  "electronegativity_pauling": 1.63,
+  "oxidation_states": [-3, -1, 0, 1, 2, 3, 4, 5],
+  "discovery": {
+    "year": 1830,
+    "discoverer": "Nils Gabriel Sefstrom",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Vanadium is the 20th most abundant element in Earth's crust (~120 ppm) and is found in about 65 different minerals, including vanadinite, patronite, and carnotite. It is also recovered as a byproduct of iron, uranium, and petroleum processing.",
+    "states": ["vanadinite (Pb5(VO4)3Cl)", "patronite (VS4)", "carnotite (K2(UO2)2(VO4)2.3H2O)", "magnetite ores", "fossil fuels (especially Venezuelan crude)"]
+  },
+  "compounds": [
+    { "formula": "V2O5", "name": "Vanadium pentoxide", "summary": "An orange-yellow oxide used as a catalyst in sulfuric acid production (contact process) and as a cathode material in lithium-vanadium batteries." },
+    { "formula": "VOSO4", "name": "Vanadyl sulfate", "summary": "A blue salt used as the electrolyte precursor in vanadium redox flow batteries and as a dietary supplement." },
+    { "formula": "VCl4", "name": "Vanadium tetrachloride", "summary": "A reddish-brown liquid used as a polymerization catalyst, especially for ethylene-propylene rubber." },
+    { "formula": "VN", "name": "Vanadium nitride", "summary": "A hard ceramic used in tool coatings and as a microalloying additive that improves the strength of steel." },
+    { "formula": "NH4VO3", "name": "Ammonium metavanadate", "summary": "A common laboratory and industrial source of vanadium, used in dyes, ceramics, and as a catalyst precursor." }
+  ],
+  "uses": [
+    "Alloying element in high-strength low-alloy (HSLA) steels and tool steels (~85% of vanadium use)",
+    "Vanadium redox flow batteries for grid-scale energy storage",
+    "V2O5 catalyst in the contact process for sulfuric acid manufacture",
+    "Titanium-vanadium alloys for aerospace (e.g., Ti-6Al-4V)",
+    "Catalyst in maleic anhydride production from butane",
+    "Superconducting magnets (V3Ga and V3Si compounds)"
+  ],
+  "reactivity_summary": "Vanadium is a hard, silvery-gray transition metal that resists corrosion at room temperature due to a protective oxide film and is stable against alkalis, sulfuric acid, and hydrochloric acid. It oxidizes readily above 660 degrees Celsius and reacts with concentrated nitric acid and aqua regia. Vanadium exhibits four common oxidation states (+2, +3, +4, +5), each with characteristically different colors in solution.",
+  "isotopes_summary": "Vanadium has one stable isotope, 51V (~99.75%), and one observationally stable isotope, 50V (~0.25%), which theoretically undergoes electron capture and beta decay with a half-life longer than 2.1 x 10^17 years. Radioactive 48V (half-life 16 days) is used as a tracer in environmental and biological studies.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Vanadium", "url": "https://www.rsc.org/periodic-table/element/23/vanadium" },
+    { "field": "occurrence, uses", "source": "USGS Mineral Commodity Summaries - Vanadium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information" }
+  ]
+}

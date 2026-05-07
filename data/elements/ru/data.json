@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 44,
+  "symbol": "Ru",
+  "name": "Ruthenium",
+  "name_origin": "From 'Ruthenia', the Latin name for Rus' (a region encompassing parts of modern Russia, Ukraine, and Belarus), in honor of the homeland of its discoverer Karl Ernst Claus.",
+  "category": "transition-metal",
+  "period": 5,
+  "group": 8,
+  "block": "d",
+  "atomic_mass": 101.07,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d7 5s1",
+  "electron_configuration_short": "[Kr] 4d7 5s1",
+  "electrons_per_shell": [2, 8, 18, 15, 1],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 12.45,
+  "melting_point_k": 2607,
+  "boiling_point_k": 4423,
+  "electronegativity_pauling": 2.2,
+  "oxidation_states": [-4, -2, 1, 2, 3, 4, 5, 6, 7, 8],
+  "discovery": {
+    "year": 1844,
+    "discoverer": "Karl Ernst Claus",
+    "country": "Russia"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Ruthenium is one of the rarest metals in Earth's crust at about 0.001 ppm. It is found in platinum group metal (PGM) ores in South Africa, Russia, and Canada, and is recovered as a byproduct of platinum and nickel refining.",
+    "states": ["native alloyed with other PGMs", "bound in laurite (RuS2)", "trace in pentlandite nickel ores", "byproduct of platinum mining"]
+  },
+  "compounds": [
+    { "formula": "RuO4", "name": "Ruthenium tetroxide", "summary": "A volatile, toxic, and powerful oxidizer used as a stain in electron microscopy and as an oxidant in organic synthesis." },
+    { "formula": "RuO2", "name": "Ruthenium dioxide", "summary": "An electrically conductive oxide used in resistors, capacitors, and as an electrocatalyst (e.g., in chlor-alkali cells)." },
+    { "formula": "RuCl3", "name": "Ruthenium(III) chloride", "summary": "A common precursor in ruthenium organometallic chemistry and homogeneous catalysis." },
+    { "formula": "[Ru(bpy)3]Cl2", "name": "Tris(bipyridine)ruthenium(II) chloride", "summary": "A photoactive complex widely used in dye-sensitized solar cells and photoredox catalysis." },
+    { "formula": "Grubbs catalyst", "name": "Ruthenium-carbene catalysts", "summary": "A family of ruthenium alkylidene complexes that revolutionized olefin metathesis (Nobel Prize 2005)." }
+  ],
+  "uses": [
+    "Hardening alloying agent for platinum and palladium in jewelry and electrical contacts",
+    "Catalyst in olefin metathesis (Grubbs catalysts) and ammonia synthesis",
+    "Electrodes for chlor-alkali cells (DSA - dimensionally stable anodes)",
+    "Thick-film resistors and chip resistors in electronics (RuO2)",
+    "Solar cell sensitizers in dye-sensitized photovoltaics"
+  ],
+  "reactivity_summary": "Ruthenium is a hard, lustrous platinum-group metal with excellent corrosion resistance. It does not tarnish in air at room temperature, is unaffected by most acids including aqua regia, and dissolves only in molten alkalis or oxidizing fusion mixtures. It readily oxidizes at high temperatures to form RuO4, which is volatile and highly toxic. Ruthenium exhibits a remarkable range of oxidation states from -2 to +8.",
+  "isotopes_summary": "Ruthenium has seven naturally occurring isotopes: 96Ru (~5.54%), 98Ru (~1.87%), 99Ru (~12.76%), 100Ru (~12.60%), 101Ru (~17.06%), 102Ru (~31.55%), and 104Ru (~18.62%). Several radioisotopes are produced in nuclear reactors as fission products; 106Ru (half-life 374 days) is used in brachytherapy for ocular tumors.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Ruthenium", "url": "https://www.rsc.org/periodic-table/element/44/ruthenium" },
+    { "field": "uses", "source": "USGS Mineral Commodity Summaries: Platinum-Group Metals", "url": "https://www.usgs.gov/centers/national-minerals-information-center/platinum-group-metals-statistics-and-information" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 25,
+  "symbol": "Mn",
+  "name": "Manganese",
+  "name_origin": "From the Latin 'magnes' meaning 'magnet', via the mineral magnesia nigra (pyrolusite, MnO2), which was confused historically with magnetite. The name shares roots with magnesium and magnetism.",
+  "category": "transition-metal",
+  "period": 4,
+  "group": 7,
+  "block": "d",
+  "atomic_mass": 54.938043,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d5 4s2",
+  "electron_configuration_short": "[Ar] 3d5 4s2",
+  "electrons_per_shell": [2, 8, 13, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.21,
+  "melting_point_k": 1519,
+  "boiling_point_k": 2334,
+  "electronegativity_pauling": 1.55,
+  "oxidation_states": [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7],
+  "discovery": {
+    "year": 1774,
+    "discoverer": "Johan Gottlieb Gahn",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Manganese is the 12th most abundant element in Earth's crust (~950 ppm) and the third most abundant transition metal after iron and titanium. It is found primarily as the minerals pyrolusite (MnO2) and rhodochrosite (MnCO3); vast deposits also occur as polymetallic nodules on the deep ocean floor.",
+    "states": ["pyrolusite (MnO2)", "rhodochrosite (MnCO3)", "manganite (MnO(OH))", "deep-sea polymetallic nodules", "essential trace element in living organisms"]
+  },
+  "compounds": [
+    { "formula": "MnO2", "name": "Manganese dioxide", "summary": "A black solid used as the cathode in alkaline and zinc-carbon batteries, in glassmaking to remove green tints, and as an oxidizing catalyst." },
+    { "formula": "KMnO4", "name": "Potassium permanganate", "summary": "A vivid purple, strong oxidizing agent used in water treatment, disinfection, and organic chemistry." },
+    { "formula": "MnSO4", "name": "Manganese(II) sulfate", "summary": "A pale-pink salt used as a dietary and agricultural micronutrient and in the production of dry-cell batteries." },
+    { "formula": "Mn3O4", "name": "Manganese(II,III) oxide (hausmannite)", "summary": "A mineral and a common product of high-temperature manganese oxidation; used in ferrites and as a coating for stainless steel." },
+    { "formula": "MnCl2", "name": "Manganese(II) chloride", "summary": "A pale-pink salt used as a precursor to other Mn compounds and as a catalyst in some chlorination reactions." },
+    { "formula": "MMT (methylcyclopentadienyl manganese tricarbonyl)", "name": "MMT", "summary": "An organomanganese compound formerly used as an antiknock agent in gasoline." }
+  ],
+  "uses": [
+    "Steelmaking as a deoxidizer, desulfurizer, and alloying element (~90% of manganese use)",
+    "Cathode material (MnO2) in alkaline and zinc-carbon dry-cell batteries",
+    "Lithium-ion battery cathodes (NMC: nickel-manganese-cobalt)",
+    "Aluminum alloys (e.g., 3000-series) to improve corrosion resistance",
+    "Potassium permanganate in water treatment and disinfection",
+    "Pigments and colorants in glass, ceramics, and bricks"
+  ],
+  "reactivity_summary": "Manganese is a hard, brittle, silvery-gray metal that tarnishes slowly in air and rusts in moist air. It reacts readily with dilute non-oxidizing acids to release hydrogen and forms a wide variety of compounds spanning oxidation states from -3 to +7, with +2 being the most stable and +7 (as permanganate) the most strongly oxidizing. Powdered manganese burns in oxygen.",
+  "isotopes_summary": "Manganese has only one stable isotope, 55Mn, making it monoisotopic. The radioisotope 53Mn (half-life ~3.7 million years) is used in cosmochronology and meteorite dating; 54Mn (half-life 312 days) finds use in radiotracer studies.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Manganese", "url": "https://www.rsc.org/periodic-table/element/25/manganese" },
+    { "field": "occurrence, uses", "source": "USGS Mineral Commodity Summaries - Manganese", "url": "https://www.usgs.gov/centers/national-minerals-information-center/manganese-statistics-and-information" }
+  ]
+}

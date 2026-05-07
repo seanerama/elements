@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 40,
+  "symbol": "Zr",
+  "name": "Zirconium",
+  "name_origin": "From the mineral zircon, whose name derives from the Persian 'zargun' meaning 'gold-colored'.",
+  "category": "transition-metal",
+  "period": 5,
+  "group": 4,
+  "block": "d",
+  "atomic_mass": 91.224,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d2 5s2",
+  "electron_configuration_short": "[Kr] 4d2 5s2",
+  "electrons_per_shell": [2, 8, 18, 10, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 6.52,
+  "melting_point_k": 2128,
+  "boiling_point_k": 4682,
+  "electronegativity_pauling": 1.33,
+  "oxidation_states": [1, 2, 3, 4],
+  "discovery": {
+    "year": 1789,
+    "discoverer": "Martin Heinrich Klaproth (identified); isolated by Jons Jakob Berzelius in 1824",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Zirconium is the 18th most abundant element in Earth's crust at about 165 ppm, more abundant than copper or zinc. It is found mainly in the mineral zircon (ZrSiO4) and in smaller amounts in baddeleyite (ZrO2).",
+    "states": ["bound in zircon (ZrSiO4)", "bound in baddeleyite (ZrO2)", "trace in soils and seawater", "stellar nucleosynthesis product"]
+  },
+  "compounds": [
+    { "formula": "ZrO2", "name": "Zirconium dioxide (zirconia)", "summary": "An extremely refractory ceramic; yttria-stabilized zirconia is used in dental crowns, fuel cells, and thermal-barrier coatings." },
+    { "formula": "ZrSiO4", "name": "Zirconium silicate (zircon)", "summary": "The principal commercial mineral of zirconium and a popular gemstone." },
+    { "formula": "ZrCl4", "name": "Zirconium tetrachloride", "summary": "A volatile white solid used as a precursor in zirconium chemistry and as a Lewis-acid catalyst." },
+    { "formula": "Zr(SO4)2", "name": "Zirconium sulfate", "summary": "Used in leather tanning, water treatment, and as a precursor for other zirconium chemicals." },
+    { "formula": "ZrH2", "name": "Zirconium hydride", "summary": "Used as a moderator in some nuclear reactors and as a hydrogen storage material." }
+  ],
+  "uses": [
+    "Cladding for nuclear fuel rods (Zircaloy) due to low neutron absorption and corrosion resistance",
+    "Yttria-stabilized zirconia for dental implants and structural ceramics",
+    "Thermal-barrier coatings on jet-engine and gas-turbine blades",
+    "Cubic zirconia as a popular diamond simulant in jewelry",
+    "Getter material in vacuum tubes and chemical reactors",
+    "Zircon sand in foundry molds and refractory bricks"
+  ],
+  "reactivity_summary": "Zirconium is a silvery, lustrous transition metal that resists corrosion exceptionally well due to a tough oxide passivation layer; bulk metal is stable in air, water, and most acids. Powdered zirconium, however, is pyrophoric and can ignite spontaneously. It reacts with halogens at elevated temperatures and with hydrogen to form hydrides.",
+  "isotopes_summary": "Zirconium has five naturally occurring isotopes: stable 90Zr (~51.45%), 91Zr (~11.22%), 92Zr (~17.15%), 94Zr (~17.38%), and the very long-lived 96Zr (~2.80%, double beta decay, half-life ~2x10^19 years). Several synthetic isotopes are used in nuclear research; 93Zr (half-life 1.5 million years) is a long-lived fission product of concern.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Zirconium", "url": "https://www.rsc.org/periodic-table/element/40/zirconium" },
+    { "field": "uses", "source": "USGS Mineral Commodity Summaries: Zirconium and Hafnium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/zirconium-and-hafnium-statistics-and-information" }
+  ]
+}

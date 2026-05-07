@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 5,
+  "symbol": "B",
+  "name": "Boron",
+  "name_origin": "Named from 'borax' (the mineral from which it was first isolated) plus the suffix '-on' suggested by analogy with carbon.",
+  "category": "metalloid",
+  "period": 2,
+  "group": 13,
+  "block": "p",
+  "atomic_mass": 10.81,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p1",
+  "electron_configuration_short": "[He] 2s2 2p1",
+  "electrons_per_shell": [2, 3],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 2.34,
+  "melting_point_k": 2349,
+  "boiling_point_k": 4200,
+  "electronegativity_pauling": 2.04,
+  "oxidation_states": [-5, -1, 0, 1, 2, 3],
+  "discovery": {
+    "year": 1808,
+    "discoverer": "Joseph Louis Gay-Lussac, Louis Jacques Thenard, and (independently) Humphry Davy",
+    "country": "France / United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Boron is relatively rare in Earth's crust (~10 ppm) and not found as the free element. Major deposits are evaporite borate minerals (borax, kernite, ulexite, colemanite), with the largest reserves in Turkey and California.",
+    "states": ["in borate evaporite minerals (borax, kernite, colemanite)", "dissolved in some hot springs and brines", "trace nutrient in plants and soils"]
+  },
+  "compounds": [
+    { "formula": "Na2B4O7·10H2O", "name": "Borax (sodium tetraborate decahydrate)", "summary": "The most familiar boron compound, used as a cleaning agent, flux for soldering, and feedstock for other boron chemicals." },
+    { "formula": "H3BO3", "name": "Boric acid", "summary": "A weak acid used as a mild antiseptic, insecticide, and neutron absorber in nuclear reactor coolant." },
+    { "formula": "B2O3", "name": "Boron trioxide", "summary": "The primary oxide of boron, a key flux component in borosilicate glass and ceramic glazes." },
+    { "formula": "BN", "name": "Boron nitride", "summary": "Exists in graphite-like (hexagonal) and diamond-like (cubic) forms; cubic BN is second only to diamond in hardness and used as an abrasive." },
+    { "formula": "B10H14", "name": "Decaborane", "summary": "A cluster compound studied as a high-energy fuel and a precursor for carborane synthesis." },
+    { "formula": "BF3", "name": "Boron trifluoride", "summary": "A pungent gas and powerful Lewis acid widely used as a catalyst in organic synthesis." }
+  ],
+  "uses": [
+    "Borosilicate glass (Pyrex) for laboratory glassware and cookware",
+    "Fiberglass insulation and reinforcement (the largest single use)",
+    "Boron-10 enriched control rods and coolant additive in nuclear reactors",
+    "Boron carbide armor and abrasive grit",
+    "Detergents, bleaches, and laundry boosters (perborates)",
+    "Doping agent for p-type semiconductors in silicon electronics"
+  ],
+  "reactivity_summary": "Elemental boron is a hard, brittle metalloid that is chemically inert at room temperature but reacts at elevated temperatures with oxygen, halogens, and many metals to form borides. Its chemistry is dominated by electron-deficient covalent bonding, leading to rich cluster chemistry (boranes, carboranes) found in no other element except carbon.",
+  "isotopes_summary": "Boron has two stable isotopes: 11B (~80.1%) and 10B (~19.9%); natural variability in the ratio gives an interval atomic weight. 10B has an exceptionally large neutron-capture cross section, making it valuable for nuclear reactor control and boron neutron capture therapy (BNCT) for cancer.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, density", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, uses", "source": "Royal Society of Chemistry - Periodic Table: Boron", "url": "https://www.rsc.org/periodic-table/element/5/boron" },
+    { "field": "occurrence", "source": "USGS Mineral Commodity Summaries: Boron 2024", "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-boron.pdf" }
+  ]
+}

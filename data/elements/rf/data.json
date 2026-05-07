@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 104,
+  "symbol": "Rf",
+  "name": "Rutherfordium",
+  "name_origin": "Named after New Zealand-born British physicist Ernest Rutherford, often called the 'father of nuclear physics'.",
+  "category": "transition-metal",
+  "period": 7,
+  "group": 4,
+  "block": "d",
+  "atomic_mass": 267,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d2 7s2",
+  "electron_configuration_short": "[Rn] 5f14 6d2 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 10, 2],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [4],
+  "discovery": {
+    "year": 1969,
+    "discoverer": "Lawrence Berkeley National Laboratory team (Albert Ghiorso et al.) and Joint Institute for Nuclear Research, Dubna",
+    "country": "United States / Soviet Union"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Rutherfordium does not occur naturally on Earth. It is a synthetic element produced in trace quantities by bombarding heavy actinide targets with light-ion beams in particle accelerators.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [
+    { "formula": "RfCl4", "name": "Rutherfordium tetrachloride", "summary": "A volatile chloride characterized in gas-phase chromatography experiments; its volatility is comparable to ZrCl4 and HfCl4, supporting the placement of Rf in group 4." }
+  ],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "Rutherfordium is predicted and experimentally indicated to behave as a group 4 transition metal, chemically similar to hafnium and zirconium, with a dominant +4 oxidation state. Relativistic effects on its 7s and 6d orbitals introduce subtle deviations from straightforward periodic-trend extrapolation.",
+  "isotopes_summary": "All known isotopes of rutherfordium are radioactive. The most stable confirmed isotope is 267Rf with a half-life of about 1.3 hours; many shorter-lived isotopes (e.g., 261Rf, 263Rf) are used in chemistry experiments because they are easier to produce.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Rutherfordium", "url": "https://www.rsc.org/periodic-table/element/104/rutherfordium" },
+    { "field": "electron_configuration, oxidation_states, compounds", "source": "Wikipedia: Rutherfordium", "url": "https://en.wikipedia.org/wiki/Rutherfordium" },
+    { "field": "reactivity_summary", "source": "Schadel, M. 'Chemistry of Superheavy Elements', Angewandte Chemie Int. Ed., 2006", "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.200461072" }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 38,
+  "symbol": "Sr",
+  "name": "Strontium",
+  "name_origin": "Named after the Scottish village of Strontian, where the mineral strontianite was first discovered in 1790.",
+  "category": "alkaline-earth",
+  "period": 5,
+  "group": 2,
+  "block": "s",
+  "atomic_mass": 87.62,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s2",
+  "electron_configuration_short": "[Kr] 5s2",
+  "electrons_per_shell": [2, 8, 18, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 2.64,
+  "melting_point_k": 1050,
+  "boiling_point_k": 1655,
+  "electronegativity_pauling": 0.95,
+  "oxidation_states": [1, 2],
+  "discovery": {
+    "year": 1790,
+    "discoverer": "Adair Crawford and William Cruickshank (identified); isolated by Humphry Davy in 1808",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Strontium is the 15th most abundant element in Earth's crust at about 360 ppm. It occurs primarily in the minerals celestite (SrSO4) and strontianite (SrCO3), and is also present in seawater at about 8 ppm.",
+    "states": ["bound in celestite (SrSO4)", "bound in strontianite (SrCO3)", "trace in seawater", "trace in plant and animal tissues"]
+  },
+  "compounds": [
+    { "formula": "SrCO3", "name": "Strontium carbonate", "summary": "Naturally occurring mineral strontianite, used in ceramics, pyrotechnics, and cathode-ray tube glass." },
+    { "formula": "SrSO4", "name": "Strontium sulfate", "summary": "The mineral celestite, the principal commercial source of strontium." },
+    { "formula": "Sr(NO3)2", "name": "Strontium nitrate", "summary": "Used in pyrotechnics and signal flares to produce a brilliant red flame." },
+    { "formula": "SrCl2", "name": "Strontium chloride", "summary": "Used in toothpaste for sensitive teeth and as a precursor in strontium chemistry." },
+    { "formula": "SrO", "name": "Strontium oxide", "summary": "An alkaline earth oxide used in specialty optical glasses and ceramics." }
+  ],
+  "uses": [
+    "Pyrotechnics and red-color flares (strontium nitrate and strontium carbonate)",
+    "Ferrite ceramic magnets (strontium ferrite) for loudspeakers and small motors",
+    "Cathode-ray tube glass to block X-rays (historic use)",
+    "Strontium-90 in radioisotope thermoelectric generators (RTGs)",
+    "Strontium ranelate as a treatment for osteoporosis (medical use)"
+  ],
+  "reactivity_summary": "Strontium is a soft, silvery-white alkaline earth metal that quickly turns yellow on exposure to air due to oxide formation. It reacts vigorously with water to liberate hydrogen and form strontium hydroxide, and burns in air with a brilliant crimson flame. Finely divided strontium can ignite spontaneously, so it is typically stored under mineral oil.",
+  "isotopes_summary": "Strontium has four stable naturally occurring isotopes: 84Sr (~0.56%), 86Sr (~9.86%), 87Sr (~7.00%), and 88Sr (~82.58%). The radioactive 90Sr (half-life 28.8 years) is a notable fission product that biologically substitutes for calcium and accumulates in bone; it is used in medical and industrial applications but poses environmental concerns.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Strontium", "url": "https://www.rsc.org/periodic-table/element/38/strontium" },
+    { "field": "occurrence", "source": "USGS Mineral Commodity Summaries: Strontium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/strontium-statistics-and-information" }
+  ]
+}

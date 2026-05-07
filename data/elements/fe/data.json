@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 26,
+  "symbol": "Fe",
+  "name": "Iron",
+  "name_origin": "The English name comes from Anglo-Saxon 'iren' (Old English 'isern'), of Celtic origin. The chemical symbol Fe derives from the Latin 'ferrum', meaning iron.",
+  "category": "transition-metal",
+  "period": 4,
+  "group": 8,
+  "block": "d",
+  "atomic_mass": 55.845,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d6 4s2",
+  "electron_configuration_short": "[Ar] 3d6 4s2",
+  "electrons_per_shell": [2, 8, 14, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 7.874,
+  "melting_point_k": 1811,
+  "boiling_point_k": 3134,
+  "electronegativity_pauling": 1.83,
+  "oxidation_states": [-4, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7],
+  "discovery": {
+    "year": null,
+    "discoverer": "Known since prehistory (before 5000 BCE)",
+    "country": null
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Iron is the fourth most abundant element in Earth's crust (~5.6% by mass) and the most abundant element by mass in the planet as a whole, forming much of the molten outer core and solid inner core. It is the sixth most abundant element in the universe and the heaviest element produced in significant quantities by stellar nucleosynthesis.",
+    "states": ["hematite (Fe2O3)", "magnetite (Fe3O4)", "siderite (FeCO3)", "pyrite (FeS2)", "Earth's outer and inner core", "essential biological cofactor in hemoglobin and many enzymes"]
+  },
+  "compounds": [
+    { "formula": "Fe2O3", "name": "Iron(III) oxide (hematite)", "summary": "A red-brown oxide that is the principal ore of iron and the main component of common rust." },
+    { "formula": "Fe3O4", "name": "Iron(II,III) oxide (magnetite)", "summary": "A naturally magnetic black oxide that is an important iron ore and is used in magnetic recording and as a pigment." },
+    { "formula": "FeS2", "name": "Iron disulfide (pyrite)", "summary": "Brass-yellow 'fool's gold'; a major source of sulfur for sulfuric acid manufacture." },
+    { "formula": "FeCl3", "name": "Iron(III) chloride", "summary": "A dark-brown deliquescent solid used in water treatment, etching printed circuit boards, and as a Lewis-acid catalyst." },
+    { "formula": "FeSO4.7H2O", "name": "Iron(II) sulfate heptahydrate", "summary": "A blue-green crystalline salt (copperas) used as a dietary iron supplement, water treatment coagulant, and ink ingredient." },
+    { "formula": "Fe(CO)5", "name": "Iron pentacarbonyl", "summary": "A volatile yellow liquid used as a precursor to high-purity iron powder and carbonyl iron." }
+  ],
+  "uses": [
+    "Production of steel and cast iron - the backbone of modern construction, machinery, and transportation",
+    "Hemoglobin in red blood cells, where iron binds and transports oxygen",
+    "Permanent magnets and electromagnets, electrical transformers, and motor cores",
+    "Catalyst in the Haber-Bosch process for ammonia synthesis",
+    "Magnetite and hematite as pigments and magnetic recording media",
+    "Iron(II) sulfate as a dietary supplement to treat anemia"
+  ],
+  "reactivity_summary": "Iron is a moderately reactive transition metal that readily oxidizes in moist air to form hydrated iron(III) oxide (rust), which does not protect the underlying metal. It dissolves in dilute non-oxidizing acids to give iron(II) salts and hydrogen and reacts with steam at red heat to give Fe3O4 and hydrogen. Iron exhibits two principal oxidation states, +2 (ferrous) and +3 (ferric), and exhibits ferromagnetism below 1043 K (the Curie point).",
+  "isotopes_summary": "Iron has four stable isotopes: 54Fe, 56Fe (most abundant at ~91.75%), 57Fe, and 58Fe. 56Fe has the highest binding energy per nucleon of any commonly occurring nuclide, marking the practical end of energy-releasing stellar fusion. The radioisotope 60Fe (half-life 2.6 million years) is used in astrophysical and geochronological studies.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Iron", "url": "https://www.rsc.org/periodic-table/element/26/iron" },
+    { "field": "occurrence, uses", "source": "USGS Mineral Commodity Summaries - Iron Ore", "url": "https://www.usgs.gov/centers/national-minerals-information-center/iron-ore-statistics-and-information" }
+  ]
+}

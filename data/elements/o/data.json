@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 8,
+  "symbol": "O",
+  "name": "Oxygen",
+  "name_origin": "From Greek 'oxys' (sharp, acid) and 'genes' (forming), meaning 'acid-former'; named by Antoine Lavoisier in 1777, who incorrectly believed oxygen was essential to all acids.",
+  "category": "nonmetal",
+  "period": 2,
+  "group": 16,
+  "block": "p",
+  "atomic_mass": 15.999,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p4",
+  "electron_configuration_short": "[He] 2s2 2p4",
+  "electrons_per_shell": [2, 6],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.001429,
+  "melting_point_k": 54.36,
+  "boiling_point_k": 90.188,
+  "electronegativity_pauling": 3.44,
+  "oxidation_states": [-2, -1, 0, 1, 2],
+  "discovery": {
+    "year": 1774,
+    "discoverer": "Carl Wilhelm Scheele (1771-72, unpublished) and Joseph Priestley (1774, independent); named by Antoine Lavoisier",
+    "country": "Sweden / United Kingdom / France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Oxygen is the most abundant element in Earth's crust by mass (~46%), the third most abundant in the universe, and makes up ~21% of the atmosphere as O2. It is bound in water, silicates, oxides, carbonates, and nearly all biomolecules.",
+    "states": ["O2 gas in atmosphere (~21%)", "in water (H2O)", "in silicate and oxide minerals", "trace ozone (O3) in stratosphere", "in carbonates, sulfates, and most biomolecules"]
+  },
+  "compounds": [
+    { "formula": "H2O", "name": "Water", "summary": "The universal solvent, essential to all known life and the most abundant compound on Earth's surface." },
+    { "formula": "CO2", "name": "Carbon dioxide", "summary": "A trace atmospheric gas central to photosynthesis, respiration, and anthropogenic climate change." },
+    { "formula": "SiO2", "name": "Silicon dioxide", "summary": "The primary component of sand, quartz, and glass; the most common mineral on Earth's surface." },
+    { "formula": "Fe2O3", "name": "Iron(III) oxide", "summary": "The chief component of common rust and the iron ore hematite." },
+    { "formula": "O3", "name": "Ozone", "summary": "A reactive triatomic allotrope that filters UV radiation in the stratosphere but is harmful as a ground-level pollutant." },
+    { "formula": "H2O2", "name": "Hydrogen peroxide", "summary": "A versatile oxidizer used as a disinfectant, hair bleach, and rocket propellant." }
+  ],
+  "uses": [
+    "Steelmaking via the basic oxygen process (the largest single industrial use)",
+    "Medical oxygen therapy for patients with hypoxia and respiratory disease",
+    "Liquid oxygen oxidizer for rocket propulsion (LOX)",
+    "Wastewater treatment and aquaculture aeration",
+    "Oxy-fuel cutting and welding torches",
+    "Life support in submarines, spacecraft, and high-altitude aircraft"
+  ],
+  "reactivity_summary": "Oxygen is a powerful oxidizer that combines directly with most elements to form oxides; only the noble gases and a few unreactive metals resist it. O2 supports combustion and aerobic respiration, while the more reactive ozone (O3) is a strong UV absorber and disinfectant. Oxygen's high electronegativity (second only to fluorine) drives much of acid-base and redox chemistry.",
+  "isotopes_summary": "Oxygen has three stable isotopes: 16O (~99.76%), 18O (~0.20%), and 17O (~0.04%). The 18O/16O ratio in ice cores, foraminifera, and water is a key proxy for paleotemperature reconstruction.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "NIST WebBook - Oxygen", "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782447" },
+    { "field": "discovery, uses", "source": "Royal Society of Chemistry - Periodic Table: Oxygen", "url": "https://www.rsc.org/periodic-table/element/8/oxygen" },
+    { "field": "occurrence", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" }
+  ]
+}

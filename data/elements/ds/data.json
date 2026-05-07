@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 110,
+  "symbol": "Ds",
+  "name": "Darmstadtium",
+  "name_origin": "Named after Darmstadt, Germany, the city that hosts the GSI Helmholtz Centre for Heavy Ion Research where the element was discovered.",
+  "category": "unknown",
+  "period": 7,
+  "group": 10,
+  "block": "d",
+  "atomic_mass": 281,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d8 7s2",
+  "electron_configuration_short": "[Rn] 5f14 6d8 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 16, 2],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [],
+  "discovery": {
+    "year": 1994,
+    "discoverer": "Gesellschaft fur Schwerionenforschung (GSI) team led by Sigurd Hofmann",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Darmstadtium does not occur naturally. It is a synthetic element produced in particle accelerators via cold-fusion reactions such as 62Ni + 208Pb.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "No chemistry of darmstadtium has been experimentally characterized; only nuclear properties have been studied. By analogy with its lighter group 10 homologs (nickel, palladium, platinum) it is predicted to be a noble-character transition metal. Listed configuration [Rn] 5f14 6d8 7s2 is one of several predictions; relativistic calculations also suggest a possible [Rn] 5f14 6d9 7s1 ground state.",
+  "isotopes_summary": "All darmstadtium isotopes are radioactive. The longest-lived confirmed isotope is 281Ds with a half-life of around 11-12 seconds, identified mainly as a decay product in chains from heavier elements such as flerovium and copernicium.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Darmstadtium", "url": "https://www.rsc.org/periodic-table/element/110/darmstadtium" },
+    { "field": "electron_configuration, reactivity_summary", "source": "Wikipedia: Darmstadtium", "url": "https://en.wikipedia.org/wiki/Darmstadtium" }
+  ]
+}

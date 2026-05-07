@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 31,
+  "symbol": "Ga",
+  "name": "Gallium",
+  "name_origin": "Named after 'Gallia', the Latin name for France, by its discoverer Paul-Emile Lecoq de Boisbaudran in 1875; the name may also be a Latin pun on his own name ('le coq' = 'gallus' in Latin).",
+  "category": "post-transition",
+  "period": 4,
+  "group": 13,
+  "block": "p",
+  "atomic_mass": 69.723,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p1",
+  "electron_configuration_short": "[Ar] 3d10 4s2 4p1",
+  "electrons_per_shell": [2, 8, 18, 3],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 5.91,
+  "melting_point_k": 302.9146,
+  "boiling_point_k": 2673,
+  "electronegativity_pauling": 1.81,
+  "oxidation_states": [-5, -4, -3, -2, -1, 1, 2, 3],
+  "discovery": {
+    "year": 1875,
+    "discoverer": "Paul-Emile Lecoq de Boisbaudran",
+    "country": "France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Gallium is moderately abundant in Earth's crust at roughly 19 ppm but rarely concentrated; it is recovered chiefly as a by-product of bauxite (aluminum) processing and zinc refining. Predicted by Mendeleev as 'eka-aluminum' before its discovery.",
+    "states": ["trace in bauxite (aluminum ore)", "trace in zinc and germanium ores", "minor mineral gallite (CuGaS2)", "no concentrated ore deposits"]
+  },
+  "compounds": [
+    { "formula": "GaAs", "name": "Gallium arsenide", "summary": "A III-V semiconductor with a direct bandgap, used in high-frequency electronics, solar cells, and laser diodes." },
+    { "formula": "GaN", "name": "Gallium nitride", "summary": "Wide-bandgap semiconductor essential to blue and white LEDs, Blu-ray lasers, and high-efficiency power transistors." },
+    { "formula": "Ga2O3", "name": "Gallium(III) oxide", "summary": "An ultra-wide-bandgap semiconductor under intense study for next-generation high-voltage power electronics." },
+    { "formula": "GaCl3", "name": "Gallium(III) chloride", "summary": "Volatile Lewis acid used in organic synthesis and as a catalyst; precursor for many gallium compounds." },
+    { "formula": "Ga(OH)3", "name": "Gallium(III) hydroxide", "summary": "Amphoteric white solid that dissolves in both acids and bases; intermediate in gallium recovery from Bayer-process liquor." }
+  ],
+  "uses": [
+    "Semiconductors for LEDs, laser diodes, and RF amplifiers (GaAs, GaN)",
+    "Concentrator photovoltaic solar cells",
+    "Low-melting alloys (e.g., galinstan) used as non-toxic mercury replacements in thermometers",
+    "Neutrino detectors using gallium-71",
+    "Medical imaging tracers (gallium-67 and gallium-68 for PET)",
+    "Wetting promoter for vacuum systems and specialty mirrors"
+  ],
+  "reactivity_summary": "Gallium is a soft silvery metal that melts just above room temperature (29.76 degrees Celsius) and can stay liquid up to about 2400 degrees Celsius, giving it the largest liquid range of any element. It tarnishes only slightly in air, forming a thin protective oxide layer, and dissolves in mineral acids and alkalis. Liquid gallium aggressively wets and embrittles many metals, including aluminum and steel.",
+  "isotopes_summary": "Gallium has two stable isotopes: 69Ga (~60.1%) and 71Ga (~39.9%). About 30 radioisotopes are known; the most useful are 67Ga (half-life ~3.26 days), used in scintigraphy, and 68Ga (half-life ~68 minutes), used in PET imaging via generator systems.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Gallium", "url": "https://www.rsc.org/periodic-table/element/31/gallium" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries: Gallium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/gallium-statistics-and-information" }
+  ]
+}

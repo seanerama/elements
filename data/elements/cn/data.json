@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 112,
+  "symbol": "Cn",
+  "name": "Copernicium",
+  "name_origin": "Named after Polish astronomer Nicolaus Copernicus, who proposed the heliocentric model of the solar system.",
+  "category": "unknown",
+  "period": 7,
+  "group": 12,
+  "block": "d",
+  "atomic_mass": 285,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f14 6s2 6p6 6d10 7s2",
+  "electron_configuration_short": "[Rn] 5f14 6d10 7s2",
+  "electrons_per_shell": [2, 8, 18, 32, 32, 18, 2],
+  "phase_at_stp": "unknown",
+  "density_g_per_cm3": null,
+  "melting_point_k": null,
+  "boiling_point_k": null,
+  "electronegativity_pauling": null,
+  "oxidation_states": [],
+  "discovery": {
+    "year": 1996,
+    "discoverer": "Gesellschaft fur Schwerionenforschung (GSI) team led by Sigurd Hofmann",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": false,
+    "abundance_summary": "Copernicium does not occur naturally. It is a synthetic element produced in particle accelerators via reactions such as 70Zn + 208Pb.",
+    "states": ["synthetic, produced atom-by-atom in particle accelerators"]
+  },
+  "compounds": [],
+  "uses": [
+    "Research and scientific study"
+  ],
+  "reactivity_summary": "Gas-phase chemistry experiments indicate that copernicium is a volatile metal with mercury-like adsorption behavior on gold surfaces, consistent with group 12 chemistry but with strong relativistic effects on the closed 7s2 shell that make it less reactive than mercury and reminiscent of a noble gas. No bulk compounds have been isolated.",
+  "isotopes_summary": "All copernicium isotopes are radioactive. The longest-lived confirmed isotope is 285Cn with a half-life of about 30 seconds; this isotope has been the workhorse for chemical investigations because it is produced as a decay product of flerovium isotopes.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, isotopes_summary", "source": "IUPAC Periodic Table of the Elements", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Copernicium", "url": "https://www.rsc.org/periodic-table/element/112/copernicium" },
+    { "field": "electron_configuration, reactivity_summary", "source": "Wikipedia: Copernicium", "url": "https://en.wikipedia.org/wiki/Copernicium" },
+    { "field": "reactivity_summary", "source": "Eichler, R. et al. 'Chemical characterization of element 112', Nature, 2007", "url": "https://www.nature.com/articles/nature05761" }
+  ]
+}

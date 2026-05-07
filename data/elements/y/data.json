@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 39,
+  "symbol": "Y",
+  "name": "Yttrium",
+  "name_origin": "Named after the Swedish village of Ytterby, near where the mineral ytterbite (later renamed gadolinite) containing yttrium was discovered in 1787.",
+  "category": "transition-metal",
+  "period": 5,
+  "group": 3,
+  "block": "d",
+  "atomic_mass": 88.90584,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d1 5s2",
+  "electron_configuration_short": "[Kr] 4d1 5s2",
+  "electrons_per_shell": [2, 8, 18, 9, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 4.472,
+  "melting_point_k": 1799,
+  "boiling_point_k": 3609,
+  "electronegativity_pauling": 1.22,
+  "oxidation_states": [1, 2, 3],
+  "discovery": {
+    "year": 1794,
+    "discoverer": "Johan Gadolin (identified yttria); isolated by Friedrich Wohler in 1828",
+    "country": "Finland"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Yttrium is the 28th most abundant element in Earth's crust at about 33 ppm. Although classified as a transition metal, it is chemically grouped with the rare earths and occurs in nearly all rare-earth minerals such as monazite, xenotime, and bastnaesite.",
+    "states": ["bound in xenotime (YPO4)", "bound in monazite", "bound in bastnaesite", "trace in lunar rocks"]
+  },
+  "compounds": [
+    { "formula": "Y2O3", "name": "Yttrium oxide (yttria)", "summary": "A white solid used as a host material for europium phosphors in red phosphors and in yttrium-stabilized zirconia." },
+    { "formula": "YBa2Cu3O7", "name": "Yttrium barium copper oxide (YBCO)", "summary": "A high-temperature superconductor that operates above the boiling point of liquid nitrogen." },
+    { "formula": "Y3Al5O12", "name": "Yttrium aluminum garnet (YAG)", "summary": "A synthetic crystal used as a host for laser dopants such as Nd:YAG and as a gemstone simulant." },
+    { "formula": "YF3", "name": "Yttrium fluoride", "summary": "Used in optical coatings and as a precursor for high-purity yttrium metal." },
+    { "formula": "YCl3", "name": "Yttrium chloride", "summary": "A water-soluble salt used as a starting material in yttrium chemistry and catalysis." }
+  ],
+  "uses": [
+    "Red phosphors in color cathode-ray tubes and LEDs (Y2O3:Eu)",
+    "Nd:YAG and Er:YAG laser host crystals",
+    "Yttria-stabilized zirconia for thermal-barrier coatings and dental ceramics",
+    "Microwave filters and superconducting components (YBCO)",
+    "Alloying agent to improve the strength of magnesium and aluminum alloys"
+  ],
+  "reactivity_summary": "Yttrium is a silvery, moderately reactive transition metal. Bulk yttrium is relatively stable in air due to a passivating oxide layer, but turnings or powder can ignite. It reacts slowly with water and dissolves readily in dilute acids. At high temperatures it reacts with most non-metals to form a wide range of compounds.",
+  "isotopes_summary": "Yttrium has only one stable, naturally occurring isotope, 89Y (100% natural abundance), making it a mononuclidic element. More than 30 synthetic radioisotopes are known; 90Y (half-life 64 hours) is widely used in medicine for radiation therapy, including treatment of liver cancer and lymphoma.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Yttrium", "url": "https://www.rsc.org/periodic-table/element/39/yttrium" },
+    { "field": "uses", "source": "USGS Mineral Commodity Summaries: Yttrium", "url": "https://www.usgs.gov/centers/national-minerals-information-center/yttrium-statistics-and-information" }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 3,
+  "symbol": "Li",
+  "name": "Lithium",
+  "name_origin": "From Greek 'lithos' (stone), because it was first identified in a mineral (petalite), in contrast to sodium and potassium which were found in plant ashes.",
+  "category": "alkali-metal",
+  "period": 2,
+  "group": 1,
+  "block": "s",
+  "atomic_mass": 6.94,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s1",
+  "electron_configuration_short": "[He] 2s1",
+  "electrons_per_shell": [2, 1],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 0.534,
+  "melting_point_k": 453.65,
+  "boiling_point_k": 1603,
+  "electronegativity_pauling": 0.98,
+  "oxidation_states": [1],
+  "discovery": {
+    "year": 1817,
+    "discoverer": "Johan August Arfwedson",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Lithium is the lightest metal and the lightest solid element, present at ~20 ppm in Earth's crust. It is never found as a free element in nature; commercial sources include continental brines (Chile, Argentina, China) and pegmatite ores such as spodumene (Australia).",
+    "states": ["in pegmatite minerals (spodumene, lepidolite, petalite)", "dissolved in continental brines and salars", "trace in seawater (~0.18 ppm)"]
+  },
+  "compounds": [
+    { "formula": "Li2CO3", "name": "Lithium carbonate", "summary": "A white salt used as a precursor for battery-grade lithium chemicals and as a mood-stabilizing pharmaceutical." },
+    { "formula": "LiOH", "name": "Lithium hydroxide", "summary": "A strong base used in lithium-ion battery cathode synthesis and as a CO2 scrubber on spacecraft." },
+    { "formula": "LiCl", "name": "Lithium chloride", "summary": "A hygroscopic salt used in desiccants, brazing fluxes, and as an electrolyte in molten-salt processes." },
+    { "formula": "LiH", "name": "Lithium hydride", "summary": "A saline hydride used as a hydrogen source and as a neutron shielding material." },
+    { "formula": "LiAlH4", "name": "Lithium aluminum hydride", "summary": "A powerful reducing agent widely used in organic synthesis to reduce esters, amides, and carboxylic acids." }
+  ],
+  "uses": [
+    "Cathode and anode materials for rechargeable lithium-ion batteries",
+    "Mood-stabilizing medication for bipolar disorder (lithium carbonate, lithium citrate)",
+    "Heat-resistant glass and ceramics (lithium oxide flux)",
+    "High-performance lubricating greases (lithium soaps)",
+    "Aluminum-lithium alloys for aerospace structural components",
+    "Tritium production and fusion fuel (6Li in breeding blankets)"
+  ],
+  "reactivity_summary": "Lithium is a soft, silvery alkali metal that tarnishes rapidly in air, forming a dark oxide-nitride coating. It reacts with water to produce hydrogen and lithium hydroxide, but less violently than sodium or potassium. Uniquely among the alkali metals, it reacts directly with nitrogen at room temperature to form Li3N.",
+  "isotopes_summary": "Lithium has two stable isotopes, 7Li (~92.4%) and 6Li (~7.6%); the natural ratio varies enough that IUPAC reports the atomic weight as an interval. 6Li is critical to thermonuclear weapons and proposed fusion reactors as a tritium-breeding material.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Lithium", "url": "https://www.rsc.org/periodic-table/element/3/lithium" },
+    { "field": "occurrence, uses", "source": "USGS Mineral Commodity Summaries: Lithium 2024", "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-lithium.pdf" }
+  ]
+}

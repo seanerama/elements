@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 28,
+  "symbol": "Ni",
+  "name": "Nickel",
+  "name_origin": "From the German 'Kupfernickel' ('Devil's copper' or 'Old Nick's copper'), the miners' name for niccolite (NiAs), an ore that resembled copper ore but yielded none.",
+  "category": "transition-metal",
+  "period": 4,
+  "group": 10,
+  "block": "d",
+  "atomic_mass": 58.6934,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d8 4s2",
+  "electron_configuration_short": "[Ar] 3d8 4s2",
+  "electrons_per_shell": [2, 8, 16, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 8.908,
+  "melting_point_k": 1728,
+  "boiling_point_k": 3186,
+  "electronegativity_pauling": 1.91,
+  "oxidation_states": [-2, -1, 0, 1, 2, 3, 4],
+  "discovery": {
+    "year": 1751,
+    "discoverer": "Axel Fredrik Cronstedt",
+    "country": "Sweden"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Nickel is the 22nd-23rd most abundant element in Earth's crust (~84 ppm) but is the second most abundant element in Earth's core, after iron. Most commercial nickel comes from sulfide ores (pentlandite) in regions such as Sudbury, Canada and from laterite ores in tropical regions; iron meteorites also contain significant nickel.",
+    "states": ["pentlandite ((Fe,Ni)9S8)", "garnierite (Ni-bearing serpentine)", "limonite/laterite ores", "iron meteorites (kamacite, taenite)", "Earth's core"]
+  },
+  "compounds": [
+    { "formula": "NiO", "name": "Nickel(II) oxide", "summary": "A green solid used in ceramic glazes, ferrites, and as a catalyst precursor." },
+    { "formula": "NiCl2", "name": "Nickel(II) chloride", "summary": "A yellow (anhydrous) or green (hydrated) salt used in electroplating baths and as a precursor to other nickel compounds." },
+    { "formula": "NiSO4", "name": "Nickel(II) sulfate", "summary": "An emerald-green salt used extensively in nickel electroplating and as a mordant in dyeing." },
+    { "formula": "Ni(CO)4", "name": "Nickel tetracarbonyl", "summary": "A volatile, extremely toxic colorless liquid used in the Mond process to produce high-purity nickel." },
+    { "formula": "NiOOH", "name": "Nickel oxyhydroxide", "summary": "The active cathode material in nickel-cadmium and nickel-metal-hydride rechargeable batteries." },
+    { "formula": "Ni3S2", "name": "Heazlewoodite", "summary": "A nickel sulfide mineral and a key intermediate in pyrometallurgical refining of nickel sulfide ores." }
+  ],
+  "uses": [
+    "Stainless steel and other corrosion-resistant alloys (~70% of nickel use)",
+    "Nickel-based superalloys (e.g., Inconel, Hastelloy) for jet engines and gas turbines",
+    "Cathodes in nickel-metal-hydride and lithium-ion (NMC, NCA) batteries",
+    "Electroplating to provide a corrosion-resistant decorative finish",
+    "Catalyst for hydrogenation of vegetable oils and many industrial reactions (e.g., Raney nickel)",
+    "Coinage metal in nickel-copper alloys (e.g., the U.S. five-cent coin)"
+  ],
+  "reactivity_summary": "Nickel is a silvery-white, lustrous, ferromagnetic transition metal with a Curie temperature of 631 K. It is fairly resistant to corrosion at room temperature due to a passive oxide film, but reacts slowly with dilute acids and is attacked by nitric acid. Finely divided nickel is pyrophoric and is widely used as a hydrogenation catalyst. The +2 oxidation state dominates aqueous chemistry; nickel is a recognized skin allergen and some compounds are carcinogenic.",
+  "isotopes_summary": "Nickel has five stable isotopes: 58Ni (most abundant at ~68.08%), 60Ni, 61Ni, 62Ni, and 64Ni. 62Ni has the highest binding energy per nucleon of any nuclide. The radioisotope 63Ni (half-life 100 years) is used in electron-capture detectors for gas chromatography and in some beta-voltaic batteries.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Nickel", "url": "https://www.rsc.org/periodic-table/element/28/nickel" },
+    { "field": "occurrence, uses", "source": "USGS Mineral Commodity Summaries - Nickel", "url": "https://www.usgs.gov/centers/national-minerals-information-center/nickel-statistics-and-information" }
+  ]
+}

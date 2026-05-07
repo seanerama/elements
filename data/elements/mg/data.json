@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 12,
+  "symbol": "Mg",
+  "name": "Magnesium",
+  "name_origin": "Named after Magnesia, a district of Thessaly in Greece where magnesium-bearing minerals were originally found.",
+  "category": "alkaline-earth",
+  "period": 3,
+  "group": 2,
+  "block": "s",
+  "atomic_mass": 24.305,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2",
+  "electron_configuration_short": "[Ne] 3s2",
+  "electrons_per_shell": [2, 8, 2],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 1.738,
+  "melting_point_k": 923.0,
+  "boiling_point_k": 1363.0,
+  "electronegativity_pauling": 1.31,
+  "oxidation_states": [1, 2],
+  "discovery": {
+    "year": 1808,
+    "discoverer": "Humphry Davy",
+    "country": "England"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Magnesium is the eighth most abundant element in Earth's crust (~2.3%) and the third most abundant element dissolved in seawater. It does not occur as a free metal in nature; it is found in minerals like dolomite, magnesite, and carnallite.",
+    "states": ["seawater (as Mg2+)", "dolomite (CaMg(CO3)2)", "magnesite (MgCO3)", "carnallite (KMgCl3.6H2O)", "olivine"]
+  },
+  "compounds": [
+    { "formula": "MgO", "name": "Magnesium oxide", "summary": "Magnesia; a refractory material with a very high melting point used in furnace linings and as an antacid." },
+    { "formula": "MgCl2", "name": "Magnesium chloride", "summary": "Used as a de-icer, dust suppressant, and feedstock for producing magnesium metal by electrolysis." },
+    { "formula": "Mg(OH)2", "name": "Magnesium hydroxide", "summary": "Milk of magnesia; a common antacid and laxative as well as a flame retardant." },
+    { "formula": "MgSO4", "name": "Magnesium sulfate", "summary": "Epsom salt; used in bath salts, agriculture, and to treat magnesium deficiency or eclampsia." },
+    { "formula": "MgCO3", "name": "Magnesium carbonate", "summary": "Used by athletes as gripping chalk and as a food additive (anti-caking agent)." },
+    { "formula": "C55H72MgN4O5", "name": "Chlorophyll a", "summary": "The green pigment in plants that captures light for photosynthesis; magnesium is the central coordinating atom." }
+  ],
+  "uses": [
+    "Lightweight structural alloys (with aluminum) for aerospace, automotive, and electronic housings",
+    "Pyrotechnics, flares, and incendiary devices because it burns with an intense white flame",
+    "Reducing agent in the production of titanium, uranium, and other metals (Kroll process)",
+    "Sacrificial anodes for cathodic protection of steel structures and pipelines",
+    "Dietary mineral supplements and antacid/laxative pharmaceuticals",
+    "Desulfurizer in iron and steel production"
+  ],
+  "reactivity_summary": "Magnesium is a relatively reactive alkaline earth metal that tarnishes slightly in air, forming a thin protective oxide layer. It burns in air with a brilliant white light, reacting with both oxygen and nitrogen, and reacts slowly with cold water but vigorously with steam.",
+  "isotopes_summary": "Magnesium has three stable isotopes: Mg-24 (~79%), Mg-25 (~10%), and Mg-26 (~11%). Mg-28 is the most stable radioisotope with a half-life of about 21 hours.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass, atomic_mass_uncertain", "source": "IUPAC Standard Atomic Weights 2021 (CIAAW) - interval [24.304, 24.307]", "url": "https://ciaaw.org/magnesium.htm" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "NIST Chemistry WebBook - Magnesium", "url": "https://webbook.nist.gov/chemistry/" },
+    { "field": "electronegativity_pauling, electron_configuration", "source": "Royal Society of Chemistry - Periodic Table: Magnesium", "url": "https://www.rsc.org/periodic-table/element/12/magnesium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Magnesium", "url": "https://www.britannica.com/science/magnesium" }
+  ]
+}

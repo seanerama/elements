@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 13,
+  "symbol": "Al",
+  "name": "Aluminium",
+  "name_origin": "Derived from the Latin 'alumen' (meaning alum), a sulfate mineral known since antiquity. The IUPAC name is 'aluminium'; 'aluminum' is a common variant in American English.",
+  "category": "post-transition",
+  "period": 3,
+  "group": 13,
+  "block": "p",
+  "atomic_mass": 26.9815384,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p1",
+  "electron_configuration_short": "[Ne] 3s2 3p1",
+  "electrons_per_shell": [2, 8, 3],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 2.70,
+  "melting_point_k": 933.47,
+  "boiling_point_k": 2743.0,
+  "electronegativity_pauling": 1.61,
+  "oxidation_states": [-2, -1, 1, 2, 3],
+  "discovery": {
+    "year": 1825,
+    "discoverer": "Hans Christian Oersted",
+    "country": "Denmark"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Aluminium is the most abundant metal and the third most abundant element in Earth's crust (~8.1%). It is too reactive to occur as the free metal and is mined primarily as bauxite ore.",
+    "states": ["bauxite (mixed Al hydroxides)", "feldspars", "micas", "cryolite (Na3AlF6)", "corundum (Al2O3)"]
+  },
+  "compounds": [
+    { "formula": "Al2O3", "name": "Aluminium oxide", "summary": "Alumina; an extremely hard ceramic used as an abrasive, refractory, and the precursor for smelting aluminium metal. Gemstone forms include sapphire and ruby." },
+    { "formula": "Al(OH)3", "name": "Aluminium hydroxide", "summary": "Used as an antacid, a flame retardant, and an intermediate in producing alumina from bauxite (Bayer process)." },
+    { "formula": "AlCl3", "name": "Aluminium chloride", "summary": "A strong Lewis acid catalyst used in Friedel-Crafts reactions in organic synthesis." },
+    { "formula": "KAl(SO4)2.12H2O", "name": "Potassium alum", "summary": "Used as a mordant for dyes, in water purification, and as a styptic." },
+    { "formula": "Na3AlF6", "name": "Cryolite", "summary": "Used as a flux in the Hall-Heroult electrolytic smelting of aluminium." },
+    { "formula": "Al2(SO4)3", "name": "Aluminium sulfate", "summary": "A flocculant in water and wastewater treatment and used in papermaking." }
+  ],
+  "uses": [
+    "Lightweight structural metal in aircraft, vehicles, and high-speed trains",
+    "Beverage cans, food packaging, and household foil",
+    "Power transmission lines (cheaper and lighter than copper for the same conductance)",
+    "Building materials: window frames, siding, roofing, and curtain walls",
+    "Aluminium alloys in consumer electronics and cookware",
+    "Thermite reactions for welding rail tracks and incendiary devices"
+  ],
+  "reactivity_summary": "Aluminium is a reactive metal but rapidly forms a thin, tightly adherent oxide layer in air that protects the underlying metal from further corrosion. It dissolves in both strong acids and strong bases (amphoteric) and reacts vigorously with halogens.",
+  "isotopes_summary": "Aluminium has only one stable isotope, Al-27. The most notable radioisotope is Al-26 with a half-life of about 717,000 years, used in geological dating and as a tracer in cosmochemistry.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021 (CIAAW)", "url": "https://ciaaw.org/aluminium.htm" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "NIST Chemistry WebBook - Aluminum", "url": "https://webbook.nist.gov/chemistry/" },
+    { "field": "electronegativity_pauling, electron_configuration", "source": "Royal Society of Chemistry - Periodic Table: Aluminium", "url": "https://www.rsc.org/periodic-table/element/13/aluminium" },
+    { "field": "discovery", "source": "Encyclopaedia Britannica - Aluminum", "url": "https://www.britannica.com/science/aluminum" }
+  ]
+}

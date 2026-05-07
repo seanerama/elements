@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 46,
+  "symbol": "Pd",
+  "name": "Palladium",
+  "name_origin": "Named after the asteroid Pallas, which had been discovered just two years earlier in 1802; Pallas in turn refers to the Greek goddess of wisdom Pallas Athena.",
+  "category": "transition-metal",
+  "period": 5,
+  "group": 10,
+  "block": "d",
+  "atomic_mass": 106.42,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10",
+  "electron_configuration_short": "[Kr] 4d10",
+  "electrons_per_shell": [2, 8, 18, 18, 0],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 12.023,
+  "melting_point_k": 1828.05,
+  "boiling_point_k": 3236,
+  "electronegativity_pauling": 2.2,
+  "oxidation_states": [0, 1, 2, 3, 4, 5, 6],
+  "discovery": {
+    "year": 1803,
+    "discoverer": "William Hyde Wollaston",
+    "country": "United Kingdom"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Palladium is rare in Earth's crust at about 0.015 ppm. It occurs as a native metal alloyed with platinum and gold, and is mined principally as a byproduct of nickel and platinum production in Russia (Norilsk), South Africa, Canada, and the United States.",
+    "states": ["native alloyed with other PGMs", "trace in nickel sulfide deposits (Sudbury, Norilsk)", "trace in platinum-bearing reefs (Merensky Reef)", "recycled from spent catalytic converters"]
+  },
+  "compounds": [
+    { "formula": "PdCl2", "name": "Palladium(II) chloride", "summary": "A red-brown solid that is the most common starting material for palladium catalysts and a key reagent in the Wacker process." },
+    { "formula": "Pd(OAc)2", "name": "Palladium(II) acetate", "summary": "A widely used precursor in palladium-catalyzed cross-coupling reactions." },
+    { "formula": "Pd(PPh3)4", "name": "Tetrakis(triphenylphosphine)palladium(0)", "summary": "A bright yellow Pd(0) complex central to Suzuki, Negishi, and Heck cross-coupling chemistry." },
+    { "formula": "PdO", "name": "Palladium(II) oxide", "summary": "A black solid formed when palladium is heated in oxygen, used in catalysis." },
+    { "formula": "PdH(x)", "name": "Palladium hydride", "summary": "A non-stoichiometric solid that can absorb up to 900 times its own volume of hydrogen, exploited in hydrogen purification." }
+  ],
+  "uses": [
+    "Three-way catalytic converters for gasoline-engine vehicles (largest single use)",
+    "Cross-coupling catalysts in organic synthesis (Suzuki, Heck, Negishi reactions; Nobel Prize 2010)",
+    "Hydrogen purification membranes and storage media",
+    "Multilayer ceramic capacitors and electrical contacts in electronics",
+    "Dental alloys and white-gold jewelry",
+    "Chemotherapy drug research (palladium analogs of platinum drugs)"
+  ],
+  "reactivity_summary": "Palladium is a soft, ductile, silvery-white platinum-group metal that has the lowest melting point and density of the PGMs. It does not tarnish in air at ordinary temperatures but oxidizes when heated. It dissolves in hot concentrated nitric and sulfuric acids and slowly in hydrochloric acid in the presence of oxygen. Its most distinctive property is the remarkable ability to absorb large quantities of hydrogen at room temperature.",
+  "isotopes_summary": "Palladium has six naturally occurring isotopes: 102Pd (~1.02%), 104Pd (~11.14%), 105Pd (~22.33%), 106Pd (~27.33%), 108Pd (~26.46%), and 110Pd (~11.72%). The longest-lived radioisotope is 107Pd (half-life 6.5 million years), a long-lived fission product. Several other radioisotopes are used in research.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery", "source": "Royal Society of Chemistry - Periodic Table: Palladium", "url": "https://www.rsc.org/periodic-table/element/46/palladium" },
+    { "field": "uses", "source": "USGS Mineral Commodity Summaries: Platinum-Group Metals", "url": "https://www.usgs.gov/centers/national-minerals-information-center/platinum-group-metals-statistics-and-information" }
+  ]
+}

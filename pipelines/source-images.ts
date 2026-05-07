@@ -47,7 +47,10 @@ function imageDirFor(seed: ElementSeed): string {
   return join(DATA_DIR, seed.symbol.toLowerCase(), 'images');
 }
 
-async function searchWikimedia(query: string, ua: string): Promise<{
+async function searchWikimedia(
+  query: string,
+  ua: string,
+): Promise<{
   url: string;
   pageUrl: string;
   license: string;
@@ -67,11 +70,10 @@ async function searchWikimedia(query: string, ua: string): Promise<{
 
   const res = await fetch(search.toString(), { headers: { 'User-Agent': ua } });
   if (!res.ok) return null;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
   const data: any = await res.json();
   const pages = data.query?.pages ?? {};
   for (const page of Object.values(pages)) {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const ii = (page as any).imageinfo?.[0];
     if (!ii) continue;
     const meta = ii.extmetadata ?? {};
@@ -80,7 +82,7 @@ async function searchWikimedia(query: string, ua: string): Promise<{
     if (!ALLOWED_LICENSES.has(licenseFull) && !ALLOWED_LICENSES.has(license)) continue;
     return {
       url: ii.thumburl ?? ii.url,
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
       pageUrl: (page as any).canonicalurl ?? (page as any).fullurl ?? '',
       license: ALLOWED_LICENSES.has(licenseFull) ? licenseFull : license,
       attribution: meta.Artist?.value?.replace(/<[^>]+>/g, '') ?? 'Wikimedia Commons',

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 35,
+  "symbol": "Br",
+  "name": "Bromine",
+  "name_origin": "From the Greek 'bromos' meaning 'stench', a reference to the element's sharp, irritating odor; named by its discoverer Antoine-Jerome Balard in 1826.",
+  "category": "halogen",
+  "period": 4,
+  "group": 17,
+  "block": "p",
+  "atomic_mass": 79.904,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p5",
+  "electron_configuration_short": "[Ar] 3d10 4s2 4p5",
+  "electrons_per_shell": [2, 8, 18, 7],
+  "phase_at_stp": "liquid",
+  "density_g_per_cm3": 3.1028,
+  "melting_point_k": 265.8,
+  "boiling_point_k": 332.0,
+  "electronegativity_pauling": 2.96,
+  "oxidation_states": [-1, 1, 3, 4, 5, 7],
+  "discovery": {
+    "year": 1826,
+    "discoverer": "Antoine-Jerome Balard",
+    "country": "France"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Bromine is a moderately rare element with a crustal abundance of roughly 2.4 ppm. It is concentrated in seawater (~65 ppm) and especially in inland brines such as those of the Dead Sea and underground deposits in Arkansas, USA; major producers include the United States, Israel, China, and Jordan.",
+    "states": ["bromide ion (Br-) in seawater and underground brines", "Dead Sea brines", "evaporite deposits associated with potash", "trace bromide in salt domes"]
+  },
+  "compounds": [
+    { "formula": "HBr", "name": "Hydrogen bromide / hydrobromic acid", "summary": "Strong mineral acid used in the manufacture of inorganic bromides and as a reagent in organic synthesis." },
+    { "formula": "AgBr", "name": "Silver bromide", "summary": "Pale-yellow solid used historically as the principal light-sensitive compound in photographic film and paper." },
+    { "formula": "NaBr", "name": "Sodium bromide", "summary": "Soluble salt used in oilfield drilling fluids, as a sedative (formerly), and as a swimming-pool sanitizer precursor." },
+    { "formula": "CH3Br", "name": "Methyl bromide", "summary": "Colorless gas formerly used as an agricultural soil fumigant; phased out under the Montreal Protocol due to its ozone-depleting potential." },
+    { "formula": "C6H4Br2 (and brominated polymers)", "name": "Brominated flame retardants", "summary": "Family of compounds (e.g., decabromodiphenyl ether, TBBPA) added to plastics, textiles, and electronics to inhibit combustion." }
+  ],
+  "uses": [
+    "Brominated flame retardants in plastics and electronics",
+    "Drilling fluids (dense calcium and zinc bromide brines) for oil and gas wells",
+    "Water disinfection and pool/spa sanitation",
+    "Photographic chemistry (silver bromide emulsions, historically)",
+    "Pharmaceuticals and agrochemicals (synthesis of brominated intermediates)",
+    "Mercury-emission control sorbents in coal-fired power plants"
+  ],
+  "reactivity_summary": "Bromine is a dense, deep red-brown liquid that readily evaporates to give a corrosive, suffocating vapor. It is the only nonmetal that is liquid at room temperature, alongside mercury among elements as a whole. Bromine is a strong oxidizer, less reactive than chlorine but more reactive than iodine; it reacts vigorously with most metals to form bromides, adds across alkene double bonds, and disproportionates in alkaline solution to bromide and bromate.",
+  "isotopes_summary": "Bromine has two stable isotopes in nearly equal abundance: 79Br (~50.69%) and 81Br (~49.31%). About 30 radioisotopes are known; the longest-lived is 77Br (half-life ~57.0 hours). 82Br (half-life ~35.3 hours) is used as a tracer in hydrology and industrial process studies.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Bromine", "url": "https://www.rsc.org/periodic-table/element/35/bromine" },
+    { "field": "uses, occurrence", "source": "USGS Mineral Commodity Summaries: Bromine", "url": "https://www.usgs.gov/centers/national-minerals-information-center/bromine-statistics-and-information" }
+  ]
+}

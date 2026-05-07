@@ -64,8 +64,29 @@ function categoryName(cat: Element['category']): string {
 function difficultyFor(el: Element): Question['difficulty'] {
   // Common/familiar elements → easy. Lanthanides/actinides/synthetics → hard.
   const easySymbols = new Set([
-    'H', 'He', 'C', 'N', 'O', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'K', 'Ca',
-    'Fe', 'Cu', 'Zn', 'Ag', 'Sn', 'I', 'Au', 'Hg', 'Pb',
+    'H',
+    'He',
+    'C',
+    'N',
+    'O',
+    'Na',
+    'Mg',
+    'Al',
+    'Si',
+    'P',
+    'S',
+    'Cl',
+    'K',
+    'Ca',
+    'Fe',
+    'Cu',
+    'Zn',
+    'Ag',
+    'Sn',
+    'I',
+    'Au',
+    'Hg',
+    'Pb',
   ]);
   if (easySymbols.has(el.symbol)) return 'easy';
   if (el.category === 'lanthanide' || el.category === 'actinide' || el.category === 'unknown') {
@@ -74,12 +95,7 @@ function difficultyFor(el: Element): Question['difficulty'] {
   return 'medium';
 }
 
-function pickDistractors(
-  pool: string[],
-  answer: string,
-  count: number,
-  seed: number,
-): string[] {
+function pickDistractors(pool: string[], answer: string, count: number, seed: number): string[] {
   // Deterministic selection: rotate by seed to vary across questions, drop the answer.
   const candidates = pool.filter((c) => c.toLowerCase() !== answer.toLowerCase());
   const ordered: string[] = [];
@@ -106,7 +122,8 @@ function buildElementQuestions(elements: Element[]): Question[] {
 
   for (const el of elements) {
     const sym = el.symbol;
-    const id = (kind: string, n: number) => `elem-${sym.toLowerCase()}-${kind}-${String(n).padStart(3, '0')}`;
+    const id = (kind: string, n: number) =>
+      `elem-${sym.toLowerCase()}-${kind}-${String(n).padStart(3, '0')}`;
     const diff = difficultyFor(el);
 
     // 1) symbol → "What is the symbol for X?"
@@ -168,8 +185,18 @@ function buildElementQuestions(elements: Element[]): Question[] {
       answer: categoryName(el.category),
       alternates: [categoryName(el.category).toLowerCase()],
       distractors: pickDistractors(
-        ['Alkali metal', 'Alkaline earth metal', 'Transition metal', 'Post-transition metal',
-         'Metalloid', 'Nonmetal', 'Halogen', 'Noble gas', 'Lanthanide', 'Actinide'],
+        [
+          'Alkali metal',
+          'Alkaline earth metal',
+          'Transition metal',
+          'Post-transition metal',
+          'Metalloid',
+          'Nonmetal',
+          'Halogen',
+          'Noble gas',
+          'Lanthanide',
+          'Actinide',
+        ],
         categoryName(el.category),
         3,
         el.atomic_number + 19,

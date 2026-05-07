@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 86,
+  "symbol": "Rn",
+  "name": "Radon",
+  "name_origin": "Named for radium, from which it was originally identified as an emanation. Earlier names included 'radium emanation' and 'niton' (from Latin 'nitens', shining). The current name 'radon' was officially adopted in 1923.",
+  "category": "noble-gas",
+  "period": 6,
+  "group": 18,
+  "block": "p",
+  "atomic_mass": 222,
+  "atomic_mass_uncertain": true,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6",
+  "electron_configuration_short": "[Xe] 4f14 5d10 6s2 6p6",
+  "electrons_per_shell": [2, 8, 18, 32, 18, 8],
+  "phase_at_stp": "gas",
+  "density_g_per_cm3": 0.00973,
+  "melting_point_k": 202,
+  "boiling_point_k": 211.5,
+  "electronegativity_pauling": 2.2,
+  "oxidation_states": [0, 2, 6],
+  "discovery": {
+    "year": 1900,
+    "discoverer": "Friedrich Ernst Dorn",
+    "country": "Germany"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Radon is exceedingly rare on Earth, totalling only a few tens of grams in the crust at any moment. It is continuously produced by the radioactive decay of radium-226 in uranium-238-bearing rocks and soils. Trace amounts diffuse out of the ground and accumulate in poorly ventilated indoor spaces (basements, mines), where it is the second leading cause of lung cancer after smoking.",
+    "states": ["trace gas seeping from uranium-bearing rocks (granite, shale, phosphate)", "dissolved in groundwater from radium-bearing aquifers", "trace in atmosphere (~0.1 atom per 10^21 air molecules)", "indoor accumulation in basements and ground-contact rooms"]
+  },
+  "compounds": [
+    { "formula": "RnF2", "name": "Radon difluoride", "summary": "A non-volatile ionic-character solid formed by direct reaction of Rn with F2; the only well-characterized binary radon compound." },
+    { "formula": "RnO3", "name": "Radon trioxide", "summary": "A predicted oxide observed at tracer level by oxidizing radon with strong fluorinating/oxidizing reagents." },
+    { "formula": "[RnF]+[SbF6]-", "name": "Radon fluorocation hexafluoroantimonate", "summary": "A cationic radon complex prepared at tracer level analogous to known XeF+ salts." },
+    { "formula": "RnF6", "name": "Radon hexafluoride", "summary": "A predicted but not isolated species expected to be highly unstable and to undergo intense alpha radiolysis." },
+    { "formula": "Rn(clathrate)", "name": "Radon clathrate hydrate", "summary": "A water-cage clathrate formed under pressure that traps Rn atoms inside hydrogen-bonded ice cages, used historically to concentrate radon." }
+  ],
+  "uses": [
+    "Radioactivity reference standard in calibrating air-quality and indoor-radon detectors",
+    "Historic use in radiotherapy via 'radon seeds' (sealed needles for cancer treatment, now obsolete)",
+    "Geophysical tracer for studying volcanic activity, earthquake precursors, and groundwater flow",
+    "Indicator of uranium and thorium deposits during prospecting",
+    "Atmospheric tracer in studies of air mixing and continental versus marine air masses"
+  ],
+  "reactivity_summary": "Radon is a colorless, odorless, tasteless monatomic noble gas, the densest gas at room temperature. Like other heavy noble gases (Kr, Xe), it is not chemically inert: relativistic effects and a relatively low first-ionization energy allow it to form compounds, particularly with fluorine and oxygen, although the chemistry is hard to study because of intense self-irradiation. Radon is sparingly soluble in water but dissolves more readily in organic solvents. Its principal hazard is its alpha-emitting decay products, which deposit in lung tissue and cause cancer.",
+  "isotopes_summary": "Radon has no stable isotopes; 39 isotopes are known, all radioactive. The longest-lived and most important is 222Rn (t1/2 ~3.82 d), an alpha emitter formed in the U-238 decay chain via 226Ra and the principal source of indoor radon exposure. 220Rn (thoron, t1/2 ~55.6 s) arises from the Th-232 chain, and 219Rn (actinon, t1/2 ~3.96 s) from the U-235 chain. The very short-lived progeny (Po, Pb, Bi isotopes) are the chief health concern.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Periodic Table - radioactive elements use most stable isotope mass", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k, density_g_per_cm3", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Radon", "url": "https://www.rsc.org/periodic-table/element/86/radon" },
+    { "field": "occurrence, health, uses", "source": "US Environmental Protection Agency - Radon", "url": "https://www.epa.gov/radon" }
+  ]
+}

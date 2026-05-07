@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "atomic_number": 33,
+  "symbol": "As",
+  "name": "Arsenic",
+  "name_origin": "From the Greek 'arsenikon', the name for the yellow mineral orpiment (As2S3); the Greek term itself likely derives from a Persian word for the same pigment.",
+  "category": "metalloid",
+  "period": 4,
+  "group": 15,
+  "block": "p",
+  "atomic_mass": 74.921595,
+  "atomic_mass_uncertain": false,
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p3",
+  "electron_configuration_short": "[Ar] 3d10 4s2 4p3",
+  "electrons_per_shell": [2, 8, 18, 5],
+  "phase_at_stp": "solid",
+  "density_g_per_cm3": 5.727,
+  "melting_point_k": 1090,
+  "boiling_point_k": 887,
+  "electronegativity_pauling": 2.18,
+  "oxidation_states": [-3, -2, -1, 1, 2, 3, 4, 5],
+  "discovery": {
+    "year": 1250,
+    "discoverer": "Albertus Magnus (traditional attribution)",
+    "country": "Holy Roman Empire (Germany)"
+  },
+  "occurrence": {
+    "natural": true,
+    "abundance_summary": "Arsenic is the 53rd most abundant element in Earth's crust at about 1.8 ppm. It is widely distributed and occurs both as the native element and in many sulfide minerals; major producers include China, Morocco, and Russia. Most commercial arsenic is recovered as a by-product of copper, gold, and lead smelting.",
+    "states": ["arsenopyrite (FeAsS)", "realgar (As4S4)", "orpiment (As2S3)", "loellingite (FeAs2)", "trace native arsenic"]
+  },
+  "compounds": [
+    { "formula": "As2O3", "name": "Arsenic trioxide", "summary": "White, highly toxic solid used historically as a poison and pigment; today an FDA-approved chemotherapy drug for acute promyelocytic leukemia." },
+    { "formula": "AsH3", "name": "Arsine", "summary": "Colorless, extremely toxic gas used as a dopant precursor in the semiconductor industry and historically in the Marsh test for arsenic." },
+    { "formula": "GaAs", "name": "Gallium arsenide", "summary": "III-V semiconductor with a direct bandgap, used in high-frequency electronics, infrared LEDs, laser diodes, and high-efficiency solar cells." },
+    { "formula": "As2S3", "name": "Orpiment (arsenic trisulfide)", "summary": "Yellow mineral used since antiquity as a pigment ('king's yellow') and now as an infrared-transmitting chalcogenide glass component." },
+    { "formula": "H3AsO4", "name": "Arsenic acid", "summary": "Strong oxidizing acid used in the manufacture of arsenate salts and historically as a wood preservative (CCA-treated lumber)." }
+  ],
+  "uses": [
+    "Doping agent for III-V semiconductors and silicon",
+    "Lead alloying additive for car batteries and ammunition",
+    "Wood preservatives (chromated copper arsenate, now restricted)",
+    "Pesticides and herbicides (largely phased out due to toxicity)",
+    "Chemotherapy (arsenic trioxide for acute promyelocytic leukemia)",
+    "Pyrotechnics and special glass formulations"
+  ],
+  "reactivity_summary": "Arsenic is a brittle metalloid with several allotropes; the stable gray form is metallic-looking and a poor conductor. It tarnishes in air and burns when heated to give the trioxide with a characteristic garlic odor. Arsenic does not react with water or non-oxidizing acids but dissolves in nitric acid and hot concentrated sulfuric acid. Most arsenic compounds are highly toxic to humans and animals.",
+  "isotopes_summary": "Arsenic has only one stable isotope, 75As, making it a mononuclidic element. About 33 radioisotopes are known; the longest-lived is 73As (half-life ~80.3 days), and 74As (half-life ~17.8 days) is used as a positron-emitting tracer.",
+  "image_primary": null,
+  "image_alt": null,
+  "citations": [
+    { "field": "atomic_mass", "source": "IUPAC Standard Atomic Weights 2021", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+    { "field": "melting_point_k, boiling_point_k", "source": "CRC Handbook of Chemistry and Physics, 102nd ed.", "url": "https://hbcp.chemnetbase.com/" },
+    { "field": "discovery, name_origin", "source": "Royal Society of Chemistry - Periodic Table: Arsenic", "url": "https://www.rsc.org/periodic-table/element/33/arsenic" },
+    { "field": "compounds (As2O3 medical use)", "source": "U.S. National Library of Medicine - PubChem: Arsenic Trioxide", "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Arsenic-trioxide" }
+  ]
+}
