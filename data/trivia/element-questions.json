@@ -348,6 +348,31 @@
       ]
     },
     {
+      "id": "elem-li-photo-001",
+      "type": "element",
+      "subject_symbol": "Li",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/li/images/sample.jpg",
+      "answer": "Lithium",
+      "alternates": [
+        "lithium",
+        "Li",
+        "li"
+      ],
+      "distractors": [
+        "Selenium",
+        "Bromine",
+        "Krypton"
+      ],
+      "explanation": "This is Lithium (Li). Lithium (Li) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-be-symbol-001",
       "type": "element",
       "subject_symbol": "Be",
@@ -460,6 +485,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-be-photo-001",
+      "type": "element",
+      "subject_symbol": "Be",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/be/images/sample.jpg",
+      "answer": "Beryllium",
+      "alternates": [
+        "beryllium",
+        "Be",
+        "be"
+      ],
+      "distractors": [
+        "Bromine",
+        "Krypton",
+        "Rubidium"
+      ],
+      "explanation": "This is Beryllium (Be). Beryllium (Be) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -578,6 +628,31 @@
       ]
     },
     {
+      "id": "elem-b-photo-001",
+      "type": "element",
+      "subject_symbol": "B",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/b/images/sample.jpg",
+      "answer": "Boron",
+      "alternates": [
+        "boron",
+        "B",
+        "b"
+      ],
+      "distractors": [
+        "Krypton",
+        "Rubidium",
+        "Strontium"
+      ],
+      "explanation": "This is Boron (B). Boron (B) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-c-symbol-001",
       "type": "element",
       "subject_symbol": "C",
@@ -690,6 +765,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-c-photo-001",
+      "type": "element",
+      "subject_symbol": "C",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/c/images/sample.jpg",
+      "answer": "Carbon",
+      "alternates": [
+        "carbon",
+        "C",
+        "c"
+      ],
+      "distractors": [
+        "Rubidium",
+        "Strontium",
+        "Yttrium"
+      ],
+      "explanation": "This is Carbon (C). Carbon (C) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -808,6 +908,31 @@
       ]
     },
     {
+      "id": "elem-n-photo-001",
+      "type": "element",
+      "subject_symbol": "N",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/n/images/sample.jpg",
+      "answer": "Nitrogen",
+      "alternates": [
+        "nitrogen",
+        "N",
+        "n"
+      ],
+      "distractors": [
+        "Strontium",
+        "Yttrium",
+        "Zirconium"
+      ],
+      "explanation": "This is Nitrogen (N). Nitrogen (N) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-o-symbol-001",
       "type": "element",
       "subject_symbol": "O",
@@ -923,6 +1048,31 @@
       ]
     },
     {
+      "id": "elem-o-photo-001",
+      "type": "element",
+      "subject_symbol": "O",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/o/images/sample.jpg",
+      "answer": "Oxygen",
+      "alternates": [
+        "oxygen",
+        "O",
+        "o"
+      ],
+      "distractors": [
+        "Yttrium",
+        "Zirconium",
+        "Niobium"
+      ],
+      "explanation": "This is Oxygen (O). Oxygen (O) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-f-symbol-001",
       "type": "element",
       "subject_symbol": "F",
@@ -1035,6 +1185,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-f-photo-001",
+      "type": "element",
+      "subject_symbol": "F",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/f/images/sample.jpg",
+      "answer": "Fluorine",
+      "alternates": [
+        "fluorine",
+        "F",
+        "f"
+      ],
+      "distractors": [
+        "Zirconium",
+        "Niobium",
+        "Molybdenum"
+      ],
+      "explanation": "This is Fluorine (F). Fluorine (F) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -1268,6 +1443,31 @@
       ]
     },
     {
+      "id": "elem-na-photo-001",
+      "type": "element",
+      "subject_symbol": "Na",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/na/images/sample.jpg",
+      "answer": "Sodium",
+      "alternates": [
+        "sodium",
+        "Na",
+        "na"
+      ],
+      "distractors": [
+        "Molybdenum",
+        "Technetium",
+        "Ruthenium"
+      ],
+      "explanation": "This is Sodium (Na). Sodium (Na) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-mg-symbol-001",
       "type": "element",
       "subject_symbol": "Mg",
@@ -1380,6 +1580,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-mg-photo-001",
+      "type": "element",
+      "subject_symbol": "Mg",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/mg/images/sample.jpg",
+      "answer": "Magnesium",
+      "alternates": [
+        "magnesium",
+        "Mg",
+        "mg"
+      ],
+      "distractors": [
+        "Technetium",
+        "Ruthenium",
+        "Rhodium"
+      ],
+      "explanation": "This is Magnesium (Mg). Magnesium (Mg) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -1498,6 +1723,31 @@
       ]
     },
     {
+      "id": "elem-al-photo-001",
+      "type": "element",
+      "subject_symbol": "Al",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/al/images/sample.jpg",
+      "answer": "Aluminium",
+      "alternates": [
+        "aluminium",
+        "Al",
+        "al"
+      ],
+      "distractors": [
+        "Ruthenium",
+        "Rhodium",
+        "Palladium"
+      ],
+      "explanation": "This is Aluminium (Al). Aluminium (Al) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-si-symbol-001",
       "type": "element",
       "subject_symbol": "Si",
@@ -1610,6 +1860,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-si-photo-001",
+      "type": "element",
+      "subject_symbol": "Si",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/si/images/sample.jpg",
+      "answer": "Silicon",
+      "alternates": [
+        "silicon",
+        "Si",
+        "si"
+      ],
+      "distractors": [
+        "Rhodium",
+        "Palladium",
+        "Silver"
+      ],
+      "explanation": "This is Silicon (Si). Silicon (Si) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -1728,6 +2003,31 @@
       ]
     },
     {
+      "id": "elem-p-photo-001",
+      "type": "element",
+      "subject_symbol": "P",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/p/images/sample.jpg",
+      "answer": "Phosphorus",
+      "alternates": [
+        "phosphorus",
+        "P",
+        "p"
+      ],
+      "distractors": [
+        "Palladium",
+        "Silver",
+        "Cadmium"
+      ],
+      "explanation": "This is Phosphorus (P). Phosphorus (P) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-s-symbol-001",
       "type": "element",
       "subject_symbol": "S",
@@ -1843,6 +2143,31 @@
       ]
     },
     {
+      "id": "elem-s-photo-001",
+      "type": "element",
+      "subject_symbol": "S",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/s/images/sample.jpg",
+      "answer": "Sulfur",
+      "alternates": [
+        "sulfur",
+        "S",
+        "s"
+      ],
+      "distractors": [
+        "Silver",
+        "Cadmium",
+        "Indium"
+      ],
+      "explanation": "This is Sulfur (S). Sulfur (S) — image from Wikimedia Commons (CC-BY-SA-4.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-cl-symbol-001",
       "type": "element",
       "subject_symbol": "Cl",
@@ -1955,6 +2280,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-cl-photo-001",
+      "type": "element",
+      "subject_symbol": "Cl",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/cl/images/sample.jpg",
+      "answer": "Chlorine",
+      "alternates": [
+        "chlorine",
+        "Cl",
+        "cl"
+      ],
+      "distractors": [
+        "Cadmium",
+        "Indium",
+        "Tin"
+      ],
+      "explanation": "This is Chlorine (Cl). Chlorine (Cl) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -2188,6 +2538,31 @@
       ]
     },
     {
+      "id": "elem-k-photo-001",
+      "type": "element",
+      "subject_symbol": "K",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/k/images/sample.jpg",
+      "answer": "Potassium",
+      "alternates": [
+        "potassium",
+        "K",
+        "k"
+      ],
+      "distractors": [
+        "Tin",
+        "Antimony",
+        "Tellurium"
+      ],
+      "explanation": "This is Potassium (K). Potassium (K) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-ca-symbol-001",
       "type": "element",
       "subject_symbol": "Ca",
@@ -2300,6 +2675,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-ca-photo-001",
+      "type": "element",
+      "subject_symbol": "Ca",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ca/images/sample.jpg",
+      "answer": "Calcium",
+      "alternates": [
+        "calcium",
+        "Ca",
+        "ca"
+      ],
+      "distractors": [
+        "Antimony",
+        "Tellurium",
+        "Iodine"
+      ],
+      "explanation": "This is Calcium (Ca). Calcium (Ca) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -2530,6 +2930,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-ti-photo-001",
+      "type": "element",
+      "subject_symbol": "Ti",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ti/images/sample.jpg",
+      "answer": "Titanium",
+      "alternates": [
+        "titanium",
+        "Ti",
+        "ti"
+      ],
+      "distractors": [
+        "Iodine",
+        "Xenon",
+        "Caesium"
+      ],
+      "explanation": "This is Titanium (Ti). Titanium (Ti) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -3338,6 +3763,31 @@
       ]
     },
     {
+      "id": "elem-cu-photo-001",
+      "type": "element",
+      "subject_symbol": "Cu",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/cu/images/sample.jpg",
+      "answer": "Copper",
+      "alternates": [
+        "copper",
+        "Cu",
+        "cu"
+      ],
+      "distractors": [
+        "Neodymium",
+        "Promethium",
+        "Samarium"
+      ],
+      "explanation": "This is Copper (Cu). Copper (Cu) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-zn-symbol-001",
       "type": "element",
       "subject_symbol": "Zn",
@@ -3568,6 +4018,31 @@
       ]
     },
     {
+      "id": "elem-ga-photo-001",
+      "type": "element",
+      "subject_symbol": "Ga",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ga/images/sample.jpg",
+      "answer": "Gallium",
+      "alternates": [
+        "gallium",
+        "Ga",
+        "ga"
+      ],
+      "distractors": [
+        "Samarium",
+        "Europium",
+        "Gadolinium"
+      ],
+      "explanation": "This is Gallium (Ga). Gallium (Ga) — image from Wikimedia Commons (CC-BY-4.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-ge-symbol-001",
       "type": "element",
       "subject_symbol": "Ge",
@@ -3680,6 +4155,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-ge-photo-001",
+      "type": "element",
+      "subject_symbol": "Ge",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ge/images/sample.jpg",
+      "answer": "Germanium",
+      "alternates": [
+        "germanium",
+        "Ge",
+        "ge"
+      ],
+      "distractors": [
+        "Europium",
+        "Gadolinium",
+        "Terbium"
+      ],
+      "explanation": "This is Germanium (Ge). Germanium (Ge) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -3798,6 +4298,31 @@
       ]
     },
     {
+      "id": "elem-as-photo-001",
+      "type": "element",
+      "subject_symbol": "As",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/as/images/sample.jpg",
+      "answer": "Arsenic",
+      "alternates": [
+        "arsenic",
+        "As",
+        "as"
+      ],
+      "distractors": [
+        "Gadolinium",
+        "Terbium",
+        "Dysprosium"
+      ],
+      "explanation": "This is Arsenic (As). Arsenic (As) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-se-symbol-001",
       "type": "element",
       "subject_symbol": "Se",
@@ -3913,6 +4438,31 @@
       ]
     },
     {
+      "id": "elem-se-photo-001",
+      "type": "element",
+      "subject_symbol": "Se",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/se/images/sample.jpg",
+      "answer": "Selenium",
+      "alternates": [
+        "selenium",
+        "Se",
+        "se"
+      ],
+      "distractors": [
+        "Terbium",
+        "Dysprosium",
+        "Holmium"
+      ],
+      "explanation": "This is Selenium (Se). Selenium (Se) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-br-symbol-001",
       "type": "element",
       "subject_symbol": "Br",
@@ -4025,6 +4575,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-br-photo-001",
+      "type": "element",
+      "subject_symbol": "Br",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/br/images/sample.jpg",
+      "answer": "Bromine",
+      "alternates": [
+        "bromine",
+        "Br",
+        "br"
+      ],
+      "distractors": [
+        "Dysprosium",
+        "Holmium",
+        "Erbium"
+      ],
+      "explanation": "This is Bromine (Br). Bromine (Br) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -4255,6 +4830,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-rb-photo-001",
+      "type": "element",
+      "subject_symbol": "Rb",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/rb/images/sample.jpg",
+      "answer": "Rubidium",
+      "alternates": [
+        "rubidium",
+        "Rb",
+        "rb"
+      ],
+      "distractors": [
+        "Erbium",
+        "Thulium",
+        "Ytterbium"
+      ],
+      "explanation": "This is Rubidium (Rb). Rubidium (Rb) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -4948,6 +5548,31 @@
       ]
     },
     {
+      "id": "elem-tc-photo-001",
+      "type": "element",
+      "subject_symbol": "Tc",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/tc/images/sample.jpg",
+      "answer": "Technetium",
+      "alternates": [
+        "technetium",
+        "Tc",
+        "tc"
+      ],
+      "distractors": [
+        "Tungsten",
+        "Rhenium",
+        "Osmium"
+      ],
+      "explanation": "This is Technetium (Tc). Technetium (Tc) — image from Wikimedia Commons (CC-BY-SA-4.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-ru-symbol-001",
       "type": "element",
       "subject_symbol": "Ru",
@@ -5178,6 +5803,31 @@
       ]
     },
     {
+      "id": "elem-rh-photo-001",
+      "type": "element",
+      "subject_symbol": "Rh",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/rh/images/sample.jpg",
+      "answer": "Rhodium",
+      "alternates": [
+        "rhodium",
+        "Rh",
+        "rh"
+      ],
+      "distractors": [
+        "Osmium",
+        "Iridium",
+        "Platinum"
+      ],
+      "explanation": "This is Rhodium (Rh). Rhodium (Rh) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-pd-symbol-001",
       "type": "element",
       "subject_symbol": "Pd",
@@ -5293,6 +5943,31 @@
       ]
     },
     {
+      "id": "elem-pd-photo-001",
+      "type": "element",
+      "subject_symbol": "Pd",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/pd/images/sample.jpg",
+      "answer": "Palladium",
+      "alternates": [
+        "palladium",
+        "Pd",
+        "pd"
+      ],
+      "distractors": [
+        "Iridium",
+        "Platinum",
+        "Gold"
+      ],
+      "explanation": "This is Palladium (Pd). Palladium (Pd) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-ag-symbol-001",
       "type": "element",
       "subject_symbol": "Ag",
@@ -5405,6 +6080,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-ag-photo-001",
+      "type": "element",
+      "subject_symbol": "Ag",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ag/images/sample.jpg",
+      "answer": "Silver",
+      "alternates": [
+        "silver",
+        "Ag",
+        "ag"
+      ],
+      "distractors": [
+        "Platinum",
+        "Gold",
+        "Mercury"
+      ],
+      "explanation": "This is Silver (Ag). Silver (Ag) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -5638,6 +6338,31 @@
       ]
     },
     {
+      "id": "elem-in-photo-001",
+      "type": "element",
+      "subject_symbol": "In",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/in/images/sample.jpg",
+      "answer": "Indium",
+      "alternates": [
+        "indium",
+        "In",
+        "in"
+      ],
+      "distractors": [
+        "Mercury",
+        "Thallium",
+        "Lead"
+      ],
+      "explanation": "This is Indium (In). Indium (In) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-sn-symbol-001",
       "type": "element",
       "subject_symbol": "Sn",
@@ -5750,6 +6475,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-sn-photo-001",
+      "type": "element",
+      "subject_symbol": "Sn",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/sn/images/sample.jpg",
+      "answer": "Tin",
+      "alternates": [
+        "tin",
+        "Sn",
+        "sn"
+      ],
+      "distractors": [
+        "Thallium",
+        "Lead",
+        "Bismuth"
+      ],
+      "explanation": "This is Tin (Sn). Tin (Sn) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -5868,6 +6618,31 @@
       ]
     },
     {
+      "id": "elem-sb-photo-001",
+      "type": "element",
+      "subject_symbol": "Sb",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/sb/images/sample.jpg",
+      "answer": "Antimony",
+      "alternates": [
+        "antimony",
+        "Sb",
+        "sb"
+      ],
+      "distractors": [
+        "Lead",
+        "Bismuth",
+        "Polonium"
+      ],
+      "explanation": "This is Antimony (Sb). Antimony (Sb) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-te-symbol-001",
       "type": "element",
       "subject_symbol": "Te",
@@ -5983,6 +6758,31 @@
       ]
     },
     {
+      "id": "elem-te-photo-001",
+      "type": "element",
+      "subject_symbol": "Te",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/te/images/sample.jpg",
+      "answer": "Tellurium",
+      "alternates": [
+        "tellurium",
+        "Te",
+        "te"
+      ],
+      "distractors": [
+        "Bismuth",
+        "Polonium",
+        "Astatine"
+      ],
+      "explanation": "This is Tellurium (Te). Tellurium (Te) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-i-symbol-001",
       "type": "element",
       "subject_symbol": "I",
@@ -6095,6 +6895,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-i-photo-001",
+      "type": "element",
+      "subject_symbol": "I",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/i/images/sample.jpg",
+      "answer": "Iodine",
+      "alternates": [
+        "iodine",
+        "I",
+        "i"
+      ],
+      "distractors": [
+        "Polonium",
+        "Astatine",
+        "Radon"
+      ],
+      "explanation": "This is Iodine (I). Iodine (I) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -6328,6 +7153,31 @@
       ]
     },
     {
+      "id": "elem-cs-photo-001",
+      "type": "element",
+      "subject_symbol": "Cs",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/cs/images/sample.jpg",
+      "answer": "Caesium",
+      "alternates": [
+        "caesium",
+        "Cs",
+        "cs"
+      ],
+      "distractors": [
+        "Radon",
+        "Francium",
+        "Radium"
+      ],
+      "explanation": "This is Caesium (Cs). Caesium (Cs) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-ba-symbol-001",
       "type": "element",
       "subject_symbol": "Ba",
@@ -6440,6 +7290,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-ba-photo-001",
+      "type": "element",
+      "subject_symbol": "Ba",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ba/images/sample.jpg",
+      "answer": "Barium",
+      "alternates": [
+        "barium",
+        "Ba",
+        "ba"
+      ],
+      "distractors": [
+        "Francium",
+        "Radium",
+        "Actinium"
+      ],
+      "explanation": "This is Barium (Ba). Barium (Ba) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -6558,6 +7433,31 @@
       ]
     },
     {
+      "id": "elem-la-photo-001",
+      "type": "element",
+      "subject_symbol": "La",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/la/images/sample.jpg",
+      "answer": "Lanthanum",
+      "alternates": [
+        "lanthanum",
+        "La",
+        "la"
+      ],
+      "distractors": [
+        "Radium",
+        "Actinium",
+        "Thorium"
+      ],
+      "explanation": "This is Lanthanum (La). Lanthanum (La) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-ce-symbol-001",
       "type": "element",
       "subject_symbol": "Ce",
@@ -6670,6 +7570,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-ce-photo-001",
+      "type": "element",
+      "subject_symbol": "Ce",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ce/images/sample.jpg",
+      "answer": "Cerium",
+      "alternates": [
+        "cerium",
+        "Ce",
+        "ce"
+      ],
+      "distractors": [
+        "Actinium",
+        "Thorium",
+        "Protactinium"
+      ],
+      "explanation": "This is Cerium (Ce). Cerium (Ce) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -6788,6 +7713,31 @@
       ]
     },
     {
+      "id": "elem-pr-photo-001",
+      "type": "element",
+      "subject_symbol": "Pr",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/pr/images/sample.jpg",
+      "answer": "Praseodymium",
+      "alternates": [
+        "praseodymium",
+        "Pr",
+        "pr"
+      ],
+      "distractors": [
+        "Thorium",
+        "Protactinium",
+        "Uranium"
+      ],
+      "explanation": "This is Praseodymium (Pr). Praseodymium (Pr) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-nd-symbol-001",
       "type": "element",
       "subject_symbol": "Nd",
@@ -6900,6 +7850,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-nd-photo-001",
+      "type": "element",
+      "subject_symbol": "Nd",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/nd/images/sample.jpg",
+      "answer": "Neodymium",
+      "alternates": [
+        "neodymium",
+        "Nd",
+        "nd"
+      ],
+      "distractors": [
+        "Protactinium",
+        "Uranium",
+        "Neptunium"
+      ],
+      "explanation": "This is Neodymium (Nd). Neodymium (Nd) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -7018,6 +7993,31 @@
       ]
     },
     {
+      "id": "elem-pm-photo-001",
+      "type": "element",
+      "subject_symbol": "Pm",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/pm/images/sample.jpg",
+      "answer": "Promethium",
+      "alternates": [
+        "promethium",
+        "Pm",
+        "pm"
+      ],
+      "distractors": [
+        "Uranium",
+        "Neptunium",
+        "Plutonium"
+      ],
+      "explanation": "This is Promethium (Pm). Promethium (Pm) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-sm-symbol-001",
       "type": "element",
       "subject_symbol": "Sm",
@@ -7130,6 +8130,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-sm-photo-001",
+      "type": "element",
+      "subject_symbol": "Sm",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/sm/images/sample.jpg",
+      "answer": "Samarium",
+      "alternates": [
+        "samarium",
+        "Sm",
+        "sm"
+      ],
+      "distractors": [
+        "Neptunium",
+        "Plutonium",
+        "Americium"
+      ],
+      "explanation": "This is Samarium (Sm). Samarium (Sm) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -7248,6 +8273,31 @@
       ]
     },
     {
+      "id": "elem-eu-photo-001",
+      "type": "element",
+      "subject_symbol": "Eu",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/eu/images/sample.jpg",
+      "answer": "Europium",
+      "alternates": [
+        "europium",
+        "Eu",
+        "eu"
+      ],
+      "distractors": [
+        "Plutonium",
+        "Americium",
+        "Curium"
+      ],
+      "explanation": "This is Europium (Eu). Europium (Eu) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-gd-symbol-001",
       "type": "element",
       "subject_symbol": "Gd",
@@ -7363,6 +8413,31 @@
       ]
     },
     {
+      "id": "elem-gd-photo-001",
+      "type": "element",
+      "subject_symbol": "Gd",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/gd/images/sample.jpg",
+      "answer": "Gadolinium",
+      "alternates": [
+        "gadolinium",
+        "Gd",
+        "gd"
+      ],
+      "distractors": [
+        "Americium",
+        "Curium",
+        "Berkelium"
+      ],
+      "explanation": "This is Gadolinium (Gd). Gadolinium (Gd) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-tb-symbol-001",
       "type": "element",
       "subject_symbol": "Tb",
@@ -7475,6 +8550,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-tb-photo-001",
+      "type": "element",
+      "subject_symbol": "Tb",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/tb/images/sample.jpg",
+      "answer": "Terbium",
+      "alternates": [
+        "terbium",
+        "Tb",
+        "tb"
+      ],
+      "distractors": [
+        "Curium",
+        "Berkelium",
+        "Californium"
+      ],
+      "explanation": "This is Terbium (Tb). Terbium (Tb) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -7708,6 +8808,31 @@
       ]
     },
     {
+      "id": "elem-ho-photo-001",
+      "type": "element",
+      "subject_symbol": "Ho",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ho/images/sample.jpg",
+      "answer": "Holmium",
+      "alternates": [
+        "holmium",
+        "Ho",
+        "ho"
+      ],
+      "distractors": [
+        "Californium",
+        "Einsteinium",
+        "Fermium"
+      ],
+      "explanation": "This is Holmium (Ho). Holmium (Ho) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-er-symbol-001",
       "type": "element",
       "subject_symbol": "Er",
@@ -7820,6 +8945,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-er-photo-001",
+      "type": "element",
+      "subject_symbol": "Er",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/er/images/sample.jpg",
+      "answer": "Erbium",
+      "alternates": [
+        "erbium",
+        "Er",
+        "er"
+      ],
+      "distractors": [
+        "Einsteinium",
+        "Fermium",
+        "Mendelevium"
+      ],
+      "explanation": "This is Erbium (Er). Erbium (Er) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -8050,6 +9200,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-yb-photo-001",
+      "type": "element",
+      "subject_symbol": "Yb",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/yb/images/sample.jpg",
+      "answer": "Ytterbium",
+      "alternates": [
+        "ytterbium",
+        "Yb",
+        "yb"
+      ],
+      "distractors": [
+        "Mendelevium",
+        "Nobelium",
+        "Lawrencium"
+      ],
+      "explanation": "This is Ytterbium (Yb). Ytterbium (Yb) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -8858,6 +10033,31 @@
       ]
     },
     {
+      "id": "elem-ir-photo-001",
+      "type": "element",
+      "subject_symbol": "Ir",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ir/images/sample.jpg",
+      "answer": "Iridium",
+      "alternates": [
+        "iridium",
+        "Ir",
+        "ir"
+      ],
+      "distractors": [
+        "Hassium",
+        "Meitnerium",
+        "Darmstadtium"
+      ],
+      "explanation": "This is Iridium (Ir). Iridium (Ir) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-pt-symbol-001",
       "type": "element",
       "subject_symbol": "Pt",
@@ -8973,6 +10173,31 @@
       ]
     },
     {
+      "id": "elem-pt-photo-001",
+      "type": "element",
+      "subject_symbol": "Pt",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/pt/images/sample.jpg",
+      "answer": "Platinum",
+      "alternates": [
+        "platinum",
+        "Pt",
+        "pt"
+      ],
+      "distractors": [
+        "Meitnerium",
+        "Darmstadtium",
+        "Roentgenium"
+      ],
+      "explanation": "This is Platinum (Pt). Platinum (Pt) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-au-symbol-001",
       "type": "element",
       "subject_symbol": "Au",
@@ -9085,6 +10310,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-au-photo-001",
+      "type": "element",
+      "subject_symbol": "Au",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/au/images/sample.jpg",
+      "answer": "Gold",
+      "alternates": [
+        "gold",
+        "Au",
+        "au"
+      ],
+      "distractors": [
+        "Darmstadtium",
+        "Roentgenium",
+        "Copernicium"
+      ],
+      "explanation": "This is Gold (Au). Gold (Au) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -9315,6 +10565,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-tl-photo-001",
+      "type": "element",
+      "subject_symbol": "Tl",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/tl/images/sample.jpg",
+      "answer": "Thallium",
+      "alternates": [
+        "thallium",
+        "Tl",
+        "tl"
+      ],
+      "distractors": [
+        "Copernicium",
+        "Nihonium",
+        "Flerovium"
+      ],
+      "explanation": "This is Thallium (Tl). Thallium (Tl) — image from Wikimedia Commons (CC-BY-SA-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -9663,6 +10938,31 @@
       ]
     },
     {
+      "id": "elem-po-photo-001",
+      "type": "element",
+      "subject_symbol": "Po",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/po/images/sample.jpg",
+      "answer": "Polonium",
+      "alternates": [
+        "polonium",
+        "Po",
+        "po"
+      ],
+      "distractors": [
+        "Moscovium",
+        "Livermorium",
+        "Tennessine"
+      ],
+      "explanation": "This is Polonium (Po). Polonium (Po) — image from Wikimedia Commons (CC-BY-4.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-at-symbol-001",
       "type": "element",
       "subject_symbol": "At",
@@ -9778,6 +11078,31 @@
       ]
     },
     {
+      "id": "elem-at-photo-001",
+      "type": "element",
+      "subject_symbol": "At",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/at/images/sample.jpg",
+      "answer": "Astatine",
+      "alternates": [
+        "astatine",
+        "At",
+        "at"
+      ],
+      "distractors": [
+        "Livermorium",
+        "Tennessine",
+        "Oganesson"
+      ],
+      "explanation": "This is Astatine (At). Astatine (At) — image from Wikimedia Commons (CC-BY-4.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-rn-symbol-001",
       "type": "element",
       "subject_symbol": "Rn",
@@ -9890,6 +11215,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-rn-photo-001",
+      "type": "element",
+      "subject_symbol": "Rn",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/rn/images/sample.jpg",
+      "answer": "Radon",
+      "alternates": [
+        "radon",
+        "Rn",
+        "rn"
+      ],
+      "distractors": [
+        "Tennessine",
+        "Oganesson",
+        "Hydrogen"
+      ],
+      "explanation": "This is Radon (Rn). Radon (Rn) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -10120,6 +11470,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-ra-photo-001",
+      "type": "element",
+      "subject_symbol": "Ra",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/ra/images/sample.jpg",
+      "answer": "Radium",
+      "alternates": [
+        "radium",
+        "Ra",
+        "ra"
+      ],
+      "distractors": [
+        "Hydrogen",
+        "Helium",
+        "Lithium"
+      ],
+      "explanation": "This is Radium (Ra). Radium (Ra) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "easy",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
@@ -10583,6 +11958,31 @@
       ]
     },
     {
+      "id": "elem-u-photo-001",
+      "type": "element",
+      "subject_symbol": "U",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/u/images/sample.jpg",
+      "answer": "Uranium",
+      "alternates": [
+        "uranium",
+        "U",
+        "u"
+      ],
+      "distractors": [
+        "Boron",
+        "Carbon",
+        "Nitrogen"
+      ],
+      "explanation": "This is Uranium (U). Uranium (U) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-np-symbol-001",
       "type": "element",
       "subject_symbol": "Np",
@@ -10928,6 +12328,31 @@
       ]
     },
     {
+      "id": "elem-am-photo-001",
+      "type": "element",
+      "subject_symbol": "Am",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/am/images/sample.jpg",
+      "answer": "Americium",
+      "alternates": [
+        "americium",
+        "Am",
+        "am"
+      ],
+      "distractors": [
+        "Oxygen",
+        "Fluorine",
+        "Neon"
+      ],
+      "explanation": "This is Americium (Am). Americium (Am) — image from Wikimedia Commons (CC-BY-3.0)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-cm-symbol-001",
       "type": "element",
       "subject_symbol": "Cm",
@@ -11158,6 +12583,31 @@
       ]
     },
     {
+      "id": "elem-bk-photo-001",
+      "type": "element",
+      "subject_symbol": "Bk",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/bk/images/sample.jpg",
+      "answer": "Berkelium",
+      "alternates": [
+        "berkelium",
+        "Bk",
+        "bk"
+      ],
+      "distractors": [
+        "Neon",
+        "Sodium",
+        "Magnesium"
+      ],
+      "explanation": "This is Berkelium (Bk). Berkelium (Bk) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-cf-symbol-001",
       "type": "element",
       "subject_symbol": "Cf",
@@ -11273,6 +12723,31 @@
       ]
     },
     {
+      "id": "elem-cf-photo-001",
+      "type": "element",
+      "subject_symbol": "Cf",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/cf/images/sample.jpg",
+      "answer": "Californium",
+      "alternates": [
+        "californium",
+        "Cf",
+        "cf"
+      ],
+      "distractors": [
+        "Sodium",
+        "Magnesium",
+        "Aluminium"
+      ],
+      "explanation": "This is Californium (Cf). Californium (Cf) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
+      ]
+    },
+    {
       "id": "elem-es-symbol-001",
       "type": "element",
       "subject_symbol": "Es",
@@ -11385,6 +12860,31 @@
       "difficulty": "medium",
       "tags": [
         "electron-config"
+      ]
+    },
+    {
+      "id": "elem-es-photo-001",
+      "type": "element",
+      "subject_symbol": "Es",
+      "prompt": "Identify this element from its photograph.",
+      "prompt_kind": "image",
+      "image_path": "/data/elements/es/images/sample.jpg",
+      "answer": "Einsteinium",
+      "alternates": [
+        "einsteinium",
+        "Es",
+        "es"
+      ],
+      "distractors": [
+        "Magnesium",
+        "Aluminium",
+        "Silicon"
+      ],
+      "explanation": "This is Einsteinium (Es). Einsteinium (Es) — image from Wikimedia Commons (PUBLIC-DOMAIN)..",
+      "difficulty": "hard",
+      "tags": [
+        "photo",
+        "identification"
       ]
     },
     {
