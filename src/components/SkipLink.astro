@@ -1,0 +1,28 @@
+---
+// Visible only on focus — first focusable element in <body>.
+---
+
+<a class="skip" href="#main">Skip to content</a>
+
+<style>
+  .skip {
+    position: absolute;
+    left: var(--space-md);
+    top: -40px;
+    z-index: 100;
+    padding: var(--space-xs) var(--space-md);
+    background: var(--color-ink);
+    color: var(--color-paper);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+    font-weight: 500;
+    text-decoration: none;
+    transition: top var(--duration-base) var(--easing-out);
+  }
+
+  .skip:focus {
+    top: var(--space-md);
+    outline: 2px solid var(--color-accent-ochre);
+    outline-offset: 2px;
+  }
+</style>

@@ -48,8 +48,16 @@ describe('orbitalsForShells', () => {
     const s = orbitalsForShells([8]);
     const phases = s.shells[0]!.electrons.map((e) => e.phase);
     expect(phases).toHaveLength(8);
-    const expected = [0, Math.PI / 4, Math.PI / 2, (3 * Math.PI) / 4,
-      Math.PI, (5 * Math.PI) / 4, (3 * Math.PI) / 2, (7 * Math.PI) / 4];
+    const expected = [
+      0,
+      Math.PI / 4,
+      Math.PI / 2,
+      (3 * Math.PI) / 4,
+      Math.PI,
+      (5 * Math.PI) / 4,
+      (3 * Math.PI) / 2,
+      (7 * Math.PI) / 4,
+    ];
     phases.forEach((p, i) => {
       expect(p).toBeCloseTo(expected[i]!, 5);
     });

@@ -186,11 +186,7 @@ describe('streak math', () => {
   it('bestStreak grows over correct answers and persists when streak resets', () => {
     // Use a 3-question pool so we can: correct, correct, wrong — and verify
     // streak resets on wrong while bestStreak stays at the peak.
-    const pool = [
-      SAMPLE[0]!,
-      SAMPLE[1]!,
-      { ...SAMPLE[0]!, id: 'q3', answer: 'X', alternates: [] },
-    ];
+    const pool = [SAMPLE[0]!, SAMPLE[1]!, { ...SAMPLE[0]!, id: 'q3', answer: 'X', alternates: [] }];
     let s = createGame({ mode: 'element', questionPool: pool, shuffle: false });
     s = answer(s, 'H').newState; // q[0] correct, streak 1
     s = next(s);
@@ -241,7 +237,7 @@ describe('persistence (localStorage)', () => {
         clear: () => store.clear(),
       },
     };
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     (globalThis as any).window = win;
     const before: PersistedScore = {
       bestStreak: 7,
@@ -254,14 +250,14 @@ describe('persistence (localStorage)', () => {
     saveScores('element', before);
     const after = loadScores('element');
     expect(after).toEqual(before);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     delete (globalThis as any).window;
   });
 
   it('loadScores ignores corrupt JSON', () => {
     const store = new Map<string, string>();
     store.set('elements:trivia:element', '{not json');
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     (globalThis as any).window = {
       localStorage: {
         getItem: (k: string) => store.get(k) ?? null,
@@ -272,7 +268,7 @@ describe('persistence (localStorage)', () => {
     };
     const result = loadScores('element');
     expect(result.bestStreak).toBe(0);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     delete (globalThis as any).window;
   });
 
@@ -282,7 +278,7 @@ describe('persistence (localStorage)', () => {
       'elements:trivia:element',
       JSON.stringify({ schema_version: '0.5.0', bestStreak: 99 }),
     );
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     (globalThis as any).window = {
       localStorage: {
         getItem: (k: string) => store.get(k) ?? null,
@@ -293,7 +289,7 @@ describe('persistence (localStorage)', () => {
     };
     const result = loadScores('element');
     expect(result.bestStreak).toBe(0); // discarded
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     delete (globalThis as any).window;
   });
 });

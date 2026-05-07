@@ -168,12 +168,7 @@ export default function TriviaWidget({ subjectSymbol, questionLimit = 5 }: Props
       </div>
 
       {phase === 'revealed' && (
-        <div
-          className={styles.feedback}
-          role="status"
-          aria-live="polite"
-          data-correct={correct}
-        >
+        <div className={styles.feedback} role="status" aria-live="polite" data-correct={correct}>
           <p className={styles.feedbackHeader}>{correct ? 'Correct!' : 'Not quite.'}</p>
           <p className={styles.explanation}>{explanation}</p>
           <button type="button" className={styles.next} onClick={handleNext}>
