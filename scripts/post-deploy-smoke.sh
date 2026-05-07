@@ -21,7 +21,9 @@ check() {
   if [ -z "$body" ]; then
     fail "${label} — no response from ${URL}${path}"
   fi
-  if ! echo "$body" | grep -q "$pattern"; then
+  # Use grep without -q — `grep -q` exits early on match, which closes the
+  # pipe and trips `set -o pipefail` into a false negative. -c reads to end.
+  if [ "$(printf '%s' "$body" | grep -cF "$pattern" || true)" = "0" ]; then
     fail "${label} — expected pattern '${pattern}' not found"
   fi
   ok "$label"
