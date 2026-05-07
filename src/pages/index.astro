@@ -1,50 +1,151 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Wordmark from '@/components/Wordmark.astro';
+import PeriodicTable from '@/components/PeriodicTable.astro';
+import SearchBox from '@/components/SearchBox.tsx';
+import GroupFilter from '@/components/GroupFilter.tsx';
+import HoverTooltip from '@/components/HoverTooltip.tsx';
+import { loadAllElements } from '@/lib/elements';
+import { toSearchEntries } from '@/lib/search';
+
+const elements = loadAllElements();
+const searchEntries = toSearchEntries(elements);
+const summaries = elements.map((e) => ({
+  symbol: e.symbol,
+  name: e.name,
+  atomic_number: e.atomic_number,
+  atomic_mass: e.atomic_mass,
+  category: e.category,
+  phase_at_stp: e.phase_at_stp,
+}));
 ---
 
-<BaseLayout title="Elements — Interactive Periodic Table">
-  <main class="placeholder">
-    <div class="frame">
-      <Wordmark size="lg" />
-      <p class="eyebrow">Periodic Table — Interactive Exploration</p>
-      <p class="status">Coming soon.</p>
-    </div>
+<BaseLayout
+  title="Elements — Interactive Periodic Table"
+  description="An interactive periodic table — explore all 118 elements with hover quick-looks, group filters, and full detail pages."
+>
+  <header class="topbar">
+    <a href="/" class="brand" aria-label="Elements home">
+      <Wordmark size="md" />
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/" class="nav-link" aria-current="page">Periodic Table</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/games" class="nav-link">Games</a>
+      <span class="sep" aria-hidden>·</span>
+      <a href="/about" class="nav-link">About</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page">
+    <section class="lede">
+      <p class="eyebrow">An Interactive Reference</p>
+      <h1>The Periodic Table.</h1>
+      <p class="sub">
+        All 118 elements. Hover for a quick-look, click into any cell for the full picture — atomic
+        structure, occurrence, compounds, uses, reactivity. Filter by category. Search by name,
+        symbol, or atomic number.
+      </p>
+    </section>
+
+    <section class="controls">
+      <GroupFilter client:load />
+      <SearchBox client:load entries={searchEntries} />
+    </section>
+
+    <PeriodicTable elements={elements} />
+
+    <HoverTooltip client:idle summaries={summaries} />
   </main>
 </BaseLayout>
 
 <style>
-  .placeholder {
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    padding: var(--space-2xl);
-    background: var(--color-paper);
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-md) var(--space-2xl);
+    border-bottom: var(--border-rule);
   }
 
-  .frame {
-    border: var(--border-double);
-    background: var(--color-paper-shade);
-    padding: var(--space-3xl) var(--space-4xl);
+  .brand {
+    text-decoration: none;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+  }
+
+  .nav-link {
+    color: var(--color-ink);
+    text-decoration: none;
+    padding: var(--space-2xs) var(--space-xs);
+  }
+
+  .nav-link[aria-current='page'] {
+    border-bottom: 2px solid var(--color-accent-vermillion);
+    padding-bottom: var(--space-2xs);
+  }
+
+  .nav-link:hover {
+    color: var(--color-accent-vermillion);
+  }
+
+  .sep {
+    color: var(--color-rule-light);
+  }
+
+  .page {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: var(--space-2xl);
+  }
+
+  .lede {
+    max-width: 720px;
+    margin: 0 auto var(--space-2xl);
     text-align: center;
-    box-shadow: var(--shadow-paper);
-    max-width: 640px;
   }
 
   .eyebrow {
-    margin-top: var(--space-md);
     font-family: var(--font-sans);
     font-size: var(--text-eyebrow);
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--color-ink-muted);
+    letter-spacing: 0.18em;
+    color: var(--color-accent-vermillion);
+    margin-bottom: var(--space-sm);
   }
 
-  .status {
-    margin-top: var(--space-xl);
-    font-family: var(--font-mono);
-    font-size: var(--text-body);
+  .lede h1 {
+    margin: 0 0 var(--space-md);
+    font-size: var(--text-h1);
+  }
+
+  .sub {
+    font-family: var(--font-sans);
+    font-size: var(--text-body-lg);
     color: var(--color-ink-muted);
+    line-height: 1.55;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+  }
+
+  @media (min-width: 1024px) {
+    .controls {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
   }
 </style>

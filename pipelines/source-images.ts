@@ -115,10 +115,7 @@ interface CommonsLicense {
   pageUrl: string | null;
 }
 
-async function fetchCommonsLicense(
-  imageUrl: string,
-  ua: string,
-): Promise<CommonsLicense | null> {
+async function fetchCommonsLicense(imageUrl: string, ua: string): Promise<CommonsLicense | null> {
   // Image URL looks like: https://upload.wikimedia.org/wikipedia/commons/thumb/X/Y/Filename.jpg/640px-Filename.jpg
   // Or:                   https://upload.wikimedia.org/wikipedia/commons/X/Y/Filename.jpg
   const match = imageUrl.match(/\/wikipedia\/commons(?:\/thumb)?\/[a-f0-9]\/[a-f0-9]{2}\/([^/?]+)/);

@@ -1,0 +1,58 @@
+.tooltip {
+  background: var(--color-paper-shade);
+  border: var(--border-double);
+  padding: var(--space-md) var(--space-lg);
+  width: 260px;
+  box-shadow: var(--shadow-paper);
+  pointer-events: none;
+  z-index: 50;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: var(--border-rule);
+  border-bottom-color: var(--color-rule-light);
+}
+
+.name {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: var(--text-h4);
+  color: var(--color-ink);
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-size: var(--text-body);
+  color: var(--color-ink-muted);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: var(--space-2xs) var(--space-sm);
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-body-sm);
+}
+
+.list dt {
+  color: var(--color-ink-muted);
+  font-size: var(--text-caption);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.list dd {
+  margin: 0;
+  color: var(--color-ink);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
