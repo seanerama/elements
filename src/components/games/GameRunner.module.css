@@ -19,7 +19,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  color: var(--color-accent-vermillion);
+  color: var(--color-accent-vermillion-text);
   margin: 0 0 var(--space-md);
 }
 
@@ -64,13 +64,13 @@
 }
 
 .streak[data-active='true'] {
-  color: var(--color-accent-ochre);
+  color: var(--color-accent-ochre-text);
 }
 
 .lightning {
   width: 18px;
   height: 18px;
-  color: var(--color-accent-ochre);
+  color: var(--color-accent-ochre-text);
 }
 
 .cardWrap {
@@ -247,7 +247,7 @@
   font-weight: 600;
   font-size: var(--text-display);
   margin: var(--space-md) 0;
-  color: var(--color-accent-vermillion);
+  color: var(--color-accent-vermillion-text);
   line-height: 1;
 }
 
@@ -292,6 +292,6 @@
 }
 
 .secondaryLink:hover {
-  color: var(--color-accent-vermillion);
-  border-bottom-color: var(--color-accent-vermillion);
+  color: var(--color-accent-vermillion-text);
+  border-bottom-color: var(--color-accent-vermillion-text);
 }

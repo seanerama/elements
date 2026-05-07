@@ -1,0 +1,83 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: production
+      url: https://elements.seanmahoney.ai
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck + lint + format + unit
+        run: |
+          npm run typecheck
+          npm run lint
+          npm run format:check
+          npm run test
+
+      - name: Build
+        run: npm run build:fast
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: E2E (production build)
+        run: npm run test:e2e
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "$EC2_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$EC2_HOST" >> ~/.ssh/known_hosts
+        env:
+          EC2_SSH_KEY: ${{ secrets.EC2_SSH_KEY }}
+          EC2_HOST: ${{ secrets.EC2_HOST }}
+
+      - name: Rsync to EC2
+        run: |
+          rsync -az --delete \
+            dist/ \
+            "$EC2_USER@$EC2_HOST:$EC2_DEPLOY_PATH/dist/"
+          rsync -az \
+            data/ \
+            package.json package-lock.json ecosystem.config.cjs \
+            "$EC2_USER@$EC2_HOST:$EC2_DEPLOY_PATH/"
+        env:
+          EC2_USER: ${{ secrets.EC2_USER }}
+          EC2_HOST: ${{ secrets.EC2_HOST }}
+          EC2_DEPLOY_PATH: ${{ secrets.EC2_DEPLOY_PATH }}
+
+      - name: Reload PM2
+        run: |
+          ssh "$EC2_USER@$EC2_HOST" \
+            "cd $EC2_DEPLOY_PATH && npm ci --omit=dev && (pm2 reload elements 2>/dev/null || pm2 start ecosystem.config.cjs) && pm2 save"
+        env:
+          EC2_USER: ${{ secrets.EC2_USER }}
+          EC2_HOST: ${{ secrets.EC2_HOST }}
+          EC2_DEPLOY_PATH: ${{ secrets.EC2_DEPLOY_PATH }}
+
+      - name: Wait for tunnel propagation
+        run: sleep 5
+
+      - name: Smoke test
+        run: bash scripts/post-deploy-smoke.sh https://elements.seanmahoney.ai

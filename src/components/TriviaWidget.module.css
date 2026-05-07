@@ -12,7 +12,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--color-accent-ochre);
+  color: var(--color-accent-ochre-text);
 }
 
 .header {
@@ -167,7 +167,7 @@
 }
 
 .completeText .score {
-  color: var(--color-accent-vermillion);
+  color: var(--color-accent-vermillion-text);
   font-family: var(--font-mono);
   font-size: 1.4em;
 }
