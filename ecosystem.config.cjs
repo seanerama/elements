@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'elements',
       script: 'dist/server/entry.mjs',
-      cwd: '/var/www/elements',
+      cwd: '/home/ubuntu/apps/elements',
       instances: 1,
       autorestart: true,
       max_memory_restart: '300M',
@@ -13,8 +13,7 @@ module.exports = {
         PORT: 8011,
         NODE_ENV: 'production',
       },
-      error_file: '/var/log/pm2/elements.error.log',
-      out_file: '/var/log/pm2/elements.out.log',
+      // PM2 default log location: ~/.pm2/logs/<name>-{out,error}.log
       time: true,
     },
   ],

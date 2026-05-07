@@ -53,13 +53,30 @@ jobs:
           EC2_SSH_KEY: ${{ secrets.EC2_SSH_KEY }}
           EC2_HOST: ${{ secrets.EC2_HOST }}
 
+      - name: Ensure deploy directory + .env exist on EC2
+        run: |
+          ssh "$EC2_USER@$EC2_HOST" "
+            mkdir -p $EC2_DEPLOY_PATH
+            test -f $EC2_DEPLOY_PATH/.env || cat > $EC2_DEPLOY_PATH/.env <<'EOF'
+          HOST=127.0.0.1
+          PORT=8011
+          NODE_ENV=production
+          EOF
+            chmod 600 $EC2_DEPLOY_PATH/.env
+          "
+        env:
+          EC2_USER: ${{ secrets.EC2_USER }}
+          EC2_HOST: ${{ secrets.EC2_HOST }}
+          EC2_DEPLOY_PATH: ${{ secrets.EC2_DEPLOY_PATH }}
+
       - name: Rsync to EC2
         run: |
+          # dist/ contains both the Node server entry AND all static assets
+          # (Astro inlines public/data via the symlink at build time).
           rsync -az --delete \
             dist/ \
             "$EC2_USER@$EC2_HOST:$EC2_DEPLOY_PATH/dist/"
           rsync -az \
-            data/ \
             package.json package-lock.json ecosystem.config.cjs \
             "$EC2_USER@$EC2_HOST:$EC2_DEPLOY_PATH/"
         env:
