@@ -11,7 +11,10 @@ test.describe('Stage 5 — 3D Orbital Visualization', () => {
       // Three.js shows up via REVISION constant or many class identifiers
       return /THREE|REVISION/.test(content) && content.length > 100_000;
     });
-    expect(threeChunks.length, `expected exactly one chunk with Three.js, got ${threeChunks.join(',')}`).toBe(1);
+    expect(
+      threeChunks.length,
+      `expected exactly one chunk with Three.js, got ${threeChunks.join(',')}`,
+    ).toBe(1);
   });
 
   test('initial /elements/h/ does NOT load Three.js chunk', async ({ page }) => {

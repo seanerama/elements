@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { LightningIcon } from '@phosphor-icons/react/dist/csr/Lightning';
 import {
   createGame,
@@ -35,6 +35,11 @@ export default function GameRunner({ mode, questionsPerRound = ROUND_DEFAULT }: 
   const [persisted, setPersisted] = useState<PersistedScore>(() => loadScores(mode));
   const [shake, setShake] = useState(false);
   const [showAnswer, setShowAnswer] = useState('');
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (phase === 'asking') inputRef.current?.focus();
+  }, [phase, state?.currentIndex]);
 
   // Initial load
   useEffect(() => {
@@ -53,8 +58,7 @@ export default function GameRunner({ mode, questionsPerRound = ROUND_DEFAULT }: 
     return () => {
       cancelled = true;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mode]);
+  }, [mode, questionsPerRound]);
 
   function startRound(questionPool: Question[]) {
     const game = createGame({
@@ -184,13 +188,13 @@ export default function GameRunner({ mode, questionsPerRound = ROUND_DEFAULT }: 
 
       <form onSubmit={submit} className={styles.form}>
         <input
+          ref={inputRef}
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder={mode === 'element' ? 'Type symbol or name…' : 'Type formula or name…'}
           className={styles.input}
           disabled={phase !== 'asking'}
-          autoFocus
           autoComplete="off"
           spellCheck={false}
           aria-label="Your answer"
@@ -203,7 +207,12 @@ export default function GameRunner({ mode, questionsPerRound = ROUND_DEFAULT }: 
       </form>
 
       {phase === 'revealed' && (
-        <div className={styles.feedback} data-correct={answeredCorrectly} role="status" aria-live="polite">
+        <div
+          className={styles.feedback}
+          data-correct={answeredCorrectly}
+          role="status"
+          aria-live="polite"
+        >
           <p className={styles.feedbackHeader}>
             {answeredCorrectly ? '✓ Correct!' : 'Wrong — answer was '}
             {!answeredCorrectly && <span className={styles.correctAnswer}>{showAnswer}</span>}

@@ -89,14 +89,28 @@
 }
 
 @keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-8px); }
-  50% { transform: translateX(8px); }
-  75% { transform: translateX(-4px); }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-8px);
+  }
+
+  50% {
+    transform: translateX(8px);
+  }
+
+  75% {
+    transform: translateX(-4px);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .cardWrap[data-shake='true'] { animation: none; }
+  .cardWrap[data-shake='true'] {
+    animation: none;
+  }
 }
 
 .image {
@@ -231,7 +245,7 @@
 .bigScore {
   font-family: var(--font-serif);
   font-weight: 600;
-  font-size: 5rem;
+  font-size: var(--text-display);
   margin: var(--space-md) 0;
   color: var(--color-accent-vermillion);
   line-height: 1;

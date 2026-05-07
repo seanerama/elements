@@ -33,14 +33,8 @@ export default function OrbitalToggle({ electronsPerShell, protons, neutrons }: 
 
       {open && (
         <div id="orbital-viz" className={styles.panel} role="region" aria-label="3D orbital viz">
-          <Suspense
-            fallback={<div className={styles.loading}>Rendering…</div>}
-          >
-            <Atom
-              electronsPerShell={electronsPerShell}
-              protons={protons}
-              neutrons={neutrons}
-            />
+          <Suspense fallback={<div className={styles.loading}>Rendering…</div>}>
+            <Atom electronsPerShell={electronsPerShell} protons={protons} neutrons={neutrons} />
           </Suspense>
         </div>
       )}

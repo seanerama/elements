@@ -29,6 +29,10 @@ module.exports = {
           'none',
           '0',
           'auto',
+          // relative font-size units (em / %) and a small handful of values
+          // for icon-internal sizing or numeric emphasis are allowed.
+          '/^[\\d.]+em$/',
+          '/^[\\d.]+%$/',
         ],
         message: 'Use a design token (var(--*)) instead of a raw value.',
       },

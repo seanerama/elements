@@ -10,6 +10,7 @@ import '@fontsource/ibm-plex-mono/500.css';
 import '@/styles/tokens.css';
 import '@/styles/themes/retro-science.css';
 import '@/styles/base.css';
+import SkipLink from '@/components/SkipLink.astro';
 
 interface Props {
   title: string;
@@ -44,6 +45,7 @@ const { title, description = 'An interactive periodic table — explore all 118 
     </script>
   </head>
   <body>
+    <SkipLink />
     <slot />
   </body>
 </html>

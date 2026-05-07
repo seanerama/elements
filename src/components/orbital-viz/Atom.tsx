@@ -63,11 +63,7 @@ function Electrons({ shell, color, speed }: { shell: OrbitalShell; color: string
   return (
     <group
       ref={groupRef}
-      rotation={[
-        shell.electrons[0]?.tiltAngle ?? 0,
-        0,
-        ((shell.index - 1) * Math.PI) / 9,
-      ]}
+      rotation={[shell.electrons[0]?.tiltAngle ?? 0, 0, ((shell.index - 1) * Math.PI) / 9]}
     >
       {shell.electrons.map((e, i) => {
         const x = Math.cos(e.phase) * shell.radius;
