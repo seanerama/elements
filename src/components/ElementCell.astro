@@ -1,0 +1,133 @@
+---
+import type { Element } from '@/types/element';
+import { CATEGORY_LABELS } from '@/lib/category-labels';
+
+interface Props {
+  element: Pick<
+    Element,
+    'symbol' | 'name' | 'atomic_number' | 'atomic_mass' | 'category' | 'period' | 'group'
+  >;
+  row: number;
+  col: number;
+}
+
+const { element, row, col } = Astro.props;
+const cat = element.category;
+const tintVar = `var(--color-cat-${cat}-tint)`;
+const stripeVar = `var(--color-cat-${cat})`;
+const lower = element.symbol.toLowerCase();
+const ariaLabel = `${element.name}, atomic number ${element.atomic_number}, symbol ${element.symbol}, ${CATEGORY_LABELS[cat]}`;
+---
+
+<a
+  class="cell"
+  href={`/elements/${lower}`}
+  data-symbol={element.symbol}
+  data-category={cat}
+  data-atomic-number={element.atomic_number}
+  data-row={row}
+  data-col={col}
+  aria-label={ariaLabel}
+  style={`--cell-tint: ${tintVar}; --cell-stripe: ${stripeVar}; grid-row: ${row}; grid-column: ${col};`}
+>
+  <span class="stripe" aria-hidden="true"></span>
+  <span class="number">{element.atomic_number}</span>
+  <span class="symbol">{element.symbol}</span>
+  <span class="name">{element.name}</span>
+  <span class="mass">{element.atomic_mass.toFixed(element.atomic_mass < 10 ? 3 : 2)}</span>
+</a>
+
+<style>
+  .cell {
+    position: relative;
+    display: grid;
+    grid-template-rows: 6px auto 1fr auto auto;
+    align-items: start;
+    padding: var(--space-xs) var(--space-2xs) var(--space-2xs);
+    background: var(--cell-tint);
+    border: var(--border-rule);
+    text-decoration: none;
+    color: var(--color-ink);
+    cursor: pointer;
+    transition:
+      transform var(--duration-base) var(--easing-out),
+      border-color var(--duration-base) var(--easing-out),
+      box-shadow var(--duration-base) var(--easing-out),
+      background var(--duration-base) var(--easing-out);
+    isolation: isolate;
+  }
+
+  .cell:hover,
+  .cell:focus-visible {
+    transform: scale(1.05);
+    border: var(--border-double);
+    border-color: var(--color-ink);
+    box-shadow: var(--shadow-paper-lifted);
+    z-index: 2;
+  }
+
+  .cell:focus-visible {
+    outline: 2px solid var(--color-accent-ochre);
+    outline-offset: 2px;
+  }
+
+  .cell:active {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 1px var(--color-accent-vermillion) inset;
+  }
+
+  .stripe {
+    grid-row: 1;
+    grid-column: 1;
+    background: var(--cell-stripe);
+    align-self: stretch;
+    margin: calc(var(--space-xs) * -1) calc(var(--space-2xs) * -1) 0;
+  }
+
+  .number {
+    grid-row: 2;
+    font-family: var(--font-mono);
+    font-size: var(--text-caption);
+    color: var(--color-ink-muted);
+    line-height: 1;
+    margin-top: var(--space-2xs);
+  }
+
+  .symbol {
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: clamp(1rem, 2.4vw, 1.5rem);
+    line-height: 1;
+    color: var(--color-ink);
+  }
+
+  .name {
+    grid-row: 4;
+    font-family: var(--font-sans);
+    font-size: clamp(0.55rem, 0.8vw, 0.625rem);
+    text-align: center;
+    color: var(--color-ink-muted);
+    line-height: 1.1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .mass {
+    grid-row: 5;
+    font-family: var(--font-mono);
+    font-size: clamp(0.5rem, 0.7vw, 0.6rem);
+    text-align: center;
+    color: var(--color-ink-muted);
+    line-height: 1.1;
+  }
+
+  /* Filter dim state — applied via parent JS when a category filter is active */
+  :global([data-filter-active='true']) .cell:not([data-cell-match='true']) {
+    opacity: 0.22;
+    filter: saturate(0.4);
+  }
+</style>

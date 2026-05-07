@@ -4,13 +4,12 @@
  */
 
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
-import { join } from 'node:path';
-import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'node:path';
+import { join, resolve } from 'node:path';
 import { ElementSchema, type Element } from '@/types/element';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = resolve(__dirname, '..', '..', 'data', 'elements');
+// Resolve from CWD (project root). Astro guarantees the build/dev runs from
+// the project root, so this is stable across both dev and prerender.
+const DATA_DIR = resolve(process.cwd(), 'data', 'elements');
 
 let _cache: Element[] | null = null;
 

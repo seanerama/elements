@@ -1,0 +1,134 @@
+---
+import type { Element } from '@/types/element';
+import ElementCell from './ElementCell.astro';
+import { buildGrid } from '@/lib/keyboard-nav';
+
+interface Props {
+  elements: Element[];
+}
+
+const { elements } = Astro.props;
+const seeds = elements.map((e) => ({
+  atomic_number: e.atomic_number,
+  symbol: e.symbol,
+  period: e.period,
+  group: e.group,
+}));
+const grid = buildGrid(seeds);
+const slotByNum = new Map(grid.map((g) => [g.atomic_number, g]));
+---
+
+<div class="table-wrap">
+  <div
+    class="grid"
+    role="grid"
+    aria-label="Periodic table of elements"
+    data-grid
+    data-filter-active="false"
+  >
+    {
+      elements.map((el) => {
+        const slot = slotByNum.get(el.atomic_number);
+        if (!slot) return null;
+        return <ElementCell element={el} row={slot.row} col={slot.col} />;
+      })
+    }
+    <span class="row-label" style="grid-row: 8; grid-column: 1 / 4;" aria-hidden="true">
+      Lanthanides
+    </span>
+    <span class="row-label" style="grid-row: 9; grid-column: 1 / 4;" aria-hidden="true">
+      Actinides
+    </span>
+  </div>
+</div>
+
+<style>
+  .table-wrap {
+    overflow-x: auto;
+    padding: var(--space-md) 0 var(--space-lg);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(18, minmax(0, 1fr));
+    grid-template-rows: repeat(7, auto) var(--space-md) repeat(2, auto);
+    gap: var(--space-2xs);
+    min-width: 1024px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .grid > :global(.row-label) {
+    align-self: center;
+    justify-self: end;
+    font-family: var(--font-sans);
+    font-size: var(--text-eyebrow);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-ink-muted);
+    padding-right: var(--space-md);
+  }
+
+  /* Inner rows are 8 and 9 — push them down with a small gap from main grid */
+  .grid > :global([data-row='8']),
+  .grid > :global([data-row='9']) {
+    margin-top: var(--space-xs);
+  }
+</style>
+
+<script>
+  // Keyboard navigation: arrow keys move focus across cells in the grid.
+  import { buildGrid, nextSlot, type ArrowKey } from '@/lib/keyboard-nav';
+
+  function init() {
+    const grid = document.querySelector<HTMLElement>('[data-grid]');
+    if (!grid) return;
+    const cells = Array.from(grid.querySelectorAll<HTMLAnchorElement>('a.cell'));
+    const seeds = cells.map((c) => ({
+      atomic_number: Number.parseInt(c.dataset.atomicNumber ?? '0', 10),
+      symbol: c.dataset.symbol ?? '',
+      period: Number.parseInt(c.dataset.row ?? '0', 10),
+      group: c.dataset.col ? Number.parseInt(c.dataset.col, 10) : null,
+    }));
+    // Custom grid (matches DOM data-row/data-col attributes directly)
+    const slots = cells.map((c) => ({
+      symbol: c.dataset.symbol ?? '',
+      atomic_number: Number.parseInt(c.dataset.atomicNumber ?? '0', 10),
+      row: Number.parseInt(c.dataset.row ?? '0', 10),
+      col: Number.parseInt(c.dataset.col ?? '0', 10),
+    }));
+    void buildGrid; // referenced for type completeness
+    void seeds; // (unused — slots derived directly from DOM is enough)
+
+    const bySymbol = new Map(slots.map((s) => [s.symbol, s]));
+    const elByNum = new Map<number, HTMLAnchorElement>();
+    cells.forEach((c) => {
+      const n = Number.parseInt(c.dataset.atomicNumber ?? '0', 10);
+      elByNum.set(n, c);
+    });
+
+    grid.addEventListener('keydown', (e) => {
+      if (!['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) return;
+      const target = e.target as HTMLElement;
+      const cell = target.closest<HTMLAnchorElement>('a.cell');
+      if (!cell) return;
+      const sym = cell.dataset.symbol;
+      if (!sym) return;
+      const slot = bySymbol.get(sym);
+      if (!slot) return;
+      e.preventDefault();
+      const next = nextSlot(slot, e.key as ArrowKey, slots);
+      if (next) {
+        const targetEl = elByNum.get(next.atomic_number);
+        targetEl?.focus();
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init, { once: true });
+  } else {
+    init();
+  }
+</script>
